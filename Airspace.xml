@@ -96,6 +96,360 @@
     <Airport ICAO="LIEO" Position="+405354.999+0093104.000" />
     <Airport ICAO="LIER" Position="+395342.000+0083835.001" />
   </Airports>
+  <Airways>
+   <Airway Name="A6">
+LABRO/
+MOS VOR
+</Airway>
+   <Airway Name="A24">
+OTARO/
+ZEM VOR
+</Airway>
+   <Airway Name="A27">
+BUYAH/
+ALR VOR
+</Airway>
+   <Airway Name="A29">
+SADAF/
+CHE NDB/
+TRB VOR/
+BAY VOR/
+AGREB/
+TAGIG/
+BBS VOR/
+TABAL/
+MERAT/
+BRENA
+</Airway>
+   <Airway Name="A31">
+LABRO/
+KIRLA/
+CHE NDB/
+ALR VOR/
+BNA NDB/
+BADOR/
+TAJEN/
+CSO VOR
+</Airway>
+   <Airway Name="A34">
+HAMRA/
+BAHRI/
+MOS VOR
+</Airway>
+   <Airway Name="A44">
+TARIK/
+ARZEW/
+MOS VOR
+</Airway>
+   <Airway Name="A411">
+ORSUP/
+ORA VOR/
+MOS VOR/
+DAHRA/
+CHE NDB/
+ALR VOR/
+BNA NDB/
+BJA NDB/
+JIL VOR/
+ANB VOR/
+MORJA
+</Airway>
+   <Airway Name="A604">
+MOS VOR/
+FAROS/
+BAY VOR/
+ANIEB/
+ABLOD/
+MNA VOR/
+SIHAR/
+TMS VOR/
+EREBO
+</Airway>
+   <Airway Name="A605">
+CIRTA/
+CSO VOR/
+AMIRA/
+RIMEL/
+BARKA/
+NAGAH/
+TILMA/
+TARAT/
+DJA VOR
+</Airway>
+   <Airway Name="A614">
+TIO VOR/
+IPOBA
+</Airway>
+   <Airway Name="A615">
+GHA VOR/
+ATCHA/
+TIFOU/
+TMS VOR
+</Airway>
+   <Airway Name="B16">
+PECES/
+ZEM VOR
+</Airway>
+   <Airway Name="B31">
+MOGIL/
+ZEM VOR
+</Airway>
+   <Airway Name="B726">
+ZEM VOR/
+CHLAL/
+BSA VOR/
+KAHIL/
+BERIA/
+GHA VOR/
+MNA VOR/
+KSOUR/
+NSL VOR
+</Airway>
+   <Airway Name="B727">
+IMN VOR/
+TILMA/
+ILZ VOR/
+HINAN/
+BERTI/
+TMS VOR/
+RAMAD/
+TINVI/
+TERAS
+</Airway>
+   <Airway Name="B730">
+MNA VOR/
+NIFEL/
+ATCHA/
+GAFLA/
+BOD VOR/
+OUREL/
+DJA VOR/
+IKTAV
+</Airway>
+   <Airway Name="B734">
+DOLIS/
+BIS VOR/
+BSA VOR
+</Airway>
+   <Airway Name="B735">
+TIO VOR/
+USRUT
+</Airway>
+   <Airway Name="G6">
+SALMA/
+ANB VOR/
+DIMAO
+</Airway>
+    <Airway Name="G14">
+KAWKA/
+CSO VOR
+</Airway>
+    <Airway Name="G26">
+REQIN/
+BOURI/
+LIMON/
+ZEM VOR/
+ALR VOR/
+CHE NDB/
+TRB VOR/
+BAY VOR/
+EKRAK/
+TIO VOR
+</Airway>
+   <Airway Name="G30">
+SADAF/
+ALR VOR
+</Airway>
+   <Airway Name="G852">
+MNA VOR/
+RAHIL/
+RGN NDB
+</Airway>
+   <Airway Name="G855">
+BOD VOR/
+HOGAR/
+TMS VOR/
+INAMA
+</Airway>
+   <Airway Name="G859">
+ANB VOR/
+CSO VOR/
+BTN VOR/
+BIS VOR/
+DAYAT/
+CITER/
+GHA VOR/
+MNA VOR/
+KSOUR/
+NSL VOR/
+ROFER/
+MOKAT
+</Airway>
+   <Airway Name="R34">
+MOUET/
+ANB VOR
+</Airway>
+   <Airway Name="R978">
+KAMER/
+CSO VOR/
+NADJI/
+ELO VOR/
+BOD VOR/
+ATAFA/
+BERTI/
+MELOG/
+ERKEL
+</Airway>
+   <Airway Name="R985">
+BSA VOR/
+ZIBAN/
+ELO VOR/
+RIMEL/
+SAMRA/
+IMN VOR
+</Airway>
+   <Airway Name="R990">
+MNA VOR/
+RIAME/
+TIO VOR
+</Airway>
+   <Airway Name="V18">
+TBS VOR/
+DAFRI/
+TON VOR
+</Airway>
+   <Airway Name="G361">
+OLE VOR/
+KRIMA/
+TON VOR
+</Airway>
+   <Airway Name="W254">
+CSO VOR/
+DIMAO
+</Airway>
+   <Airway Name="G362">
+EBA VOR/
+SAMRA/
+BARKA/
+GABEL/
+BOKAL/
+BOD VOR
+</Airway>
+   <Airway Name="J3">
+FAROS/
+GRS VOR
+</Airway>
+   <Airway Name="J5">
+CSO VOR/
+JIL VOR
+</Airway>
+   <Airway Name="J6">
+MOS VOR/
+TRB VOR
+</Airway>
+   <Airway Name="J7">
+CSO VOR/
+BJA VOR/
+LIMON
+</Airway>
+   <Airway Name="J8">
+HME VOR/
+RIKIF/
+SIHAR/
+AMTIK/
+NSL VOR
+</Airway>
+   <Airway Name="J9">
+BNA NDB/
+TAGRO/
+BTN VOR
+</Airway>
+   <Airway Name="J24">
+BYD VOR/
+SAKNA/
+LOUHA/
+GHA VOR/
+BISSA/
+GARBA/
+BOKAL/
+ZAR VOR
+</Airway>
+   <Airway Name="J25">
+HME VOR/
+GABEL/
+ZAR VOR
+</Airway>
+   <Airway Name="J26">
+HME VOR/
+GARBA/
+KEBRI/
+MNA VOR
+</Airway>
+   <Airway Name="J27">
+TGU VOR/
+HME VOR
+</Airway>
+   <Airway Name="J28">
+ELO VOR/
+TGU VOR
+</Airway>
+   <Airway Name="J30">
+TBS VOR/
+ZENAD/
+ELO VOR/
+HME VOR
+</Airway>
+   <Airway Name="J36">
+BSA VOR/
+MAHDI/
+TGU VOR
+</Airway>
+   <Airway Name="J40">
+ADR VOR/
+TIO VOR
+</Airway>
+   <Airway Name="J41">
+IMN VOR/
+NAGAH/
+BOD VOR/
+OUCIF/
+ARSEM/
+NSL VOR/
+BASID/
+ADR VOR
+</Airway>
+   <Airway Name="J60">
+DJA VOR/
+MELOG/
+TMS VOR
+</Airway>
+   <Airway Name="J61">
+DJA VOR/
+TIHET/
+ILZ VOR/
+BOD VOR/
+</Airway>
+   <Airway Name="J62">
+NSL VOR/
+REKDA/
+TMN VOR/
+</Airway>
+   <Airway Name="J65">
+TGU VOR/
+CITER/
+BERIA
+</Airway>
+   <Airway Name="J66">
+ALR VOR/
+HJILA/
+BSA VOR
+</Airway>
+   <Airway Name="J67">
+GHA VOR/
+IBNOD/
+TAGIG
+</Airway>
+  </Airways>
   <Intersections>
     <Point Name="01CAG" Type="Fix">+391413.200+0090408.349</Point>
     <Point Name="01GRD" Type="Fix">+371118.398-0034852.401</Point>
