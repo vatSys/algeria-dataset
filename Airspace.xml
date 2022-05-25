@@ -449,6 +449,519 @@ GHA VOR/
 IBNOD/
 TAGIG
 </Airway>
+    <Airways>
+    <Airway Name="UA6">
+LABRO/
+MOS VOR
+</Airway>
+   <Airway Name="UA24">
+OTARO/
+ZEM VOR
+</Airway>
+   <Airway Name="UA27">
+BUYAH/
+ALR VOR
+</Airway>
+   <Airway Name="UA29">
+SADAF/
+CHE NDB/
+TRB VOR/
+BAY VOR/
+AGREB/
+TAGIG/
+BBS VOR/
+TABAL/
+MERAT/
+BRENA
+</Airway>
+   <Airway Name="UA31">
+LABRO/
+KIRLA/
+CHE NDB/
+ALR VOR/
+BNA NDB/
+BADOR/
+TAJEN/
+CSO VOR
+</Airway>
+   <Airway Name="UA34">
+HAMRA/
+BAHRI/
+MOS VOR
+</Airway>
+   <Airway Name="UA44">
+TARIK/
+ARZEW/
+MOS VOR
+</Airway>
+   <Airway Name="UA411">
+ORSUP/
+ORA VOR/
+MOS VOR/
+DAHRA/
+CHE NDB/
+ALR VOR/
+BNA NDB/
+BJA NDB/
+JIL VOR/
+ANB VOR/
+MORJA
+</Airway>
+   <Airway Name="UA604">
+MOS VOR/
+FAROS/
+BAY VOR/
+ANIEB/
+ABLOD/
+MNA VOR/
+SIHAR/
+TMS VOR/
+EREBO
+</Airway>
+   <Airway Name="UA605">
+CIRTA/
+CSO VOR/
+AMIRA/
+RIMEL/
+BARKA/
+NAGAH/
+TILMA/
+TARAT/
+DJA VOR
+</Airway>
+   <Airway Name="UA614">
+TIO VOR/
+IPOBA
+</Airway>
+   <Airway Name="UA615">
+GHA VOR/
+ATCHA/
+TIFOU/
+TMS VOR
+</Airway>
+   <Airway Name="UB16">
+PECES/
+ZEM VOR
+</Airway>
+   <Airway Name="UB31">
+MOGIL/
+ZEM VOR
+</Airway>
+   <Airway Name="UB726">
+ZEM VOR/
+CHLAL/
+BSA VOR/
+KAHIL/
+BERIA/
+GHA VOR/
+MNA VOR/
+KSOUR/
+NSL VOR
+</Airway>
+   <Airway Name="UB727">
+IMN VOR/
+TILMA/
+ILZ VOR/
+HINAN/
+BERTI/
+TMS VOR/
+RAMAD/
+TINVI/
+TERAS
+</Airway>
+   <Airway Name="UB730">
+MNA VOR/
+NIFEL/
+ATCHA/
+GAFLA/
+BOD VOR/
+OUREL/
+DJA VOR/
+IKTAV
+</Airway>
+   <Airway Name="UN736">
+DOLIS/
+BIS VOR/
+BSA VOR
+</Airway>
+   <Airway Name="UB735">
+TIO VOR/
+USRUT
+</Airway>
+   <Airway Name="UB738">
+LIGUM/
+HMB NDB/
+BAY VOR
+</Airway>
+   <Airway Name="UG6">
+SALMA/
+ANB VOR/
+DIMAO
+</Airway>
+    <Airway Name="UG14">
+KAWKA/
+CSO VOR
+</Airway>
+    <Airway Name="UG26">
+REQIN/
+BOURI/
+LIMON/
+ZEM VOR/
+ALR VOR/
+CHE NDB/
+TRB VOR/
+BAY VOR/
+EKRAK/
+TIO VOR
+</Airway>
+   <Airway Name="UG30">
+SADAF/
+ALR VOR
+</Airway>
+   <Airway Name="UG852">
+MNA VOR/
+RAHIL/
+RGN NDB
+</Airway>
+   <Airway Name="UG855">
+BOD VOR/
+HOGAR/
+TMS VOR/
+INAMA
+</Airway>
+   <Airway Name="UG859">
+ANB VOR/
+CSO VOR/
+BTN VOR/
+BIS VOR/
+DAYAT/
+CITER/
+GHA VOR/
+MNA VOR/
+KSOUR/
+NSL VOR/
+ROFER/
+MOKAT
+</Airway>
+   <Airway Name="UG864">
+TBS VOR/
+RADJA/
+ROANE/
+GOBET/
+GHA VOR/
+ABLOD/
+MOUNA/
+TISIR/
+TIO VOR/
+CHAMI/
+BRENA
+</Airway>
+   <Airway Name="UR34">
+MOUET/
+ANB VOR
+</Airway>
+   <Airway Name="UR978">
+KAMER/
+CSO VOR/
+NADJI/
+ELO VOR/
+BOD VOR/
+ATAFA/
+BERTI/
+MELOG/
+ERKEL
+</Airway>
+   <Airway Name="UR985">
+BSA VOR/
+ZIBAN/
+ELO VOR/
+RIMEL/
+SAMRA/
+IMN VOR
+</Airway>
+   <Airway Name="UR990">
+MNA VOR/
+RIAME/
+TIO VOR
+</Airway>
+   <Airway Name="UV18">
+TBS VOR/
+DAFRI/
+TON VOR
+</Airway>
+   <Airway Name="UG361">
+OLE VOR/
+KRIMA/
+TON VOR
+</Airway>
+   <Airway Name="UW254">
+CSO VOR/
+DIMAO
+</Airway>
+   <Airway Name="UG362">
+EBA VOR/
+SAMRA/
+BARKA/
+GABEL/
+BOKAL/
+BOD VOR
+</Airway>
+   <Airway Name="UJ3">
+FAROS/
+GRS VOR
+</Airway>
+   <Airway Name="UJ5">
+CSO VOR/
+JIL VOR
+</Airway>
+   <Airway Name="UJ6">
+MOS VOR/
+TRB VOR
+</Airway>
+   <Airway Name="UJ7">
+CSO VOR/
+BJA VOR/
+LIMON
+</Airway>
+   <Airway Name="UJ8">
+HME VOR/
+RIKIF/
+SIHAR/
+AMTIK/
+NSL VOR
+</Airway>
+   <Airway Name="UJ9">
+BNA NDB/
+TAGRO/
+BTN VOR
+</Airway>
+   <Airway Name="UJ24">
+BYD VOR/
+SAKNA/
+LOUHA/
+GHA VOR/
+BISSA/
+GARBA/
+BOKAL/
+ZAR VOR
+</Airway>
+   <Airway Name="UJ25">
+HME VOR/
+GABEL/
+ZAR VOR
+</Airway>
+   <Airway Name="UJ26">
+HME VOR/
+GARBA/
+KEBRI/
+MNA VOR
+</Airway>
+   <Airway Name="UJ27">
+TGU VOR/
+HME VOR
+</Airway>
+   <Airway Name="UJ28">
+ELO VOR/
+TGU VOR
+</Airway>
+   <Airway Name="UJ30">
+TBS VOR/
+ZENAD/
+ELO VOR/
+HME VOR
+</Airway>
+   <Airway Name="UJ36">
+BSA VOR/
+MAHDI/
+TGU VOR
+</Airway>
+   <Airway Name="UJ40">
+ADR VOR/
+TIO VOR
+</Airway>
+   <Airway Name="UJ41">
+IMN VOR/
+NAGAH/
+BOD VOR/
+OUCIF/
+ARSEM/
+NSL VOR/
+BASID/
+ADR VOR
+</Airway>
+   <Airway Name="UJ60">
+DJA VOR/
+MELOG/
+TMS VOR
+</Airway>
+   <Airway Name="UJ61">
+DJA VOR/
+TIHET/
+ILZ VOR/
+BOD VOR/
+</Airway>
+   <Airway Name="UJ62">
+NSL VOR/
+REKDA/
+TMN VOR/
+</Airway>
+   <Airway Name="UJ65">
+TGU VOR/
+CITER/
+BERIA
+</Airway>
+   <Airway Name="UJ66">
+ALR VOR/
+HJILA/
+BSA VOR
+</Airway>
+   <Airway Name="UJ67">
+GHA VOR/
+IBNOD/
+TAGIG
+</Airway>
+   <Airway Name="UL102">
+CHE NDB/
+ESNAM/
+ARIAM
+</Airway>
+   <Airway Name="UM114">
+GHA VOR/
+NIFEL/
+SIHAR/
+RAMAD/
+ZAWAT
+</Airway>
+    <Airway Name="UM134">
+LUXUR/
+PAGRE/
+ANB VOR
+</Airway>
+    <Airway Name="UM2">
+CIRTA/
+CSO VOR/
+AMIRA/
+RIMEL/
+BARKA/
+NAGAH
+TILMA/
+TARAT/
+DJA VOR/
+</Airway>
+    <Airway Name="UM614">
+TIO VOR/
+IPOBA
+</Airway>
+    <Airway Name="UM725">
+TIO VOR/
+SABRO/
+SBITA
+</Airway>
+    <Airway Name="UM735">
+TIO VOR/
+USRUT
+</Airway>
+    <Airway Name="UM508">
+KAMER/
+JIL VOR/
+TAJEN/
+BIS VOR/
+ROANE/
+TGU VOR/
+BOD VOR
+</Airway>
+    <Airway Name="UM608">
+BAY VOR/
+MOGAR/
+TAMUZ/
+TISIR/
+ABDIT/
+BASID/
+ROFER/
+TERAS
+</Airway>
+    <Airway Name="UM744">
+CARBO/
+MOS VOR
+</Airway>
+    <Airway Name="UM855">
+BUYAH/
+ALR VOR
+</Airway>
+    <Airway Name="UM856">
+ALR VOR/
+SADAF
+</Airway>
+    <Airway Name="UM998">
+KAMER/
+CSO VOR/
+TOLGA/
+BOD VOR/
+TIDOU/
+TOBUK
+</Airway>
+    <Airway Name="UM628">
+BAGBO/
+MERAT/
+CHAMI/
+SABRO/
+USRUT
+</Airway>
+   <Airway Name="UM999">
+ARIAM/
+MOGAR/
+MEZAB/
+MNA VOR/
+NIFEL/
+ATCHA/
+GAFLA/
+BOD VOR/
+NAGAH/
+IMN VOR
+</Airway>
+   <Airway Name="UM989">
+OTARO/
+ZEM VOR/
+CHLAL/
+BSA VOR/
+KAHIL/
+BERIA/
+GHA VOR/
+MNA VOR/
+KSOUR/
+NSL VOR/
+ROFER/
+MOKAT
+</Airway>
+   <Airway Name="UM986">
+REQIN/
+BOURI/
+LIMON/
+ZEM VOR/
+ALR VOR/
+CHIGA/
+TRB VOR/
+BAY VOR/
+AGREB/
+TAGIG/
+BBS VOR/
+TABAL/
+MERAT/
+BRENA
+</Airway>
+   <Airway Name="UM854">
+SALMA/
+CSO VOR/
+BIS VOR/
+DAYAT/
+CITER/
+GHA VOR/
+ABLOD/
+MOUNA/
+TIO VOR/
+CHAMI/
+BRENA
+</Airway>
   </Airways>
   <Intersections>
     <Point Name="01CAG" Type="Fix">+391413.200+0090408.349</Point>
