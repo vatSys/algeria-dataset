@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Position Name="MAGHREB CONTROLE" Type="ASD" DefaultCenter="+295627.3203+0024632.877" DefaultRange="3000">
+    <Sectors>
+		<Sector Name="DAAA" />
+    </Sectors>
+    <Maps>
+      <Map Name="Côtes" />
+	  <Map Name="Waypoints" />
+	  <Map Name="Waypoints (Noms)" />
+	  <Map Name="Aides radio" />
+	  <Map Name="Aéroports" />
+	  <Map Name="ASMGCS_DAAG_BLD" />
+      <Map Name="ASMGCS_DAAG_APR" />
+      <Map Name="ASMGCS_DAAG_GRASS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Algiers Control</Line>
+    </ControllerInfo>
+  </Position>
+    <Position Name="ALGER TWR" Type="ASD" DefaultCenter="+36.4140+003.1301" DefaultRange="60" MagneticVariation="-13">
+      <Sectors>
+        <Sector Name="AG TWR" />
+      </Sectors>
+      <Maps>
+        <Map Name="ASMGCS_DAAG_BLD" />
+        <Map Name="ASMGCS_DAAG_APR" />
+        <Map Name="ASMGCS_DAAG_GRASS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="DAAG" Frequency="126.25" />
+        <Window Airport="DAAG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="DAAG" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="DAAG_TWR">
+        <Line>Algiers Tower</Line>
+        <Line>ATIS available on 128.525</Line>
+        <Line>Charts - </Line>
+        <Line>ATC feedback - </Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="DAAG_GND">
+        <Line>Algiers Ground</Line>
+        <Line>ATIS available on 128.525</Line>
+        <Line>Charts - </Line>
+        <Line>ATC feedback - </Line>
+      </ControllerInfo>
+    </Position>
+</Positions>

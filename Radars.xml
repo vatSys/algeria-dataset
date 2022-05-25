@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Radars>
+  <Radar Name="Oued Smar PRI" Type="PRI" Elevation="874" MaxRange="50" LatLong="+364034.10+0031040.03/" />
+  <Radar Name="Oued Smar SSR" Type="SSR_ModeC" Elevation="874" MaxRange="255" LatLong="+364034.10+0031040.03/" />
+  <Radar Name="Seraidi" Type="SSR_ModeC" Elevation="1071" MaxRange="255" LatLong="+365443.40+0074107.10/" />
+  <Radar Name="Murdjadjo" Type="SSR_ModeC" Elevation="1115" MaxRange="255" LatLong="+354146.88-0004616.20" />
+  <Radar Name="Guemmar" Type="SSR_ModeC" Elevation="197" MaxRange="255" LatLong="+333103.99+0064552.16/" />
+  <Radar Name="Bouderga" Type="SSR_ModeC" Elevation="4635" MaxRange="255" LatLong="+333737.66+0010351.20/" />
+</Radars>
