@@ -1,3 +1,47 @@
+# VATSIM Algeria - Dataset 
+<p align="center"><img src="(https://ibb.co/6RHdVkz)" width="650"></p>
+
+---
+<p align="center"><br> V0.8 <br>
+<p align="center"><br>Official repository of the VATSIM Algeria Website <br>
+<a href="https://discord.gg/Q9guXjefrH" target="_blank">https://discord.gg/Q9guXjefrH/</a> <i>(Discord)</i><br>
+</p>
+<p>Warning: this repository is under active development. We are not responsible for any issues that may arise from the use of any portion of the here-above code
+
+About
+This project came about in May 2022 as VATSIM Algeria Sector File.
+
+
+
+Contributors, maintainers and acknowledgements
+A special thank you to the following people:
+
+The VATSIM Algeria Secotr File is licensed under the GNU GPL v3 License. You are free to use code from the repository within the rulesthat license.<p>
+
+# VATSIM Algeria - Website 
+<p align="center"><img src="(https://ibb.co/6RHdVkz)" width="650"></p>
+
+---
+<p align="center"><br> V0.8 <br>
+<p align="center"><br>Official repository of the VATSIM Algeria Website <br>
+<a href="https://discord.gg/Q9guXjefrH" target="_blank">https://discord.gg/Q9guXjefrH/</a> <i>(Discord)</i><br>
+</p>
+<p>Warning: this repository is under active development. We are not responsible for any issues that may arise from the use of any portion of the here-above code
+
+About
+This project came about in May 2022 as VATSIM Algeria Sector File.
+
+
+
+Contributors, maintainers and acknowledgements
+A special thank you to the following people:
+
+The VATSIM Algeria Secotr File is licensed under the GNU GPL v3 License. You are free to use code from the repository within the rulesthat license.<p>
+
+
+
+
+
 # vatsys-dataset
 Default profile dataset for vatSys
 
