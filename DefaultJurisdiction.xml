@@ -1,4 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
- 
+ <RuleSets>
+    <RuleSet Name="DAAG_DEPS">
+      <Rules>
+        <Departure Values="DAAG">
+          <Rules>
+            <Default>
+              <AssignSector Order="ADEP, ATMA, AARR"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+</RuleSets>
 </DefaultJurisdiction>
