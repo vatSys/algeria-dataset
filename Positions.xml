@@ -3,7 +3,7 @@
   <Group Name="SECTEUR">
   <Position Name="Secteur Centre Inferieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="500">
     <Sectors>
-      <Sector Name="SECTEUR_CENTRE_INF" />
+      <Sector Name="DACI" />
     </Sectors>
     <ManualVisibility>
       <Point>+34.5000-007.500</Point>
