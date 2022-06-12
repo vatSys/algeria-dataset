@@ -18,7 +18,7 @@
   </Bin>
     <!-- Military Flights -->
   <Bin>
-    <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY)\b"/>
+    <Rule Remarks="(\/|\b)(AAF|MILITARY|USAF|RAF|AAE|ARMY)\b"/>
     <Codes Start="2601" End="2677"/>
 	<Codes Start="3201" End="3207"/>
 	<Codes Start="3401" End="3477"/>
