@@ -244,9 +244,9 @@
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
     <Name>Grey</Name>
-    <R>0</R>
-    <G>0</G>
-    <B>0</B>
+    <R>105</R>
+    <G>105</G>
+    <B>105</B>
   </Colour>
 	<Colour id="Jurisdiction">
 		<Use>Jurisdiction</Use>

@@ -1,115 +1,301 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Airspace>
-  <Airports>
-    <Airport ICAO="DAAD" Position="+351953.000+0041215.998" />
-    <Airport ICAO="DAAE" Position="+364242.998+0050409.998" />
-    <Airport ICAO="DAAG" Position="+364137.798+0031252.401" />
-    <Airport ICAO="DAAJ" Position="+241735.001+0092706.998" />
-    <Airport ICAO="DAAK" Position="+363252.000+0025235.000" />
-    <Airport ICAO="DAAP" Position="+264324.999+0083704.000" />
-    <Airport ICAO="DAAS" Position="+361042.999+0051948.000" />
-    <Airport ICAO="DAAT" Position="+224839.999+0052702.998" />
-    <Airport ICAO="DAAV" Position="+364739.998+0055224.999" />
-    <Airport ICAO="DABB" Position="+364919.999+0074833.998" />
-    <Airport ICAO="DABC" Position="+361707.000+0063709.001" />
-    <Airport ICAO="DABS" Position="+352557.489+0080732.160" />
-    <Airport ICAO="DABT" Position="+354533.001+0061920.999" />
-    <Airport ICAO="DAOB" Position="+352029.000+0012800.998" />
-    <Airport ICAO="DAOF" Position="+274158.610-0080949.849" />
-    <Airport ICAO="DAOI" Position="+361300.998+0012024.000" />
-    <Airport ICAO="DAOL" Position="+353232.798-0003156.200" />
-    <Airport ICAO="DAON" Position="+350055.000-0012702.998" />
-    <Airport ICAO="DAOO" Position="+353737.999-0003641.000" />
-    <Airport ICAO="DAOR" Position="+313902.048-0021511.350" />
-    <Airport ICAO="DAOV" Position="+351300.998+0000853.998" />
-    <Airport ICAO="DAOY" Position="+334314.998+0010529.000" />
-    <Airport ICAO="DATG" Position="+193338.699+0054504.899" />
-    <Airport ICAO="DATM" Position="+212230.000+0005526.000" />
-    <Airport ICAO="DAUA" Position="+275021.001-0001107.000" />
-    <Airport ICAO="DAUB" Position="+344806.001+0054430.001" />
-    <Airport ICAO="DAUE" Position="+303408.000+0025152.999" />
-    <Airport ICAO="DAUG" Position="+322254.001+0034757.998" />
-    <Airport ICAO="DAUH" Position="+314026.000+0060826.001" />
-    <Airport ICAO="DAUI" Position="+271512.999+0023038.998" />
-    <Airport ICAO="DAUK" Position="+330336.000+0060513.999" />
-    <Airport ICAO="DAUO" Position="+333047.001+0064656.999" />
-    <Airport ICAO="DAUT" Position="+291427.999+0001700.999" />
-    <Airport ICAO="DAUU" Position="+315553.061+0052448.560" />
-    <Airport ICAO="DAUZ" Position="+280305.000+0093834.000" />
-    <Airport ICAO="DRZA" Position="+165743.999+0075925.000" />
-    <Airport ICAO="DRZD" Position="+185808.000+0125208.000" />
-    <Airport ICAO="DTKA" Position="+365847.999+0085236.998" />
-    <Airport ICAO="DTMB" Position="+354529.001+0104516.999" />
-    <Airport ICAO="DTNH" Position="+360432.998+0102618.999" />
-    <Airport ICAO="DTTA" Position="+365103.999+0101336.998" />
-    <Airport ICAO="DTTF" Position="+342456.001+0084848.999" />
-    <Airport ICAO="DTTG" Position="+334357.000+0095457.999" />
-    <Airport ICAO="DTTI" Position="+364315.999+0095635.998" />
-    <Airport ICAO="DTTJ" Position="+335232.001+0104637.999" />
-    <Airport ICAO="DTTX" Position="+344314.001+0104118.999" />
-    <Airport ICAO="DTTZ" Position="+335622.999+0080638.001" />
-    <Airport ICAO="GATS" Position="+201446.449+0005850.678" />
-    <Airport ICAO="GMAD" Position="+301921.000-0092441.000" />
-    <Airport ICAO="GMAG" Position="+290100.998-0100341.000" />
-    <Airport ICAO="GMAT" Position="+282653.998-0110941.000" />
-    <Airport ICAO="GMAZ" Position="+301550.000-0055111.001" />
-    <Airport ICAO="GMFB" Position="+323051.998-0015841.998" />
-    <Airport ICAO="GMFF" Position="+335537.999-0045840.000" />
-    <Airport ICAO="GMFI" Position="+333020.001-0050908.999" />
-    <Airport ICAO="GMFK" Position="+315653.440-0042402.368" />
-    <Airport ICAO="GMFM" Position="+335305.999-0053141.998" />
-    <Airport ICAO="GMFO" Position="+344709.999-0015532.001" />
-    <Airport ICAO="GMFZ" Position="+341359.998-0035700.000" />
-    <Airport ICAO="GMMA" Position="+263312.048-0114110.069" />
-    <Airport ICAO="GMMB" Position="+333915.559-0071332.581" />
-    <Airport ICAO="GMMD" Position="+322406.998-0061857.999" />
-    <Airport ICAO="GMME" Position="+340305.000-0064506.001" />
-    <Airport ICAO="GMMH" Position="+234305.998-0155554.998" />
-    <Airport ICAO="GMMI" Position="+312357.001-0094059.001" />
-    <Airport ICAO="GMML" Position="+270906.001-0131309.001" />
-    <Airport ICAO="GMMN" Position="+332151.001-0073454.001" />
-    <Airport ICAO="GMMT" Position="+333536.999-0072751.998" />
-    <Airport ICAO="GMMW" Position="+345921.998-0030140.000" />
-    <Airport ICAO="GMMX" Position="+313630.999-0080226.998" />
-    <Airport ICAO="GMMZ" Position="+305613.829-0065421.571" />
-    <Airport ICAO="GMTA" Position="+351046.999-0035023.999" />
-    <Airport ICAO="GMTN" Position="+353539.998-0051912.000" />
-    <Airport ICAO="GMTT" Position="+354354.001-0055515.999" />
-    <Airport ICAO="HLGT" Position="+250800.779+0100802.518" />
-    <Airport ICAO="HLHM" Position="+304206.001+0122912.001" />
-    <Airport ICAO="HLLM" Position="+325339.998+0131640.000" />
-    <Airport ICAO="HLLT" Position="+323948.920+0130932.979" />
-    <Airport ICAO="HLNM" Position="+293152.140+0125637.741" />
-    <Airport ICAO="HLTD" Position="+300906.001+0094255.198" />
-    <Airport ICAO="HLUB" Position="+263403.478+0124923.221" />
-    <Airport ICAO="HLWF" Position="+285327.358+0100450.491" />
-    <Airport ICAO="HLZN" Position="+314602.499+0121445.920" />
-    <Airport ICAO="HLZW" Position="+325709.000+0120055.000" />
-    <Airport ICAO="LEAM" Position="+365038.000-0022212.000" />
-    <Airport ICAO="LEIB" Position="+385222.000+0012223.001" />
-    <Airport ICAO="LEMH" Position="+395144.999+0041306.999" />
-    <Airport ICAO="LEPA" Position="+393306.001+0024420.000" />
-    <Airport ICAO="LESB" Position="+393556.000+0024210.000" />
-    <Airport ICAO="LIEA" Position="+403751.999+0081718.999" />
-    <Airport ICAO="LIED" Position="+392113.860+0085818.209" />
-    <Airport ICAO="LIEE" Position="+391449.999+0090321.999" />
-    <Airport ICAO="LIEO" Position="+405354.999+0093104.000" />
-    <Airport ICAO="LIER" Position="+395342.000+0083835.001" />
-  </Airports>
+  <SystemRunways>
+    <Airport Name="DAAD">
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
+    </Airport> 
+    <Airport Name="DAAE">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>   
+    <Airport Name="DAAG">
+      <Runway Name="05" DataRunway="05">
+        <SID Name="MOGL1C" />
+        <SID Name="PECE1C" />
+        <SID Name="OTAR1C" />
+        <SID Name="BOUR1C" />
+        <SID Name="BJA1C" />
+        <SID Name="BADR1C" />
+        <SID Name="TAGR1C" />
+        <SID Name="BSA1C" />
+        <SID Name="BSA1G" />
+        <SID Name="CHE1C" />
+        <SID Name="LABR1C" />
+        <SID Name="SADF1C" />
+      </Runway>
+      <Runway Name="23" DataRunway="23">
+        <SID Name="MOGL1A" />
+        <SID Name="PECE1A" />
+        <SID Name="OTAR1A" />
+        <SID Name="BOUR1A" />
+        <SID Name="BJA1A" />
+        <SID Name="BADR1A" />
+        <SID Name="TAGR1A" />
+        <SID Name="BSA1A" />
+        <SID Name="BSA1E" />
+        <SID Name="CHE1A" />
+        <SID Name="LABR1A" />
+        <SID Name="SADF1A" />
+      </Runway>
+      <Runway Name="09" DataRunway="09">
+        <SID Name="MOGL1D" />
+        <SID Name="PECE1D" />
+        <SID Name="OTAR1D" />
+        <SID Name="BOUR1D" />
+        <SID Name="BJA1D" />
+        <SID Name="BADR1D" />
+        <SID Name="TAGR1D" />
+        <SID Name="BSA1D" />
+        <SID Name="BSA1H" />
+        <SID Name="CHE1D" />
+        <SID Name="LABR1D" />
+        <SID Name="SADF1D" /> 
+      </Runway>
+      <Runway Name="27" DataRunway="27">
+        <SID Name="MOGL1B" />
+        <SID Name="PECE1B" />
+        <SID Name="OTAR1B" />
+        <SID Name="BOUR1B" />
+        <SID Name="BJA1B" />
+        <SID Name="BADR1B" />
+        <SID Name="TAGR1B" />
+        <SID Name="BSA1B" />
+        <SID Name="BSA1F" />
+        <SID Name="CHE1B" />
+        <SID Name="LABR1B" />
+        <SID Name="SADF1B" />
+      </Runway>                     
+    </Airport>    
+    <Airport Name="DAAJ">
+      <Runway Name="12" DataRunway="12" />
+      <Runway Name="30" DataRunway="30" />
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="20" DataRunway="20" />
+    </Airport>    
+    <Airport Name="DAAP">
+      <Runway Name="09" DataRunway="09" />
+      <Runway Name="27" DataRunway="27" />
+    </Airport>    
+    <Airport Name="DAAS">
+      <Runway Name="09" DataRunway="27" />
+      <Runway Name="27" DataRunway="09" />
+    </Airport>  
+    <Airport Name="DAAT">
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="20" DataRunway="20" />
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>  
+    <Airport Name="DAAV">
+      <Runway Name="17" DataRunway="17" />
+      <Runway Name="35" DataRunway="35" />
+    </Airport>  
+    <Airport Name="DABB">
+      <Runway Name="01" DataRunway="01" />
+      <Runway Name="19" DataRunway="19" />
+      <Runway Name="05" DataRunway="05" />
+      <Runway Name="23" DataRunway="23" />
+    </Airport>
+    <Airport Name="DABC">
+      <Runway Name="13" DataRunway="13" />
+      <Runway Name="31" DataRunway="31" />
+      <Runway Name="16" DataRunway="16" />
+      <Runway Name="34" DataRunway="34" />
+    </Airport>
+    <Airport Name="DABS">
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="29" DataRunway="29" />
+      <Runway Name="12" DataRunway="12" />
+      <Runway Name="30" DataRunway="30" />
+    </Airport>
+    <Airport Name="DABT">
+      <Runway Name="05" DataRunway="05" />
+      <Runway Name="23" DataRunway="23" />
+    </Airport>
+    <Airport Name="DAOB">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>
+    <Airport Name="DA0F">
+      <Runway Name="08R" DataRunway="08R" />
+      <Runway Name="26L" DataRunway="26L" />
+      <Runway Name="08L" DataRunway="08L" />
+      <Runway Name="26R" DataRunway="26R" />
+    </Airport>
+    <Airport Name="DAOI">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>
+    <Airport Name="DAON">
+      <Runway Name="07" DataRunway="25" />
+      <Runway Name="25" DataRunway="07" />
+    </Airport>
+    <Airport Name="DAOO">
+      <Runway Name="07L" DataRunway="07L">
+        <SID Name="SID71" />
+        <SID Name="SID72" />
+        <SID Name="SID73" />
+        <SID Name="SID74" />
+        <STAR Name="GRS" ApproachName="VOR07L" />
+        <STAR Name="BAY" ApproachName="VOR07L" />
+        <STAR Name="TRB" ApproachName="VOR07L" />
+        <STAR Name="CHE" ApproachName="VOR07L" />
+        <STAR Name="LABRO" ApproachName="VOR07L" />
+        <STAR Name="HAMRA" ApproachName="VOR07L" />
+        <STAR Name="TARIK" ApproachName="VOR07L" />
+        <STAR Name="HMB" ApproachName="VOR07L" />
+      </Runway>
+      <Runway Name="07R" DataRunway="07R">
+        <SID Name="SID71" />
+        <SID Name="SID72" />
+        <SID Name="SID73" />
+        <SID Name="SID74" />
+        <STAR Name="GRS" ApproachName="VOR07R" />
+        <STAR Name="BAY" ApproachName="VOR07R" />
+        <STAR Name="TRB" ApproachName="VOR07R" />
+        <STAR Name="CHE" ApproachName="VOR07R" />
+        <STAR Name="LABRO" ApproachName="VOR07R" />
+        <STAR Name="HAMRA" ApproachName="VOR07R" />
+        <STAR Name="TARIK" ApproachName="VOR07R" />
+        <STAR Name="HMB" ApproachName="VOR07R" />
+      </Runway>
+    </Airport>  
+      <Runway Name="25L" DataRunway="25L">
+        <SID Name="SID51" />
+        <SID Name="SID52" />
+        <SID Name="SID53" />
+        <SID Name="SID54" />
+        <STAR Name="GRS" ApproachName="ILS25L" />
+        <STAR Name="BAY" ApproachName="ILS25L" />
+        <STAR Name="TRB" ApproachName="ILS25L" />
+        <STAR Name="CHE" ApproachName="ILS25L" />
+        <STAR Name="LABRO" ApproachName="ILS25L" />
+        <STAR Name="HAMRA" ApproachName="ILS25L" />
+        <STAR Name="TARIK" ApproachName="ILS25L" />
+        <STAR Name="HMB" ApproachName="ILS25L" />        
+      </Runway>
+      <Runway Name="25R" DataRunway="25R">
+        <SID Name="SID51" />
+        <SID Name="SID52" />
+        <SID Name="SID53" />
+        <SID Name="SID54" />
+        <STAR Name="GRS" ApproachName="ILS25R" />
+        <STAR Name="BAY" ApproachName="ILS25R" />
+        <STAR Name="TRB" ApproachName="ILS25R" />
+        <STAR Name="CHE" ApproachName="ILS25R" />
+        <STAR Name="LABRO" ApproachName="ILS25R" />
+        <STAR Name="HAMRA" ApproachName="ILS25R" />
+        <STAR Name="TARIK" ApproachName="ILS25R" />
+        <STAR Name="HMB" ApproachName="ILS25R" />
+      </Runway>            
+    <Airport Name="DAOR">
+      <Runway Name="26" DataRunway="26" />
+      <Runway Name="24" DataRunway="24" />
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
+    <Airport Name="DAOV">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>
+    <Airport Name="DAOY">
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
+    </Airport>
+    <Airport Name="DATG">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>
+    <Airport Name="DATM">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>
+    <Airport Name="DAUA">
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
+    </Airport>
+    <Airport Name="DAUB">
+      <Runway Name="13" DataRunway="13" />
+      <Runway Name="31" DataRunway="31" />
+    </Airport>
+    <Airport Name="DAUE">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>    
+    <Airport Name="DAUG">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
+    <Airport Name="DAUH">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="SID1" />
+        <SID Name="SID2" />
+        <SID Name="SID3" />
+        <SID Name="SID4" />
+        <SID Name="SID5" />
+        <STAR Name="TGU/HME/HIMAD" ApproachName="VOR18" />
+        <STAR Name="ELO/HME/HIMAD" ApproachName="VOR18" />
+        <STAR Name="IMN/HIMAD" ApproachName="VOR18" />
+        <STAR Name="NSL/HIMAD" ApproachName="VOR18" />
+        <STAR Name="MNA/HIMAD" ApproachName="VOR18" />
+      </Runway>  
+      <Runway Name="36" DataRunway="36">
+        <SID Name="SID1" />
+        <SID Name="SID2" />
+        <SID Name="SID3" />
+        <SID Name="SID4" />
+        <SID Name="SID5" />
+        <STAR Name="TGU/HME/HIMAD" ApproachName="ILS36" />
+        <STAR Name="ELO/HME/HIMAD" ApproachName="ILS36" />
+        <STAR Name="IMN/HIMAD" ApproachName="ILS36" />
+        <STAR Name="NSL/HIMAD" ApproachName="ILS36" />
+        <STAR Name="MNA/HIMAD" ApproachName="ILS36" />
+      </Runway>          
+    </Airport>
+    <Airport Name="DAUI">
+      <Runway Name="05" DataRunway="05" />
+      <Runway Name="23" DataRunway="23" />
+    </Airport>
+    <Airport Name="DAUK">
+      <Runway Name="01" DataRunway="01" />
+      <Runway Name="19" DataRunway="19" />
+    </Airport>
+    <Airport Name="DAUO">
+      <Runway Name="13" DataRunway="13" />
+      <Runway Name="31" DataRunway="31" />
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="20" DataRunway="20" />
+    </Airport>
+    <Airport Name="DAUT">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="24" DataRunway="24" />
+    </Airport>
+    <Airport Name="DAUU">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
+      <Runway Name="01" DataRunway="01" />
+      <Runway Name="19" DataRunway="19" />
+    </Airport>
+    <Airport Name="DAUZ">
+      <Runway Name="05" DataRunway="05" />
+      <Runway Name="23" DataRunway="23" />
+    </Airport>
+  </SystemRunways>
   <Airways>
-   <Airway Name="A6">
+    <Airway Name="A6">
 LABRO/
 MOS VOR
 </Airway>
-   <Airway Name="A24">
+    <Airway Name="A24">
 OTARO/
 ZEM VOR
 </Airway>
-   <Airway Name="A27">
+    <Airway Name="A27">
 BUYAH/
 ALR VOR
 </Airway>
-   <Airway Name="A29">
+    <Airway Name="A29">
 SADAF/
 CHE NDB/
 TRB VOR/
@@ -121,27 +307,27 @@ TABAL/
 MERAT/
 BRENA
 </Airway>
-   <Airway Name="A31">
+    <Airway Name="A31">
 LABRO/
 KIRLA/
 CHE NDB/
 ALR VOR/
 BNA NDB/
-BADOR/
+BABOR/
 TAJEN/
 CSO VOR
 </Airway>
-   <Airway Name="A34">
+    <Airway Name="A34">
 HAMRA/
 BAHRI/
 MOS VOR
 </Airway>
-   <Airway Name="A44">
+    <Airway Name="A44">
 TARIK/
 ARZEW/
 MOS VOR
 </Airway>
-   <Airway Name="A411">
+    <Airway Name="A411">
 ORSUP/
 ORA VOR/
 MOS VOR/
@@ -154,7 +340,7 @@ JIL VOR/
 ANB VOR/
 MORJA
 </Airway>
-   <Airway Name="A604">
+    <Airway Name="A604">
 MOS VOR/
 FAROS/
 BAY VOR/
@@ -165,7 +351,7 @@ SIHAR/
 TMS VOR/
 EREBO
 </Airway>
-   <Airway Name="A605">
+    <Airway Name="A605">
 CIRTA/
 CSO VOR/
 AMIRA/
@@ -176,25 +362,25 @@ TILMA/
 TARAT/
 DJA VOR
 </Airway>
-   <Airway Name="A614">
+    <Airway Name="A614">
 TIO VOR/
 IPOBA
 </Airway>
-   <Airway Name="A615">
+    <Airway Name="A615">
 GHA VOR/
 ATCHA/
 TIFOU/
 TMS VOR
 </Airway>
-   <Airway Name="B16">
+    <Airway Name="B16">
 PECES/
 ZEM VOR
 </Airway>
-   <Airway Name="B31">
+    <Airway Name="B31">
 MOGIL/
 ZEM VOR
 </Airway>
-   <Airway Name="B726">
+    <Airway Name="B726">
 ZEM VOR/
 CHLAL/
 BSA VOR/
@@ -205,7 +391,7 @@ MNA VOR/
 KSOUR/
 NSL VOR
 </Airway>
-   <Airway Name="B727">
+    <Airway Name="B727">
 IMN VOR/
 TILMA/
 ILZ VOR/
@@ -216,7 +402,7 @@ RAMAD/
 TINVI/
 TERAS
 </Airway>
-   <Airway Name="B730">
+    <Airway Name="B730">
 MNA VOR/
 NIFEL/
 ATCHA/
@@ -226,25 +412,25 @@ OUREL/
 DJA VOR/
 IKTAV
 </Airway>
-   <Airway Name="B734">
+    <Airway Name="B734">
 DOLIS/
 BIS VOR/
 BSA VOR
 </Airway>
-   <Airway Name="B735">
+    <Airway Name="B735">
 TIO VOR/
 USRUT
 </Airway>
-   <Airway Name="G6">
+    <Airway Name="G6">
 SALMA/
 ANB VOR/
 DIMAO
 </Airway>
-    <Airway Name="G14">
+     <Airway Name="G14">
 KAWKA/
 CSO VOR
 </Airway>
-    <Airway Name="G26">
+     <Airway Name="G26">
 REQIN/
 BOURI/
 LIMON/
@@ -256,22 +442,22 @@ BAY VOR/
 EKRAK/
 TIO VOR
 </Airway>
-   <Airway Name="G30">
+    <Airway Name="G30">
 SADAF/
 ALR VOR
 </Airway>
-   <Airway Name="G852">
+    <Airway Name="G852">
 MNA VOR/
 RAHIL/
 RGN NDB
 </Airway>
-   <Airway Name="G855">
+    <Airway Name="G855">
 BOD VOR/
 HOGAR/
 TMS VOR/
 INAMA
 </Airway>
-   <Airway Name="G859">
+    <Airway Name="G859">
 ANB VOR/
 CSO VOR/
 BTN VOR/
@@ -285,11 +471,11 @@ NSL VOR/
 ROFER/
 MOKAT
 </Airway>
-   <Airway Name="R34">
+    <Airway Name="R34">
 MOUET/
 ANB VOR
 </Airway>
-   <Airway Name="R978">
+    <Airway Name="R978">
 KAMER/
 CSO VOR/
 NADJI/
@@ -300,7 +486,7 @@ BERTI/
 MELOG/
 ERKEL
 </Airway>
-   <Airway Name="R985">
+    <Airway Name="R985">
 BSA VOR/
 ZIBAN/
 ELO VOR/
@@ -308,26 +494,26 @@ RIMEL/
 SAMRA/
 IMN VOR
 </Airway>
-   <Airway Name="R990">
+    <Airway Name="R990">
 MNA VOR/
 RIAME/
 TIO VOR
 </Airway>
-   <Airway Name="V18">
+    <Airway Name="V18">
 TBS VOR/
 DAFRI/
 TON VOR
 </Airway>
-   <Airway Name="G361">
-OLE VOR/
+    <Airway Name="G361">
+ELO VOR/
 KRIMA/
 TON VOR
 </Airway>
-   <Airway Name="W254">
+    <Airway Name="W254">
 CSO VOR/
 DIMAO
 </Airway>
-   <Airway Name="G362">
+    <Airway Name="G362">
 EBA VOR/
 SAMRA/
 BARKA/
@@ -335,36 +521,36 @@ GABEL/
 BOKAL/
 BOD VOR
 </Airway>
-   <Airway Name="J3">
+    <Airway Name="J3">
 FAROS/
 GRS VOR
 </Airway>
-   <Airway Name="J5">
+    <Airway Name="J5">
 CSO VOR/
 JIL VOR
 </Airway>
-   <Airway Name="J6">
+    <Airway Name="J6">
 MOS VOR/
 TRB VOR
 </Airway>
-   <Airway Name="J7">
+    <Airway Name="J7">
 CSO VOR/
 BJA VOR/
 LIMON
 </Airway>
-   <Airway Name="J8">
+    <Airway Name="J8">
 HME VOR/
 RIKIF/
 SIHAR/
 AMTIK/
 NSL VOR
 </Airway>
-   <Airway Name="J9">
+    <Airway Name="J9">
 BNA NDB/
 TAGRO/
 BTN VOR
 </Airway>
-   <Airway Name="J24">
+    <Airway Name="J24">
 BYD VOR/
 SAKNA/
 LOUHA/
@@ -372,43 +558,43 @@ GHA VOR/
 BISSA/
 GARBA/
 BOKAL/
-ZAR VOR
+ZAR NDB
 </Airway>
-   <Airway Name="J25">
+    <Airway Name="J25">
 HME VOR/
 GABEL/
-ZAR VOR
+IMN VOR
 </Airway>
-   <Airway Name="J26">
+    <Airway Name="J26">
 HME VOR/
 GARBA/
 KEBRI/
 MNA VOR
 </Airway>
-   <Airway Name="J27">
+    <Airway Name="J27">
 TGU VOR/
 HME VOR
 </Airway>
-   <Airway Name="J28">
+    <Airway Name="J28">
 ELO VOR/
 TGU VOR
 </Airway>
-   <Airway Name="J30">
+    <Airway Name="J30">
 TBS VOR/
 ZENAD/
 ELO VOR/
 HME VOR
 </Airway>
-   <Airway Name="J36">
+    <Airway Name="J36">
 BSA VOR/
 MAHDI/
 TGU VOR
 </Airway>
-   <Airway Name="J40">
+    <Airway Name="J40">
 ADR VOR/
 TIO VOR
 </Airway>
-   <Airway Name="J41">
+    <Airway Name="J41">
 IMN VOR/
 NAGAH/
 BOD VOR/
@@ -418,51 +604,50 @@ NSL VOR/
 BASID/
 ADR VOR
 </Airway>
-   <Airway Name="J60">
+    <Airway Name="J60">
 DJA VOR/
 MELOG/
 TMS VOR
 </Airway>
-   <Airway Name="J61">
+    <Airway Name="J61">
 DJA VOR/
 TIHET/
 ILZ VOR/
 BOD VOR/
 </Airway>
-   <Airway Name="J62">
+    <Airway Name="J62">
 NSL VOR/
 REKDA/
 TMN VOR/
 </Airway>
-   <Airway Name="J65">
+    <Airway Name="J65">
 TGU VOR/
 CITER/
 BERIA
 </Airway>
-   <Airway Name="J66">
+    <Airway Name="J66">
 ALR VOR/
 HJILA/
 BSA VOR
 </Airway>
-   <Airway Name="J67">
+    <Airway Name="J67">
 GHA VOR/
 IBNOD/
 TAGIG
 </Airway>
-    <Airways>
-    <Airway Name="UA6">
+     <Airway Name="UA6">
 LABRO/
 MOS VOR
 </Airway>
-   <Airway Name="UA24">
+    <Airway Name="UA24">
 OTARO/
 ZEM VOR
 </Airway>
-   <Airway Name="UA27">
+    <Airway Name="UA27">
 BUYAH/
 ALR VOR
 </Airway>
-   <Airway Name="UA29">
+    <Airway Name="UA29">
 SADAF/
 CHE NDB/
 TRB VOR/
@@ -474,27 +659,27 @@ TABAL/
 MERAT/
 BRENA
 </Airway>
-   <Airway Name="UA31">
+    <Airway Name="UA31">
 LABRO/
 KIRLA/
 CHE NDB/
 ALR VOR/
 BNA NDB/
-BADOR/
+BABOR/
 TAJEN/
 CSO VOR
 </Airway>
-   <Airway Name="UA34">
+    <Airway Name="UA34">
 HAMRA/
 BAHRI/
 MOS VOR
 </Airway>
-   <Airway Name="UA44">
+    <Airway Name="UA44">
 TARIK/
 ARZEW/
 MOS VOR
 </Airway>
-   <Airway Name="UA411">
+    <Airway Name="UA411">
 ORSUP/
 ORA VOR/
 MOS VOR/
@@ -507,7 +692,7 @@ JIL VOR/
 ANB VOR/
 MORJA
 </Airway>
-   <Airway Name="UA604">
+    <Airway Name="UA604">
 MOS VOR/
 FAROS/
 BAY VOR/
@@ -518,7 +703,7 @@ SIHAR/
 TMS VOR/
 EREBO
 </Airway>
-   <Airway Name="UA605">
+    <Airway Name="UA605">
 CIRTA/
 CSO VOR/
 AMIRA/
@@ -529,25 +714,25 @@ TILMA/
 TARAT/
 DJA VOR
 </Airway>
-   <Airway Name="UA614">
+    <Airway Name="UA614">
 TIO VOR/
 IPOBA
 </Airway>
-   <Airway Name="UA615">
+    <Airway Name="UA615">
 GHA VOR/
 ATCHA/
 TIFOU/
 TMS VOR
 </Airway>
-   <Airway Name="UB16">
+    <Airway Name="UB16">
 PECES/
 ZEM VOR
 </Airway>
-   <Airway Name="UB31">
+    <Airway Name="UB31">
 MOGIL/
 ZEM VOR
 </Airway>
-   <Airway Name="UB726">
+    <Airway Name="UB726">
 ZEM VOR/
 CHLAL/
 BSA VOR/
@@ -558,7 +743,7 @@ MNA VOR/
 KSOUR/
 NSL VOR
 </Airway>
-   <Airway Name="UB727">
+    <Airway Name="UB727">
 IMN VOR/
 TILMA/
 ILZ VOR/
@@ -569,7 +754,7 @@ RAMAD/
 TINVI/
 TERAS
 </Airway>
-   <Airway Name="UB730">
+    <Airway Name="UB730">
 MNA VOR/
 NIFEL/
 ATCHA/
@@ -579,30 +764,30 @@ OUREL/
 DJA VOR/
 IKTAV
 </Airway>
-   <Airway Name="UN736">
+    <Airway Name="UN736">
 DOLIS/
 BIS VOR/
 BSA VOR
 </Airway>
-   <Airway Name="UB735">
+    <Airway Name="UB735">
 TIO VOR/
 USRUT
 </Airway>
-   <Airway Name="UB738">
+    <Airway Name="UB738">
 LIGUM/
 HMB NDB/
 BAY VOR
 </Airway>
-   <Airway Name="UG6">
+    <Airway Name="UG6">
 SALMA/
 ANB VOR/
 DIMAO
 </Airway>
-    <Airway Name="UG14">
+     <Airway Name="UG14">
 KAWKA/
 CSO VOR
 </Airway>
-    <Airway Name="UG26">
+     <Airway Name="UG26">
 REQIN/
 BOURI/
 LIMON/
@@ -614,22 +799,22 @@ BAY VOR/
 EKRAK/
 TIO VOR
 </Airway>
-   <Airway Name="UG30">
+    <Airway Name="UG30">
 SADAF/
 ALR VOR
 </Airway>
-   <Airway Name="UG852">
+    <Airway Name="UG852">
 MNA VOR/
 RAHIL/
 RGN NDB
 </Airway>
-   <Airway Name="UG855">
+    <Airway Name="UG855">
 BOD VOR/
 HOGAR/
 TMS VOR/
 INAMA
 </Airway>
-   <Airway Name="UG859">
+    <Airway Name="UG859">
 ANB VOR/
 CSO VOR/
 BTN VOR/
@@ -643,7 +828,7 @@ NSL VOR/
 ROFER/
 MOKAT
 </Airway>
-   <Airway Name="UG864">
+    <Airway Name="UG864">
 TBS VOR/
 RADJA/
 ROANE/
@@ -656,11 +841,11 @@ TIO VOR/
 CHAMI/
 BRENA
 </Airway>
-   <Airway Name="UR34">
+    <Airway Name="UR34">
 MOUET/
 ANB VOR
 </Airway>
-   <Airway Name="UR978">
+    <Airway Name="UR978">
 KAMER/
 CSO VOR/
 NADJI/
@@ -671,7 +856,7 @@ BERTI/
 MELOG/
 ERKEL
 </Airway>
-   <Airway Name="UR985">
+    <Airway Name="UR985">
 BSA VOR/
 ZIBAN/
 ELO VOR/
@@ -679,26 +864,26 @@ RIMEL/
 SAMRA/
 IMN VOR
 </Airway>
-   <Airway Name="UR990">
+    <Airway Name="UR990">
 MNA VOR/
 RIAME/
 TIO VOR
 </Airway>
-   <Airway Name="UV18">
+    <Airway Name="UV18">
 TBS VOR/
 DAFRI/
 TON VOR
 </Airway>
-   <Airway Name="UG361">
-OLE VOR/
+    <Airway Name="UG361">
+ELO VOR/
 KRIMA/
 TON VOR
 </Airway>
-   <Airway Name="UW254">
+    <Airway Name="UW254">
 CSO VOR/
 DIMAO
 </Airway>
-   <Airway Name="UG362">
+    <Airway Name="UG362">
 EBA VOR/
 SAMRA/
 BARKA/
@@ -706,36 +891,36 @@ GABEL/
 BOKAL/
 BOD VOR
 </Airway>
-   <Airway Name="UJ3">
+    <Airway Name="UJ3">
 FAROS/
 GRS VOR
 </Airway>
-   <Airway Name="UJ5">
+    <Airway Name="UJ5">
 CSO VOR/
 JIL VOR
 </Airway>
-   <Airway Name="UJ6">
+    <Airway Name="UJ6">
 MOS VOR/
 TRB VOR
 </Airway>
-   <Airway Name="UJ7">
+    <Airway Name="UJ7">
 CSO VOR/
 BJA VOR/
 LIMON
 </Airway>
-   <Airway Name="UJ8">
+    <Airway Name="UJ8">
 HME VOR/
 RIKIF/
 SIHAR/
 AMTIK/
 NSL VOR
 </Airway>
-   <Airway Name="UJ9">
+    <Airway Name="UJ9">
 BNA NDB/
 TAGRO/
 BTN VOR
 </Airway>
-   <Airway Name="UJ24">
+    <Airway Name="UJ24">
 BYD VOR/
 SAKNA/
 LOUHA/
@@ -743,43 +928,43 @@ GHA VOR/
 BISSA/
 GARBA/
 BOKAL/
-ZAR VOR
+ZAR NDB
 </Airway>
-   <Airway Name="UJ25">
+    <Airway Name="UJ25">
 HME VOR/
 GABEL/
-ZAR VOR
+ZAR NDB
 </Airway>
-   <Airway Name="UJ26">
+    <Airway Name="UJ26">
 HME VOR/
 GARBA/
 KEBRI/
 MNA VOR
 </Airway>
-   <Airway Name="UJ27">
+    <Airway Name="UJ27">
 TGU VOR/
 HME VOR
 </Airway>
-   <Airway Name="UJ28">
+    <Airway Name="UJ28">
 ELO VOR/
 TGU VOR
 </Airway>
-   <Airway Name="UJ30">
+    <Airway Name="UJ30">
 TBS VOR/
 ZENAD/
 ELO VOR/
 HME VOR
 </Airway>
-   <Airway Name="UJ36">
+    <Airway Name="UJ36">
 BSA VOR/
 MAHDI/
 TGU VOR
 </Airway>
-   <Airway Name="UJ40">
+    <Airway Name="UJ40">
 ADR VOR/
 TIO VOR
 </Airway>
-   <Airway Name="UJ41">
+    <Airway Name="UJ41">
 IMN VOR/
 NAGAH/
 BOD VOR/
@@ -789,55 +974,55 @@ NSL VOR/
 BASID/
 ADR VOR
 </Airway>
-   <Airway Name="UJ60">
+    <Airway Name="UJ60">
 DJA VOR/
 MELOG/
 TMS VOR
 </Airway>
-   <Airway Name="UJ61">
+    <Airway Name="UJ61">
 DJA VOR/
 TIHET/
 ILZ VOR/
 BOD VOR/
 </Airway>
-   <Airway Name="UJ62">
+    <Airway Name="UJ62">
 NSL VOR/
 REKDA/
 TMN VOR/
 </Airway>
-   <Airway Name="UJ65">
+    <Airway Name="UJ65">
 TGU VOR/
 CITER/
 BERIA
 </Airway>
-   <Airway Name="UJ66">
+    <Airway Name="UJ66">
 ALR VOR/
 HJILA/
 BSA VOR
 </Airway>
-   <Airway Name="UJ67">
+    <Airway Name="UJ67">
 GHA VOR/
 IBNOD/
 TAGIG
 </Airway>
-   <Airway Name="UL102">
+    <Airway Name="UL102">
 CHE NDB/
 ESNAM/
 ARIAM
 </Airway>
-   <Airway Name="UM114">
+    <Airway Name="UM114">
 GHA VOR/
 NIFEL/
 SIHAR/
 RAMAD/
 ZAWAT
 </Airway>
-    <Airway Name="UM134">
+     <Airway Name="UM134">
 LUXUR/
 PAGRE/
 ANB VOR
 </Airway>
-    <Airway Name="UM2">
+     <Airway Name="UM2">
 CIRTA/
 CSO VOR/
 AMIRA/
@@ -848,20 +1033,20 @@ TILMA/
 TARAT/
 DJA VOR/
 </Airway>
-    <Airway Name="UM614">
+     <Airway Name="UM614">
 TIO VOR/
 IPOBA
-</Airway>
-    <Airway Name="UM725">
+</Airway>    
+     <Airway Name="UM725">
 TIO VOR/
 SABRO/
 SBITA
 </Airway>
-    <Airway Name="UM735">
+     <Airway Name="UM735">
 TIO VOR/
 USRUT
 </Airway>
-    <Airway Name="UM508">
+     <Airway Name="UM508">
 KAMER/
 JIL VOR/
 TAJEN/
@@ -870,7 +1055,7 @@ ROANE/
 TGU VOR/
 BOD VOR
 </Airway>
-    <Airway Name="UM608">
+     <Airway Name="UM608">
 BAY VOR/
 MOGAR/
 TAMUZ/
@@ -880,19 +1065,19 @@ BASID/
 ROFER/
 TERAS
 </Airway>
-    <Airway Name="UM744">
+     <Airway Name="UM744">
 CARBO/
 MOS VOR
 </Airway>
-    <Airway Name="UM855">
+     <Airway Name="UN855">
 BUYAH/
 ALR VOR
 </Airway>
-    <Airway Name="UM856">
+     <Airway Name="UN856">
 ALR VOR/
 SADAF
 </Airway>
-    <Airway Name="UM998">
+     <Airway Name="UM998">
 KAMER/
 CSO VOR/
 TOLGA/
@@ -900,14 +1085,14 @@ BOD VOR/
 TIDOU/
 TOBUK
 </Airway>
-    <Airway Name="UM628">
+     <Airway Name="UM628">
 BAGBO/
 MERAT/
 CHAMI/
 SABRO/
 USRUT
 </Airway>
-   <Airway Name="UM999">
+    <Airway Name="UM999">
 ARIAM/
 MOGAR/
 MEZAB/
@@ -919,7 +1104,7 @@ BOD VOR/
 NAGAH/
 IMN VOR
 </Airway>
-   <Airway Name="UM989">
+    <Airway Name="UM989">
 OTARO/
 ZEM VOR/
 CHLAL/
@@ -933,7 +1118,7 @@ NSL VOR/
 ROFER/
 MOKAT
 </Airway>
-   <Airway Name="UM986">
+    <Airway Name="UM986">
 REQIN/
 BOURI/
 LIMON/
@@ -949,7 +1134,7 @@ TABAL/
 MERAT/
 BRENA
 </Airway>
-   <Airway Name="UM854">
+    <Airway Name="UN854">
 SALMA/
 CSO VOR/
 BIS VOR/
@@ -1437,7 +1622,7 @@ BRENA
     <Point Name="79RBT" Type="Fix">+340951.868-0064007.949</Point>
     <Point Name="7BIS" Type="Fix">+344213.899+0055209.548</Point>
     <Point Name="7BNS" Type="Fix">+333303.740-0070711.960</Point>
-    <Point Name="7BTN" Type="Fix">+355018.549+0062740.809</Point>
+    <Point Name="7N" Type="Fix">+355018.549+0062740.809</Point>
     <Point Name="7CSO" Type="Fix">+361103.181+0063936.309</Point>
     <Point Name="7ERA" Type="Fix">+315113.539-0041504.089</Point>
     <Point Name="7GAD" Type="Fix">+300630.848+0093721.309</Point>
@@ -3121,7 +3306,6 @@ BRENA
     <Point Name="HALGE" Type="Fix">+384144.000-0091408.000</Point>
     <Point Name="HAMOU" Type="Fix">+383500.999-0084153.000</Point>
     <Point Name="HAMRA" Type="Fix">+365215.999-0000124.999</Point>
-    <Point Name="HAMRA" Type="Fix">+293159.998+0124959.998</Point>
     <Point Name="HB06" Type="Fix">+364143.900+0030300.298</Point>
     <Point Name="HB08" Type="Fix">+364147.860+0030031.168</Point>
     <Point Name="HB15" Type="Fix">+364134.789+0030835.908</Point>
@@ -6368,4 +6552,809 @@ BRENA
     <Point Name="ZAW" Type="Navaid" NavaidType="VOR" Frequency="117.700">+324643.100+0123847.000</Point>
     <Point Name="ZEM" Type="Navaid" NavaidType="VOR" Frequency="116.600">+364742.000+0033414.998</Point>
   </Intersections>
+  <SIDSTARs>
+    <SID Name="MOGL1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">MOGIL</Route>
+    </SID>
+    <SID Name="PECE1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">BOUGA/BOURI</Route>
+    </SID>
+    <SID Name="OTAR1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">BOUGA/OTARO</Route>
+    </SID>
+    <SID Name="BOUR1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">BOUGA/BOURI</Route>
+    </SID>
+    <SID Name="BJA1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">SDM NDB/BNA NDB/BJA VOR</Route>
+    </SID>
+    <SID Name="BADR1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">SDM NDB/BNA NDB/BABOR</Route>
+    </SID>
+    <SID Name="TAGR1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">SDM NDB/BNA NDB/TAGRO</Route>
+    </SID>
+    <SID Name="BSA1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">SDM NDB/BNA NDB/BSA VOR</Route>
+    </SID>
+    <SID Name="BSA1G" Airport="DAAG" Runways="05">
+      <Route Runway="05">ALR VOR/BSA VOR</Route>
+    </SID>
+    <SID Name="CHE1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">CELBA/CHE NDB</Route>
+    </SID>
+    <SID Name="LABR1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">CELBA/LABRO</Route>
+    </SID>
+     <SID Name="SADF1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">CELBA/SADAF</Route>
+    </SID>
+     <SID Name="MOGL1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">MOGIL</Route>
+    </SID>
+     <SID Name="PECE1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BOUGA/BOURI</Route>
+    </SID>
+     <SID Name="OTAR1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BOUGA/OTARO</Route>
+    </SID>
+     <SID Name="BOUR1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BOUGA/BOURI</Route>
+    </SID>
+     <SID Name="BJA1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BNA NDB/BJA VOR</Route>
+    </SID>
+     <SID Name="BADR1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BNA NDB/BABOR</Route>
+    </SID>
+     <SID Name="TAGR1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BNA NDB/TAGRO</Route>
+    </SID>
+     <SID Name="BSA1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BNA NDB/BSA VOR</Route>
+    </SID>
+     <SID Name="BSA1E" Airport="DAAG" Runways="23">
+      <Route Runway="23">ALR VOR/BSA VOR</Route>
+    </SID>
+     <SID Name="CHE1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">CELBA/CHE NDB</Route>
+    </SID>
+     <SID Name="LABR1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">CELBA/LABRO</Route>
+    </SID>
+     <SID Name="SADF1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">CELBA/SADAF</Route>
+    </SID>
+    <SID Name="MOGL1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">MOGIL</Route>
+    </SID>
+    <SID Name="PECE1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">BOUGA/BOURI</Route>
+    </SID>
+    <SID Name="OTAR1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">BOUGA/OTARO</Route>
+    </SID>
+    <SID Name="BOUR1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">BOUGA/BOURI</Route>
+    </SID>
+    <SID Name="BJA1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">SDM NDB/BNA NDB/BJA VOR</Route>
+    </SID>
+    <SID Name="BADR1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">SDM NDB/BNA NDB/BABOR</Route>
+    </SID>
+    <SID Name="TAGR1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">SDM NDB/BNA NDB/TAGRO</Route>
+    </SID>
+    <SID Name="BSA1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">SDM NDB/BNA NDB/BSA VOR</Route>
+    </SID>
+    <SID Name="BSA1H" Airport="DAAG" Runways="09">
+      <Route Runway="09">ALR VOR/BSA VOR</Route>
+    </SID>
+    <SID Name="CHE1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">CELBA/CHE NDB</Route>
+    </SID>
+    <SID Name="LABR1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">CELBA/LABRO</Route>
+    </SID>
+    <SID Name="SADF1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">CELBA/SADAF</Route>  
+    </SID>
+    <SID Name="MOGL1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">MOGIL</Route>
+    </SID>
+    <SID Name="PECE1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">BOUGA/BOURI</Route>
+    </SID>
+    <SID Name="OTAR1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">BOUGA/OTARO</Route>
+    </SID>
+    <SID Name="BOUR1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">BOUGA/BOURI</Route>
+    </SID>
+    <SID Name="BJA1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">SDM NDB/BNA NDB/BJA VOR</Route>
+    </SID>
+    <SID Name="BADR1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">SDM NDB/BNA NDB/BABOR</Route>
+    </SID>
+    <SID Name="TAGR1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">SDM NDB/BNA NDB/TAGRO</Route>
+    </SID>
+    <SID Name="BSA1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">SDM NDB/BNA NDB/BSA VOR</Route>
+    </SID>
+    <SID Name="BSA1F" Airport="DAAG" Runways="27">
+      <Route Runway="27">ALR VOR/BSA VOR</Route>
+    </SID>
+    <SID Name="CHE1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">CELBA/CHE NDB</Route>
+    </SID>
+    <SID Name="LABR1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">CELBA/LABRO</Route>
+    </SID>
+     <SID Name="SADF1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">CELBA/SADAF</Route>  
+    </SID>
+     <SID Name="SID1" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">TGU VOR</Route>
+      <Route Runway="36">TGU VOR</Route>  
+    </SID>
+    <SID Name="SID2" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">ELO VOR</Route>
+      <Route Runway="36">ELO VOR</Route>  
+    </SID>
+    <SID Name="SID3" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">FIRAN/IMN VOR</Route>
+      <Route Runway="36">FIRAN/IMN VOR</Route>  
+    </SID>
+    <SID Name="SID4" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">MALAH/NSL VOR</Route>
+      <Route Runway="36">MALAH/NSL VOR</Route>    
+    </SID>
+    <SID Name="SID5" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">MNA VOR</Route>  
+      <Route Runway="36">MNA VOR</Route>
+    </SID>
+    <SID Name="SID71" Airport="DAOO" Runways="07L,07R">
+      <Route Runway="07L">OO NDB/ON NDB/GOMRI/HILIL</Route>
+      <Route Runway="07R">OO NDB/ON NDB/GOMRI/HILIL</Route> 
+      <Transition Name="CHE">CHE NDB</Transition>
+      <Transition Name="TRB">TRB VOR</Transition> 
+    </SID>
+    <SID Name="SID72" Airport="DAOO" Runways="07L,07R">
+      <Route Runway="07L">OO NDB/ON NDB/GOMRI/FAROS</Route>
+      <Route Runway="07R">OO NDB/ON NDB/GOMRI/FAROS</Route>
+      <Transition Name="BAY">BAY VOR</Transition>
+      <Transition Name="GRS">GRS NDB</Transition>  
+    </SID>  
+    <SID Name="SID73" Airport="DAOO" Runways="07L,07R">
+      <Route Runway="07L">ORA VOR/HMB NDB</Route>
+      <Route Runway="07R">ORA VOR/HMB NDB</Route>
+      <Transition Name="TLM">TLM VOR</Transition>
+      <Transition Name="OJD">OJD VOR</Transition>  
+    </SID>    
+    <SID Name="SID74" Airport="DAOO" Runways="07L,07R">
+      <Route Runway="07L">OO NDB/BAHRI</Route>
+      <Route Runway="07R">OO NDB/BAHRI</Route>
+      <Transition Name="LABRO">LABRO</Transition>
+      <Transition Name="HAMRA">HAMRA</Transition>  
+    </SID>    
+    <SID Name="SID51" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">ORA VOR/OO NDB/ON NDB/GOMRI/HILIL</Route>
+      <Route Runway="25L">ORA VOR/OO NDB/ON NDB/GOMRI/HILIL</Route> 
+      <Transition Name="CHE">CHE NDB</Transition>
+      <Transition Name="TRB">TRB VOR</Transition> 
+    </SID>
+    <SID Name="SID52" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">ORA VOR/OO NDB/ON NDB/GOMRI/FAROS</Route>
+      <Route Runway="25L">ORA VOR/OO NDB/ON NDB/GOMRI/FAROS</Route>
+      <Transition Name="BAY">BAY VOR</Transition>
+      <Transition Name="GRS">GRS NDB</Transition>  
+    </SID>  
+    <SID Name="SID53" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">HMB NDB</Route>
+      <Route Runway="25L">HMB NDB</Route>
+      <Transition Name="TLM">TLM VOR</Transition>
+      <Transition Name="OJD">OJD VOR</Transition>  
+    </SID>    
+    <SID Name="SID54" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">ORA VOR/BAHRI</Route>
+      <Route Runway="25L">ORA VOR/BAHRI</Route>
+      <Transition Name="LABRO">LABRO</Transition>
+      <Transition Name="HAMRA">HAMRA</Transition>  
+    </SID>   
+        <STAR Name="ELO/HME/HIMAD" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">ELO VOR/HLE VOR/HIMAD</Route>
+      <Route Runway="36">ELO VOR/HLE VOR/HIMAD</Route>
+    </STAR>
+      <STAR Name="TGU/HME/HIMAD" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">TGU VOR/HLE VOR/HIMAD</Route>
+      <Route Runway="36">TGU VOR/HLE VOR/HIMAD</Route>
+    </STAR>
+    <STAR Name="IMN/HIMAD" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">IMN VOR/HIMAD</Route>
+      <Route Runway="36">IMN VOR/HIMAD</Route>
+    </STAR>
+    <STAR Name="NSL/HIMAD" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">NSL VOR/HIMAD</Route>
+      <Route Runway="36">NSL VOR/HIMAD</Route>
+    </STAR>
+    <STAR Name="MNA/HIMAD" Airport="DAUH" Runways="18,36">
+      <Route Runway="18">MNA VOR/HIMAD</Route>
+      <Route Runway="36">MNA VOR/HIMAD</Route>
+    </STAR>
+    <STAR Name="HAMRA" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">HAMRA/BAHRI/MOS VOR</Route>
+      <Route Runway="07L">HAMRA/BAHRI/MOS VOR</Route>
+    </STAR>   
+    <STAR Name="LABRO" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">LARBO/MOS VOR</Route>
+      <Route Runway="07L">LARBO/MOS VOR</Route>
+    </STAR>    
+    <STAR Name="CHE" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">LARBO/MOS VOR</Route>
+      <Route Runway="07L">LARBO/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="TRB" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">TRB VOR/MOS VOR</Route>
+      <Route Runway="07L">TRB VOR/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="BAY" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">BAY VOR/FAROS/MOS VOR</Route>
+      <Route Runway="07L">BAY VOR/FAROS/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="GRS" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">GRS VOR/FAROS/MOS VOR</Route>
+      <Route Runway="07L">GRS VOR/FAROS/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="HMB" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">HMB NDB/ORA VOR/MOS VOR</Route>
+      <Route Runway="07L">HMB NDB/ORA VOR/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="TARIK" Airport="DAOO" Runways="07R,07L">
+      <Route Runway="07R">TARIK/MOS VOR</Route>
+      <Route Runway="07L">TARIK/MOS VOR</Route> 
+    </STAR>
+    <STAR Name="HAMRA" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">HAMRA/BAHRI/MOS VOR</Route>
+      <Route Runway="25L">HAMRA/BAHRI/MOS VOR</Route>
+    </STAR>   
+    <STAR Name="LABRO" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">LARBO/MOS VOR</Route>
+      <Route Runway="25L">LARBO/MOS VOR</Route>
+    </STAR>    
+    <STAR Name="CHE" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">/CHE NDB/MOS VOR</Route>
+      <Route Runway="25L">/CHE NDB/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="TRB" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">TRB VOR/MOS VOR</Route>
+      <Route Runway="25L">TRB VOR/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="BAY" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">BAY VOR/FAROS/MOS VOR</Route>
+      <Route Runway="25L">BAY VOR/FAROS/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="GRS" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">GRS VOR/FAROS/MOS VOR</Route>
+      <Route Runway="25L">GRS VOR/FAROS/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="HMB" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">HMB NDB/ORA VOR/MOS VOR</Route>
+      <Route Runway="25L">HMB NDB/ORA VOR/MOS VOR</Route>
+    </STAR>  
+    <STAR Name="TARIK" Airport="DAOO" Runways="25R,25L">
+      <Route Runway="25R">TARIK/MOS VOR</Route>
+      <Route Runway="25L">TARIK/MOS VOR</Route> 
+    </STAR>
+    <Approach Name="VOR04" Airport="DAUA" Runway="04">
+      <Route>ADR VOR/ADR09/9ADR/5ADR/ADR VOR/+274963.000-0001177.000</Route>
+    </Approach>
+    <Approach Name="ILS04" Airport="DAUA" Runway="04">
+      <Route>ADR VOR/ADR75/75ADR/+274963.000-0001177.000</Route>
+    </Approach>
+    <Approach Name="LOC04" Airport="DAUA" Runway="04">
+      <Route>ADR VOR/ADR75/75ADR/+274963.000-0001177.000</Route>
+    </Approach>      
+    <Approach Name="VOR09" Airport="DAAG" Runway="09">
+      <Route>ZEM VOR/ALR VOR/SMR NDB/+364152.000+0031025.000</Route>
+    </Approach>
+    <Approach Name="NDBXILS09" Airport="DAAG" Runway="09">
+      <Route>MAR NDB/18ALR/12ALR/SMR NDB/+364152.000+0031025.000</Route>
+    </Approach>
+    <Approach Name="NDBXVOR09" Airport="DAAG" Runway="09">
+      <Route>MAR NDB/18ALR/12ALR/SMR NDB/+364152.000+0031025.000</Route>
+    </Approach>
+    <Approach Name="ILS23" Airport="DAAG" Runway="23">
+      <Route>ZEM VOR/11ALR/ALR9/ALR32/+364278.000+0031509.000</Route>
+    </Approach>
+    <Approach Name="LOC23" Airport="DAAG" Runway="23">
+      <Route>ZEM VOR/11ALR/ALR9/ALR32/+364278.000+0031509.000</Route>
+    </Approach>
+    <Approach Name="VOR23" Airport="DAAG" Runway="23">
+      <Route>ZEM VOR/11ALR/ALR9/ALR32/+364278.000+0031509.000</Route>
+    </Approach>
+    <Approach Name="VOR27" Airport="DAAG" Runway="27">
+      <Route>ZEM VOR/9ALR/ALR07/ALR VOR/+364147.000+0031260.000</Route>
+    </Approach>
+    <Approach Name="ILS27" Airport="DAAG" Runway="27">
+      <Route>ZEM VOR/+364147.000+0031260.000</Route>
+    </Approach>
+    <Approach Name="LOC27" Airport="DAAG" Runway="27">
+      <Route>ZEM VOR/+364147.000+0031260.000</Route>
+    </Approach>
+    <Approach Name="VOR05" Airport="DAAG" Runway="05">
+      <Route>ZEM VOR/ALR9/ALR VOR/35ALR/8ALR/60ALR/+364163.000+0031221.000</Route>
+    </Approach>
+    <Approach Name="VOR23" Airport="DABB" Runway="23">
+      <Route>ANB VOR/10ANB/ANB10/80ANB/60ANB/20ANB/+365000.000+0074961.000</Route>
+    </Approach>
+    <Approach Name="LOC18" Airport="DABB" Runway="18">
+      <Route>ANB VOR/10ANB/ANB10/+365071.000+0074877.000</Route>
+    </Approach>
+    <Approach Name="VOR18" Airport="DABB" Runway="18">
+      <Route>ANB VOR/10ANB/80ANB/60ANB/40ANB/20ANB/+365071.000+0074877.000</Route>
+    </Approach>
+    <Approach Name="VORXILS" Airport="DABB" Runway="18">
+      <Route>ANB VOR/60ANB/ANB11/80ANB/40ANB/+365071.000+0074877.000</Route>
+    </Approach>
+     <Approach Name="VOR23" Airport="DABT" Runway="23">
+      <Route>BTN VOR/7BTN/BTN VOR/+354258.000+0061937.000</Route>
+    </Approach>
+     <Approach Name="ILS23" Airport="DABT" Runway="23">
+      <Route>BTN VOR/10BT/07BT/+354258.000+0061937.000</Route>
+      </Approach>
+     <Approach Name="LOC23" Airport="DABT" Runway="23">
+      <Route>BTN VOR/10BT/07BT/+354258.000+0061937.000</Route>
+    </Approach>
+     <Approach Name="NDB26" Airport="DAAE" Runway="26">
+      <Route>BJA NDB/+364281.000+0005499.000</Route>
+    </Approach>
+     <Approach Name="ILS26" Airport="DAAE" Runway="26">
+      <Route>BJA VOR/BJA92/BJA12/BJA 72/BJA 52/BJA42/+364281.000+0005499.000</Route>
+    </Approach>
+     <Approach Name="LOC26" Airport="DAAE" Runway="26">
+      <Route>BJA VOR/BJA92/BJA12/BJA 72/BJA 52/BJA42/+364281.000+0005499.000</Route>
+    </Approach>
+     <Approach Name="VOR26" Airport="DAAE" Runway="26">
+      <Route>BJA VOR/BJA92/BJA12/BJA 72/BJA 52/BJA42/+364281.000+0005499.000</Route>
+    </Approach>
+     <Approach Name="RNPW" Airport="DAAE" Runway="26">
+      <Transition Name="AE701">AE701</Transition>
+      <Transition Name="AE702">AE702</Transition>
+      <Transition Name="AE703">AE703/AE704</Transition>
+      <Route>AE706/AE707/AE708/+364281.000+0005499.000</Route>
+    </Approach>
+     <Approach Name="RNPZ" Airport="DAAE" Runway="26">
+      <Transition Name="AE701">AE701</Transition>
+      <Transition Name="AE702">AE702</Transition>
+      <Transition Name="AE703">AE703/AE704</Transition>
+      <Route>AE706/AE707/AE730/+364281.000+0005499.000</Route>
+    </Approach>
+     <Approach Name="RNPZ" Airport="DAAE" Runway="08">
+      <Route>AE712/AE713/AE714/AE716/AE718/+364263.000+0005340.000</Route>
+    </Approach>
+     <Approach Name="VOR18" Airport="DAOR" Runway="18">
+      <Route>BCR VOR/BCR80/80BCR/70BCR/55BCR/BCR VOR/+313953.000-0021567.000</Route>
+    </Approach>
+     <Approach Name="VORXILS" Airport="DAOR" Runway="18">
+      <Route>BCR VOR/BCR80/BCR80/BCR70/BCR56/BCR24/+313953.000-0021567.000</Route>
+    </Approach>
+     <Approach Name="NDB24" Airport="DAOR" Runway="24">
+      <Route>BCR NDB/+313917.000-0021591.000</Route>
+    </Approach>
+     <Approach Name="VOR26" Airport="DATM" Runway="26">
+      <Route>MOK VOR/+212280.000+0005638.000</Route>
+    </Approach>
+     <Approach Name="NDB22" Airport="DAAD" Runway="22">
+      <Route>BSA NDB/+352041.000+0041284.000</Route>
+    </Approach>
+     <Approach Name="VOR22" Airport="DAAD" Runway="22">
+      <Route>BSA VOR/95BSA/BSA95/BSA65/BSA45/BSA25/BSA15/BSA VOR/+352041.000+0041284.000</Route>
+    </Approach>
+     <Approach Name="VOR31" Airport="DAUB" Runway="31">
+      <Route>BIS VOR/90BIS/95BIS/7BIS/BIS VOR/+344717.000+0054493.000</Route>
+    </Approach>
+     <Approach Name="VORXILS" Airport="DAUB" Runway="31">
+      <Route>BIS VOR/5BIS/11BIS/95BIS/70BIS/6BIS/2BIS/+344717.000+0054493.000</Route>
+    </Approach>
+    <Approach Name="VOR26" Airport="DAOI" Runway="26">
+      <Route>CLF VOR/60CLF/11CLF/CLF95/CLF30/CLF VOR/+361318.000+0012131.000</Route>
+    </Approach>
+     <Approach Name="VOR04" Airport="DAOY" Runway="04">
+      <Route>BAY VOR/BAY11/BAY9/BAY6/BAY3/BAY14/+334272.000+0001489.000</Route>
+    </Approach>
+      <Approach Name="VOR34" Airport="DABC" Runway="34">
+      <Route>CSO VOR/11CSO/16CSO/CSO10/9CSO/7CSO/5CSO/2CSO/CSO VOR/+361577.000+0063735.000</Route>
+    </Approach>
+      <Approach Name="ILS34Y" Airport="DABC" Runway="34">
+      <Route>CSO VOR/13CSO/17CSO/15CSO/13CSO/CSO10/+361577.000+0063735.000</Route>
+    </Approach>
+      <Approach Name="ILS34Z" Airport="DABC" Runway="34">
+      <Route>TOPGI/19CSO/15CSO/13CSO/11CSO/9CSO/5CSO/+361577.000+0063735.000</Route>
+    </Approach>
+      <Approach Name="VOR31" Airport="DABC" Runway="31">
+      <Route>CSO VOR/CSO11/CSO9/CSO7/CSO5/CSO2/+361613.000+0063800.000</Route>
+    </Approach>
+    <Approach Name="ILSY31" Airport="DABC" Runway="31">   
+      <Route>CSO VOR/CSO8/CSO13/CSO11/CSO9/CSO7/+361613.000+0063800.000</Route>
+    </Approach>
+    <Approach Name="VOR02" Airport="DAAJ" Runway="02">
+      <Route>DJA VOR/DJA95/95DJA/6DJA/3DJA/DJA VOR/+241644.000+0092664.000</Route>
+    </Approach>
+    <Approach Name="VOR12" Airport="DAAJ" Runway="12">
+      <Route>DJA VOR/DJA10/10DJA/75DJA/20DJA/DJA VOR/+241755.000+0092718.000</Route>
+    </Approach>
+    <Approach Name="ILS12" Airport="DAAJ" Runway="12">
+      <Route>DJA VOR/DJA52/DJA09/DJA62/20DJA/+241755.000+0092718.000</Route>
+    </Approach>
+    <Approach Name="LOC12" Airport="DAAJ" Runway="12">
+      <Route>DJA VOR/DJA52/DJA09/DJA62/20DJA/+241755.000+0092718.000</Route>
+    </Approach>
+    <Approach Name="VOR36" Airport="DAUE" Runway="36">
+      <Route>MNA VOR/MNA38/MNA VOR/+303424.000+0021517.000</Route>
+    </Approach>
+    <Approach Name="VOR13" Airport="DAUO" Runway="13">
+      <Route>ELO VOR/EO57/ELO VOR/+333164.000+0064572.000</Route>
+    </Approach>
+    <Approach Name="ILSY13" Airport="DAUO" Runway="13">
+      <Route>DHIBA/EO87/EO57/EO12/+333164.000+0064572.000</Route>
+    </Approach>
+    <Approach Name="ILSZ13" Airport="DAUO" Runway="13">
+      <Route>ELO VOR/ELO5/EO87/EO57/EO12/+333164.000+0064572.000</Route>
+    </Approach>
+    <Approach Name="NDB36" Airport="DAUG" Runway="36">
+      <Route>GHA NDB/GHA07/GHA NDB/+322300.000+0034768.000</Route>
+    </Approach>
+    <Approach Name="VOR30" Airport="DAUG" Runway="30">
+      <Route>GHA VOR/GHA40/GHA VOR/+322215.000+0034937.000</Route>
+    </Approach>               
+    <Approach Name="ILS30" Airport="DAUG" Runway="30">
+      <Route>NIMIR/GH52/GH16/+322215.000+0034937.000</Route>
+    </Approach>
+    <Approach Name="NDB08" Airport="DAOV" Runway="08">
+      <Route>GRS NDB/GRS55/GRS50/+351239.000+0000828.000</Route>
+    </Approach>
+    <Approach Name="VOR08" Airport="DAOV" Runway="08">
+      <Route>GRS VOR/GRS55/GRS50/+351239.000+0000828.000</Route>
+    </Approach>
+    <Approach Name="VOR18" Airport="DAUH" Runway="18">
+      <Route>HIMAD/HME VOR/85HME/HME85/HME6/HME VOR/+314118.000+0006849.000</Route>
+    </Approach>
+    <Approach Name="VOR36" Airport="DAUH" Runway="36">
+      <Route>HME 11/HIMAD/2HME/+313956.000+0006835.000</Route>
+    </Approach>
+    <Approach Name="ILS36" Airport="DAUH" Runway="36">
+      <Route>HIMAD/62HM/42HM/+313956.000+0006835.000</Route>
+    </Approach>
+    <Approach Name="VOR27" Airport="DAAP" Runway="27">
+      <Route>ILZ VOR/ILZ85/80ILZ/65ILZ/50ILZ/30ILZ/15ILZ/ILZ VOR/+264342.000+0083827.000</Route>
+    </Approach>       
+    <Approach Name="VOR08" Airport="DATG" Runway="08">
+      <Route>IGZ VOR/+193355.000+0054436.000</Route>
+    </Approach>
+    <Approach Name="VOR05" Airport="DAUI" Runway="05">
+      <Route>8NSL/NSL8/NSL63/NSL13/NSL VOR/+271454.000+0023000.000</Route>
+    </Approach>
+    <Approach Name="VOR17" Airport="DAAV" Runway="17">
+      <Route>JIL VOR/JIL9/13JIL/10JIL/90JIL/5JIL/3JIL/JIL VOR/+364835.000+0055228.000</Route>
+    </Approach>
+    <Approach Name="ILS17" Airport="DAAV" Runway="17">
+      <Route>JIL VOR/JIL65/10JIL/JIL85/65JIL/45JIL/JIL20/JIL VOR/+364835.000+0055228.000</Route>
+    </Approach>
+    <Approach Name="VOR18" Airport="DAUU" Runway="18">
+      <Route>OUR VOR/+315575.000+0052501.000</Route>
+    </Approach>
+    <Approach Name="VOR36" Airport="DAUU" Runway="36">
+      <Route>OUR VOR/OUR94/OUR84/OUR64/OUR44/OUR24/+315413.000+0052500.000</Route>
+    </Approach>
+    <Approach Name="ILS36" Airport="DAUU" Runway="36">
+      <Route>OUR VOR/OUR64/OUR84/OUR06/OUR05/OUR44/OUR24/+315413.000+0052500.000</Route>
+    </Approach>
+    <Approach Name="VOR09" Airport="DAAS" Runway="09">
+      <Route>STF VOR/+361067.000+0051883.000</Route>
+    </Approach>
+    <Approach Name="VOR27" Airport="DAAS" Runway="27">
+      <Route>RASMA/STF12/STF98/STF78/STF68/STF57/STF47/+361075.000+0052076.000</Route>
+    </Approach>
+    <Approach Name="LOC27" Airport="DAAS" Runway="27">
+      <Route>RASMA/STF12/STF98/STF78/STF68/STF57/STF47/+361075.000+0052076.000</Route>
+    </Approach>
+    <Approach Name="VOR02" Airport="DAAT" Runway="02">
+      <Route>TMS VOR/TMS11/11TMS/85TMS/06TMS/04TMS/02TMS/+224778.000+0052667.000</Route>
+    </Approach>
+    <Approach Name="LOC02" Airport="DAAT" Runway="02">
+      <Route>TM NDB/+224778.000+0052667.000</Route>
+    </Approach>
+    <Approach Name="ILS08" Airport="DAAT" Runway="08">
+      <Route>ASKEM/TA14/TA12/TA82/TA70/TA48/TA17/+224843.000+0052537.000</Route>
+    </Approach>
+    <Approach Name="ILS20" Airport="DAAT" Runway="20">
+      <Route>TMS VOR/13TMS/10TMS/87TMS/72TMS/52TMS/22TMS/+224959.000+0052745.000</Route>
+    </Approach>            
+    <Approach Name="VOR11" Airport="DABS" Runway="11">
+      <Route>TBS VOR/TBS12/12TBS/50TBS/TBS VOR/+352631.000+0008651.000</Route>
+    </Approach>
+    <Approach Name="VOR12" Airport="DABS" Runway="12">
+      <Route>TBS VOR/TBS12/12TBS/50TBS/TBS VOR/+352614.000+0008659.000</Route>
+    </Approach>
+    <Approach Name="VOR26" Airport="DAOB" Runway="26">
+      <Route>TRB VOR/8TRB/TRB8/TRB07/TRB4/TRB VOR/+352059.000+0012876.000</Route>
+    </Approach>
+    <Approach Name="VOR06" Airport="DAUT" Runway="06">
+      <Route>TIO VOR/TIO9/9TIO/6TIO/TIO VOR/+291374.000+0001579.000</Route>
+    </Approach>        
+    <Approach Name="VOR26R" Airport="DAOF" Runway="26R">
+      <Route>TDF VOR/+274230.000-0008917.000</Route>
+    </Approach>
+    <Approach Name="ILS26R" Airport="DAOF" Runway="26R">
+      <Route>TINIF/TF83/TF53/TF13/+274230.000-0008917.000</Route>
+    </Approach>          
+    <Approach Name="NDB26L" Airport="DAOF" Runway="26L">
+      <Route>TDF NDB/+274214.000-0008912.000</Route>
+    </Approach>
+    <Approach Name="VOR25" Airport="DAON" Runway="25">
+      <Route>TLM VOR/95TLM/83TLM/16TLM/+350105.000-0012663.000</Route>
+    </Approach>
+    <Approach Name="ILS25" Airport="DAON" Runway="25">
+      <Route>TLM VOR/10LT/06LT/15LT/+350105.000-0012663.000</Route>
+    </Approach>
+    <Approach Name="LOC25" Airport="DAON" Runway="25">
+      <Route>TLM VOR/10LT/06LT/15LT/+350105.000-0012663.000</Route>
+    </Approach>             
+    <Approach Name="VOR07L" Airport="DAOO" Runway="07L">
+      <Route>MOS VOR/ORA VOR/65ORA/50ORA/ORA02/ORA VOR/+353700.000-0003853.000</Route>
+    </Approach> 
+    <Approach Name="VOR07R" Airport="DAOO" Runway="07R">
+      <Route>MOS VOR/ORA VOR/65ORA/50ORA/ORA02/ORA VOR/+353685.000-0003845.000</Route>
+    </Approach>                             
+    <Approach Name="VOR25L" Airport="DAOO" Runway="25L">
+      <Route>MOS VOR/33ORA/15ORA/80ORA/60ORA/38ORA/ORA VOR/+353747.000-0003662.000</Route>
+    </Approach>   
+    <Approach Name="ILS25L" Airport="DAOO" Runway="25L">
+      <Route>MOS VOR/37ORA/ORA12/9ORA/36ORA/+353747.000-0003662.000</Route>
+    </Approach>    
+    <Approach Name="VOR25R" Airport="DAOO" Runway="25R">
+      <Route>MOS VOR/ON NDB/OO NDB/36ORA/ORA VOR/+353775.000-0003633.000</Route>
+    </Approach>   
+    <Approach Name="ILS25R" Airport="DAOO" Runway="25R">
+      <Route>MOS VOR/15ORA/ORA12/7ORA/36ORA/+353775.000-0003633.000</Route>
+    </Approach>     
+    <Approach Name="VOR01" Airport="DAUK" Runway="01">
+      <Route>TGU VOR/8TGU/5TGU/TGU VOR/+333061.000+0006523.000</Route>
+    </Approach>          
+    <Approach Name="ILS01" Airport="DAUK" Runway="01">
+      <Route>TGU VOR/81TGU/84GT/54GT/1GT/+333061.000+0006523.000</Route>
+    </Approach>
+    <Approach Name="LOC01" Airport="DAUK" Runway="01">
+      <Route>TGU VOR/81TGU/84GT/54GT/1GT/+333061.000+0006523.000</Route>
+    </Approach>     
+    <Approach Name="NDB23" Airport="DAUZ" Runway="23">
+      <Route>ZAR NDB/+280381.000+0093944.000</Route>
+    </Approach>
+    <Approach Name="VOR23" Airport="DAUZ" Runway="23">
+      <Route>IMN VOR/IMN7/70IMN/50IMN/IMN VOR/+280381.000+0093944.000</Route>
+    </Approach>
+  </SIDSTARs>
+  <Airports>
+    <Airport ICAO="DAAD" FullName="Bousaada" Position="+351953.000+0041215.998">
+      <Runway Name="04"  Position="+351931.380+0041152.340" />
+      <Runway Name="22"  Position="+352024.620+0041250.520" />
+    </Airport>
+    <Airport ICAO="DAAE" FullName="Bejaia Abbane Ramdane" Position="+364242.998+0050409.998">
+      <Runway Name="08"  Position="+364263.000+0005340.000" />
+      <Runway Name="26"  Position="+364281.000+0005499.000" />
+    </Airport>
+    <Airport ICAO="DAAG" FullName="Alger Houari Boumediane" Position="+364137.798+0031252.401">
+      <Runway Name="05"  Position="+364163.000+0031321.000" />
+      <Runway Name="23"  Position="+364278.000+0031509.000" />
+      <Runway Name="09"  Position="+364152.000+0031025.000" />
+      <Runway Name="27"  Position="+394147.000+0031260.000" />            
+    </Airport>
+    <Airport ICAO="DAAJ" FullName="Djanet Tiska" Position="+241735.001+0092706.998">
+      <Runway Name="12"  Position="+241755.000+0092718.000" />
+      <Runway Name="30"  Position="+241661.000+0092862.000" />
+      <Runway Name="02"  Position="+241644.000+0092664.000" />
+      <Runway Name="20"  Position="+241644.000+0092664.000" />            
+    </Airport>
+    <Airport ICAO="DAAK" FullName="Boufarik Military Airfield" Position="+363252.000+0025235.000" />
+    <Airport ICAO="DAAP" FullName="Illizi Takhamalt" Position="+264324.999+0083704.000">
+      <Runway Name="09"  Position="+264343.000+0083643.000" />
+      <Runway Name="27"  Position="+264342.000+0083827.000" />
+    </Airport>
+    <Airport ICAO="DAAS" FullName="Setif 8 Mai 1945" Position="+361042.999+0051948.000">
+      <Runway Name="09"  Position="+361067.000+0051883.000" />
+      <Runway Name="27"  Position="+361075.000+0052076.000" />
+    </Airport>
+    <Airport ICAO="DAAT" FullName="Tamanrasset Akhamok" Position="+224839.999+0052702.998">
+      <Runway Name="02"  Position="+224778.000+0052667.000" />
+      <Runway Name="08"  Position="+224843.000+0052537.000" />
+      <Runway Name="20"  Position="+224959.000+0052745.000" />
+      <Runway Name="26"  Position="+224868.000+0052719.000" />
+    </Airport>
+    <Airport ICAO="DAAV" FullName="Jijel Farhet Abbas" Position="+364739.998+0055224.999">
+      <Runway Name="17"  Position="+364835.000+0055228.000" />
+      <Runway Name="35"  Position="+364707.000+0055254.000" />
+    </Airport>
+    <Airport ICAO="DABB" FullName="Annaba Rabeh Bitat" Position="+364919.999+0074833.998">
+      <Runway Name="18"  Position="+365071.000+0074877.000" />
+      <Runway Name="36"  Position="+364915.000+0074853.000" />
+      <Runway Name="05"  Position="+364924.000+0074840.000" />
+      <Runway Name="23"  Position="+365000.000+0074961.000" />
+    </Airport>
+    <Airport ICAO="DABC" FullName="Constantine Mohamed Boudiaf" Position="+361707.000+0063709.001">
+      <Runway Name="16"  Position="+361728.000+0063664.000" />
+      <Runway Name="34"  Position="+361577.000+0063735.000" />
+      <Runway Name="13"  Position="+361707.000+0063689.000" />
+      <Runway Name="31"  Position="+361613.000+0063800.000" />
+    </Airport>
+    <Airport ICAO="DABS" FullName="Tebessa Larbi Tébessi" Position="+352557.489+0080732.160">
+      <Runway Name="11"  Position="+352631.000+0008651.000" />
+      <Runway Name="29"  Position="+352567.000+0008834.000" />
+      <Runway Name="12"  Position="+352614.000+0008659.000" />
+      <Runway Name="30"  Position="+352541.000+0008791.000" />
+    </Airport>
+    <Airport ICAO="DABT" FullName="Batna Moustapha Ben Boulaid" Position="+354533.001+0061920.999">
+      <Runway Name="05"  Position="+354464.000+0061775.000" />
+      <Runway Name="23"  Position="+354558.000+0061937.000" />
+    </Airport>
+    <Airport ICAO="DAOB" FullName="Tiaret Bouchekif" Position="+352029.000+0012800.998">
+      <Runway Name="08"  Position="+352033.000+0012680.000" />
+      <Runway Name="26"  Position="+352059.000+0012876.000" />
+    </Airport>
+    <Airport ICAO="DAOF" FullName="Tindouf" Position="+274158.610-0080949.849">
+      <Runway Name="08R" Position="+274173.000-0081089.000" />
+      <Runway Name="26L" Position="+274214.000-0080912.000" />
+      <Runway Name="08L" Position="+274190.000-0081094.000" />
+      <Runway Name="26R" Position="+274230.000-0080917.000" />
+    </Airport>
+    <Airport ICAO="DAOI" FullName="Chlef" Position="+361300.998+0012024.000">
+      <Runway Name="08"  Position="+361284.000+0011950.000" />
+      <Runway Name="26"  Position="+361318.000+0012131.000" />
+    </Airport>
+    <Airport ICAO="DAOL" FullName="Oran Tafraoui Military Airfield" Position="+353232.798-0003156.200" />
+    <Airport ICAO="DAON" FullName="Tlemcen Messali El Hadj" Position="+350055.000-0012702.998">
+      <Runway Name="07"  Position="+350057.000-0012824.000" />
+      <Runway Name="25"  Position="+350105.000-0012663.000" />
+    </Airport>
+    <Airport ICAO="DAOO" FullName="Oran Ahmed Ben Bella" Position="+353737.999-0003641.000">
+      <Runway Name="07L"  Position="+353700.000-0003853.000" />
+      <Runway Name="25R"  Position="+353775.000-0003633.000" />
+      <Runway Name="07R"  Position="+353685.000-0003845.000" />      
+      <Runway Name="25L"  Position="+353747.000-0003662.000" />
+    </Airport>    
+    <Airport ICAO="DAOR" FullName="Bachar Ben Ali Lotfi" Position="+313902.048-0021511.350">
+      <Runway Name="26"  Position="+313827.000-0021773.000" />
+      <Runway Name="24"  Position="+313917.000-0021591.000" />
+      <Runway Name="18"  Position="+313953.000-0021567.000" />
+      <Runway Name="36"  Position="+313793.000-0021567.000" />
+    </Airport>
+    <Airport ICAO="DAOV" FullName="Ghriss" Position="+351300.998+0000853.998">
+      <Runway Name="08"  Position="+351239.000+0000828.000" />
+      <Runway Name="26"  Position="+351255.000+0000938.000" />
+    </Airport>
+    <Airport ICAO="DAOY" FullName="El Bayadh" Position="+334314.998+0010529.000">
+      <Runway Name="04"  Position="+334272.000+0010489.000" />
+      <Runway Name="22"  Position="+334391.000+0010621.000" />
+    </Airport>
+    <Airport ICAO="DATG" FullName="In Guezzam" Position="+193338.699+0054504.899">
+      <Runway Name="08"  Position="+193355.000+0054436.000" />
+      <Runway Name="26"  Position="+193371.000+0054560.000" />
+    </Airport>
+    <Airport ICAO="DATM" FullName="Bordj Badji Mokhtar" Position="+212230.000+0005526.000">
+      <Runway Name="08"  Position="+212249.000+0005471.000" />
+      <Runway Name="26"  Position="+212280.000+0005638.000" />
+    </Airport>
+    <Airport ICAO="DAUA" FullName="Adrar Mohamed Belkebir" Position="+275021.001-0001107.000">
+      <Runway Name="04"  Position="+274963.000-0001177.000" />
+      <Runway Name="22"  Position="+275088.000-0001060.000" />
+    </Airport>
+    <Airport ICAO="DAUB" FullName="Biskra Mohamed Khider" Position="+344806.001+0054430.001">
+      <Runway Name="13"  Position="+344817.000+0054346.000" />
+      <Runway Name="31"  Position="+344717.000+0054493.000" />
+    </Airport>
+    <Airport ICAO="DAUE" FullName="El Golea" Position="+303408.000+0025152.999">
+      <Runway Name="18"  Position="+303610.000+0025168.000" />
+      <Runway Name="36"  Position="+303424.000+0025170.000" />
+    </Airport>
+    <Airport ICAO="DAUG" FullName="Ghardaia Moufdi Zakaria" Position="+322254.001+0034757.998">
+      <Runway Name="18"  Position="+322430.000+0034775.000" />
+      <Runway Name="36"  Position="+322300.000+0034768.000" />
+      <Runway Name="12"  Position="+322305.000+0034770.000" />
+      <Runway Name="30"  Position="+322215.000+0034937.000" />
+    </Airport>
+    <Airport ICAO="DAUH" FullName="H.Messaoud Krim Belkacem" Position="+314026.000+0060826.001">
+      <Runway Name="18"  Position="+314118.000+0060849.000" />
+      <Runway Name="36"  Position="+313956.000+0060835.000" />
+    </Airport>
+    <Airport ICAO="DAUI" FullName="In Salah" Position="+271512.999+0023038.998">
+      <Runway Name="05"  Position="+271454.000+0023000.000" />
+      <Runway Name="23"  Position="+271556.000+0023142.000" />
+    </Airport>
+    <Airport ICAO="DAUK" FullName="Touggourt Sidi Mahdi" Position="+330336.000+0060513.999">
+      <Runway Name="01"  Position="+330361.000+0060523.000" />
+      <Runway Name="19"  Position="+330521.000+0060552.000" />
+    </Airport>
+    <Airport ICAO="DAUO" FullName="El Oued" Position="+333047.001+0064656.999">
+      <Runway Name="13"  Position="+333164.000+0064572.000" />
+      <Runway Name="31"  Position="+333060.000+0064721.000" />
+      <Runway Name="02"  Position="+332873.000+0064655.000" />
+      <Runway Name="20"  Position="+333076.000+0064701.000" />
+    </Airport>
+    <Airport ICAO="DAUT" FullName="Timimoun" Position="+291427.999+0001700.999">
+      <Runway Name="06"  Position="+291374.000+0001579.000" />
+      <Runway Name="24"  Position="+291464.000+0001733.000" />
+    </Airport>
+    <Airport ICAO="DAUU" FullName="Ouargla" Position="+315553.061+0052448.560">
+      <Runway Name="18"  Position="+315575.000+0052501.000" />
+      <Runway Name="36"  Position="+315413.000+0052500.000" />
+      <Runway Name="01"  Position="+315434.000+0052428.000" />
+      <Runway Name="19"  Position="+315588.000+0052480.000" />
+    </Airport>
+    <Airport ICAO="DAUZ" FullName="Zarzaitine In Amenas" Position="+280305.000+0093834.000">
+      <Runway Name="05"  Position="+280270.000+0093810.000" />
+      <Runway Name="23"  Position="+280381.000+0093944.000" />
+    </Airport>
+    <Airport ICAO="DRZA" Position="+165743.999+0075925.000" />
+    <Airport ICAO="DRZD" Position="+185808.000+0125208.000" />
+    <Airport ICAO="DTKA" Position="+365847.999+0085236.998" />
+    <Airport ICAO="DTMB" Position="+354529.001+0104516.999" />
+    <Airport ICAO="DTNH" Position="+360432.998+0102618.999" />
+    <Airport ICAO="DTTA" Position="+365103.999+0101336.998" />
+    <Airport ICAO="DTTF" Position="+342456.001+0084848.999" />
+    <Airport ICAO="DTTG" Position="+334357.000+0095457.999" />
+    <Airport ICAO="DTTI" Position="+364315.999+0095635.998" />
+    <Airport ICAO="DTTJ" Position="+335232.001+0104637.999" />
+    <Airport ICAO="DTTX" Position="+344314.001+0104118.999" />
+    <Airport ICAO="DTTZ" Position="+335622.999+0080638.001" />
+    <Airport ICAO="GATS" Position="+201446.449+0005850.678" />
+    <Airport ICAO="GMAD" Position="+301921.000-0092441.000" />
+    <Airport ICAO="GMAG" Position="+290100.998-0100341.000" />
+    <Airport ICAO="GMAT" Position="+282653.998-0110941.000" />
+    <Airport ICAO="GMAZ" Position="+301550.000-0055111.001" />
+    <Airport ICAO="GMFB" Position="+323051.998-0015841.998" />
+    <Airport ICAO="GMFF" Position="+335537.999-0045840.000" />
+    <Airport ICAO="GMFI" Position="+333020.001-0050908.999" />
+    <Airport ICAO="GMFK" Position="+315653.440-0042402.368" />
+    <Airport ICAO="GMFM" Position="+335305.999-0053141.998" />
+    <Airport ICAO="GMFO" Position="+344709.999-0015532.001" />
+    <Airport ICAO="GMFZ" Position="+341359.998-0035700.000" />
+    <Airport ICAO="GMMA" Position="+263312.048-0114110.069" />
+    <Airport ICAO="GMMB" Position="+333915.559-0071332.581" />
+    <Airport ICAO="GMMD" Position="+322406.998-0061857.999" />
+    <Airport ICAO="GMME" Position="+340305.000-0064506.001" />
+    <Airport ICAO="GMMH" Position="+234305.998-0155554.998" />
+    <Airport ICAO="GMMI" Position="+312357.001-0094059.001" />
+    <Airport ICAO="GMML" Position="+270906.001-0131309.001" />
+    <Airport ICAO="GMMN" Position="+332151.001-0073454.001" />
+    <Airport ICAO="GMMT" Position="+333536.999-0072751.998" />
+    <Airport ICAO="GMMW" Position="+345921.998-0030140.000" />
+    <Airport ICAO="GMMX" Position="+313630.999-0080226.998" />
+    <Airport ICAO="GMMZ" Position="+305613.829-0065421.571" />
+    <Airport ICAO="GMTA" Position="+351046.999-0035023.999" />
+    <Airport ICAO="GMTN" Position="+353539.998-0051912.000" />
+    <Airport ICAO="GMTT" Position="+354354.001-0055515.999" />
+    <Airport ICAO="HLGT" Position="+250800.779+0100802.518" />
+    <Airport ICAO="HLHM" Position="+304206.001+0122912.001" />
+    <Airport ICAO="HLLM" Position="+325339.998+0131640.000" />
+    <Airport ICAO="HLLT" Position="+323948.920+0130932.979" />
+    <Airport ICAO="HLNM" Position="+293152.140+0125637.741" />
+    <Airport ICAO="HLTD" Position="+300906.001+0094255.198" />
+    <Airport ICAO="HLUB" Position="+263403.478+0124923.221" />
+    <Airport ICAO="HLWF" Position="+285327.358+0100450.491" />
+    <Airport ICAO="HLZN" Position="+314602.499+0121445.920" />
+    <Airport ICAO="HLZW" Position="+325709.000+0120055.000" />
+    <Airport ICAO="LEAM" Position="+365038.000-0022212.000" />
+    <Airport ICAO="LEIB" Position="+385222.000+0012223.001" />
+    <Airport ICAO="LEMH" Position="+395144.999+0041306.999" />
+    <Airport ICAO="LEPA" Position="+393306.001+0024420.000" />
+    <Airport ICAO="LESB" Position="+393556.000+0024210.000" />
+    <Airport ICAO="LIEA" Position="+403751.999+0081718.999" />
+    <Airport ICAO="LIED" Position="+392113.860+0085818.209" />
+    <Airport ICAO="LIEE" Position="+391449.999+0090321.999" />
+    <Airport ICAO="LIEO" Position="+405354.999+0093104.000" />
+    <Airport ICAO="LIER" Position="+395342.000+0083835.001" />
+  </Airports>
 </Airspace>

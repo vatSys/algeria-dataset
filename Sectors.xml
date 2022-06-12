@@ -1,6 +1,43 @@
-<?xml version="1.0"?>
-<Sectors>
-  <Sector Frequency="127.3" Name="DAAA" Callsign="DAAA_CTR">
-    <Volumes>DAAA</Volumes>
+<?xml version="1.0" encoding="utf-8"?>
+  <Sectors>
+  <Sector FullName="Maghreb Control" Frequency="127.300" Callsign="DAAA_CTR" Name="DAAA">
+    <Volumes>DAAA_CTR</Volumes>
+      <ResponsibleSectors>DAAA-C,DAAA-LC,DAAA-NE,DAAA-NW,DAAA-SC,DAAA-SE,DAAA-SS,DAAA-SW</ResponsibleSectors>
   </Sector>
-</Sectors>
+  <Sector FullName="Maghreb Control Upper Center" Frequency="132.450" Callsign="DAAA_C_CTR" Name="DAAA-C">
+    <Volumes>DAAA_C_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Maghreb Control Lower Center" Frequency="127.300" Callsign="DAAA_LC_CTR" Name="DAAA-LC">
+    <Volumes>DAAA_LC_CTR</Volumes>
+      <ResponsibleSectors>AG-APP</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Maghreb Control North East" Frequency="125.400" Callsign="DAAA_NE_CTR" Name="DAAA-NE">
+    <Volumes>DAAA_NE_CTR</Volumes>
+      <ResponsibleSectors>BB-APP</ResponsibleSectors>
+  </Sector>    
+  <Sector FullName="Maghreb Control North West" Frequency="125.700" Callsign="DAAA_NW_CTR" Name="DAAA-NW">
+    <Volumes>DAAA_NW_CTR</Volumes>
+      <ResponsibleSectors>OO-APP</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Maghreb Control South East" Frequency="124.100" Callsign="DAAA_SE_CTR" Name="DAAA-SE">
+    <Volumes>DAAA_SE_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Maghreb Control South Center" Frequency="131.300" Callsign="DAAA_SC_CTR" Name="DAAA-SC">
+    <Volumes>DAAA_SC_CTR</Volumes>
+  </Sector>  
+  <Sector FullName="Maghreb Control South West" Frequency="128.100" Callsign="DAAA_SW_CTR" Name="DAAA-SW">
+    <Volumes>DAAA_SW_CTR</Volumes>
+  </Sector>  
+  <Sector FullName="Maghreb Control South South" Frequency="123.800" Callsign="DAAA_SS_CTR" Name="DAAA-SS">
+    <Volumes>DAAA_SS_CTR</Volumes>
+  </Sector>  
+  <Sector FullName="Algiers Approach" Frequency="121.400" Callsign="DAAG_APP" Name="AG-APP">
+    <Volumes>DAAG_TMA</Volumes>
+  </Sector>  
+  <Sector FullName="Annaba Approach" Frequency="119.000" Callsign="DABB_APP" Name="BB-APP">
+    <Volumes>DABB_TMA</Volumes>
+  </Sector>  
+  <Sector FullName="Oran Aprroach" Frequency="128.200" Callsign="DAOO_APP" Name="OO-APP">
+    <Volumes>DAOO_TMA</Volumes>
+  </Sector>  
+</Sectors>  

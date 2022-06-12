@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
- <RuleSets>
+  <RuleSets>
     <RuleSet Name="DAAG_DEPS">
       <Rules>
         <Departure Values="DAAG">
@@ -12,5 +12,5 @@
         </Departure>
       </Rules>
     </RuleSet>
-</RuleSets>
+  </RuleSets>
 </DefaultJurisdiction>

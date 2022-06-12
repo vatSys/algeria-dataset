@@ -7,5 +7,7 @@
     <NOTAM url="http://api.vateud.net/notams/%ICAO.xml" xmlDataTag="raw" />
   </ProductTypes>
   <Browsers>
+    <AIP url="https://www.sia-enna.dz/" />
+    <SkyVector url="https://skyvector.com/" />
   </Browsers>
 </MET>
