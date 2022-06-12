@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
   <Sectors>
   <Sector FullName="Maghreb Controle" Frequency="127.300" Callsign="DAAA_CTR" Name="DA">
-      <ResponsibleSectors>DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS,AGA,BBA,OOA</ResponsibleSectors>
+      <ResponsibleSectors>DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS,AGA,BBA,OOA,BCA,UHA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Secteur Centre Inferieur" Frequency="132.450" Callsign="DAAA_CI_CTR" Name="DACI">
     <Volumes>SECTEUR_CENTRE_SUP</Volumes>
@@ -43,7 +43,7 @@
   <Sector FullName="Hassi-Messaoud Approche" Frequency="120.000" Callsign="DAUH_APP" Name="UHA">
     <Volumes>TMA_HASSI-MESSAOUD</Volumes>
   </Sector>
-  <Sector FullName="Constantine Approche" Frequency="120.100" Callsign="DAOO_APP" Name="BCA">
+  <Sector FullName="Constantine Approche" Frequency="120.100" Callsign="DABC_APP" Name="BCA">
     <Volumes>TMA_CONSTANTINE</Volumes>
   </Sector>
 </Sectors>

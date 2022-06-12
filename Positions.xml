@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="SECTEUR">
-  <Position Name="Secteur Centre Inferieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="500">
+  <Position Name="Secteur Centre Inferieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550">
     <Sectors>
       <Sector Name="DACI" />
     </Sectors>
     <ManualVisibility>
-      <Point>+34.5000-007.500</Point>
-      <Point>+34.5000+007.500</Point>
-      <Point>+24.1500+007.500</Point>
-      <Point>+24.1500-007.500</Point>
+      <Point>+34.5000-001.500</Point>
+      <Point>+39.3000+003.150</Point>
+      <Point>+35.5000+008.250</Point>
     </ManualVisibility>
     <Maps>
 	  <Map Name="COAST" />
