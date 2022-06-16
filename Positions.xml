@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="SECTEUR">
-  <Position Name="Secteur Centre Inferieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550">
+  <Position Name="Maghreb Controle" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
     <Sectors>
-      <Sector Name="DACI" />
+      <Sector Name="DA" />
+      <Sector Name="DAC" />
+      <Sector Name="DANE" />
+	  <Sector Name="DANW" />
+	  <Sector Name="DASE" />
+	  <Sector Name="DASC" />
+	  <Sector Name="DASW" />
+	  <Sector Name="DASS" />
     </Sectors>
     <ManualVisibility>
-      <Point>+34.5000-001.500</Point>
-      <Point>+39.3000+003.150</Point>
-      <Point>+35.5000+008.250</Point>
+      <Point>+36.5000+003.350</Point>
+      <Point>+27.4000-008.100</Point>
+      <Point>+19.5500+002.600</Point>
+      <Point>+31.4200+009.200</Point>
     </ManualVisibility>
     <Maps>
 	  <Map Name="COAST" />

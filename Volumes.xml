@@ -894,52 +894,52 @@
 +371457.254+0083754.630/
 +371254.637+0083455.510/
 +371208.959+0083401.412</Boundary>
-  <Volume Name="SECTEUR_CENTRE_INF" LowerLimit="1500" UpperLimit="24500">
+  <Volume Name="DA" LowerLimit="1500" UpperLimit="24500">
     <Boundaries>SECTEUR_CENTRE_INF</Boundaries>
   </Volume>
-  <Volume Name="SECTEUR_CENTRE_SUP" LowerLimit="24500" UpperLimit="45000">
+  <Volume Name="DAC" LowerLimit="24500" UpperLimit="45000">
     <Boundaries>SECTEUR_CENTRE_SUP</Boundaries>
   </Volume>
-  <Volume Name="SECTEUR_NORD/EST" LowerLimit="1500" UpperLimit="45000">
+  <Volume Name="DANE" LowerLimit="1500" UpperLimit="45000">
     <Boundaries>SECTEUR_NORD/EST</Boundaries>
   </Volume>
-  <Volume Name="SECTEUR_NORD/OUEST" LowerLimit="3000" UpperLimit="45000">
+  <Volume Name="DANW" LowerLimit="3000" UpperLimit="45000">
     <Boundaries>SECTEUR_NORD/OUEST</Boundaries>
   </Volume>
-  <Volume Name="SECTEUR_SUD/OUEST" LowerLimit="3000" UpperLimit="45000">
+  <Volume Name="DASW" LowerLimit="3000" UpperLimit="45000">
     <Boundaries>SECTEUR_SUD/OUEST</Boundaries>
   </Volume>
-  <Volume Name="SECTEUR_SUD/CENTRE" LowerLimit="3000" UpperLimit="45000">
+  <Volume Name="DASC" LowerLimit="3000" UpperLimit="45000">
     <Boundaries>SECTEUR_SUD/CENTRE</Boundaries>
   </Volume>
-  <Volume Name="SECTEUR_SUD/EST" LowerLimit="3000" UpperLimit="45000">
+  <Volume Name="DASE" LowerLimit="3000" UpperLimit="45000">
     <Boundaries>SECTEUR_SUD/EST</Boundaries>
   </Volume>
-  <Volume Name="SECTEUR_SUD/SUD" LowerLimit="3000" UpperLimit="45000">
+  <Volume Name="DASS" LowerLimit="3000" UpperLimit="45000">
     <Boundaries>SECTEUR_SUD/SUD</Boundaries>
   </Volume>
-  <Volume Name="TMA_ALGER" LowerLimit="1500" UpperLimit="14500">
+  <Volume Name="AGA" LowerLimit="1500" UpperLimit="14500">
     <Boundaries>TMA_ALGER</Boundaries>
   </Volume>
-  <Volume Name="TMA_ANNABA" LowerLimit="1500" UpperLimit="10500">
+  <Volume Name="BBA" LowerLimit="1500" UpperLimit="10500">
     <Boundaries>TMA_ANNABA</Boundaries>
   </Volume>
-  <Volume Name="TMA_CONSTANTINE" LowerLimit="1500" UpperLimit="10500">
+  <Volume Name="BCA" LowerLimit="1500" UpperLimit="10500">
     <Boundaries>TMA_CONSTANTINE</Boundaries>
   </Volume>
-  <Volume Name="TMA_HASSI-MESSAOUD" LowerLimit="1500" UpperLimit="10500">
+  <Volume Name="UHA" LowerLimit="1500" UpperLimit="10500">
     <Boundaries>TMA_HASSI-MESSAOUD</Boundaries>
   </Volume>
-  <Volume Name="TMA_ORAN" LowerLimit="1500" UpperLimit="10500">
+  <Volume Name="OOA" LowerLimit="1500" UpperLimit="10500">
     <Boundaries>TMA_ORAN</Boundaries>
   </Volume>
-  <Volume Name="TMA_OUJDA" LowerLimit="1500" UpperLimit="10500">
+  <Volume Name="FOA" LowerLimit="1500" UpperLimit="10500">
     <Boundaries>TMA_OUJDA</Boundaries>
   </Volume>
-  <Volume Name="TOZEUR_TMA" LowerLimit="3000" UpperLimit="12500">
+  <Volume Name="TZA" LowerLimit="3000" UpperLimit="12500">
     <Boundaries>TOZEUR_TMA</Boundaries>
   </Volume>
-  <Volume Name="TABARKA_TMA" LowerLimit="1500" UpperLimit="10500">
+  <Volume Name="KAA" LowerLimit="1500" UpperLimit="10500">
     <Boundaries>TABARKA_TMA</Boundaries>
   </Volume>
 </Volumes>

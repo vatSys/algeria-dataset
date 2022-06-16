@@ -1,49 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <Sectors>
-  <Sector FullName="Maghreb Controle" Frequency="127.300" Callsign="DAAA_CTR" Name="DA">
-      <ResponsibleSectors>DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS,AGA,BBA,OOA,BCA,UHA</ResponsibleSectors>
+<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sector FullName="Secteur Centre Inferieur" Frequency="132.450" Callsign="DAAA_CTR" Name="DA">
+    <Volumes>DA</Volumes>
+    <ResponsibleSectors>DAC,DANE,DANW,DASE,DASC,DASW,DASS</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Secteur Centre Inferieur" Frequency="132.450" Callsign="DAAA_CI_CTR" Name="DACI">
-    <Volumes>SECTEUR_CENTRE_SUP</Volumes>
-  </Sector>
-  <Sector FullName="Secteur Centre Superieur" Frequency="127.300" Callsign="DAAA_CS_CTR" Name="DACS">
-    <Volumes>SECTEUR_CENTRE_INF</Volumes>
-      <ResponsibleSectors>AGA</ResponsibleSectors>
+  <Sector FullName="Secteur Centre Superieur" Frequency="127.300" Callsign="DAAA_C_CTR" Name="DAC">
+    <Volumes>DAC</Volumes>
   </Sector>
   <Sector FullName="Secteur Nord Est" Frequency="125.400" Callsign="DAAA_NE_CTR" Name="DANE">
-    <Volumes>SECTEUR_NORD/EST</Volumes>
-      <ResponsibleSectors>AGA,BCA</ResponsibleSectors>
+    <Volumes>DANE</Volumes>
   </Sector>  
   <Sector FullName="Secteur Nord-Ouest" Frequency="125.700" Callsign="DAAA_NW_CTR" Name="DANW">
-    <Volumes>SECTEUR_NORD/OUEST</Volumes>
-      <ResponsibleSectors>OOA</ResponsibleSectors>
+    <Volumes>DANW</Volumes>
   </Sector>
   <Sector FullName="Secteur Sud-Est" Frequency="124.100" Callsign="DAAA_SE_CTR" Name="DASE">
-    <Volumes>SECTEUR_SUD/EST</Volumes>
-      <ResponsibleSectors>TMA_HASSI-MESSAOUD</ResponsibleSectors>
+    <Volumes>DASE</Volumes>
   </Sector>
   <Sector FullName="Secteur Sud Centre" Frequency="131.300" Callsign="DAAA_SC_CTR" Name="DASC">
-    <Volumes>SECTEUR_SUD/CENTRE</Volumes>
+    <Volumes>DASC</Volumes>
   </Sector>
   <Sector FullName="Secteur Sud-Ouest" Frequency="128.100" Callsign="DAAA_SW_CTR" Name="DASW">
-    <Volumes>SECTEUR_SUD/OUEST</Volumes>
+    <Volumes>DASW</Volumes>
   </Sector>
   <Sector FullName="Secteur Sud Sud" Frequency="123.800" Callsign="DAAA_SS_CTR" Name="DASS">
-    <Volumes>SECTEUR_SUD/SUD</Volumes>
+    <Volumes>DASS</Volumes>
   </Sector>
   <Sector FullName="Alger Approche" Frequency="121.400" Callsign="DAAG_APP" Name="AGA">
-    <Volumes>TMA_ALGER</Volumes>
+    <Volumes>AGA</Volumes>
   </Sector>
   <Sector FullName="Annaba Approche" Frequency="119.000" Callsign="DABB_APP" Name="BBA">
-    <Volumes>TMA_ANNABA</Volumes>
+    <Volumes>BBA</Volumes>
   </Sector>
   <Sector FullName="Oran Approche" Frequency="128.200" Callsign="DAOO_APP" Name="OOA">
-    <Volumes>TMA_ORAN</Volumes>
+    <Volumes>OOA</Volumes>
   </Sector>
   <Sector FullName="Hassi-Messaoud Approche" Frequency="120.000" Callsign="DAUH_APP" Name="UHA">
-    <Volumes>TMA_HASSI-MESSAOUD</Volumes>
+    <Volumes>UHA</Volumes>
   </Sector>
   <Sector FullName="Constantine Approche" Frequency="120.100" Callsign="DABC_APP" Name="BCA">
-    <Volumes>TMA_CONSTANTINE</Volumes>
+    <Volumes>BCA</Volumes>
   </Sector>
 </Sectors>
