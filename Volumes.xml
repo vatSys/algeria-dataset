@@ -1844,61 +1844,61 @@
   <Volume Name="ADT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Bousaada CTR</Boundaries>
   </Volume>
-  <Volume Name="AE_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="AET" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Bejaia CTR</Boundaries>
   </Volume>
-  <Volume Name="AG_CTR" LowerLimit="0" UpperLimit="1500">
+  <Volume Name="AGT" LowerLimit="0" UpperLimit="1500">
     <Boundaries>Algiers CTR</Boundaries>
   </Volume>
-  <Volume Name="AJ_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="AJT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Djanet CTR</Boundaries>
   </Volume>
-  <Volume Name="AP_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="APT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Illizi CTR</Boundaries>
   </Volume>
-  <Volume Name="AT_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="ATT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Tamanrasset CTR</Boundaries>
   </Volume>
-  <Volume Name="AV_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="AVT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Jijel CTR</Boundaries>
   </Volume>
-  <Volume Name="DABB_CTR" LowerLimit="0" UpperLimit="1500">
+  <Volume Name="BBT" LowerLimit="0" UpperLimit="1500">
     <Boundaries>Annaba CTR</Boundaries>
   </Volume>
-  <Volume Name="DABC_CTR" LowerLimit="0" UpperLimit="1500">
+  <Volume Name="BCT" LowerLimit="0" UpperLimit="1500">
     <Boundaries>Constantine CTR</Boundaries>
   </Volume>
-  <Volume Name="DABS_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="BST" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Tebessa CTR</Boundaries>
   </Volume>
-  <Volume Name="DABT_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="BTT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Batna CTR</Boundaries>
   </Volume>  
-  <Volume Name="DAOB_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="OBT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Tiaret CTR</Boundaries>
   </Volume>
-  <Volume Name="DAOF_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="OFT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Tindouf CTR</Boundaries>
   </Volume>
-  <Volume Name="DAOY_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="OYT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>El Bayadh CTR</Boundaries>
   </Volume>  
-  <Volume Name="DAUG_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="UGT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Ghardaia CTR</Boundaries>
   </Volume>
-  <Volume Name="DAUH_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="UHT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Hassi Messaoud CTR</Boundaries>
   </Volume>
-  <Volume Name="DAUK_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="UKT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Touggourt CTR</Boundaries>
   </Volume>
-    <Volume Name="DAUO_CTR" LowerLimit="0" UpperLimit="3000">
+   <Volume Name="UOT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Guemar CTR</Boundaries>
   </Volume>
-  <Volume Name="DAUT_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="UTT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Timimoun CTR</Boundaries>
   </Volume>
-  <Volume Name="DAUZ_CTR" LowerLimit="0" UpperLimit="3000">
+  <Volume Name="UZT" LowerLimit="0" UpperLimit="3000">
     <Boundaries>Zarzaitine CTR</Boundaries>
   </Volume>
 </Volumes>
