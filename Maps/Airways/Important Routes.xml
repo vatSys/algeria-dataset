@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps> 
+    <Map Type="System" Name="AA-C Routes" Priority="1">
+        <Line Name="UM986">BOURI.UM986.CHIGA</Line>
+        <Line Name="UM989">OTARO.UM989.CHLAL</Line>
+        <Line Name="UN856">ALR VOR.UN856.SADAF</Line>
+        <Line Name="UN855">BUYAH.UN855.ALR VOR</Line>
+        <Line Name="UM134">LUXUR.UL134.PAGRE</Line>
+        <Line Name="UL102">CHE NDB.UL102.ESNAM</Line>
+    </Map>
+    <Map Type="System" Name="AA-NE Routes" Priority="1">
+        <Line Name="UM2">AMIRA.UM2.CIRTA</Line>
+        <Line Name="UM986">BOURI.UM986.REQIN</Line>
+        <Line Name="UM508">BIS VOR.UM508.KAMER</Line>
+        <Line Name="UM134">PAGRE.UM134.ANB VOR</Line>
+        <Line Name="UN854">SALMA.UN854.BIS VOR</Line>
+        <Line Name="UM998">TOLGA.UM998.KAMER</Line>
+    </Map>
+    <Map Type="System" Name="AA-SE Routes" Priority="1">
+        <Line Name="UN854">BIS VOR.UN854.DAYAT</Line>
+        <Line Name="UM508">BIS VOR.UM508.BOD VOR</Line>
+        <Line Name="UM998">TOLGA.UM998.TIDOU</Line>
+        <Line Name="UM2">CIRTA.UM2.AMIRA</Line>
+        <Line Name="UM999">GAFLA.UM999.IMN VOR</Line>
+    </Map>
+    <Map Type="System" Name="AA-SS Routes" Priority="1">
+        <Line Name="UM2">TARAT.UM2.DJA VOR</Line>
+        <Line Name="UM998">TIDOU.UM998.TOBUK</Line> 
+        <Line Name="UM114">SIHAR.UM114.ZAWAT</Line>
+    </Map>
+    <Map Type="System" Name="AA-SW Routes" Priority="1">
+        <Line Name="UM608">TERAS.UM608.TAMUZ</Line>
+        <Line Name="UN854">MOUNA.UN854.TIO VOR</Line>
+        <Line Name="UM614">TIO VOR.UM614.IPOBA</Line>
+        <Line Name="UM735">TIO VOR.UM735.USRUT</Line>
+        <Line Name="UM725">TIO VOR.UM725.SBITA</Line>
+        <Line Name="UM629">USRUT.UM629.BAGBO</Line>
+        <Line Name="UM986">TAGIG.UM986.BRENA</Line>
+    </Map>
+    <Map Type="System" Name="AA-SC Routes" Priority="1">
+        <Line Name="UM999">GAFLA.UM999.MEZAB</Line>
+        <Line Name="UM114">SIHAR.UM114.GHA VOR</Line>  
+        <Line Name="UM989">KSOUR.UM989.CHLAL</Line>  
+        <Line Name="UN854">MOUNA.UN854.DAYAT</Line>  
+    </Map>           
+    <Map Type="System" Name="AA-NW Routes" Priority="1">
+        <Line Name="UM608">TAMUZ.UM608.BAY VOR</Line>
+        <Line Name="UM986">TAGIG.UM986.TRB VOR</Line>
+        <Line Name="UM999">MEZAB.UM999.ARIAM</Line>
+        <Line Name="UL102">ARIAM.UL102.ESNAM</Line>
+        <Line Name="UM744">CARBO.UM744.MOS VOR</Line>
+    </Map>   
+</Maps>    
