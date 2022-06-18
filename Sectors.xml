@@ -4,6 +4,14 @@
     <Volumes>DA</Volumes>
     <ResponsibleSectors>DAC,DANE,DANW,DASE,DASC,DASW,DASS</ResponsibleSectors>
   </Sector>
+  <Sector FullName="Secteur Nord" Frequency="125.400" Callsign="DAAA_N_CTR" Name="DAN">
+    <Volumes>DANE,DANW,DAC</Volumes>
+    <ResponsibleSectors>DAC,DANE,DANW</ResponsibleSectors>	
+  </Sector>
+  <Sector FullName="Secteur Sud" Frequency="124.100" Callsign="DAAA_S_CTR" Name="DAS">
+    <Volumes>DASE,DASW,DASS,DASC</Volumes>
+    <ResponsibleSectors>DASE,DASW,DASS,DASC</ResponsibleSectors>	
+  </Sector>
   <Sector FullName="Secteur Centre Superieur" Frequency="127.300" Callsign="DAAA_C_CTR" Name="DAC">
     <Volumes>DAC</Volumes>
   </Sector>
