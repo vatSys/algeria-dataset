@@ -202,7 +202,7 @@
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
 	  <Map Name="TMA" />
-      <Map Name="DASS Waypoints" />     
+      <Map Name="DASC Waypoints" />     
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -228,7 +228,7 @@
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
 	  <Map Name="TMA" />
-      <Map Name="DAC Waypoints" />     
+      <Map Name="DASW Waypoints" />     
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
