@@ -100,4 +100,7 @@
   <Sector FullName="Zarzaitine Tower" Frequency="118.700" Callsign="DAUZ_TWR" Name="UZT">
     <Volumes>UZT</Volumes>
   </Sector>   
+  <Sector FullName="Oran Tower" Frequency="118.100" Callsign="DAOO_TWR" Name="OOT">
+    <Volumes>OOT</Volumes>
+  </Sector>  
 </Sectors>
