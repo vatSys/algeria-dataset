@@ -501,8 +501,33 @@
         <Airport Name="DAAP" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Illii Tower</Line>
+        <Line>Illizi Tower</Line>
         <Line>ATC Service in the DAAP CTR- dz-vacc.org</Line>
+        <Line>Need local charts? - chartfox.com</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Oran Tower" Type="ASD" DefaultCenter="+35.627167-000.611333" DefaultRange="200">
+      <Sectors>
+        <Sector Name="OOT" />
+      </Sectors>  
+      <Maps>
+	  <Map Name="COAST" />
+	  <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="Airports (Symbol)" />
+      <Map Name="Airports (Names)" />     
+      </Maps>
+      <Strips Mode="State" Sort="Time">        
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="DAOO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Illizi Tower</Line>
+        <Line>ATC Service in the DAOO CTR- dz-vacc.org</Line>
         <Line>Need local charts? - chartfox.com</Line>
       </ControllerInfo>
     </Position>
