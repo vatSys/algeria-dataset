@@ -1104,7 +1104,7 @@
 +25.161111+000.625556/
 +26.025000+000.335278</Area>
       <Activations>
-        <Activation H24="false" Start="0000" End="0000" />
+        <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R102 HASSI-TIRIRINE" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="true" LinePattern="Solid">
