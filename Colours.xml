@@ -243,10 +243,10 @@
 	</Colour>
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
-    <Name>Grey</Name>
-    <R>105</R>
-    <G>105</G>
-    <B>105</B>
+    <Name>Black</Name>
+    <R>0</R>
+    <G>0</G>
+    <B>0</B>
   </Colour>
 	<Colour id="Jurisdiction">
 		<Use>Jurisdiction</Use>
@@ -418,24 +418,24 @@
   </Colour>
   <Colour id="GroundTaxiway">
     <Use>A-SMGCS Taxiway</Use>
-    <Name>DarkGrey</Name>
-    <R>60</R>
-    <G>60</G>
-    <B>60</B>
-  </Colour>
-  <Colour id="GroundApron">
-    <Use>A-SMGCS Apron</Use>
     <Name>Grey</Name>
-    <R>75</R>
-    <G>75</G>
-    <B>75</B>
-  </Colour>
-  <Colour id="GroundBuilding">
-    <Use>A-SMGCS Building</Use>
-    <Name>LightGrey</Name>
     <R>90</R>
     <G>90</G>
     <B>90</B>
+  </Colour>
+  <Colour id="GroundApron">
+    <Use>A-SMGCS Apron</Use>
+    <Name>Light Green</Name>
+    <R>70</R>
+    <G>85</G>
+    <B>40</B>
+  </Colour>
+  <Colour id="GroundBuilding">
+    <Use>A-SMGCS Building</Use>
+    <Name>Grey</Name>
+    <R>140</R>
+    <G>140</G>
+    <B>140</B>
   </Colour>
   <Colour id="GroundOther">
     <Use>A-SMGCS Information / Other</Use>

@@ -880,6 +880,13 @@
         <Line>ATC Service in the DAUZ CTR- dz-vacc.org</Line>
         <Line>Need local charts? - chartfox.com</Line>
       </ControllerInfo>
-    </Position>  
+    </Position>
+    <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364235.000+0031287.000" DefaultRange="10" MagneticVariation="218.00" Rotation="0">
+      <Maps>
+        <Map Name="DAAG/ASMCGS_DAAG_TWY" />
+        <Map Name="DAAG/ASMGCS_DAAG_APR" />
+        <Map Name="DAAG/ASMGCS_DAAG_BLD" />
+      </Maps>
+    </Position>	
   </Group>
 </Positions>
