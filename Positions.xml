@@ -906,14 +906,14 @@
         <Line>Need local charts? - chartfox.com</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364140.000+0031310.000" DefaultRange="7" MagneticVariation="218.00" Rotation="0">
+    <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364140.000+0031301.000" DefaultRange="7" MagneticVariation="218.00" Rotation="0">
       <Maps>
         <Map Name="DAAG/ASMCGS_DAAG_TWY" />
         <Map Name="DAAG/ASMGCS_DAAG_APR" />
         <Map Name="DAAG/ASMGCS_DAAG_BLD" />
       </Maps>
     </Position>	
-    <Position Name="DABC" Type="ASMGCS" ASMGCSAirport="DABC" DefaultCenter="+361770.000+0063790.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+    <Position Name="DABC" Type="ASMGCS" ASMGCSAirport="DABC" DefaultCenter="+361707.000+0063709.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
       <Maps>
         <Map Name="DABC/ASMCGS_DABC_TWY" />
         <Map Name="DABC/ASMGCS_DABC_APR" />
@@ -934,7 +934,7 @@
         <Map Name="DABT/ASMGCS_DABT_BLD" />
       </Maps>
     </Position>
-    <Position Name="DAUH" Type="ASMGCS" ASMGCSAirport="DAUH" DefaultCenter="+314046.000+0060826.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+    <Position Name="DAUH" Type="ASMGCS" ASMGCSAirport="DAUH" DefaultCenter="+314026.000+0060826.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
       <Maps>
         <Map Name="DAUH/ASMCGS_DAUH_TWY" />
         <Map Name="DAUH/ASMGCS_DAUH_APR" />
