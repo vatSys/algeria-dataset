@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_TWY" Name="ASMCGS_DABB_TWY" Priority="1">
+  <Map Type="Ground_TWY" Name="ASMCGS_DABB_TWY" Priority="3">
     <Infill Name="taxiway">
       <Point>+364959.84+0074937.72/
 +365000.92+0074936.63/
