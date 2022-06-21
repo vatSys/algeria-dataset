@@ -906,12 +906,47 @@
         <Line>Need local charts? - chartfox.com</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364235.000+0031287.000" DefaultRange="10" MagneticVariation="218.00" Rotation="0">
+    <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364140.000+0031310.000" DefaultRange="7" MagneticVariation="218.00" Rotation="0">
       <Maps>
         <Map Name="DAAG/ASMCGS_DAAG_TWY" />
         <Map Name="DAAG/ASMGCS_DAAG_APR" />
         <Map Name="DAAG/ASMGCS_DAAG_BLD" />
       </Maps>
     </Position>	
+    <Position Name="DABC" Type="ASMGCS" ASMGCSAirport="DABC" DefaultCenter="+361770.000+0063790.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+      <Maps>
+        <Map Name="DABC/ASMCGS_DABC_TWY" />
+        <Map Name="DABC/ASMGCS_DABC_APR" />
+        <Map Name="DABC/ASMGCS_DABC_BLD" />
+      </Maps>
+    </Position>	
+    <Position Name="DABB" Type="ASMGCS" ASMGCSAirport="DABB" DefaultCenter="+364920.000+0074834.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+      <Maps>
+        <Map Name="DABB/ASMCGS_DABB_TWY" />
+        <Map Name="DABB/ASMGCS_DABB_APR" />
+        <Map Name="DABB/ASMGCS_DABB_BLD" />
+      </Maps>
+    </Position>	
+    <Position Name="DABT" Type="ASMGCS" ASMGCSAirport="DABT" DefaultCenter="+354333.000+0061921.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+      <Maps>
+        <Map Name="DABT/ASMCGS_DABT_TWY" />
+        <Map Name="DABT/ASMGCS_DABT_APR" />
+        <Map Name="DABT/ASMGCS_DABT_BLD" />
+      </Maps>
+    </Position>
+    <Position Name="DAUH" Type="ASMGCS" ASMGCSAirport="DAUH" DefaultCenter="+314046.000+0060826.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+      <Maps>
+        <Map Name="DAUH/ASMCGS_DAUH_TWY" />
+        <Map Name="DAUH/ASMGCS_DAUH_APR" />
+        <Map Name="DAUH/ASMGCS_DAUH_BLD" />
+      </Maps>
+    </Position>
+    <Position Name="DAOO" Type="ASMGCS" ASMGCSAirport="DAOO" DefaultCenter="+353738.000-0003641.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+      <Maps>
+        <Map Name="DAOO/ASMCGS_DAOO_TWY" />
+        <Map Name="DAOO/ASMGCS_DAOO_APR" />
+        <Map Name="DAOO/ASMGCS_DAOO_BLD" />
+      </Maps>
+    </Position>		
   </Group>
 </Positions>
