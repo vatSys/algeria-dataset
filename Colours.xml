@@ -206,9 +206,6 @@
   <Colour id="VSCSButtonDepressed">
     <Use>VSCS Generic Buttons</Use>
     <Name>DarkGrey</Name>
-<!--    <R>90</R>
-    <G>90</G>
-    <B>90</B>-->
 	<R>130</R>
 	<G>146</G>
 	<B>146</B>
