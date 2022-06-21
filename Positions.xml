@@ -927,7 +927,7 @@
         <Map Name="DABB/ASMGCS_DABB_BLD" />
       </Maps>
     </Position>	
-    <Position Name="DABT" Type="ASMGCS" ASMGCSAirport="DABT" DefaultCenter="+354333.000+0061921.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
+    <Position Name="DABT" Type="ASMGCS" ASMGCSAirport="DABT" DefaultCenter="+354533.000+0061921.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
       <Maps>
         <Map Name="DABT/ASMCGS_DABT_TWY" />
         <Map Name="DABT/ASMGCS_DABT_APR" />
