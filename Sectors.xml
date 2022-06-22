@@ -40,4 +40,67 @@
   <Sector FullName="Constantine Approche" Frequency="120.100" Callsign="DABC_APP" Name="BCA">
     <Volumes>BCA</Volumes>
   </Sector>
+  <Sector FullName="Bousaada Tower" Frequency="118.100" Callsign="DAAD_TWR" Name="ADT">
+    <Volumes>ADT</Volumes>
+  </Sector>
+  <Sector FullName="Bejaia Tower" Frequency="118.900" Callsign="DAAE_TWR" Name="AET">
+    <Volumes>AET</Volumes>
+  </Sector>     
+  <Sector FullName="Algiers Tower" Frequency="118.700" Callsign="DAAG_TWR" Name="AGT">
+    <Volumes>AGT</Volumes>
+  </Sector> 
+  <Sector FullName="Djanet Tower" Frequency="118.100" Callsign="DAAJ_TWR" Name="AJT">
+    <Volumes>AJT</Volumes>
+  </Sector> 
+  <Sector FullName="Illizi Tower" Frequency="118.700" Callsign="DAAP_TWR" Name="APT">
+    <Volumes>APT</Volumes>
+  </Sector> 
+  <Sector FullName="Tamanrasset Tower" Frequency="118.100" Callsign="DAAT_TWR" Name="ATT">
+    <Volumes>ATT</Volumes>
+  </Sector> 
+  <Sector FullName="Jijel Tower" Frequency="119.100" Callsign="DAAV_TWR" Name="AVT">
+    <Volumes>AVT</Volumes>
+  </Sector> 
+  <Sector FullName="Annaba Tower" Frequency="118.700" Callsign="DABB_TWR" Name="BBT">
+    <Volumes>BBT</Volumes>
+  </Sector> 
+  <Sector FullName="Constantine Tower" Frequency="118.300" Callsign="DABC_TWR" Name="BCT">
+    <Volumes>BCT</Volumes>
+  </Sector> 
+  <Sector FullName="Tebessa Tower" Frequency="118.100" Callsign="DABS_TWR" Name="BST">
+    <Volumes>BST</Volumes>
+  </Sector> 
+  <Sector FullName="Batna Tower" Frequency="118.100" Callsign="DABT_TWR" Name="BTT">
+    <Volumes>BTT</Volumes>
+  </Sector> 
+  <Sector FullName="Tiaret Tower" Frequency="119.500" Callsign="DAOB_TWR" Name="OBT">
+    <Volumes>OBT</Volumes>
+  </Sector> 
+  <Sector FullName="Tindouf Tower" Frequency="118.100" Callsign="DAOF_TWR" Name="OFT">
+    <Volumes>OFT</Volumes>
+  </Sector> 
+  <Sector FullName="El Bayadh Tower" Frequency="118.700" Callsign="DAOY_TWR" Name="OYT">
+    <Volumes>OYT</Volumes>
+  </Sector> 
+  <Sector FullName="Ghardaia Tower" Frequency="118.900" Callsign="DAUG_TWR" Name="UGT">
+    <Volumes>UGT</Volumes>
+  </Sector> 
+  <Sector FullName="Hassi Messaoud Tower" Frequency="118.100" Callsign="DAUH_TWR" Name="UHT">
+    <Volumes>UHT</Volumes>
+  </Sector> 
+  <Sector FullName="Touggourt Tower" Frequency="119.000" Callsign="DAUK_TWR" Name="UKT">
+    <Volumes>UKT</Volumes>
+  </Sector> 
+  <Sector FullName="Guemar Tower" Frequency="118.100" Callsign="DAUO_TWR" Name="UOT">
+    <Volumes>UOT</Volumes>
+  </Sector> 
+  <Sector FullName="Timimoun Tower" Frequency="118.300" Callsign="DAUT_TWR" Name="UTT">
+    <Volumes>UTT</Volumes>
+  </Sector> 
+  <Sector FullName="Zarzaitine Tower" Frequency="118.700" Callsign="DAUZ_TWR" Name="UZT">
+    <Volumes>UZT</Volumes>
+  </Sector>   
+  <Sector FullName="Oran Tower" Frequency="118.100" Callsign="DAOO_TWR" Name="OOT">
+    <Volumes>OOT</Volumes>
+  </Sector>  
 </Sectors>
