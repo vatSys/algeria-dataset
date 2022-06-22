@@ -313,7 +313,7 @@ KIRLA/
 CHE NDB/
 ALR VOR/
 BNA NDB/
-BADOR/
+BABOR/
 TAJEN/
 CSO VOR
 </Airway>
@@ -558,12 +558,12 @@ GHA VOR/
 BISSA/
 GARBA/
 BOKAL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="J25">
 HME VOR/
 GABEL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="J26">
 HME VOR/
@@ -665,7 +665,7 @@ KIRLA/
 CHE NDB/
 ALR VOR/
 BNA NDB/
-BADOR/
+BABOR/
 TAJEN/
 CSO VOR
 </Airway>
@@ -928,12 +928,12 @@ GHA VOR/
 BISSA/
 GARBA/
 BOKAL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="UJ25">
 HME VOR/
 GABEL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="UJ26">
 HME VOR/
@@ -3306,7 +3306,6 @@ BRENA
     <Point Name="HALGE" Type="Fix">+384144.000-0091408.000</Point>
     <Point Name="HAMOU" Type="Fix">+383500.999-0084153.000</Point>
     <Point Name="HAMRA" Type="Fix">+365215.999-0000124.999</Point>
-    <Point Name="HAMRA" Type="Fix">+293159.998+0124959.998</Point>
     <Point Name="HB06" Type="Fix">+364143.900+0030300.298</Point>
     <Point Name="HB08" Type="Fix">+364147.860+0030031.168</Point>
     <Point Name="HB15" Type="Fix">+364134.789+0030835.908</Point>
@@ -6570,7 +6569,7 @@ BRENA
       <Route Runway="05">SDM NDB/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BADR1C" Airport="DAAG" Runways="05">
-      <Route Runway="05">SDM NDB/BNA NDB/BADOR</Route>
+      <Route Runway="05">SDM NDB/BNA NDB/BABOR</Route>
     </SID>
     <SID Name="TAGR1C" Airport="DAAG" Runways="05">
       <Route Runway="05">SDM NDB/BNA NDB/TAGRO</Route>
@@ -6606,7 +6605,7 @@ BRENA
       <Route Runway="23">BNA NDB/BJA VOR</Route>
     </SID>
      <SID Name="BADR1A" Airport="DAAG" Runways="23">
-      <Route Runway="23">BNA NDB/BADOR</Route>
+      <Route Runway="23">BNA NDB/BABOR</Route>
     </SID>
      <SID Name="TAGR1A" Airport="DAAG" Runways="23">
       <Route Runway="23">BNA NDB/TAGRO</Route>
@@ -6642,7 +6641,7 @@ BRENA
       <Route Runway="09">SDM NDB/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BADR1D" Airport="DAAG" Runways="09">
-      <Route Runway="09">SDM NDB/BNA NDB/BADOR</Route>
+      <Route Runway="09">SDM NDB/BNA NDB/BABOR</Route>
     </SID>
     <SID Name="TAGR1D" Airport="DAAG" Runways="09">
       <Route Runway="09">SDM NDB/BNA NDB/TAGRO</Route>
@@ -6678,7 +6677,7 @@ BRENA
       <Route Runway="27">SDM NDB/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BADR1B" Airport="DAAG" Runways="27">
-      <Route Runway="27">SDM NDB/BNA NDB/BADOR</Route>
+      <Route Runway="27">SDM NDB/BNA NDB/BABOR</Route>
     </SID>
     <SID Name="TAGR1B" Airport="DAAG" Runways="27">
       <Route Runway="27">SDM NDB/BNA NDB/TAGRO</Route>
