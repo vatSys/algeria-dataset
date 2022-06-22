@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="TEMP RESTRICTED AREAS" Priority="2" Center="+310659.000+0021273.00">
+  <Map Type="System2" Name="TEMP RESTRICTED AREAS" Priority="2" CustomColourName="TEMPREST" Center="+310659.000+0021273.00"> 
     <Line Name="P51 AIN OUSSERA">
 		+35.070833+003.327222/
 		+35.094167+003.358889/
