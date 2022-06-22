@@ -318,743 +318,185 @@
 		<Point>ZEM VOR</Point>
       </Label>
     </Map>
-    <Map Type="System" Name="DNC Waypoints" Priority="1">
-      <Symbol Type="Reticle">
-        <Point>DAAG</Point>
-      </Symbol>
-      <Symbol Type="HollowTriangle">
-        <Point>KIRLA</Point>
-        <Point>DAHRA</Point>
-        <Point>ESNAM</Point>
-        <Point>CHIGA</Point>
-        <Point>HJILA</Point>
-        <Point>CHLAL</Point>
-        <Point>TAGRO</Point>
-        <Point>BABOR</Point>
-        <Point>PAGRE</Point>
-        <Point>BOURI</Point>
-        <Point>OTARO</Point>
-        <Point>PECES</Point>
-        <Point>LUXUR</Point>
-        <Point>MOGIL</Point>
-        <Point>BUYAH</Point>
-        <Point>SADAF</Point>
-        <Point>SARAN</Point>
-        <Point>CELBA</Point>
-        <Point>LIMON</Point>
-      </Symbol>
-      <Symbol Type="DotFillCircle">
-        <Point>CHE NDB</Point>
-      </Symbol>
-      <Symbol Type="Hexagon">
-        <Point>ZEM VOR</Point>
-        <Point>BSA VOR</Point>
-        <Point>BJA VOR</Point>      
-      </Symbol>
-      <Label HasLeader="False">
-        <Point>DAAG</Point>
-        <Point>KIRLA</Point>
-        <Point>DAHRA</Point>
-        <Point>ESNAM</Point>
-        <Point>CHIGA</Point>
-        <Point>HJILA</Point>
-        <Point>CHLAL</Point>
-        <Point>TAGRO</Point>
-        <Point>BABOR</Point>
-        <Point>PAGRE</Point>
-        <Point>BOURI</Point>
-        <Point>OTARO</Point>
-        <Point>PECES</Point>
-        <Point>LUXUR</Point>
-        <Point>MOGIL</Point>
-        <Point>BUYAH</Point>
-        <Point>SADAF</Point>
-        <Point>SARAN</Point>
-        <Point>CELBA</Point>
-        <Point>LIMON</Point>
-        <Point>CHE NDB</Point>
-        <Point>ZEM VOR</Point>
-      </Label>            
-    </Map>
-    <Map Type="System" Name="DANE Waypoints" Priority="1">
-      <Symbol Type="Reticle">
-        <Point>DABB</Point>
-        <Point>DABC</Point> 
-      </Symbol>
-      <Symbol Type="HollowTriangle">
-        <Point>ZIBAN</Point>
-        <Point>TOLGA</Point>
-        <Point>NADJI</Point>
-        <Point>AMIRA</Point>
-        <Point>RADJA</Point>
-        <Point>ZENAD</Point>
-        <Point>DIMAO</Point>
-        <Point>MORJA</Point>
-        <Point>KAWKA</Point>
-        <Point>MOUET</Point>
-        <Point>CIRTA</Point>
-        <Point>SALMA</Point>
-        <Point>REQIN</Point>
-        <Point>KAMER</Point>
-        <Point>DOLIS</Point>
-        <Point>BOURI</Point>
-        <Point>PAGRE</Point>
-        <Point>BABOR</Point>
-        <Point>TAGRO</Point>
-        <Point>TAJEN</Point>
-      </Symbol>
-      <Symbol Type="DotFillCircle">
-        <Point>BJA NDB</Point>
-      </Symbol>
-      <Symbol Type="Hexagon">
-        <Point>BIS VOR</Point>
-        <Point>JIL VOR</Point>
-        <Point>BJA VOR</Point>
-        <Point>STF VOR</Point>
-        <Point>BTN VOR</Point>
-        <Point>CSO VOR</Point>
-        <Point>ANB VOR</Point>
-        <Point>TBS VOR</Point>               
-      </Symbol>
-      <Label HasLeader="False">
-        <Point>DABB</Point>
-        <Point>DABC</Point>        
-        <Point>ZIBAN</Point>
-        <Point>TOLGA</Point>
-        <Point>NADJI</Point>
-        <Point>AMIRA</Point>
-        <Point>RADJA</Point>
-        <Point>ZENAD</Point>
-        <Point>DIMAO</Point>
-        <Point>MORJA</Point>
-        <Point>KAWKA</Point>
-        <Point>MOUET</Point>
-        <Point>CIRTA</Point>
-        <Point>SALMA</Point>
-        <Point>REQIN</Point>
-        <Point>KAMER</Point>
-        <Point>DOLIS</Point>
-        <Point>BOURI</Point>
-        <Point>PAGRE</Point>
-        <Point>BABOR</Point>
-        <Point>TAGRO</Point>
-        <Point>TAJEN</Point>   
-        <Point>BIS VOR</Point>
-        <Point>JIL VOR</Point>
-        <Point>BJA VOR</Point>
-        <Point>STF VOR</Point>
-        <Point>BTN VOR</Point>
-        <Point>CSO VOR</Point>
-        <Point>ANB VOR</Point>
-        <Point>TBS VOR</Point> 
-        <Point>BJA NDB</Point>
-      </Label>
-    </Map>
-    <Map Type="System" Name="DASE Waypoints" Priority="1">
-      <Symbol Type="Reticle">
-        <Point>DAUO</Point>
-        <Point>DAUH</Point>
-        <Point>DAUB</Point>
-      </Symbol>
-      <Symbol Type="HollowTriangle">
-        <Point>HOGAR</Point>
-        <Point>ATAFA</Point>
-        <Point>TIDOU</Point>
-        <Point>HINAN</Point>
-        <Point>OUREL</Point>
-        <Point>TIHET</Point>
-        <Point>TARAT</Point>
-        <Point>KRIMA</Point>
-        <Point>DAFRI</Point>
-        <Point>ZENAD</Point>
-        <Point>RADJA</Point>
-        <Point>AMIRA</Point>
-        <Point>NADJI</Point>
-        <Point>TOLGA</Point>
-        <Point>ZIBAN</Point>
-        <Point>MAHDI</Point>                                      
-        <Point>DAYAT</Point>
-        <Point>GOBET</Point>
-        <Point>BISSA</Point>
-        <Point>KEBRI</Point>
-        <Point>RIKIF</Point>
-        <Point>GAFLA</Point>
-        <Point>OUCIF</Point>
-        <Point>TILMA</Point>
-        <Point>NAGAH</Point>
-        <Point>BOKAL</Point>
-        <Point>GABEL</Point>
-        <Point>BARKA</Point>
-        <Point>SAMRA</Point>
-        <Point>RIMEL</Point>
-        <Point>GARBA</Point>
-        <Point>ROANE</Point>  
-      </Symbol>
-      <Symbol Type="DotFillCircle">
-        <Point>HME NDB</Point>
-      </Symbol>
-      <Symbol Type="Hexagon">
-        <Point>BIS VOR</Point>
-        <Point>TON VOR</Point>
-        <Point>ELO VOR</Point>
-        <Point>TGU VOR</Point>
-        <Point>BTN VOR</Point>
-        <Point>EBA VOR</Point>
-        <Point>HME VOR</Point>
-        <Point>OUR VOR</Point>
-        <Point>ZAR VOR</Point>
-        <Point>ILZ VOR</Point>
-        <Point>BOD VOR</Point>
-      </Symbol>
-      <Label HasLeader="False">
-        <Point>DAUO</Point>
-        <Point>DAUH</Point>
-        <Point>DAUB</Point>       
-        <Point>HOGAR</Point>
-        <Point>ATAFA</Point>
-        <Point>TIDOU</Point>
-        <Point>HINAN</Point>
-        <Point>OUREL</Point>
-        <Point>TIHET</Point>
-        <Point>TARAT</Point>
-        <Point>KRIMA</Point>
-        <Point>DAFRI</Point>
-        <Point>ZENAD</Point>
-        <Point>RADJA</Point>
-        <Point>AMIRA</Point>
-        <Point>NADJI</Point>
-        <Point>TOLGA</Point>
-        <Point>ZIBAN</Point>
-        <Point>MAHDI</Point>                                      
-        <Point>DAYAT</Point>
-        <Point>GOBET</Point>
-        <Point>BISSA</Point>
-        <Point>KEBRI</Point>
-        <Point>RIKIF</Point>
-        <Point>GAFLA</Point>
-        <Point>OUCIF</Point>
-        <Point>TILMA</Point>
-        <Point>NAGAH</Point>
-        <Point>BOKAL</Point>
-        <Point>GABEL</Point>
-        <Point>BARKA</Point>
-        <Point>SAMRA</Point>
-        <Point>RIMEL</Point>
-        <Point>GARBA</Point>
-        <Point>ROANE</Point>
-        <Point>HME NDB</Point>
-        <Point>BIS VOR</Point>
-        <Point>TON VOR</Point>
-        <Point>ELO VOR</Point>
-        <Point>TGU VOR</Point>
-        <Point>BTN VOR</Point>
-        <Point>EBA VOR</Point>
-        <Point>HME VOR</Point>
-        <Point>OUR VOR</Point>
-        <Point>ZAR VOR</Point>
-        <Point>ILZ VOR</Point>
-        <Point>BOD VOR</Point>
-      </Label>
-    </Map> 
-    <Map Type="System" Name="DASS Waypoints" Priority="1">
-      <Symbol Type="Reticle">
-        <Point>DAAJ</Point>
-        <Point>DAAT</Point>
-        <Point>DATG</Point>
-      </Symbol>
-      <Symbol Type="HollowTriangle">                                              
-        <Point>ZAWAT</Point>
-        <Point>INAMA</Point>
-        <Point>EREBO</Point>
-        <Point>ERKEL</Point>
-        <Point>TOBUK</Point>
-        <Point>IKTAV</Point>
-        <Point>TWARG</Point>
-        <Point>TARAT</Point>
-        <Point>TIHET</Point>
-        <Point>OUREL</Point>
-        <Point>OUREL</Point>
-        <Point>HINAN</Point>
-        <Point>TIDOU</Point>
-        <Point>ATAFA</Point>
-        <Point>HOGAR</Point>
-        <Point>OUCIF</Point>
-        <Point>TIFOU</Point>
-        <Point>SIHAR</Point>
-        <Point>AMTIK</Point>
-        <Point>ARSEM</Point>
-        <Point>REKDA</Point>
-        <Point>TINVI</Point>
-        <Point>MELOG</Point>
-        <Point>BERTI</Point>
-      </Symbol> 
-      <Symbol Type="Hexagon">
-        <Point>DJA VOR</Point>
-        <Point>GHT VOR</Point>
-        <Point>ELO VOR</Point>
-        <Point>TMS VOR</Point>
-        <Point>IGZ VOR</Point>
-        <Point>EBA VOR</Point>
-        <Point>HME VOR</Point>
-        <Point>OUR VOR</Point>
-        <Point>ZAR VOR</Point>
-        <Point>ILZ VOR</Point>
-        <Point>BOD VOR</Point>
-      </Symbol> 
-      <Label HasLeader="False">
-        <Point>DAAJ</Point>
-        <Point>DAAT</Point>
-        <Point>DATG</Point>
-        <Point>ZAWAT</Point>
-        <Point>INAMA</Point>
-        <Point>EREBO</Point>
-        <Point>ERKEL</Point>
-        <Point>TOBUK</Point>
-        <Point>IKTAV</Point>
-        <Point>TWARG</Point>
-        <Point>TARAT</Point>
-        <Point>TIHET</Point>
-        <Point>OUREL</Point>
-        <Point>OUREL</Point>
-        <Point>HINAN</Point>
-        <Point>TIDOU</Point>
-        <Point>ATAFA</Point>
-        <Point>HOGAR</Point>
-        <Point>OUCIF</Point>
-        <Point>TIFOU</Point>
-        <Point>SIHAR</Point>
-        <Point>AMTIK</Point>
-        <Point>ARSEM</Point>
-        <Point>REKDA</Point>
-        <Point>TINVI</Point>
-        <Point>MELOG</Point>
-        <Point>BERTI</Point>
-        <Point>DJA VOR</Point>
-        <Point>GHT VOR</Point>
-        <Point>ELO VOR</Point>
-        <Point>TMS VOR</Point>
-        <Point>IGZ VOR</Point>
-        <Point>EBA VOR</Point>
-        <Point>HME VOR</Point>
-        <Point>OUR VOR</Point>
-        <Point>ZAR VOR</Point>
-        <Point>ILZ VOR</Point>
-        <Point>BOD VOR</Point> 
-      </Label>
-    </Map>  
-    <Map Type="System" Name="DASW Waypoints" Priority="1">
-      <Symbol Type="Reticle">
-        <Point>DAOF</Point>
-        <Point>DAUT</Point>
-        <Point>DAUI</Point>
-        <Point>DAUA</Point>
-        <Point>DATM</Point>        
-      </Symbol> 
-      <Symbol Type="HollowTriangle">                                              
-        <Point>BRENA</Point>
-        <Point>SBITA</Point>
-        <Point>USRUT</Point>
-        <Point>IPOBA</Point>
-        <Point>MOKAT</Point>
-        <Point>TERAS</Point>
-        <Point>TINVI</Point>
-        <Point>REKDA</Point>
-        <Point>ARSEM</Point>
-        <Point>AMTIK</Point>                                                                                      
-        <Point>RAHIL</Point>
-        <Point>RIAME</Point>
-        <Point>MOUNA</Point>   
-        <Point>TAMUZ</Point>
-        <Point>EKRAK</Point>
-        <Point>TAGIG</Point>   
-        <Point>BAGBO</Point>
-        <Point>ROFER</Point>
-        <Point>BASID</Point>
-        <Point>SABRO</Point>
-        <Point>CHAMI</Point>
-        <Point>MERAT</Point>
-        <Point>TISIR</Point>
-        <Point>TABAL</Point>               
-      </Symbol>
-      <Symbol Type="Hexagon">
-        <Point>ADR VOR</Point>
-        <Point>NSL VOR</Point>
-        <Point>MOK VOR</Point>
-        <Point>TDF VOR</Point>
-        <Point>BBS VOR</Point>
-        <Point>TIO VOR</Point>
-      </Symbol> 
-      <Symbol Type="DotFillCircle">
-        <Point>TZE NDB</Point>
-        <Point>RGN NDB</Point>
-      </Symbol>      
-      <Label HasLeader="False">
-        <Point>DAOF</Point>
-        <Point>DAUT</Point>
-        <Point>DAUI</Point>
-        <Point>DAUA</Point>
-        <Point>DATM</Point> 
-        <Point>BRENA</Point>
-        <Point>SBITA</Point>
-        <Point>USRUT</Point>
-        <Point>IPOBA</Point>
-        <Point>MOKAT</Point>
-        <Point>TERAS</Point>
-        <Point>TINVI</Point>
-        <Point>REKDA</Point>
-        <Point>ARSEM</Point>
-        <Point>AMTIK</Point>                                                                                      
-        <Point>RAHIL</Point>
-        <Point>RIAME</Point>
-        <Point>MOUNA</Point>   
-        <Point>TAMUZ</Point>
-        <Point>EKRAK</Point>
-        <Point>TAGIG</Point>   
-        <Point>BAGBO</Point>
-        <Point>ROFER</Point>
-        <Point>BASID</Point>
-        <Point>SABRO</Point>
-        <Point>CHAMI</Point>
-        <Point>MERAT</Point>
-        <Point>TISIR</Point>
-        <Point>TABAL</Point>               
-        <Point>ADR VOR</Point>
-        <Point>NSL VOR</Point>
-        <Point>MOK VOR</Point>
-        <Point>TDF VOR</Point>
-        <Point>BBS VOR</Point>
-        <Point>TIO VOR</Point>
-        <Point>TZE NDB</Point>
-        <Point>RGN NDB</Point>
-      </Label>
-    </Map>
-    <Map Type="System" Name="DASC Waypoints" Priority="1">
-      <Symbol Type="Reticle">
-        <Point>DAAD</Point>
-        <Point>DAOB</Point>
-        <Point>DAUG</Point>
-        <Point>DAUE</Point>
-      </Symbol>
-      <Symbol Type="HollowTriangle">                                              
-        <Point>RAHIL</Point>
-        <Point>KSOUR</Point>
-        <Point>SIHAR</Point>
-        <Point>TIFOU</Point>
-        <Point>GAFLA</Point>
-        <Point>RIKIF</Point>
-        <Point>KEBRI</Point>
-        <Point>BISSA</Point>
-        <Point>GOBET</Point>
-        <Point>DAYAT</Point>
-        <Point>MAHDI</Point>
-        <Point>ZIBAN</Point>
-        <Point>CHLAL</Point>
-        <Point>HJILA</Point>
-        <Point>CHIGA</Point>
-        <Point>SAKNA</Point>         
-        <Point>ANIEB</Point>
-        <Point>IBNOD</Point>
-        <Point>MEZAB</Point>
-        <Point>MOUNA</Point>
-        <Point>RIAME</Point>
-        <Point>ATCHA</Point>
-        <Point>ABLOD</Point>
-        <Point>CITER</Point>
-      </Symbol>   
-      <Symbol Type="Hexagon">
-        <Point>MNA VOR</Point>
-        <Point>GHA VOR</Point>
-        <Point>MOK VOR</Point>
-        <Point>BSA VOR</Point>
-        <Point>BAY VOR</Point>
-      </Symbol> 
-      <Label HasLeader="False">
-        <Point>DAAD</Point>
-        <Point>DAOB</Point>
-        <Point>DAUG</Point>
-        <Point>DAUE</Point>
-        <Point>RAHIL</Point>
-        <Point>KSOUR</Point>
-        <Point>SIHAR</Point>
-        <Point>TIFOU</Point>
-        <Point>GAFLA</Point>
-        <Point>RIKIF</Point>
-        <Point>KEBRI</Point>
-        <Point>BISSA</Point>
-        <Point>GOBET</Point>
-        <Point>DAYAT</Point>
-        <Point>MAHDI</Point>
-        <Point>ZIBAN</Point>
-        <Point>CHLAL</Point>
-        <Point>HJILA</Point>
-        <Point>CHIGA</Point>
-        <Point>SAKNA</Point>         
-        <Point>ANIEB</Point>
-        <Point>IBNOD</Point>
-        <Point>MEZAB</Point>
-        <Point>MOUNA</Point>
-        <Point>RIAME</Point>
-        <Point>ATCHA</Point>
-        <Point>ABLOD</Point>
-        <Point>CITER</Point>
-        <Point>MNA VOR</Point>
-        <Point>GHA VOR</Point>
-        <Point>MOK VOR</Point>
-        <Point>BSA VOR</Point>
-        <Point>BAY VOR</Point>
-      </Label>
-    </Map>
-    <Map Type="System" Name="DANW Waypoints" Priority="1">
-      <Symbol Type="Reticle">
-        <Point>DAOR</Point>
-        <Point>DAOY</Point>
-        <Point>DAON</Point> 
-        <Point>DAOO</Point>
-        <Point>DAOI</Point> 
-      </Symbol>
-      <Symbol Type="HollowTriangle">                                              
-        <Point>TAGIG</Point>
-        <Point>EKRAK</Point>
-        <Point>TAMUZ</Point>
-        <Point>MEZAB</Point>   
-        <Point>IBNOD</Point>
-        <Point>ANIEB</Point>
-        <Point>SAKNA</Point>
-        <Point>ESNAM</Point> 
-        <Point>DAHRA</Point>
-        <Point>KIRLA</Point>
-        <Point>LABRO</Point>
-        <Point>HAMRA</Point>
-        <Point>TARIK</Point>
-        <Point>CARBO</Point>
-        <Point>LIGUM</Point>
-        <Point>ORSUP</Point>
-        <Point>ARIAM</Point>
-       </Symbol>
-      <Symbol Type="Hexagon">
-        <Point>BCR VOR</Point>
-        <Point>BAY VOR</Point>
-        <Point>OJD VOR</Point>
-        <Point>TLM VOR</Point>
-        <Point>TRB VOR</Point>
-        <Point>MOS VOR</Point>
-        <Point>CLF VOR</Point>
-      </Symbol> 
-      <Symbol>
-        <Point>HMB NDB</Point>
-      </Symbol> 
-      <Label HasLeader="False">   
-        <Point>DAOR</Point>
-        <Point>DAOY</Point>
-        <Point>DAON</Point> 
-        <Point>DAOO</Point>
-        <Point>DAOI</Point>
-        <Point>TAGIG</Point>
-        <Point>EKRAK</Point>
-        <Point>TAMUZ</Point>
-        <Point>MEZAB</Point>   
-        <Point>IBNOD</Point>
-        <Point>ANIEB</Point>
-        <Point>SAKNA</Point>
-        <Point>ESNAM</Point> 
-        <Point>DAHRA</Point>
-        <Point>KIRLA</Point>
-        <Point>LABRO</Point>
-        <Point>HAMRA</Point>
-        <Point>TARIK</Point>
-        <Point>CARBO</Point>
-        <Point>LIGUM</Point>
-        <Point>ORSUP</Point>
-        <Point>ARIAM</Point>
-        <Point>BCR VOR</Point>
-        <Point>BAY VOR</Point>
-        <Point>OJD VOR</Point>
-        <Point>TLM VOR</Point>
-        <Point>TRB VOR</Point>
-        <Point>MOS VOR</Point>
-        <Point>CLF VOR</Point>
-        <Point>HMB NDB</Point>
-      </Label>
-    </Map>	
-    <Map Type="System" Name="Approach Fixes" Priority="1">  
+    <Map Type="System" Name="TMA FIXES" Priority="1">  
       <Symbol Type="HollowTriangle">  
-        <Point>AE701</Point>
-        <Point>AE702</Point>       
-        <Point>AE703</Point>  
-        <Point>AE704</Point> 
-        <Point>AE706</Point> 
-        <Point>AE707</Point> 
-        <Point>AE708</Point> 
-        <Point>AE712</Point> 
-        <Point>AE713</Point> 
-        <Point>AE714</Point> 
-        <Point>AE716</Point> 
-        <Point>AE718</Point> 
-        <Point>AE730</Point> 
-        <Point>TOPGI</Point> 
-        <Point>DHIBA</Point> 
-        <Point>NIMIR</Point> 
-        <Point>HIMAD</Point> 
-        <Point>RASMA</Point>
+		<Point>AE701</Point>
+		<Point>AE702</Point>
+		<Point>AE703</Point>
+		<Point>AE704</Point>
+		<Point>AE706</Point>
+		<Point>AE707</Point>
+		<Point>AE708</Point>
+		<Point>AE712</Point>
+		<Point>AE713</Point>
+		<Point>AE714</Point>
+		<Point>AE716</Point>
+		<Point>AE718</Point>
+		<Point>AE730</Point>
+		<Point>DHIBA</Point>
+		<Point>HIMAD</Point>
+		<Point>NIMIR</Point>
+		<Point>RASMA</Point>
+		<Point>TOPGI</Point>
       </Symbol>    
       <Symbol Type="DotFillCircle">  
-        <Point>BBS NDB</Point>
-        <Point>BCR NDB</Point>  
-        <Point>BJA NDB</Point> 
-        <Point>BNA NDB</Point> 
-        <Point>CHE NDB</Point> 
-        <Point>CNE NDB</Point> 
-        <Point>ELO NDB</Point> 
-        <Point>GHA NDB</Point> 
-        <Point>GRS NDB</Point>
-        <Point>HKI NDB</Point> 
-        <Point>HM NDB</Point>
-        <Point>HMB NDB</Point>
-        <Point>HMD NDB</Point>
-        <Point>IGZ NDB</Point>
-        <Point>SMR NDB</Point>
-        <Point>MAR NDB</Point>
-        <Point>BSA NDB</Point>
-        <Point>RGN NDB</Point>
-        <Point>SMR NDB</Point>
-        <Point>TDF NDB</Point>
-        <Point>TIO NDB</Point>
-        <Point>TLM NDB</Point>
-        <Point>ZAR NDB</Point>
-        <Point>ZEM NDB</Point>
-        <Point>HMR NDB</Point>
-        <Point>TIO NDB</Point>
+		<Point>BBS NDB</Point>
+		<Point>BCR NDB</Point>
+		<Point>BJA NDB</Point>
+		<Point>BNA NDB</Point>
+		<Point>BSA NDB</Point>
+		<Point>CHE NDB</Point>
+		<Point>CNE NDB</Point>
+		<Point>ELO NDB</Point>
+		<Point>GHA NDB</Point>
+		<Point>GRS NDB</Point>
+		<Point>HKI NDB</Point>
+		<Point>HM NDB</Point>
+		<Point>HMB NDB</Point>
+		<Point>HMD NDB</Point>
+		<Point>HMR NDB</Point>
+		<Point>IGZ NDB</Point>
+		<Point>MAR NDB</Point>
+		<Point>RGN NDB</Point>
+		<Point>SMR NDB</Point>
+		<Point>SMR NDB</Point>
+		<Point>TDF NDB</Point>
+		<Point>TIO NDB</Point>
+		<Point>TIO NDB</Point>
+		<Point>TLM NDB</Point>
+		<Point>ZAR NDB</Point>
+		<Point>ZEM NDB</Point>
       </Symbol>
       <Symbol Type="Hexagon">
-        <Point>ZEM VOR</Point>
-        <Point>ALR VOR</Point>   
-        <Point>ANB VOR</Point> 
-        <Point>BTN VOR</Point> 
-        <Point>BJA VOR</Point> 
-        <Point>BCR VOR</Point> 
-        <Point>ADR VOR</Point> 
-        <Point>BSA VOR</Point> 
-        <Point>BIS VOR</Point> 
-        <Point>BAY VOR</Point> 
-        <Point>CSO VOR</Point> 
-        <Point>DJA VOR</Point> 
-        <Point>ELO VOR</Point>
-        <Point>GHA VOR</Point>
-        <Point>HME VOR</Point>
-        <Point>JIL VOR</Point>
-        <Point>NSL VOR</Point>
-        <Point>STF VOR</Point>
-        <Point>TMS VOR</Point>
-        <Point>BIS VOR</Point>
-        <Point>BOD VOR</Point>
-        <Point>CLF VOR</Point>
-        <Point>CSO VOR</Point>
-        <Point>HRM VOR</Point>
-        <Point>IGZ VOR</Point>
-        <Point>IMN VOR</Point>
-        <Point>SDM VOR</Point>
-        <Point>BBS VOR</Point>
-        <Point>MOK VOR</Point>
-        <Point>MNA VOR</Point>
-        <Point>TDF VOR</Point>
-        <Point>TGU VOR</Point>
-        <Point>TIO VOR</Point>
-        <Point>TLM VOR</Point>
-        <Point>TMS VOR</Point>
-        <Point>TRB VOR</Point>
-        <Point>ILZ VOR</Point>
-        <Point>MOS VOR</Point>
-        <Point>ORA VOR</Point>
-        <Point>ZAR VOR</Point>
+		<Point>ADR VOR</Point>
+		<Point>ALR VOR</Point>
+		<Point>ANB VOR</Point>
+		<Point>BAY VOR</Point>
+		<Point>BBS VOR</Point>
+		<Point>BCR VOR</Point>
+		<Point>BIS VOR</Point>
+		<Point>BIS VOR</Point>
+		<Point>BJA VOR</Point>
+		<Point>BOD VOR</Point>
+		<Point>BSA VOR</Point>
+		<Point>BTN VOR</Point>
+		<Point>CLF VOR</Point>
+		<Point>CSO VOR</Point>
+		<Point>CSO VOR</Point>
+		<Point>DJA VOR</Point>
+		<Point>ELO VOR</Point>
+		<Point>GHA VOR</Point>
+		<Point>HME VOR</Point>
+		<Point>HRM VOR</Point>
+		<Point>IGZ VOR</Point>
+		<Point>ILZ VOR</Point>
+		<Point>IMN VOR</Point>
+		<Point>JIL VOR</Point>
+		<Point>MNA VOR</Point>
+		<Point>MOK VOR</Point>
+		<Point>MOS VOR</Point>
+		<Point>NSL VOR</Point>
+		<Point>ORA VOR</Point>
+		<Point>SDM VOR</Point>
+		<Point>STF VOR</Point>
+		<Point>TDF VOR</Point>
+		<Point>TGU VOR</Point>
+		<Point>TIO VOR</Point>
+		<Point>TLM VOR</Point>
+		<Point>TMS VOR</Point>
+		<Point>TMS VOR</Point>
+		<Point>TRB VOR</Point>
+		<Point>ZAR VOR</Point>
+		<Point>ZEM VOR</Point>
       </Symbol> 
     </Map>                      
-    <Map Type="System" Name="Approach Fixes (NAMES)" Priority="1">  
+    <Map Type="System" Name="TMA FIXES (NAMES)" Priority="1">  
       <Label HasLeader="False">
-        <Point>AE701</Point>
-        <Point>AE702</Point>       
-        <Point>AE703</Point> 
-        <Point>AE70</Point> 
-        <Point>AE704</Point> 
-        <Point>AE706</Point> 
-        <Point>AE707</Point> 
-        <Point>AE708</Point> 
-        <Point>AE712</Point> 
-        <Point>AE713</Point> 
-        <Point>AE714</Point> 
-        <Point>AE716</Point> 
-        <Point>AE718</Point> 
-        <Point>AE730</Point> 
-        <Point>TOPGI</Point> 
-        <Point>DHIBA</Point> 
-        <Point>NIMIR</Point> 
-        <Point>HIMAD</Point> 
-        <Point>RASMA</Point>
-        <Point>BBS NDB</Point>
-        <Point>BCR NDB</Point>  
-        <Point>BJA NDB</Point> 
-        <Point>BNA NDB</Point> 
-        <Point>CHE NDB</Point> 
-        <Point>CNE NDB</Point> 
-        <Point>ELO NDB</Point> 
-        <Point>GHA NDB</Point> 
-        <Point>GRS NDB</Point>
-        <Point>HKI NDB</Point> 
-        <Point>HM NDB</Point>
-        <Point>HMB NDB</Point>
-        <Point>HMD NDB</Point>
-        <Point>IGZ NDB</Point>
-        <Point>SMR NDB</Point>
-        <Point>MAR NDB</Point>
-        <Point>BSA NDB</Point>
-        <Point>RGN NDB</Point>
-        <Point>SMR NDB</Point>
-        <Point>TDF NDB</Point>
-        <Point>TIO NDB</Point>
-        <Point>TLM NDB</Point>
-        <Point>ZAR NDB</Point>
-        <Point>ZEM NDB</Point>
-        <Point>HMR NDB</Point>
-        <Point>TIO NDB</Point>
-        <Point>ZEM VOR</Point>
-        <Point>ALR VOR</Point>   
-        <Point>ANB VOR</Point> 
-        <Point>BTN VOR</Point> 
-        <Point>BJA VOR</Point> 
-        <Point>BCR VOR</Point> 
-        <Point>ADR VOR</Point> 
-        <Point>BSA VOR</Point> 
-        <Point>BIS VOR</Point> 
-        <Point>BAY VOR</Point> 
-        <Point>CSO VOR</Point> 
-        <Point>DJA VOR</Point> 
-        <Point>ELO VOR</Point>
-        <Point>GHA VOR</Point>
-        <Point>HME VOR</Point>
-        <Point>JIL VOR</Point>
-        <Point>NSL VOR</Point>
-        <Point>STF VOR</Point>
-        <Point>TMS VOR</Point>
-        <Point>BIS VOR</Point>
-        <Point>BOD VOR</Point>
-        <Point>CLF VOR</Point>
-        <Point>CSO VOR</Point>
-        <Point>HRM VOR</Point>
-        <Point>IGZ VOR</Point>
-        <Point>IMN VOR</Point>
-        <Point>SDM VOR</Point>
-        <Point>BBS VOR</Point>
-        <Point>MOK VOR</Point>
-        <Point>MNA VOR</Point>
-        <Point>TDF VOR</Point>
-        <Point>TGU VOR</Point>
-        <Point>TIO VOR</Point>
-        <Point>TLM VOR</Point>
-        <Point>TMS VOR</Point>
-        <Point>TRB VOR</Point>
-        <Point>ILZ VOR</Point>
-        <Point>MOS VOR</Point>
-        <Point>ORA VOR</Point>
-        <Point>ZAR VOR</Point>
+		<Point>ADR VOR</Point>
+		<Point>AE701</Point>
+		<Point>AE702</Point>
+		<Point>AE703</Point>
+		<Point>AE704</Point>
+		<Point>AE706</Point>
+		<Point>AE707</Point>
+		<Point>AE708</Point>
+		<Point>AE70</Point>
+		<Point>AE712</Point>
+		<Point>AE713</Point>
+		<Point>AE714</Point>
+		<Point>AE716</Point>
+		<Point>AE718</Point>
+		<Point>AE730</Point>
+		<Point>ALR VOR</Point>
+		<Point>ANB VOR</Point>
+		<Point>BAY VOR</Point>
+		<Point>BBS NDB</Point>
+		<Point>BBS VOR</Point>
+		<Point>BCR NDB</Point>
+		<Point>BCR VOR</Point>
+		<Point>BIS VOR</Point>
+		<Point>BIS VOR</Point>
+		<Point>BJA NDB</Point>
+		<Point>BJA VOR</Point>
+		<Point>BNA NDB</Point>
+		<Point>BOD VOR</Point>
+		<Point>BSA NDB</Point>
+		<Point>BSA VOR</Point>
+		<Point>BTN VOR</Point>
+		<Point>CHE NDB</Point>
+		<Point>CLF VOR</Point>
+		<Point>CNE NDB</Point>
+		<Point>CSO VOR</Point>
+		<Point>CSO VOR</Point>
+		<Point>DHIBA</Point>
+		<Point>DJA VOR</Point>
+		<Point>ELO NDB</Point>
+		<Point>ELO VOR</Point>
+		<Point>GHA NDB</Point>
+		<Point>GHA VOR</Point>
+		<Point>GRS NDB</Point>
+		<Point>HIMAD</Point>
+		<Point>HKI NDB</Point>
+		<Point>HM NDB</Point>
+		<Point>HMB NDB</Point>
+		<Point>HMD NDB</Point>
+		<Point>HME VOR</Point>
+		<Point>HMR NDB</Point>
+		<Point>HRM VOR</Point>
+		<Point>IGZ NDB</Point>
+		<Point>IGZ VOR</Point>
+		<Point>ILZ VOR</Point>
+		<Point>IMN VOR</Point>
+		<Point>JIL VOR</Point>
+		<Point>MAR NDB</Point>
+		<Point>MNA VOR</Point>
+		<Point>MOK VOR</Point>
+		<Point>MOS VOR</Point>
+		<Point>NIMIR</Point>
+		<Point>NSL VOR</Point>
+		<Point>ORA VOR</Point>
+		<Point>RASMA</Point>
+		<Point>RGN NDB</Point>
+		<Point>SDM VOR</Point>
+		<Point>SMR NDB</Point>
+		<Point>SMR NDB</Point>
+		<Point>STF VOR</Point>
+		<Point>TDF NDB</Point>
+		<Point>TDF VOR</Point>
+		<Point>TGU VOR</Point>
+		<Point>TIO NDB</Point>
+		<Point>TIO NDB</Point>
+		<Point>TIO VOR</Point>
+		<Point>TLM NDB</Point>
+		<Point>TLM VOR</Point>
+		<Point>TMS VOR</Point>
+		<Point>TMS VOR</Point>
+		<Point>TOPGI</Point>
+		<Point>TRB VOR</Point>
+		<Point>ZAR NDB</Point>
+		<Point>ZAR VOR</Point>
+		<Point>ZEM NDB</Point>
+		<Point>ZEM VOR</Point>
       </Label>
 	</Map>  
 </Maps>
