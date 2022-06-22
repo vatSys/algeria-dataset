@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Group Name="En-Route">
+  <Group Name="SECTEUR">
   <Position Name="Maghreb Controle" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
     <Sectors>
       <Sector Name="DA" />
@@ -246,7 +246,7 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="Approach">
+  <Group Name="TMA">
     <Position Name="Alger Approche" Type="ASD" DefaultCenter="+364336.000+0031870.000" DefaultRange="250">
       <Sectors>
         <Sector Name="AGA" />
@@ -380,7 +380,7 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="Aerodrome">
+  <Group Name="AD">
     <Position Name="Bousaada Tower" Type="ASD" DefaultCenter="+352012.000+0041222.000" DefaultRange="200">
       <Sectors>
         <Sector Name="ADT" />
