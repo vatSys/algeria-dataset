@@ -382,7 +382,7 @@
 +365038.0+0074852.53</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_BLD" Name="ASMGCS_DAOO_BLD" Priority="1">
+  <Map Type="Ground_BLD" Name="ASMGCS_DABB_BLD" Priority="1">
     <Infill Name="Buildings DABB">
       <Point>+364928.27+0074920.26/
 +364928.44+0074920.08/
