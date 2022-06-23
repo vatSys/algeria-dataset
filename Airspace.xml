@@ -6646,8 +6646,13 @@ BRENA
      <SID Name="BJA1A" Airport="DAAG" Runways="23">
       <Route Runway="23">BNA NDB/BJA VOR</Route>
     </SID>
+<<<<<<< HEAD
      <SID Name="BABR1A" Airport="DAAG" Runways="23">
       <Route Runway="23">BNA NDB/BADOR</Route>
+=======
+     <SID Name="BADR1A" Airport="DAAG" Runways="23">
+      <Route Runway="23">BNA NDB/BABOR</Route>
+>>>>>>> b3fc0c6f196872b74626f07211649aa884221ae8
     </SID>
      <SID Name="TAGR1A" Airport="DAAG" Runways="23">
       <Route Runway="23">BNA NDB/TAGRO</Route>
@@ -6682,8 +6687,13 @@ BRENA
     <SID Name="BJA1D" Airport="DAAG" Runways="09">
       <Route Runway="09">SDM NDB/BNA NDB/BJA VOR</Route>
     </SID>
+<<<<<<< HEAD
     <SID Name="BABR1D" Airport="DAAG" Runways="09">
       <Route Runway="09">SDM NDB/BNA NDB/BADOR</Route>
+=======
+    <SID Name="BADR1D" Airport="DAAG" Runways="09">
+      <Route Runway="09">SDM NDB/BNA NDB/BABOR</Route>
+>>>>>>> b3fc0c6f196872b74626f07211649aa884221ae8
     </SID>
     <SID Name="TAGR1D" Airport="DAAG" Runways="09">
       <Route Runway="09">SDM NDB/BNA NDB/TAGRO</Route>
@@ -6718,8 +6728,13 @@ BRENA
     <SID Name="BJA1B" Airport="DAAG" Runways="27">
       <Route Runway="27">SDM NDB/BNA NDB/BJA VOR</Route>
     </SID>
+<<<<<<< HEAD
     <SID Name="BABR1B" Airport="DAAG" Runways="27">
       <Route Runway="27">SDM NDB/BNA NDB/BADOR</Route>
+=======
+    <SID Name="BADR1B" Airport="DAAG" Runways="27">
+      <Route Runway="27">SDM NDB/BNA NDB/BABOR</Route>
+>>>>>>> b3fc0c6f196872b74626f07211649aa884221ae8
     </SID>
     <SID Name="TAGR1B" Airport="DAAG" Runways="27">
       <Route Runway="27">SDM NDB/BNA NDB/TAGRO</Route>
