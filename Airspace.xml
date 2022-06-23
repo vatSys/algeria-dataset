@@ -679,6 +679,13 @@ TARIK/
 ARZEW/
 MOS VOR
 </Airway>
+    <Airway Name="UA856">
+TBS VOR/
+BAN VOR/
+KIRAS/
+JBA VOR/
+TANLI
+</Airway>
     <Airway Name="UA411">
 ORSUP/
 ORA VOR/
@@ -690,7 +697,15 @@ BNA NDB/
 BJA NDB/
 JIL VOR/
 ANB VOR/
-MORJA
+MORJA/
+LABIP/
+BARIM/
+KEMIR/
+TUC VOR/
+VAXAL/
+MON VOR/
+SFX VOR/
+JBA VOR
 </Airway>
     <Airway Name="UA604">
 MOS VOR/
@@ -765,6 +780,7 @@ DJA VOR/
 IKTAV
 </Airway>
     <Airway Name="UN736">
+INPEK/
 DOLIS/
 BIS VOR/
 BSA VOR
@@ -1065,6 +1081,11 @@ BASID/
 ROFER/
 TERAS
 </Airway>
+     <Airway Name="UM731">
+TUC VOR/
+BAMGI/
+JBA VOR
+</Airway>
      <Airway Name="UM744">
 CARBO/
 MOS VOR
@@ -1077,7 +1098,20 @@ ALR VOR
 ALR VOR/
 SADAF
 </Airway>
+     <Airway Name="UM980">
+TBS VOR/
+ROGBA/
+NAVED/
+MON VOR/
+ABDIN/
+BASMO
+</Airway>
+     <Airway Name="M980">
+BASMO/
+DEXOL
+</Airway>
      <Airway Name="UM998">
+SUXER/
 KAMER/
 CSO VOR/
 TOLGA/

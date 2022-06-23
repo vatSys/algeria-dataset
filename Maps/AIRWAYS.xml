@@ -62,7 +62,7 @@
     <Line Width="0.7" Name="UL102">CHE NDB.UL102.ESNAM</Line>
     <Line Width="0.7" Name="UM114">SIHAR.UM114.GHA VOR</Line>  
     <Line Width="0.7" Name="UM114">SIHAR.UM114.ZAWAT</Line>
-    <Line Width="0.7" Name="UM134">LUXUR.UL134.PAGRE</Line>
+    <Line Width="0.7" Name="UM134">LUXUR.UM134.PAGRE</Line>
     <Line Width="0.7" Name="UM134">PAGRE.UM134.ANB VOR</Line>
     <Line Width="0.7" Name="UM2">AMIRA.UM2.CIRTA</Line>
     <Line Width="0.7" Name="UM2">TARAT.UM2.AMIRA</Line>
@@ -94,5 +94,39 @@
     <Line Width="0.7" Name="UN854">SALMA.UN854.BIS VOR</Line>
     <Line Width="0.7" Name="UN855">BUYAH.UN855.ALR VOR</Line>
     <Line Width="0.7" Name="UN856">ALR VOR.UN856.SADAF</Line>
+	<Line Width="0.75" Name="M980">DEXOL.M980.BASMO</Line>
+	<Line Width="0.75" Name="UA411">MORJA.UA411.JBA VOR</Line>
+	<Line Width="0.75" Name="UL195">MGA VOR.UL195.LIGUM</Line>
+	<Line Width="0.75" Name="UG361">TON VOR.UG361.KRIMA</Line>
+	<Line Width="0.75" Name="UG623">GAD VOR.UG623.TBS VOR</Line>
+	<Line Width="0.75" Name="UG864">TBS VOR.UG864.TUC VOR</Line>
+	<Line Width="0.75" Name="UJ744">BAGBO.UJ744.OZT VOR</Line>
+	<Line Width="0.75" Name="UL102">ERA VOR.UL102.ARIAM</Line>
+	<Line Width="0.75" Name="UL150">ALT VOR.UL150.LABRO</Line>
+	<Line Width="0.75" Name="UM126">KAWKA.UM126.DOPEL</Line>
+	<Line Width="0.75" Name="UM126">DOPEL.M126.CAR VOR</Line>
+	<Line Width="0.75" Name="UM134">LUXUR.UM134.IZA NDB</Line>
+	<Line Width="0.75" Name="UM192">TARIK.UM192.AMR VOR</Line>
+	<Line Width="0.75" Name="UM2">CIRTA.UM2.ERETI</Line>
+	<Line Width="0.75" Name="UM4">MOUET.UM4.ETOIL</Line>
+	<Line Width="0.75" Name="UM744">MGA VOR.UM744.CARBO</Line>
+	<Line Width="0.75" Name="UM980">TBS VOR.UM980.BASMO</Line>
+	<Line Width="0.75" Name="UM986">REQIN.UM986.ERETI</Line>
+	<Line Width="0.75" Name="UM989">OTARO.UM989.LUNOR</Line>
+	<Line Width="0.75" Name="UM998">KAMER.UM998.SUXER</Line>
+	<Line Width="0.75" Name="UM999">ARIAM.UM999.ALM VOR</Line>
+	<Line Width="0.75" Name="UM999">IMN VOR.UM999.SEB VOR</Line>
+	<Line Width="0.75" Name="UN608">HAMRA.UN608.RAFOL</Line>
+	<Line Width="0.75" Name="UN736">DOLIS.UN736.INPEK</Line>
+	<Line Width="0.75" Name="UN853">PECES.UN853.MHN VOR</Line>
+	<Line Width="0.75" Name="UM854">SALMA.UN854.BAVON</Line>
+	<Line Width="0.75" Name="UN855">BUYAH.UN855.POS VOR</Line>
+	<Line Width="0.75" Name="UN856">SADAF.UN856.IZA NDB</Line>
+	<Line Width="0.75" Name="UN859">MJV VOR.UN859.MOGIL</Line>
+	<Line Width="0.75" Name="UN861">SADAF.UN861.MJV VOR</Line>
+	<Line Width="0.75" Name="UA856">TANLI.UA856.TBS VOR</Line>
+	<Line Width="0.75" Name="UT900">ARIAM.UT900.FES VOR</Line>
+	<Line Width="0.75" Name="UV18">DAFRI.UV18.TON VOR</Line>
+	<Line Width="0.75" Name="UW254">DIMAO.UW254.TUC VOR</Line>
   </Map>
 </Maps>
