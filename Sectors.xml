@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Secteur Centre Inferieur" Frequency="132.450" Callsign="DAAA_CTR" Name="DA">
-    <Volumes>DA</Volumes>
-    <ResponsibleSectors>DAC,DANE,DANW,DASE,DASC,DASW,DASS</ResponsibleSectors>
+  <Sector FullName="Secteur Centre" Frequency="127.300" Callsign="DAAA_CTR" Name="DAAA">
+    <ResponsibleSectors>DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Secteur Centre Superieur" Frequency="127.300" Callsign="DAAA_C_CTR" Name="DAC">
-    <Volumes>DAC</Volumes>
+  <Sector FullName="Secteur Centre Inférieur" Frequency="127.300" Callsign="DAAA_CI_CTR" Name="DACI">
+    <Volumes>DACI</Volumes>
+  </Sector>
+  <Sector FullName="Secteur Centre Supérieur" Frequency="132.450" Callsign="DAAA_CS_CTR" Name="DACS">
+    <Volumes>DACS</Volumes>
   </Sector>
   <Sector FullName="Secteur Nord Est" Frequency="125.400" Callsign="DAAA_NE_CTR" Name="DANE">
     <Volumes>DANE</Volumes>

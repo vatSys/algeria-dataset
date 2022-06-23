@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Group Name="En-Route">
+  <Group Name="SECTEUR">
   <Position Name="Maghreb Controle" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
     <Sectors>
-      <Sector Name="DA" />
-      <Sector Name="DAC" />
+      <Sector Name="DAAA" />
+      <Sector Name="DACI" />
+      <Sector Name="DACS" />
       <Sector Name="DANE" />
 	  <Sector Name="DANW" />
 	  <Sector Name="DASE" />
@@ -37,20 +38,19 @@
       <Airport Name="DAAG" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Maghreb Control</Line>
+      <Line>Maghreb Controle</Line>
       <Line>Charts - vats.im/dz/charts</Line>
       <Line>ATC feedback - dzvacc.org/feedback</Line>
     </ControllerInfo>
   </Position>
-    <Position Name="Maghreb Control Centre Inférieure" Type="ASD" DefaultCenter="+363697.000+0031318.000" DefaultRange="500">
+    <Position Name="Maghreb Control Centre Inférieure" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DAC" />
+        <Sector Name="DACI" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
       <Map Name="TMA" />
-      <Map Name="DAC Waypoints" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -61,21 +61,20 @@
         <Airport Name="DAAG" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control Lower Center</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Control Centre Supérieur" Type="ASD" DefaultCenter="+363697.000+0031318.000" DefaultRange="500">
+    <Position Name="Maghreb Control Centre Supérieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
      <Sectors>
-        <Sector Name="DAC" />
+        <Sector Name="DACS" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
 	  <Map Name="TMA" />
-      <Map Name="DAC Waypoints" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -86,12 +85,12 @@
         <Airport Name="DAAG" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control Upper Center</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Controle Nord Est" Type="ASD" DefaultCenter="+364736.000+0062303.000" DefaultRange="700">
+    <Position Name="Maghreb Controle Nord Est" Type="ASD" DefaultCenter="+365000.000+0062000.000" DefaultRange="700" VisibilityRange="600">
       <Sectors>
         <Sector Name="DANE" />
       </Sectors>  
@@ -99,8 +98,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />
-      <Map Name="DANE Waypoints" />     
+	  <Map Name="TMA" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -112,12 +110,12 @@
         <Airport Name="DABC" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control North East</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Maghreb Controle Nord Ouest" Type="ASD" DefaultCenter="+340498.000+0003173.000" DefaultRange="800">
+    <Position Name="Maghreb Controle Nord Ouest" Type="ASD" DefaultCenter="+342500.000+0001500.000" DefaultRange="1000" VisibilityRange="600">
       <Sectors>
         <Sector Name="DANW" />
       </Sectors>  
@@ -125,8 +123,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />
-      <Map Name="DANW Waypoints" />     
+	  <Map Name="TMA" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -137,12 +134,12 @@
         <Airport Name="DAOO" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control North West</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Maghreb Controle Sud Est" Type="ASD" DefaultCenter="+310000.000+0070000.000" DefaultRange="1200">
+    <Position Name="Maghreb Controle Sud Est" Type="ASD" DefaultCenter="+302500.000+0068600.000" DefaultRange="1350" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASE" />
       </Sectors>  
@@ -150,8 +147,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />
-      <Map Name="DASE Waypoints" />      
+	  <Map Name="TMA" />    
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -163,12 +159,12 @@
         <Airport Name="DAUO" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control South East</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Controle Sud Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1000">
+    <Position Name="Maghreb Controle Sud Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASS" />
       </Sectors>  
@@ -176,8 +172,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />
-      <Map Name="DASS Waypoints" />      
+	  <Map Name="TMA" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -188,12 +183,12 @@
         <Airport Name="DAAT" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control South</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Maghreb Controle Sud Centre" Type="ASD" DefaultCenter="+325000.000+0030000.000" DefaultRange="900">
+    <Position Name="Maghreb Controle Sud Centre" Type="ASD" DefaultCenter="+320000.000+0030000.000" DefaultRange="1100" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASC" />
       </Sectors>  
@@ -201,8 +196,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />
-      <Map Name="DASC Waypoints" />     
+	  <Map Name="TMA" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -214,12 +208,12 @@
         <Airport Name="DAUG" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control South Center</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Maghreb Controle Sud Ouest" Type="ASD" DefaultCenter="+270000.000-0010000.000" DefaultRange="1300">
+    <Position Name="Maghreb Controle Sud Ouest" Type="ASD" DefaultCenter="+252750.000-0025000.000" DefaultRange="1750" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASW" />
       </Sectors>  
@@ -227,8 +221,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" /> 
 	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />
-      <Map Name="DASW Waypoints" />     
+	  <Map Name="TMA" />     
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -240,14 +233,14 @@
         <Airport Name="DAOF" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Maghreb Control South West</Line>
-        <Line>ATC Service over DAAA FIR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Maghreb Controle</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="Approach">
-    <Position Name="Alger Approche" Type="ASD" DefaultCenter="+364336.000+0031870.000" DefaultRange="250">
+  <Group Name="TMA">
+    <Position Name="Alger Approche" Type="ASD" DefaultCenter="+364336.000+0031870.000" DefaultRange="250" VisibilityRange="150">
       <Sectors>
         <Sector Name="AGA" />
       </Sectors>  
@@ -256,7 +249,7 @@
 	  <Map Name="FIR BDRY" />     
 	  <Map Name="TMA" />
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
+      <Map Name="AIRPORTS" />
       <Map Name="Airports (Names)" />	  	  
       </Maps>
       <Strips Mode="State" Sort="Time">        
@@ -268,12 +261,12 @@
         <Airport Name="DAAG" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Algiers Approach</Line>
-        <Line>ATC Service of Algiers TMA- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+        <Line>Alger Approache</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Annaba Approche" Type="ASD" DefaultCenter="+365649.000+0075516.000" DefaultRange="150">
+    <Position Name="Annaba Approche" Type="ASD" DefaultCenter="+365649.000+0075516.000" DefaultRange="150" VisibilityRange="100">
       <Sectors>
         <Sector Name="BBA" />
       </Sectors>  
@@ -282,8 +275,7 @@
 	  <Map Name="FIR BDRY" />     
 	  <Map Name="TMA" />
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />	     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -294,12 +286,12 @@
         <Airport Name="DABB" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Annaba Approach</Line>
-        <Line>ATC Service of Annaba TMA- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+        <Line>Annaba Approache</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Constantine Approche" Type="ASD" DefaultCenter="+360862.000+0063072.000" DefaultRange="200">
+    <Position Name="Constantine Approche" Type="ASD" DefaultCenter="+360862.000+0063072.000" DefaultRange="200" VisibilityRange="100">
       <Sectors>
         <Sector Name="BCA" />
       </Sectors>  
@@ -308,8 +300,7 @@
 	  <Map Name="FIR BDRY" />     
 	  <Map Name="TMA" />
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />	      
+      <Map Name="AIRPORTS" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -321,13 +312,12 @@
         <Airport Name="DABT" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Constantine Approach</Line>
-        <Line>ATC Service of Constantine TMA- dz-vacc.org</Line>
-        <Line>Covering DABC and DABT</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+        <Line>Constantine Approache</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Oran Approche" Type="ASD" DefaultCenter="+354610.000-0001567.000" DefaultRange="250">
+    <Position Name="Oran Approche" Type="ASD" DefaultCenter="+354610.000-0001567.000" DefaultRange="250" VisibilityRange="100">
       <Sectors>
         <Sector Name="OOA" />
       </Sectors>  
@@ -336,8 +326,7 @@
 	  <Map Name="FIR BDRY" />     
 	  <Map Name="TMA" />
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />	      
+      <Map Name="AIRPORTS" />    
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -348,12 +337,12 @@
         <Airport Name="DAOO" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Oran Approach</Line>
-        <Line>ATC Service of Oran TMA- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+        <Line>Oran Approache</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Hassi Messaoud Approche" Type="ASD" DefaultCenter="+314181.000+0060778.000" DefaultRange="500">
+    <Position Name="Hassi Messaoud Approche" Type="ASD" DefaultCenter="+314181.000+0060778.000" DefaultRange="500" VisibilityRange="100">
       <Sectors>
         <Sector Name="UHA" />
       </Sectors>  
@@ -362,8 +351,7 @@
 	  <Map Name="FIR BDRY" />     
 	  <Map Name="TMA" />
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />	      
+      <Map Name="AIRPORTS" />     
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -374,13 +362,13 @@
         <Airport Name="DAUH" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Hassi Messaoud Approach</Line>
-        <Line>ATC Service of Hassi Messaoud TMA- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+        <Line>Hassi-Messaoud Approache</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="Aerodrome">
+  <Group Name="AD">
     <Position Name="Bousaada Tower" Type="ASD" DefaultCenter="+352012.000+0041222.000" DefaultRange="200">
       <Sectors>
         <Sector Name="ADT" />
@@ -389,8 +377,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />	
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -402,8 +389,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bousaada Tower</Line>
-        <Line>ATC Service in the DAAD CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Bejaia Tower" Type="ASD" DefaultCenter="+364305.000+0050455.000" DefaultRange="200">
@@ -414,8 +401,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -427,8 +413,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bejaia Tower</Line>
-        <Line>ATC Service in the  DAAE CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Algiers Tower" Type="ASD" DefaultCenter="+364235.000+0031287.000" DefaultRange="200">
@@ -439,8 +425,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -452,8 +437,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Algiers Tower</Line>
-        <Line>ATC Service in the DAAG CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Djanet Tower" Type="ASD" DefaultCenter="+241715.000+0092718.000" DefaultRange="200">
@@ -464,8 +449,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" /> 
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -478,7 +462,7 @@
       <ControllerInfo>
         <Line>Djanet Tower</Line>
         <Line>ATC Service in the DAAJ CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Illizi Tower" Type="ASD" DefaultCenter="+264350.000+0083786.000" DefaultRange="200">
@@ -489,8 +473,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -502,8 +485,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Illizi Tower</Line>
-        <Line>ATC Service in the DAAP CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Oran Tower" Type="ASD" DefaultCenter="+35.627167-000.611333" DefaultRange="200">
@@ -514,8 +497,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" /> 
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -527,8 +509,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Illizi Tower</Line>
-        <Line>ATC Service in the DAOO CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Tamanrasset Tower" Type="ASD" DefaultCenter="+225035.000+0052764.000" DefaultRange="200">
@@ -539,8 +521,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" /> 
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -552,8 +533,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tamanrasset Tower</Line>
-        <Line>ATC Service in the DAAT CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Jijel Tower" Type="ASD" DefaultCenter="+364786.000+0055256.000" DefaultRange="200">
@@ -564,8 +545,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -577,8 +557,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Jijel Tower</Line>
-        <Line>ATC Service in the DAAV CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
     <Position Name="Annaba Tower" Type="ASD" DefaultCenter="+365002.000+0074883.000" DefaultRange="200">
@@ -589,8 +569,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -602,8 +581,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Annaba Tower</Line>
-        <Line>ATC Service in the DABB CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>   
     <Position Name="Constantine Tower" Type="ASD" DefaultCenter="+361771.000+0063646.000" DefaultRange="200">
@@ -614,8 +593,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -627,8 +605,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Constantine Tower</Line>
-        <Line>ATC Service in the DABC CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
     <Position Name="Tebessa Tower" Type="ASD" DefaultCenter="+352757.000+0080407.000" DefaultRange="200">
@@ -639,8 +617,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" /> 
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -652,8 +629,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tebessa Tower</Line>
-        <Line>ATC Service in the DABS CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>     
     <Position Name="Batna Tower" Type="ASD" DefaultCenter="+354647.000+0062050.000" DefaultRange="200">
@@ -664,8 +641,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -677,8 +653,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Batna Tower</Line>
-        <Line>ATC Service in the DABT CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>                 
     <Position Name="Tiaret Tower" Type="ASD" DefaultCenter="+352065.000+0012738.000" DefaultRange="200">
@@ -689,8 +665,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -702,8 +677,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tiaret Tower</Line>
-        <Line>ATC Service in the DAOB CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
     <Position Name="Tindouf Tower" Type="ASD" DefaultCenter="+274259.000-0080810.000" DefaultRange="200">
@@ -714,8 +689,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -727,8 +701,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tindouf Tower</Line>
-        <Line>ATC Service in the DAOF CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
     <Position Name="El Bayadh Tower" Type="ASD" DefaultCenter="+334308.000+0010405.000" DefaultRange="200">
@@ -739,8 +713,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -752,8 +725,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>El Bayadh Tower</Line>
-        <Line>ATC Service in the DAOY CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
     <Position Name="Ghardaia Tower" Type="ASD" DefaultCenter="+322382.000+0034649.000" DefaultRange="200">
@@ -764,8 +737,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />     
+      <Map Name="AIRPORTS" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -777,8 +749,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Ghardaia Tower</Line>
-        <Line>ATC Service in the DAUG CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>      
     <Position Name="Hassi Messaoud Tower" Type="ASD" DefaultCenter="+314115.000+0060819.000" DefaultRange="200">
@@ -789,8 +761,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" /> 
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -802,8 +773,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Hassi Messaoud Tower</Line>
-        <Line>ATC Service in the DAUH CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
     <Position Name="Touggourt Tower" Type="ASD" DefaultCenter="+330377.000+0060538.000" DefaultRange="200">
@@ -814,8 +785,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -827,8 +797,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Touggourt Tower</Line>
-        <Line>ATC Service in the DAUK CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
     <Position Name="Guemar Tower" Type="ASD" DefaultCenter="+333045.000+0064710.000" DefaultRange="200">
@@ -839,8 +809,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" /> 
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -852,8 +821,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Guemar Tower</Line>
-        <Line>ATC Service in the DAUO CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
     <Position Name="Timimoun Tower" Type="ASD" DefaultCenter="+291386.000+0001553.000" DefaultRange="200">
@@ -864,8 +833,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />    
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -877,8 +845,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Timimoun Tower</Line>
-        <Line>ATC Service in the DAUT CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>           
     <Position Name="Zarzaitine Tower" Type="ASD" DefaultCenter="+280413.000+0093970.000" DefaultRange="200">
@@ -889,8 +857,7 @@
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="Airports (Symbol)" />
-      <Map Name="Airports (Names)" />      
+      <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -902,8 +869,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Zarzaitine Tower</Line>
-        <Line>ATC Service in the DAUZ CTR- dz-vacc.org</Line>
-        <Line>Need local charts? - chartfox.com</Line>
+		<Line>Charts - vats.im/dz/charts</Line>
+		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
     <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364140.000+0031301.000" DefaultRange="7" MagneticVariation="218.00" Rotation="0">

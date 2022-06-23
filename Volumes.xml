@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Volumes>
-  <Boundary Name="SECTEUR_CENTRE_INF">
+  <Boundary Name="SECTEUR CENTRE INF">
 +372600.000+0013000.000/
 +382000.000+0034500.000/
 +390000.000+0044000.000/
@@ -8,7 +8,7 @@
 +354000.000+0050000.000/
 +354000.000+0013000.000/
 +372600.000+0013000.000</Boundary>
-  <Boundary Name="SECTEUR_CENTRE_SUP">
+  <Boundary Name="SECTEUR CENTRE SUP">
 +372600.000+0013000.000/
 +382000.000+0034500.000/
 +390000.000+0044000.000/
@@ -16,7 +16,7 @@
 +354000.000+0050000.000/
 +354000.000+0013000.000/
 +372600.000+0013000.000</Boundary>
-  <Boundary Name="SECTEUR_NORD/EST">
+  <Boundary Name="SECTEUR NORD/EST">
 +344800.01+0081651.74/
 +345500.55+0081539.83/
 +345602.6+0081651.59/
@@ -92,7 +92,7 @@
 +390000.000+0050000.000/
 +344800.000+0050000.000/
 +344800.01+0081651.74</Boundary>
-  <Boundary Name="SECTEUR_NORD/OUEST">
+  <Boundary Name="SECTEUR NORD/OUEST">
 +372601.000+0013000.000/
 +362403.000-0010803.000/
 +361514.000-0012948.000/
@@ -404,16 +404,16 @@
 +315646.2-0025213.22/
 +315442.33-0025043.77/
 +315035.39-0024004.03/
-+310000.000-0040832.000/
++310000.000-0042020.000/
 +310000.000+0013000.000/
 +372601.000+0013000.000</Boundary>
-  <Boundary Name="SECTEUR_SUD/CENTRE">
+  <Boundary Name="SECTEUR SUD/CENTRE">
 +354000.000+0013000.000/
 +354000.000+0050000.000/
 +283000.000+0050000.000/
 +283000.000+0013000.000/
 +354000.000+0013000.000/</Boundary>
-  <Boundary Name="SECTEUR_SUD/EST">
+  <Boundary Name="SECTEUR SUD/EST">
 +260000.000+0093183.000/
 +261114.73+0092441.66/
 +262311.09+0093014.89/
@@ -478,8 +478,8 @@
 +344800.000+0050000.000/
 +260000.000+0050000.000/
 +260000.000+0093183.000</Boundary>
-  <Boundary Name="SECTEUR_SUD/OUEST">
-+310000.000-0040832.000/
+  <Boundary Name="SECTEUR SUD/OUEST">
++310000.000-0042020.000/
 +284030.6-0083957.29/
 +271826.86-0083944.89/
 +250036.58-0045042.6/
@@ -517,13 +517,13 @@
 +200114.19+0024321.79/
 +195856.84+0024605.67/
 +195738.5+0025553.49/
-+195546.61+0030310.43/
++195650.00+0030000.00/
 +283000.000+0030000.000/
 +283000.000+0013000.000/
 +310000.000+0013000.000/
 +310000.000-0040832.000</Boundary>
-<Boundary Name="SECTEUR_SUD/SUD">
-+195546.61+0030310.43/
+<Boundary Name="SECTEUR SUD/SUD">
++195650.00+0030000.00/
 +195120.68+0030932.3/
 +194928.84+0031449.59/
 +194349.36+0031352.75/
@@ -637,7 +637,7 @@
 +365547.148+0073118.986/
 +365747.687+0073251.097/
 +365901.340+0073405.485</Boundary>
-  <Boundary Name="TMA_CONSTANTINE">
+  <Boundary Name="TMA CONSTANTINE">
 +360025.353+0065903.189/
 +353559.780+0063404.228/
 +353540.829+0063341.499/
@@ -683,83 +683,83 @@
 +360612.060+0070407.065/
 +360252.061+0070134.585/
 +360025.353+0065903.189</Boundary>
-  <Boundary Name="TMA_HASSI-MESSAOUD">
+  <Boundary Name="TMA HASSI-MESSAOUD">
 +313042.000+0053548.000/
 +312741.000+0053726.000/
 +312547.000+0053843.000/
-    +312335.000+0054028.000/
-    +312110.000+0054248.000/
-    +311903.000+0054520.000/
-    +311652.000+0054842.000/
-    +311510.000+0055155.000/
-    +311405.000+0055426.000/
-    +311307.000+0055724.000/
-    +311236.000+0055919.000/
-    +311210.000+0060125.000/
-    +311149.000+0060353.000/
-    +311135.000+0060635.000/
-    +311135.000+0060958.000/
-    +311146.000+0061221.000/
-    +311215.000+0061552.000/
-    +311307.000+0061928.000/
-    +311413.000+0062249.000/
-    +311554.000+0062635.000/
-    +311722.000+0062911.000/
-    +311844.000+0063111.000/
-    +312034.000+0063326.000/
-    +312226.000+0063525.000/
-    +312426.000+0063713.000/
-    +312654.000+0063902.000/
-    +312939.000+0064036.000/
-    +313202.000+0064139.000/
-    +313418.000+0064229.000/
-    +313624.000+0064259.000/
-    +313820.000+0064318.000/
-    +314025.000+0064330.000/
-    +314258.000+0064328.000/
-    +314459.000+0064315.000/
-    +314648.000+0064301.000/
-    +314836.000+0064230.000/
-    +315049.000+0064148.000/
-    +315305.000+0064049.000/
-    +315614.000+0063859.000/
-    +315956.000+0063608.000/
-    +320234.000+0063324.000/
-    +320507.000+0063006.000/
-    +320707.000+0062644.000/
-    +320919.000+0062128.000/
-    +321036.000+0061646.000/
-    +321105.000+0061346.000/
-    +321124.000+0061008.000/
-    +321123.000+0060608.000/
-    +321101.000+0060246.000/
-    +321028.000+0055940.000/
-    +320939.000+0055637.000/
-    +320856.000+0055425.000/
-    +320804.000+0055220.000/
-    +320652.000+0055259.000/
-    +320539.000+0055334.000/
-    +320343.000+0055421.000/
-    +320153.000+0055455.000/
-    +315933.000+0055524.000/
-    +315740.000+0055539.000/
-    +315535.000+0055542.000/
-    +315305.000+0055531.000/
-    +315125.000+0055517.000/
-    +314933.000+0055449.000/
-    +314741.000+0055412.000/
-    +314557.000+0055328.000/
-    +314401.000+0055230.000/
-    +314145.000+0055102.000/
-    +314010.000+0054951.000/
-    +313811.000+0054800.000/
-    +313626.000+0054605.000/
-    +313459.000+0054409.000/
-    +313356.000+0054237.000/
-    +313256.000+0054053.000/
-    +313204.000+0053910.000/
-    +313122.000+0053734.000</Boundary>
-  <Boundary Name="TMA_ORAN">
++312335.000+0054028.000/
++312110.000+0054248.000/
++311903.000+0054520.000/
++311652.000+0054842.000/
++311510.000+0055155.000/
++311405.000+0055426.000/
++311307.000+0055724.000/
++311236.000+0055919.000/
++311210.000+0060125.000/
++311149.000+0060353.000/
++311135.000+0060635.000/
++311135.000+0060958.000/
++311146.000+0061221.000/
++311215.000+0061552.000/
++311307.000+0061928.000/
++311413.000+0062249.000/
++311554.000+0062635.000/
++311722.000+0062911.000/
++311844.000+0063111.000/
++312034.000+0063326.000/
++312226.000+0063525.000/
++312426.000+0063713.000/
++312654.000+0063902.000/
++312939.000+0064036.000/
++313202.000+0064139.000/
++313418.000+0064229.000/
++313624.000+0064259.000/
++313820.000+0064318.000/
++314025.000+0064330.000/
++314258.000+0064328.000/
++314459.000+0064315.000/
++314648.000+0064301.000/
++314836.000+0064230.000/
++315049.000+0064148.000/
++315305.000+0064049.000/
++315614.000+0063859.000/
++315956.000+0063608.000/
++320234.000+0063324.000/
++320507.000+0063006.000/
++320707.000+0062644.000/
++320919.000+0062128.000/
++321036.000+0061646.000/
++321105.000+0061346.000/
++321124.000+0061008.000/
++321123.000+0060608.000/
++321101.000+0060246.000/
++321028.000+0055940.000/
++320939.000+0055637.000/
++320856.000+0055425.000/
++320804.000+0055220.000/
++320652.000+0055259.000/
++320539.000+0055334.000/
++320343.000+0055421.000/
++320153.000+0055455.000/
++315933.000+0055524.000/
++315740.000+0055539.000/
++315535.000+0055542.000/
++315305.000+0055531.000/
++315125.000+0055517.000/
++314933.000+0055449.000/
++314741.000+0055412.000/
++314557.000+0055328.000/
++314401.000+0055230.000/
++314145.000+0055102.000/
++314010.000+0054951.000/
++313811.000+0054800.000/
++313626.000+0054605.000/
++313459.000+0054409.000/
++313356.000+0054237.000/
++313256.000+0054053.000/
++313204.000+0053910.000/
++313122.000+0053734.000</Boundary>
+  <Boundary Name="TMA ORAN">
 +353539.263+0001812.983/
 +351829.667-0002917.808/
 +351744.794-0003142.130/
@@ -805,7 +805,7 @@
 +353744.097+0002240.829/
 +353606.126+0001922.760/
 +353539.263+0001812.983</Boundary>
-  <Boundary Name="TABARKA_TMA">
+  <Boundary Name="TABARKA TMA">
 +37.203056+008.566667/
 +37.218056+008.584167/
 +37.238611+008.612500/
@@ -887,7 +887,7 @@
 +36.930278+008.647500/
 +36.933889+008.649722/
 +37.203056+008.566667</Boundary>
-  <Boundary Name="Bousaada CTR">
+  <Boundary Name="BOUSAADA CTR">
 +352752.677+0041216.000/
 +352746.761+0041347.979/
 +352729.162+0041517.693/
@@ -930,7 +930,7 @@
 +352746.761+0041044.021/
 +352752.677+0041216.000
 </Boundary>
-  <Boundary Name="Bejaia CTR">
+  <Boundary Name="BEJAIA CTR">
 +365242.596+0050410.000/
 +365235.198+0050607.006/
 +365213.187+0050801.131/
@@ -973,7 +973,7 @@
 +365235.198+0050212.994/
 +365242.596+0050410.000
 </Boundary>
-  <Boundary Name="Algiers CTR">
+  <Boundary Name="ALGIERS CTR">
 +364739.757+0031301.000/
 +364735.322+0031150.813/
 +364722.127+0031042.354/
@@ -1016,7 +1016,7 @@
 +364735.322+0031411.187/
 +364739.757+0031301.000
 </Boundary>
-  <Boundary Name="Djanet CTR">
+  <Boundary Name="DJANET CTR">
 +242715.416+0092712.030/
 +242708.024+0092854.936/
 +242646.032+0093035.308/
@@ -1059,7 +1059,7 @@
 +242708.024+0092529.124/
 +242715.416+0092712.030
 </Boundary>
-  <Boundary Name="Illizi CTR">
+  <Boundary Name="ILLIZI CTR">
 +265311.776+0083808.780/
 +265304.383+0083953.792/
 +265242.387+0084136.217/
@@ -1102,7 +1102,7 @@
 +265304.383+0083623.768/
 +265311.776+0083808.780
 </Boundary>
-  <Boundary Name="Tamanrasset CTR">
+  <Boundary Name="TAMANRASSET CTR">
 +230033.596+0052753.000/
 +230026.205+0052934.780/
 +230004.214+0053114.054/
@@ -1145,7 +1145,7 @@
 +230026.205+0052611.220/
 +230033.596+0052753.000
 </Boundary>
-  <Boundary Name="Jijel CTR">
+  <Boundary Name="JIJEL CTR">
 +365739.596+0055225.000/
 +365732.198+0055422.132/
 +365710.187+0055616.379/
@@ -1188,7 +1188,7 @@
 +365732.198+0055027.868/
 +365739.596+0055225.000
 </Boundary>
-  <Boundary Name="Annaba CTR">
+  <Boundary Name="ANNABA CTR">
 +365719.677+0074834.000/
 +365713.761+0075007.739/
 +365656.160+0075139.170/
@@ -1231,7 +1231,7 @@
 +365713.761+0074700.261/
 +365719.677+0074834.000
 </Boundary>
-  <Boundary Name="Constantine CTR">
+  <Boundary Name="CONSTANTINE CTR">
 +362735.346+0063629.960/
 +362727.948+0063826.335/
 +362705.938+0064019.844/
@@ -1274,7 +1274,7 @@
 +362727.948+0063433.585/
 +362735.346+0063629.960
 </Boundary>
-  <Boundary Name="Tebessa CTR">
+  <Boundary Name="TEBESSA CTR">
 +353723.236+0080407.050/
 +353715.838+0080602.202/
 +353653.830+0080754.519/
@@ -1317,7 +1317,7 @@
 +353715.838+0080211.898/
 +353723.236+0080407.050
 </Boundary>
-  <Boundary Name="Batna CTR">
+  <Boundary Name="BATNA CTR">
 +355617.096+0062037.660/
 +355609.698+0062233.267/
 +355547.689+0062426.026/
@@ -1360,7 +1360,7 @@
 +355609.698+0061842.053/
 +355617.096+0062037.660
 </Boundary>
-  <Boundary Name="Tiaret CTR">
+  <Boundary Name="TIARET CTR">
 +352728.717+0012801.000/
 +352723.542+0012640.509/
 +352708.146+0012521.999/
@@ -1403,7 +1403,7 @@
 +352723.542+0012921.491/
 +352728.717+0012801.000
 </Boundary>
-  <Boundary Name="Tindouf CTR">
+  <Boundary Name="TINDOUF CTR">
 +275235.856-0080751.200/
 +275228.462-0080605.251/
 +275206.466-0080421.911/
@@ -1446,7 +1446,7 @@
 +275228.462-0080937.149/
 +275235.856-0080751.200
 </Boundary>
-  <Boundary Name="El Bayadh CTR">
+  <Boundary Name="EL BAYADH CTR">
 +335234.896+0010445.070/
 +335227.499+0010637.827/
 +335205.494+0010827.807/
@@ -1489,7 +1489,7 @@
 +335227.499+0010252.313/
 +335234.896+0010445.070
 </Boundary>
-  <Boundary Name="Ghardaia CTR">
+  <Boundary Name="GHARDAIA CTR">
 +323335.426+0034640.370/
 +323328.030+0034831.453/
 +323306.026+0035019.802/
@@ -1532,7 +1532,7 @@
 +323328.030+0034449.287/
 +323335.426+0034640.370
 </Boundary>
-  <Boundary Name="Hassi Messaoud CTR">
+  <Boundary Name="HASSI MESSAOUD CTR">
 +315025.596+0060826.000/
 +315018.200+0061016.214/
 +314956.198+0061203.714/
@@ -1575,7 +1575,7 @@
 +315018.200+0060635.786/
 +315025.596+0060826.000
 </Boundary>
-  <Boundary Name="Oran CTR">
+  <Boundary Name="ORAN CTR">
 +35.560278-000.702500/
 +35.588333-000.724167/
 +35.617222-000.734445/
@@ -1593,7 +1593,7 @@
 +35.634167-000.489722/
 +35.560278-000.702500  
 </Boundary>
-  <Boundary Name="Touggourt CTR">
+  <Boundary Name="TOUGGOURT CTR">
 +331325.496+0060519.680/
 +331318.100+0060711.594/
 +331256.095+0060900.752/
@@ -1636,7 +1636,7 @@
 +331318.100+0060327.766/
 +331325.496+0060519.680
 </Boundary>
-  <Boundary Name="Guemar CTR">
+  <Boundary Name="GUEMAR CTR">
 +334046.596+0064657.000/
 +334039.200+0064849.500/
 +334017.194+0065039.229/
@@ -1679,7 +1679,7 @@
 +334039.200+0064504.500/
 +334046.596+0064657.000
 </Boundary>
-  <Boundary Name="Timimoun CTR">
+  <Boundary Name="TIMIMOUN CTR">
 +292333.486+0001529.140/
 +292326.092+0001716.620/
 +292304.093+0001901.453/
@@ -1722,7 +1722,7 @@
 +292326.092+0001341.660/
 +292333.486+0001529.140
 </Boundary>
-  <Boundary Name="Zarzaitine CTR">
+  <Boundary Name="ZARZAITINE CTR">
 +280118.552+0095513.129/
 +275939.378+0095444.047/
 +275737.783+0095346.922/
@@ -1762,7 +1762,7 @@
 +280118.552+0095513.129/
 +281331.604+0095115.044
 </Boundary>  
-  <Boundary Name="Oujda TMA">
+  <Boundary Name="OUJDA TMA">
 +34.167500-002.275556/
 +34.167500-001.676111/
 +34.353611-001.755000/
@@ -1843,7 +1843,7 @@
 +34.300556-002.600556/
 +34.167500-002.275556
 </Boundary> 
-  <Boundary Name="Tozeur TMA">
+  <Boundary Name="TOZEUR TMA">
 +33.518056+007.673611/
 +33.525278+008.134445/
 +33.531945+008.194722/
@@ -1921,117 +1921,116 @@
 +33.536667+007.659722/
 +33.531667+007.662222/
 +33.518056+007.673611
-</Boundary>  
-
-  <Volume Name="DA" LowerLimit="1500" UpperLimit="24500">
-    <Boundaries>SECTEUR_CENTRE_INF</Boundaries>
+</Boundary>
+  <Volume Name="DACI" LowerLimit="1500" UpperLimit="24500">
+    <Boundaries>SECTEUR CENTRE INF</Boundaries>
   </Volume>
-  <Volume Name="DAC" LowerLimit="24500" UpperLimit="45000">
-    <Boundaries>SECTEUR_CENTRE_SUP</Boundaries>
+  <Volume Name="DACS" LowerLimit="24500" UpperLimit="45000">
+    <Boundaries>SECTEUR CENTRE SUP</Boundaries>
   </Volume>
   <Volume Name="DANE" LowerLimit="1500" UpperLimit="45000">
-    <Boundaries>SECTEUR_NORD/EST</Boundaries>
+    <Boundaries>SECTEUR NORD/EST</Boundaries>
   </Volume>
   <Volume Name="DANW" LowerLimit="3000" UpperLimit="45000">
-    <Boundaries>SECTEUR_NORD/OUEST</Boundaries>
+    <Boundaries>SECTEUR NORD/OUEST</Boundaries>
   </Volume>
   <Volume Name="DASW" LowerLimit="3000" UpperLimit="45000">
-    <Boundaries>SECTEUR_SUD/OUEST</Boundaries>
+    <Boundaries>SECTEUR SUD/OUEST</Boundaries>
   </Volume>
   <Volume Name="DASC" LowerLimit="3000" UpperLimit="45000">
-    <Boundaries>SECTEUR_SUD/CENTRE</Boundaries>
+    <Boundaries>SECTEUR SUD/CENTRE</Boundaries>
   </Volume>
   <Volume Name="DASE" LowerLimit="3000" UpperLimit="45000">
-    <Boundaries>SECTEUR_SUD/EST</Boundaries>
+    <Boundaries>SECTEUR SUD/EST</Boundaries>
   </Volume>
   <Volume Name="DASS" LowerLimit="3000" UpperLimit="45000">
-    <Boundaries>SECTEUR_SUD/SUD</Boundaries>
+    <Boundaries>SECTEUR SUD/SUD</Boundaries>
   </Volume>
   <Volume Name="AGA" LowerLimit="1500" UpperLimit="14500">
-    <Boundaries>TMA_ALGER</Boundaries>
+    <Boundaries>TMA ALGER</Boundaries>
   </Volume>
   <Volume Name="BBA" LowerLimit="1500" UpperLimit="10500">
-    <Boundaries>TMA_ANNABA</Boundaries>
+    <Boundaries>TMA ANNABA</Boundaries>
   </Volume>
   <Volume Name="BCA" LowerLimit="1500" UpperLimit="10500">
-    <Boundaries>TMA_CONSTANTINE</Boundaries>
+    <Boundaries>TMA CONSTANTINE</Boundaries>
   </Volume>
   <Volume Name="UHA" LowerLimit="1500" UpperLimit="10500">
-    <Boundaries>TMA_HASSI-MESSAOUD</Boundaries>
+    <Boundaries>TMA HASSI-MESSAOUD</Boundaries>
   </Volume>
   <Volume Name="OOA" LowerLimit="1500" UpperLimit="10500">
-    <Boundaries>TMA_ORAN</Boundaries>
+    <Boundaries>TMA ORAN</Boundaries>
   </Volume>
   <Volume Name="OOT" LowerLimit="1500" UpperLimit="10500">
-    <Boundaries>Oran CTR</Boundaries>
+    <Boundaries>ORAN CTR</Boundaries>
   </Volume>
   <Volume Name="GMFO" LowerLimit="1500" UpperLimit="10500">
-    <Boundaries>TMA_OUJDA</Boundaries>
+    <Boundaries>TMA OUJDA</Boundaries>
   </Volume>
   <Volume Name="TZA" LowerLimit="3000" UpperLimit="12500">
-    <Boundaries>TOZEUR_TMA</Boundaries>
+    <Boundaries>TOZEUR TMA</Boundaries>
   </Volume>
   <Volume Name="KAA" LowerLimit="1500" UpperLimit="10500">
-    <Boundaries>TABARKA_TMA</Boundaries>
+    <Boundaries>TABARKA TMA</Boundaries>
   </Volume>  
   <Volume Name="ADT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Bousaada CTR</Boundaries>
+    <Boundaries>BOUSAADA CTR</Boundaries>
   </Volume>
   <Volume Name="AET" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Bejaia CTR</Boundaries>
+    <Boundaries>BEJAIA CTR</Boundaries>
   </Volume>
   <Volume Name="AGT" LowerLimit="0" UpperLimit="1500">
-    <Boundaries>Algiers CTR</Boundaries>
+    <Boundaries>ALGIERS CTR</Boundaries>
   </Volume>
   <Volume Name="AJT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Djanet CTR</Boundaries>
+    <Boundaries>DJANET CTR</Boundaries>
   </Volume>
   <Volume Name="APT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Illizi CTR</Boundaries>
+    <Boundaries>ILLIZI CTR</Boundaries>
   </Volume>
   <Volume Name="ATT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Tamanrasset CTR</Boundaries>
+    <Boundaries>TAMANRASSET CTR</Boundaries>
   </Volume>
   <Volume Name="AVT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Jijel CTR</Boundaries>
+    <Boundaries>JIJEL CTR</Boundaries>
   </Volume>
   <Volume Name="BBT" LowerLimit="0" UpperLimit="1500">
-    <Boundaries>Annaba CTR</Boundaries>
+    <Boundaries>ANNABA CTR</Boundaries>
   </Volume>
   <Volume Name="BCT" LowerLimit="0" UpperLimit="1500">
-    <Boundaries>Constantine CTR</Boundaries>
+    <Boundaries>CONSTANTINE CTR</Boundaries>
   </Volume>
   <Volume Name="BST" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Tebessa CTR</Boundaries>
+    <Boundaries>TEBESSA CTR</Boundaries>
   </Volume>
   <Volume Name="BTT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Batna CTR</Boundaries>
+    <Boundaries>BATNA CTR</Boundaries>
   </Volume>  
   <Volume Name="OBT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Tiaret CTR</Boundaries>
+    <Boundaries>TIARET CTR</Boundaries>
   </Volume>
   <Volume Name="OFT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Tindouf CTR</Boundaries>
+    <Boundaries>TINDOUF CTR</Boundaries>
   </Volume>
   <Volume Name="OYT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>El Bayadh CTR</Boundaries>
+    <Boundaries>EL BAYADH CTR</Boundaries>
   </Volume>  
   <Volume Name="UGT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Ghardaia CTR</Boundaries>
+    <Boundaries>GHARDAIA CTR</Boundaries>
   </Volume>
   <Volume Name="UHT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Hassi Messaoud CTR</Boundaries>
+    <Boundaries>HASSI MESSAOUD CTR</Boundaries>
   </Volume>
   <Volume Name="UKT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Touggourt CTR</Boundaries>
+    <Boundaries>TOUGGOURT CTR</Boundaries>
   </Volume>
    <Volume Name="UOT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Guemar CTR</Boundaries>
+    <Boundaries>GUEMAR CTR</Boundaries>
   </Volume>
   <Volume Name="UTT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Timimoun CTR</Boundaries>
+    <Boundaries>TIMIMOUN CTR</Boundaries>
   </Volume>
   <Volume Name="UZT" LowerLimit="0" UpperLimit="3000">
-    <Boundaries>Zarzaitine CTR</Boundaries>
+    <Boundaries>ZARZAITINE CTR</Boundaries>
   </Volume>
 </Volumes>
