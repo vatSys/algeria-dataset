@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="MVA" Priority="2">
+    <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="6500">+36.618333+002.401389</Point>
+	  <Point Name="2500">+36.923611+003.121111</Point>
+	  <Point Name="2500">+37.218333+002.504722</Point>
+	  <Point Name="2500">+37.382222+003.655556</Point>
+	  <Point Name="8400">+36.236389+003.152778</Point>
+	  <Point Name="8400">+36.329445+003.770833</Point>
+	  <Point Name="6200">+36.550556+003.526389</Point>
+	  <Point Name="6600">+36.870000+004.385278</Point>
+	  <Point Name="5800">+36.868611+004.033611</Point>
+	  <Point Name="3100">+36.720833+003.539167</Point>
+	</Label>
+  </Map>
+</Maps>	  
