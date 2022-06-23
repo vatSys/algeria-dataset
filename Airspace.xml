@@ -313,7 +313,7 @@ KIRLA/
 CHE NDB/
 ALR VOR/
 BNA NDB/
-BADOR/
+BABOR/
 TAJEN/
 CSO VOR
 </Airway>
@@ -558,12 +558,12 @@ GHA VOR/
 BISSA/
 GARBA/
 BOKAL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="J25">
 HME VOR/
 GABEL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="J26">
 HME VOR/
@@ -665,7 +665,7 @@ KIRLA/
 CHE NDB/
 ALR VOR/
 BNA NDB/
-BADOR/
+BABOR/
 TAJEN/
 CSO VOR
 </Airway>
@@ -679,6 +679,13 @@ TARIK/
 ARZEW/
 MOS VOR
 </Airway>
+    <Airway Name="UA856">
+TBS VOR/
+BAN VOR/
+KIRAS/
+JBA VOR/
+TANLI
+</Airway>
     <Airway Name="UA411">
 ORSUP/
 ORA VOR/
@@ -690,7 +697,15 @@ BNA NDB/
 BJA NDB/
 JIL VOR/
 ANB VOR/
-MORJA
+MORJA/
+LABIP/
+BARIM/
+KEMIR/
+TUC VOR/
+VAXAL/
+MON VOR/
+SFX VOR/
+JBA VOR
 </Airway>
     <Airway Name="UA604">
 MOS VOR/
@@ -765,6 +780,7 @@ DJA VOR/
 IKTAV
 </Airway>
     <Airway Name="UN736">
+INPEK/
 DOLIS/
 BIS VOR/
 BSA VOR
@@ -928,12 +944,12 @@ GHA VOR/
 BISSA/
 GARBA/
 BOKAL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="UJ25">
 HME VOR/
 GABEL/
-ZAR VOR
+IMN VOR
 </Airway>
     <Airway Name="UJ26">
 HME VOR/
@@ -1065,6 +1081,11 @@ BASID/
 ROFER/
 TERAS
 </Airway>
+     <Airway Name="UM731">
+TUC VOR/
+BAMGI/
+JBA VOR
+</Airway>
      <Airway Name="UM744">
 CARBO/
 MOS VOR
@@ -1077,7 +1098,20 @@ ALR VOR
 ALR VOR/
 SADAF
 </Airway>
+     <Airway Name="UM980">
+TBS VOR/
+ROGBA/
+NAVED/
+MON VOR/
+ABDIN/
+BASMO
+</Airway>
+     <Airway Name="M980">
+BASMO/
+DEXOL
+</Airway>
      <Airway Name="UM998">
+SUXER/
 KAMER/
 CSO VOR/
 TOLGA/
@@ -3306,7 +3340,6 @@ BRENA
     <Point Name="HALGE" Type="Fix">+384144.000-0091408.000</Point>
     <Point Name="HAMOU" Type="Fix">+383500.999-0084153.000</Point>
     <Point Name="HAMRA" Type="Fix">+365215.999-0000124.999</Point>
-    <Point Name="HAMRA" Type="Fix">+293159.998+0124959.998</Point>
     <Point Name="HB06" Type="Fix">+364143.900+0030300.298</Point>
     <Point Name="HB08" Type="Fix">+364147.860+0030031.168</Point>
     <Point Name="HB15" Type="Fix">+364134.789+0030835.908</Point>
@@ -6569,8 +6602,16 @@ BRENA
     <SID Name="BJA1C" Airport="DAAG" Runways="05">
       <Route Runway="05">SDM NDB/BNA NDB/BJA VOR</Route>
     </SID>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4f737bc1cd22d0a296691d1a03415f22d10101b9
     <SID Name="BABR1C" Airport="DAAG" Runways="05">
       <Route Runway="05">SDM NDB/BNA NDB/BADOR</Route>
+=======
+    <SID Name="BADR1C" Airport="DAAG" Runways="05">
+      <Route Runway="05">SDM NDB/BNA NDB/BABOR</Route>
+>>>>>>> b3fc0c6f196872b74626f07211649aa884221ae8
     </SID>
     <SID Name="TAGR1C" Airport="DAAG" Runways="05">
       <Route Runway="05">SDM NDB/BNA NDB/TAGRO</Route>
