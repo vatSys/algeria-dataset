@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="MVA AREAS" Priority="2" Pattern="Dashed" CustomColourName="CTA" Center="+310659.000+0021273.00"> 
+  <Map Type="System2" Name="CTA" Priority="2" Pattern="Dashed" CustomColourName="CTA" Center="+310659.000+0021273.00"> 
     <Line Name="6600">
 		+36.983333+004.500000/
 		+36.983333+004.266667/
