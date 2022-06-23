@@ -7,6 +7,15 @@
 		<G>0</G>
 		<B>0</B>
 	</Colour>
+  <!-- Custom Colours -->
+  <Colour id="Custom">
+		<Use>Procedure tracks</Use>
+		<Name>Proc</Name>
+		<R>90</R>
+		<G>90</G>
+		<B>90</B>
+  </Colour>  
+
   <Colour id="InteractiveText">
 		<Use>InteractiveText</Use>
 		<Name>DarkBlue</Name>
