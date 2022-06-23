@@ -114,8 +114,8 @@
 	<Line Width="0.75" Name="UM986">REQIN.UM986.ERETI</Line>
 	<Line Width="0.75" Name="UM989">OTARO.UM989.LUNOR</Line>
 	<Line Width="0.75" Name="UM998">KAMER.UM998.SUXER</Line>
-	<Line Width="0.75" Name="UM999">ARIAM.UM999.ALM VOR</Line>
-	<Line Width="0.75" Name="UM999">IMN VOR.UM999.SEB VOR</Line>
+	<Line Width="0.75" Name="UM999">ARIAM.UM999.MEZAB</Line>
+	<Line Width="0.75" Name="UM999">IMN VOR.UM999.MNA VOR</Line>
 	<Line Width="0.75" Name="UN608">HAMRA.UN608.RAFOL</Line>
 	<Line Width="0.75" Name="UN736">DOLIS.UN736.INPEK</Line>
 	<Line Width="0.75" Name="UN853">PECES.UN853.MHN VOR</Line>
