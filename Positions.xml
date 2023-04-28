@@ -28,6 +28,8 @@
 	  <Map Name="WAYPOINTS (NAMES)" />
 	  <Map Name="RADIO AIDS" />
 	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />
+    <Map Name="MVA" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
