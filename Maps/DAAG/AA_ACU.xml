@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="Proc">  
+    <Line Pattern="Solid">
+      <!--Rwy05 MOGL1C-->
+	  MOGIL
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 PECE1C-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 OTAR1C-->
+	  BOUGA/OTARO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 BOUR1C-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 BJA1C-->
+	  SMR NDB/BNA NDB/BJA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 BABR1C-->
+	  SMR NDB/BNA NDB/BABOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 TAGR1C-->
+	  SMR NDB/BNA NDB/TAGRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 BSA1C-->
+	  SMR NDB/BNA NDB/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 BSA1G-->
+	  ALR VOR/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 CHE1C-->
+	  CELBA/CHE NDB
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 LABR1C-->
+	  CELBA/LABRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy05 SADF1C-->
+	  CELBA/SADAF
+    </Line>  	
+	<Symbol Type="HollowTriangle">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>
+      <Point>SMR NDB</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Symbol>
+	<Label HasLeader="false">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>
+      <Point>SMR NDB</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VOR 05" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>35ALR</Point>
+      <Point>ALR VOR</Point>
+      <Point>8ALR</Point>
+      <Point>60ALR</Point>	  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>		  
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>8ALR</Point>
+    </Symbol>
+    <Line Pattern="Solid">ZEM VOR/ALR9/ALR VOR/35ALR/8ALR/60ALR/+364137.000+0031321.740</Line>
+  </Map>	  
+  <Map Type="System2" Name="VOR 05 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>35ALR</Point>
+      <Point>ALR VOR</Point>
+      <Point>8ALR</Point>
+      <Point>60ALR</Point>
+	</Label>  
+  </Map>		
+  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="Proc">  
+    <Line Pattern="Solid">
+      <!--Rwy23 MOGL1A-->
+	  MOGIL
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 PECE1A-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 OTAR1A-->
+	  BOUGA/OTARO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 BOUR1A-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 BJA1A-->
+	  BNA NDB/BJA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 BABR1A-->
+	  BNA NDB/BABOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 TAGR1A-->
+	  BNA NDB/TAGRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 BSA1A-->
+	  BNA NDB/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 BSA1E-->
+	  ALR VOR/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 CHE1B-->
+	  CELBA/CHE NDB
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 LABR1B-->
+	  CELBA/LABRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy23 SADF1B-->
+	  CELBA/SADAF
+    </Line>  	
+	<Symbol Type="HollowTriangle">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Symbol>
+	<Label HasLeader="false">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="ILS23" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>ALR32</Point>
+      <Point>ALR VOR</Point>
+      <Point>11ALR</Point>  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" >
+      <Point>11ALR</Point>
+	</Symbol>		  
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ALR9</Point>
+    </Symbol>
+    <Line Pattern="Solid">ZEM VOR/11ALR/ALR9/ALR32/+364246.550+0031505.170</Line>
+  </Map>	  
+  <Map Type="System2" Name="ILS23 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>ALR32</Point>
+      <Point>ALR VOR</Point>
+      <Point>11ALR</Point>
+	</Label>  	  
+  </Map>
+  <Map Type="System2" Name="LOC23" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>ALR32</Point>
+      <Point>ALR VOR</Point>
+      <Point>11ALR</Point>  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>11ALR</Point>
+    </Symbol>
+    <Line Pattern="Solid">ZEM VOR/11ALR/ALR9/ALR32/+364246.550+0031505.170</Line>
+  </Map>
+  <Map Type="System2" Name="LOC23 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>ALR32</Point>
+      <Point>ALR VOR</Point>
+      <Point>11ALR</Point>
+	</Label>  	  
+  </Map>
+  <Map Type="System2" Name="VOR23" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>ALR32</Point>
+      <Point>ALR VOR</Point>
+      <Point>11ALR</Point>  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>11ALR</Point>
+    </Symbol>
+    <Line Pattern="Solid">ZEM VOR/11ALR/ALR9/ALR32/+364246.550+0031505.170</Line>
+  </Map>  
+  <Map Type="System2" Name="VOR23 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+      <Point>ALR9</Point>
+      <Point>ALR32</Point>
+      <Point>ALR VOR</Point>
+      <Point>11ALR</Point>
+	</Label>  	  
+  </Map>
+  <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="Proc">  
+    <Line Pattern="Solid">
+      <!--Rwy09 MOGL1D-->
+	  MOGIL
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 PECE1D-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 OTAR1D-->
+	  BOUGA/OTARO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BOUR1D-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BJA1D-->
+	  SMR NDB/BNA NDB/BJA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BABR1D-->
+	  SMR NDB/BNA NDB/BABOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 TAGR1D-->
+	  SMR NDB/BNA NDB/TAGRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BSA1D-->
+	  SMR NDB/BNA NDB/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BSA1H-->
+	  ALR VOR/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 CHE1D-->
+	  CELBA/CHE NDB
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 LABR1D-->
+	  CELBA/LABRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 SADF1D-->
+	  CELBA/SADAF
+    </Line>  	
+	<Symbol Type="HollowTriangle">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>
+      <Point>SMR NDB</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Symbol>
+	<Label HasLeader="false">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>
+      <Point>SMR NDB</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Label>
+  </Map>  
+  <Map Type="System2" Name="VOR09" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+      <Point>SMR NDB</Point>
+      <Point>ALR VOR</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">ZEM VOR/ALR VOR/SMR NDB/+364131.000+0031014.880</Line>
+  </Map>
+  <Map Type="System2" Name="VOR09 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+      <Point>SMR NDB</Point>
+      <Point>ALR VOR</Point>
+	</Label>  	  
+  </Map>
+  <Map Type="System2" Name="NDBXILS09" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MAR NDB</Point>
+      <Point>SMR NDB</Point>
+      <Point>18ALR</Point>
+      <Point>KARIM</Point>	  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MAR NDB</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">MAR NDB/18ALR/KARIM/SMR NDB/+364131.000+0031014.880</Line>
+  </Map>
+  <Map Type="System2" Name="NDBXILS09 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>MAR NDB</Point>
+      <Point>SMR NDB</Point>
+      <Point>18ALR</Point>
+      <Point>KARIM</Point>
+	</Label>  	  
+  </Map>
+  <Map Type="System2" Name="NDBXVOR09" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MAR NDB</Point>
+      <Point>SMR NDB</Point>
+      <Point>18ALR</Point>
+      <Point>KARIM</Point>	  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MAR NDB</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">MAR NDB/18ALR/KARIM/SMR NDB/+364131.000+0031014.880</Line>
+  </Map>  
+  <Map Type="System2" Name="NDBXVOR09 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>MAR NDB</Point>
+      <Point>SMR NDB</Point>
+      <Point>18ALR</Point>
+      <Point>KARIM</Point>
+	</Label>  	  
+  </Map>
+  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="Proc">  
+    <Line Pattern="Solid">
+      <!--Rwy09 MOGL1B-->
+	  MOGIL
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 PECE1B-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 OTAR1B-->
+	  BOUGA/OTARO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BOUR1B-->
+	  BOUGA/PECES
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BJA1B-->
+	  SMR NDB/BNA NDB/BJA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BABR1B-->
+	  SMR NDB/BNA NDB/BABOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 TAGR1B-->
+	  SMR NDB/BNA NDB/TAGRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BSA1B-->
+	  SMR NDB/BNA NDB/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 BSA1F-->
+	  ALR VOR/BSA VOR
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 CHE1B-->
+	  CELBA/CHE NDB
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 LABR1B-->
+	  CELBA/LABRO
+    </Line>  
+    <Line Pattern="Solid">
+      <!--Rwy09 SADF1B-->
+	  CELBA/SADAF
+    </Line>  	
+	<Symbol Type="HollowTriangle">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>
+      <Point>SMR NDB</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Symbol>
+	<Label HasLeader="false">
+	  <Point>MOGIL</Point>
+      <Point>BOUGA</Point>
+      <Point>PECES</Point>
+	  <Point>OTARO</Point>
+      <Point>BOURI</Point>
+      <Point>SMR NDB</Point>	  
+	  <Point>BNA NDB</Point>
+      <Point>BJA VOR</Point>
+      <Point>BABOR</Point>
+	  <Point>TAGRO</Point>
+      <Point>BSA VOR</Point>
+      <Point>ALR VOR</Point>
+	  <Point>CELBA</Point>
+      <Point>LABRO</Point>
+      <Point>SADAF</Point>
+	  <Point>CHE NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VOR27" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+      <Point>9ALR</Point>
+      <Point>ALR07</Point>
+      <Point>ALR VOR</Point>	  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">ZEM VOR/9ALR/ALR07/ALR VOR/+364128.100+0031235.880</Line>
+  </Map>	  
+  <Map Type="System2" Name="VOR27 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+      <Point>9ALR</Point>
+      <Point>ALR07</Point>
+      <Point>ALR VOR</Point>
+	</Label>  
+  </Map>
+  <Map Type="System2" Name="ILS27" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>	  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">ZEM VOR/+364128.100+0031235.880</Line>
+  </Map>
+  <Map Type="System2" Name="ILS27 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+	</Label>  	  
+  </Map>
+  <Map Type="System2" Name="LOC27" Priority="1" CustomColourName="Proc">	  
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>	  
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ZEM VOR</Point>
+	</Symbol>	
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">ZEM VOR/+364128.100+0031235.880</Line>
+  </Map>
+  <Map Type="System2" Name="LOC27 Labels" Priority="1">
+	<Label HasLeader="false">
+      <Point>ZEM VOR</Point>
+	</Label>  	  
+  </Map>  
+</Maps>  
