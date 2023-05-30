@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="MVA Alt" Priority="2">
+  <Map Type="System2" Name="MVA ALT" Priority="2">
     <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
       <Point Name="6500">+36.618333+002.401389</Point>
 	  <Point Name="2500">+36.923611+003.121111</Point>
