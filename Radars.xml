@@ -1,9 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Radars>
-  <Radar Name="Oued Smar PRI" Type="PRI" Elevation="874" MaxRange="50" LatLong="+364034.10+0031040.03/" />
-  <Radar Name="Oued Smar SSR" Type="SSR_ModeC" Elevation="874" MaxRange="255" LatLong="+364034.10+0031040.03/" />
-  <Radar Name="Seraidi" Type="SSR_ModeC" Elevation="1071" MaxRange="255" LatLong="+365443.40+0074107.10/" />
-  <Radar Name="Murdjadjo" Type="SSR_ModeC" Elevation="1115" MaxRange="255" LatLong="+354146.88-0004616.20" />
-  <Radar Name="Guemmar" Type="SSR_ModeC" Elevation="197" MaxRange="255" LatLong="+333103.99+0064552.16/" />
-  <Radar Name="Bouderga" Type="SSR_ModeC" Elevation="4635" MaxRange="255" LatLong="+333737.66+0010351.20/" />
+<Radar Name="Algiers" Type="PRI" Elevation="66" MaxRange="80">
+    <Lat>+36.676111</Lat>
+    <Long>+003.179722</Long>
+</Radar>
+<Radar Name="Algiers" Type="SSR_ModeS" Elevation="66" MaxRange="250">
+    <Lat>+36.676111</Lat>
+    <Long>+003.179722</Long>
+</Radar>
+<Radar Name="Oran" Type="SSR_ModeS" Elevation="1488" MaxRange="250">
+    <Lat>+35.696111</Lat>
+    <Long>+000.771111</Long>
+ </Radar>
+ <Radar Name="Annaba" Type="SSR_ModeS" Elevation="2766" MaxRange="250">
+    <Lat>+36.912222</Lat>
+    <Long>+007.685278</Long>
+ </Radar>
+ <Radar Name="El Oued" Type="SSR_ModeS" Elevation="200" MaxRange="250">
+    <Lat>+33.517778</Lat>
+    <Long>+006.764167</Long>
+ </Radar>
+ <Radar Name="El Bayadh" Type="SSR_ModeS" Elevation="5597" MaxRange="250">
+    <Lat>+33.626389</Lat>
+    <Long>+003.179722</Long>
+ </Radar>
+  <Radar Name="Tindouf" Type="ADSB" Elevation="1301" MaxRange="250">
+    <Lat>+27.693049</Lat>
+    <Long>-008.104145</Long>
+ </Radar>
+  <Radar Name="Kerzaz" Type="ADSB" Elevation="1301" MaxRange="250">
+    <Lat>+29.455792</Lat>
+    <Long>-001.421180</Long>
+ </Radar>
+  <Radar Name="Hassi Belguebour" Type="ADSB" Elevation="1058" MaxRange="250">
+    <Lat>+28.703102</Lat>
+    <Long>+006.492506</Long>
+ </Radar>
+  <Radar Name="Taoudenni" Type="ADSB" Elevation="793" MaxRange="250">
+    <Lat>+23.909775</Lat>
+    <Long>-002.615040</Long>
+ </Radar>
+  <Radar Name="In Salah" Type="ADSB" Elevation="1273" MaxRange="250">
+    <Lat>+24.676442</Lat>
+    <Long>+002.520293</Long>
+  </Radar>
+  <Radar Name="In Guezzam" Type="ADSB" Elevation="1335" MaxRange="250">
+    <Lat>+19.585030</Lat>
+    <Long>+005.736125</Long>
+ </Radar>
+   <Radar Name="Djanet" Type="ADSB" Elevation="5261" MaxRange="250">
+    <Lat>+24.561045</Lat>
+    <Long>+009.610756</Long>
+ </Radar>            
 </Radars>
