@@ -15,7 +15,13 @@
 		<G>90</G>
 		<B>90</B>
   </Colour>  
-
+  <Colour id="Custom">
+    <Use>Taxiways - ASMGCS</Use>
+    <Name>taxiway</Name>
+    <R>193</R>
+    <G>193</G>
+    <B>0</B>
+  </Colour>
   <Colour id="InteractiveText">
 		<Use>InteractiveText</Use>
 		<Name>DarkBlue</Name>
@@ -23,6 +29,13 @@
 		<G>0</G>
 		<B>96</B>
 	</Colour>
+  <Colour id="Custom">
+    <Use>Hold Lines - ASMGCS</Use>
+    <Name>Hold</Name>
+    <R>255</R>
+    <G>170</G>
+    <B>127</B>
+    	</Colour>  
   <Colour id="StripText">
 		<Use>Strip Text</Use>
 		<Name>OffWhite</Name>
