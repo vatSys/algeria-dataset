@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="SECTEUR">
-  <Position Name="Maghreb Controle" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
+  <Position Name="Maghreb Control" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
     <Sectors>
       <Sector Name="DAAA" />
       <Sector Name="DACI" />
       <Sector Name="DACS" />
       <Sector Name="DANE" />
-	  <Sector Name="DANW" />
-	  <Sector Name="DASE" />
-	  <Sector Name="DASC" />
-	  <Sector Name="DASW" />
-	  <Sector Name="DASS" />
+	    <Sector Name="DANW" />
+	    <Sector Name="DASE" />
+	    <Sector Name="DASC" />
+	    <Sector Name="DASW" />
+	    <Sector Name="DASS" />
     </Sectors>
     <ManualVisibility>
       <Point>+36.5000+003.350</Point>
@@ -30,17 +30,21 @@
 	  <Map Name="RADIO AIDS (NAMES)" />
 	  <Map Name="RUNWAYS" />
     <Map Name="MVA" />
+    <Map Name="MVA ALT" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
       <Window Type="State" State="Announced" Visible="true" />
       <Window Type="State" State="Preactive" Visible="true" />
     </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAG" Visible="true" />  
+    </Strips>      
     <ArrivalLists>
       <Airport Name="DAAG" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Maghreb Controle</Line>
+      <Line>Maghreb Control</Line>
       <Line>Charts - vats.im/dz/charts</Line>
       <Line>ATC feedback - dzvacc.org/feedback</Line>
     </ControllerInfo>
@@ -51,19 +55,29 @@
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-      <Map Name="TMA" />
+	  <Map Name="FIR BDRY" />
+	  <Map Name="TMA" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />
+    <Map Name="MVA" />
+    <Map Name="MVA ALT" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAG" Visible="true" />
+      </Strips>  
       <ArrivalLists>
         <Airport Name="DAAG" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
@@ -74,33 +88,48 @@
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-	  <Map Name="AIRWAYS" />     
+	  <Map Name="FIR BDRY" />
 	  <Map Name="TMA" />
+	  <Map Name="AIRWAYS" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />
+    <Map Name="MVA" />
+    <Map Name="MVA ALT" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAG" Visible="true" />
+      </Strips>        
       <ArrivalLists>
         <Airport Name="DAAG" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Controle Nord Est" Type="ASD" DefaultCenter="+365000.000+0062000.000" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Maghreb Control Nord Est" Type="ASD" DefaultCenter="+365000.000+0062000.000" DefaultRange="700" VisibilityRange="600">
       <Sectors>
         <Sector Name="DANE" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />  
+	  <Map Name="FIR BDRY" />
+	  <Map Name="TMA" />
+	  <Map Name="AIRWAYS" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -112,20 +141,25 @@
         <Airport Name="DABC" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Maghreb Controle Nord Ouest" Type="ASD" DefaultCenter="+342500.000+0001500.000" DefaultRange="1000" VisibilityRange="600">
+    <Position Name="Maghreb Control Nord Ouest" Type="ASD" DefaultCenter="+342500.000+0001500.000" DefaultRange="1000" VisibilityRange="600">
       <Sectors>
         <Sector Name="DANW" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />   
+	  <Map Name="FIR BDRY" />
+	  <Map Name="TMA" />
+	  <Map Name="AIRWAYS" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -136,20 +170,25 @@
         <Airport Name="DAOO" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Maghreb Controle Sud Est" Type="ASD" DefaultCenter="+302500.000+0068600.000" DefaultRange="1350" VisibilityRange="600">
+    <Position Name="Maghreb Control Sud Est" Type="ASD" DefaultCenter="+302500.000+0068600.000" DefaultRange="1350" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASE" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />    
+	  <Map Name="FIR BDRY" />
+	  <Map Name="TMA" />
+	  <Map Name="AIRWAYS" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -161,20 +200,25 @@
         <Airport Name="DAUO" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Controle Sud Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
+    <Position Name="Maghreb Control Sud Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASS" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />  
+	  <Map Name="FIR BDRY" />
+	  <Map Name="TMA" />
+	  <Map Name="AIRWAYS" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -185,20 +229,25 @@
         <Airport Name="DAAT" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Maghreb Controle Sud Centre" Type="ASD" DefaultCenter="+320000.000+0030000.000" DefaultRange="1100" VisibilityRange="600">
+    <Position Name="Maghreb Control Sud Centre" Type="ASD" DefaultCenter="+320000.000+0030000.000" DefaultRange="1100" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASC" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />  
+	  <Map Name="FIR BDRY" />
+	  <Map Name="TMA" />
+	  <Map Name="AIRWAYS" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -210,20 +259,25 @@
         <Airport Name="DAUG" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Maghreb Controle Sud Ouest" Type="ASD" DefaultCenter="+252750.000-0025000.000" DefaultRange="1750" VisibilityRange="600">
+    <Position Name="Maghreb Control Sud Ouest" Type="ASD" DefaultCenter="+252750.000-0025000.000" DefaultRange="1750" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASW" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" /> 
-	  <Map Name="AIRWAYS" />     
-	  <Map Name="TMA" />     
+	  <Map Name="FIR BDRY" />
+	  <Map Name="TMA" />
+	  <Map Name="AIRWAYS" />
+	  <Map Name="WAYPOINTS" />
+	  <Map Name="WAYPOINTS (NAMES)" />
+	  <Map Name="RADIO AIDS" />
+	  <Map Name="RADIO AIDS (NAMES)" />
+	  <Map Name="RUNWAYS" />    
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -235,7 +289,7 @@
         <Airport Name="DAOF" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Controle</Line>
+		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
@@ -247,23 +301,34 @@
         <Sector Name="AGA" />
       </Sectors>  
       <Maps>
+    <Map Name="AIRPORTS" />  
+	  <Map Name="AIRWAYS" />
+    <Map Name="COAST" />  
+	  <Map Name="CTR" />
+    <Map Name="FIR BDRY" />  
+	  <Map Name="MVA" />
+    <Map Name="MVA ALT" />  
+	  <Map Name="RADIO AIDS (NAMES)" />
+    <Map Name="Runways" />  
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+	  <Map Name="TMA FIXES" />     
 	  <Map Name="TMA" />
-      <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />
-      <Map Name="Airports (Names)" />	  	  
+    <Map Name="WAYPOINTS" />  
+	  <Map Name="WAYPOINTS (NAMES)" /> 	  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAG" Visible="true" />
+      </Strips>
       <ArrivalLists>
         <Airport Name="DAAG" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Alger Approache</Line>
+        <Line>Algiers Approach</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
@@ -273,11 +338,18 @@
         <Sector Name="BBA" />
       </Sectors>  
       <Maps>
+    <Map Name="AIRPORTS" />  
+	  <Map Name="AIRWAYS" />
+    <Map Name="COAST" />  
+	  <Map Name="CTR" /> 
+	  <Map Name="RADIO AIDS (NAMES)" />
+    <Map Name="Runways" />  
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+	  <Map Name="TMA FIXES" />    
 	  <Map Name="TMA" />
-      <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />
+    <Map Name="WAYPOINTS" />  
+    <Map Name="TMA FIXES (NAMES)" /> 
+	  <Map Name="WAYPOINTS (NAMES)" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -298,11 +370,18 @@
         <Sector Name="BCA" />
       </Sectors>  
       <Maps>
+    <Map Name="AIRPORTS" />  
+	  <Map Name="AIRWAYS" />
+    <Map Name="COAST" />  
+	  <Map Name="CTR" /> 
+	  <Map Name="RADIO AIDS (NAMES)" />
+    <Map Name="Runways" />  
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+	  <Map Name="TMA FIXES" />    
 	  <Map Name="TMA" />
-      <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />   
+    <Map Name="WAYPOINTS" />  
+    <Map Name="TMA FIXES (NAMES)" /> 
+	  <Map Name="WAYPOINTS (NAMES)" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -324,11 +403,18 @@
         <Sector Name="OOA" />
       </Sectors>  
       <Maps>
+    <Map Name="AIRPORTS" />  
+	  <Map Name="AIRWAYS" />
+    <Map Name="COAST" />  
+	  <Map Name="CTR" />    
+	  <Map Name="RADIO AIDS (NAMES)" />
+    <Map Name="Runways" />  
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+	  <Map Name="TMA FIXES" />
+    <Map Name="TMA FIXES (NAMES)" />      
 	  <Map Name="TMA" />
-      <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />    
+    <Map Name="WAYPOINTS" />  
+	  <Map Name="WAYPOINTS (NAMES)" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -349,11 +435,17 @@
         <Sector Name="UHA" />
       </Sectors>  
       <Maps>
+    <Map Name="AIRPORTS" />  
+	  <Map Name="AIRWAYS" />
+    <Map Name="COAST" />  
+	  <Map Name="CTR" />  
+	  <Map Name="RADIO AIDS (NAMES)" />
+    <Map Name="Runways" />  
 	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+	  <Map Name="TMA FIXES" />     
 	  <Map Name="TMA" />
-      <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />     
+    <Map Name="WAYPOINTS" />  
+	  <Map Name="WAYPOINTS (NAMES)" />    
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
