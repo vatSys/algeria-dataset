@@ -6,19 +6,24 @@
       <Threshold Name="05" Position="+36.693833+003.216667" ExtendedCentrelineTrack="052" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="+36.713000+003.250000" ExtendedCentrelineTrack="232" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
-	<Runway Name="09/27">
-	  <Threshold Name="09" Position="+36.692000+003.166667" ExtendedCentrelineTrack="091" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="27" Position="+36.691167+003.200000" ExtendedCentrelineTrack="271" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-	</Runway>	
     <!--DAAK-->
     <Runway Name="05/23">
       <Threshold Name="05" Position="+36.533798+002.862560" ExtendedCentrelineTrack="044" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="+36.557899+002.8900799" ExtendedCentrelineTrack="224" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
+    <!--DAAT-->
+    <Runway Name="02/20">
+      <Threshold Name="02" Position="+22.796333+005.433333" ExtendedCentrelineTrack="021" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="20" Position="+22.826500+005.450000" ExtendedCentrelineTrack="201" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="+22.807167+005.422833" ExtendedCentrelineTrack="081" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="26" Position="+22.811333+005.453167" ExtendedCentrelineTrack="261" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>  	
 	 <!--DABB-->
     <Runway Name="18/36">
-      <Threshold Name="18" Position="+365042.410+0074846.070" ExtendedCentrelineTrack="184" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="36" Position="+364909.020+0074832.010" ExtendedCentrelineTrack="004" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />	  
+      <Threshold Name="18" Position="+36.845167+007.800000" ExtendedCentrelineTrack="184" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="36" Position="+36.819167+007.800000" ExtendedCentrelineTrack="004" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />	  
     </Runway>
 	<Runway Name="05/23">
       <Threshold Name="05" Position="+364914.200+0074824.040" ExtendedCentrelineTrack="050" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
@@ -26,31 +31,36 @@
 	</Runway>
 	 <!--DABC-->
     <Runway Name="16/34">
-      <Threshold Name="16" Position="+361716.900+0063638.400" ExtendedCentrelineTrack="157" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="34" Position="+361546.000+0063721.000" ExtendedCentrelineTrack="337" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />	  
+      <Threshold Name="16" Position="+36.288000+006.600000" ExtendedCentrelineTrack="157" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="34" Position="+36.262833+006.616667" ExtendedCentrelineTrack="337" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />	  
     </Runway>
 	<Runway Name="13/31">
-      <Threshold Name="13" Position="+361704.080+0063653.340" ExtendedCentrelineTrack="134" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="31" Position="+361607.980+0063800.020" ExtendedCentrelineTrack="314" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="13" Position="+36.284500+006.600000" ExtendedCentrelineTrack="134" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="31" Position="+36.268833+006.633333" ExtendedCentrelineTrack="314" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
 	</Runway>	
 	 <!--DABT-->
     <Runway Name="05/23">
-      <Threshold Name="05" Position="+354438.580+0061744.840" ExtendedCentrelineTrack="053" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="23" Position="+354534.650+0061922.360" ExtendedCentrelineTrack="223" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="05" Position="+35.744000+006.283333" ExtendedCentrelineTrack="053" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="23" Position="+35.759667+006.316667" ExtendedCentrelineTrack="223" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
-	 <!--DAUH-->
-    <Runway Name="18/36">
-      <Threshold Name="18" Position="+314111.090+0060829.560" ExtendedCentrelineTrack="183" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="36" Position="+313933.470+0060821.130" ExtendedCentrelineTrack="003" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-    </Runway>
-	 <!--DAOO-->
+   <!--DAOO-->
     <Runway Name="07L/25R">
-      <Threshold Name="07L" Position="+353659.910-0003853.000" ExtendedCentrelineTrack="068" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="25R" Position="+353744.970-0003619.700" ExtendedCentrelineTrack="248" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="07L" Position="+35.616667-000.633333" ExtendedCentrelineTrack="068" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="25R" Position="+35.629167-000.600000" ExtendedCentrelineTrack="248" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway> 
     <Runway Name="07R/25L">
-      <Threshold Name="07R" Position="+353650.940-0003827.100" ExtendedCentrelineTrack="068" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="25L" Position="+353728.470-0003637.040" ExtendedCentrelineTrack="248" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="07R" Position="+35.614167-000.633333" ExtendedCentrelineTrack="068" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="25L" Position="+35.624500-000.600000" ExtendedCentrelineTrack="248" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway> 
+	 <!--DAUH-->
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="+31.686333+006.133333" ExtendedCentrelineTrack="183" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="36" Position="+31.659333+006.133333" ExtendedCentrelineTrack="003" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
+   <!--DAUI-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="+27.242333+002.500000" ExtendedCentrelineTrack="051" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="23" Position="+27.259333+002.516667" ExtendedCentrelineTrack="231" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway> 
   </Map>
 </Maps>  

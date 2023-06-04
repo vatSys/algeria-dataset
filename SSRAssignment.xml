@@ -13,22 +13,21 @@
   <!-- VFR Flights -->
   <Bin>
     <Rule FlightRule="V"/>
-    <Codes Start="5001" End="5077"/>
-	<Codes Start="4401" End="4437"/>
+    <Codes Start="1601" End="1677"/>
+	<Codes Start="2601" End="2677"/>
+  <Codes Start="3201" End="2377"/>
   </Bin>
     <!-- Military Flights -->
   <Bin>
     <Rule Remarks="(\/|\b)(AAF|MILITARY|USAF|RAF|AAE|ARMY)\b"/>
-    <Codes Start="2601" End="2677"/>
-	<Codes Start="3201" End="3207"/>
-	<Codes Start="3401" End="3477"/>
+    <Codes Start="4201" End="4277"/>
+	<Codes Start="4401" End="4477"/>
   </Bin>
   <!-- Domestic Flights -->
   <Bin>
     <Rule Departure="DA\w{2}" Destination="DA\w{2}"/>
-    <Codes Start="2601" End="2677"/>
-	<Codes Start="3201" End="3277"/>
-	<Codes Start="3401" End="3477"/>
+    <Codes Start="0001" End="0060"/>
+	<Codes Start="0060" End="0067"/>
   </Bin>
   <!-- Transit Flights -->
   <Bin>
