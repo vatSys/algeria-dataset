@@ -42,6 +42,10 @@
     </Strips>      
     <ArrivalLists>
       <Airport Name="DAAG" />
+      <Airport Name="DAOO" />
+      <Airport Name="DAAE" />
+      <Airport Name="DABC" />
+      <Airport Name="DAAT" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Maghreb Control</Line>
@@ -107,9 +111,6 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAG" Visible="true" />
       </Strips>        
-      <ArrivalLists>
-        <Airport Name="DAAG" />
-      </ArrivalLists>
       <ControllerInfo>
 		<Line>Maghreb Control</Line>
 		<Line>Charts - vats.im/dz/charts</Line>
@@ -205,7 +206,7 @@
 		<Line>ATC feedback - dzvacc.org/feedback</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Control Sud Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
+    <Position Name="Maghreb Control Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASS" />
       </Sectors>  
@@ -302,7 +303,6 @@
       </Sectors>  
       <Maps>
     <Map Name="AIRPORTS" />  
-	  <Map Name="AIRWAYS" />
     <Map Name="COAST" />  
 	  <Map Name="CTR" />
     <Map Name="FIR BDRY" />  
@@ -312,9 +312,7 @@
     <Map Name="Runways" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />     
-	  <Map Name="TMA" />
-    <Map Name="WAYPOINTS" />  
-	  <Map Name="WAYPOINTS (NAMES)" /> 	  
+	  <Map Name="TMA" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -339,22 +337,22 @@
       </Sectors>  
       <Maps>
     <Map Name="AIRPORTS" />  
-	  <Map Name="AIRWAYS" />
     <Map Name="COAST" />  
 	  <Map Name="CTR" /> 
 	  <Map Name="RADIO AIDS (NAMES)" />
     <Map Name="Runways" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />    
-	  <Map Name="TMA" />
-    <Map Name="WAYPOINTS" />  
+	  <Map Name="TMA" /> 
     <Map Name="TMA FIXES (NAMES)" /> 
-	  <Map Name="WAYPOINTS (NAMES)" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+        <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DABB" Visible="true" />
       </Strips>
       <ArrivalLists>
         <Airport Name="DABB" />
@@ -371,23 +369,24 @@
       </Sectors>  
       <Maps>
     <Map Name="AIRPORTS" />  
-	  <Map Name="AIRWAYS" />
     <Map Name="COAST" />  
 	  <Map Name="CTR" /> 
 	  <Map Name="RADIO AIDS (NAMES)" />
     <Map Name="Runways" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />    
-	  <Map Name="TMA" />
-    <Map Name="WAYPOINTS" />  
+	  <Map Name="TMA" />  
     <Map Name="TMA FIXES (NAMES)" /> 
-	  <Map Name="WAYPOINTS (NAMES)" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+        <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DABC" Visible="true" />
+        <Window Type="ADEP" Beacon="DABT" Visible="false" />
+      </Strips>      
       <ArrivalLists>
         <Airport Name="DABC" />
         <Airport Name="DABT" />
@@ -404,7 +403,6 @@
       </Sectors>  
       <Maps>
     <Map Name="AIRPORTS" />  
-	  <Map Name="AIRWAYS" />
     <Map Name="COAST" />  
 	  <Map Name="CTR" />    
 	  <Map Name="RADIO AIDS (NAMES)" />
@@ -412,15 +410,16 @@
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />
     <Map Name="TMA FIXES (NAMES)" />      
-	  <Map Name="TMA" />
-    <Map Name="WAYPOINTS" />  
-	  <Map Name="WAYPOINTS (NAMES)" />   
+	  <Map Name="TMA" />   
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAOO" Visible="true" />
+      </Strips>    
       <ArrivalLists>
         <Airport Name="DAOO" />
       </ArrivalLists>
@@ -436,22 +435,22 @@
       </Sectors>  
       <Maps>
     <Map Name="AIRPORTS" />  
-	  <Map Name="AIRWAYS" />
     <Map Name="COAST" />  
 	  <Map Name="CTR" />  
 	  <Map Name="RADIO AIDS (NAMES)" />
     <Map Name="Runways" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />     
-	  <Map Name="TMA" />
-    <Map Name="WAYPOINTS" />  
-	  <Map Name="WAYPOINTS (NAMES)" />    
+	  <Map Name="TMA" />  
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUH" Visible="true" />
+      </Strips>        
       <ArrivalLists>
         <Airport Name="DAUH" />
       </ArrivalLists>
@@ -462,7 +461,7 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="AD">
+  <Group Name="CTR">
     <Position Name="Bousaada Tower" Type="ASD" DefaultCenter="+352012.000+0041222.000" DefaultRange="200">
       <Sectors>
         <Sector Name="ADT" />
@@ -478,6 +477,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAD" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAAD" />
       </ArrivalLists>
@@ -502,6 +504,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAE" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAAE" />
       </ArrivalLists>
@@ -526,6 +531,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAG" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAAG" />
       </ArrivalLists>
@@ -550,6 +558,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAJ" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAAJ" />
       </ArrivalLists>
@@ -574,6 +585,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAP" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAAP" />
       </ArrivalLists>
@@ -598,6 +612,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAOO" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAOO" />
       </ArrivalLists>
@@ -622,6 +639,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAT" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAAT" />
       </ArrivalLists>
@@ -646,6 +666,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAV" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAAV" />
       </ArrivalLists>
@@ -670,6 +693,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DABB" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DABB" />
       </ArrivalLists>
@@ -694,6 +720,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DABC" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DABC" />
       </ArrivalLists>
@@ -718,6 +747,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DABS" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DABS" />
       </ArrivalLists>
@@ -742,6 +774,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DABT" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DABT" />
       </ArrivalLists>
@@ -766,6 +801,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAOB" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAOB" />
       </ArrivalLists>
@@ -790,6 +828,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAOF" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAOF" />
       </ArrivalLists>
@@ -814,6 +855,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAOY" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAOY" />
       </ArrivalLists>
@@ -838,6 +882,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUG" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAUG" />
       </ArrivalLists>
@@ -862,6 +909,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUH" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAUH" />
       </ArrivalLists>
@@ -886,6 +936,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUK" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAUK" />
       </ArrivalLists>
@@ -910,6 +963,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUO" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAUO" />
       </ArrivalLists>
@@ -934,6 +990,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUT" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAUT" />
       </ArrivalLists>
@@ -958,6 +1017,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUZ" Visible="true" />
+      </Strips>       
       <ArrivalLists>
         <Airport Name="DAUZ" />
       </ArrivalLists>
@@ -972,6 +1034,9 @@
         <Map Name="DAAG/ASMCGS_DAAG_TWY" />
         <Map Name="DAAG/ASMGCS_DAAG_APR" />
         <Map Name="DAAG/ASMGCS_DAAG_BLD" />
+        <Map Name="DAAG/ASMGCS_DAAG_Taxiline" />
+        <Map Name="DAAG/ASMGCS_DAAG_HoldLines" />
+        <Map Name="ASMGCS_TAXI_ALL" />
       </Maps>
     </Position>	
     <Position Name="DABC" Type="ASMGCS" ASMGCSAirport="DABC" DefaultCenter="+361707.000+0063709.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
