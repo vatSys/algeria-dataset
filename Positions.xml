@@ -38,7 +38,11 @@
       <Window Type="State" State="Preactive" Visible="true" />
     </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="DAAG" Visible="true" />  
+        <Window Type="ADEP" Beacon="DAAG" Visible="true" />
+        <Window Type="ADEP" Beacon="DAOO" Visible="true" />
+        <Window Type="ADEP" Beacon="DAAE" Visible="true" />  
+        <Window Type="ADEP" Beacon="DABC" Visible="true" />
+        <Window Type="ADEP" Beacon="DAAT" Visible="true" />
     </Strips>      
     <ArrivalLists>
       <Airport Name="DAAG" />
