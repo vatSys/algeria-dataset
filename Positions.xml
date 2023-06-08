@@ -1048,6 +1048,7 @@
         <Map Name="DABC/ASMCGS_DABC_TWY" />
         <Map Name="DABC/ASMGCS_DABC_APR" />
         <Map Name="DABC/ASMGCS_DABC_BLD" />
+        <Map Name="ASMGCS_TAXI_ALL" />        
       </Maps>
     </Position>	
     <Position Name="DABB" Type="ASMGCS" ASMGCSAirport="DABB" DefaultCenter="+364920.000+0074834.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1076,6 +1077,7 @@
         <Map Name="DAOO/ASMCGS_DAOO_TWY" />
         <Map Name="DAOO/ASMGCS_DAOO_APR" />
         <Map Name="DAOO/ASMGCS_DAOO_BLD" />
+        <Map Name="ASMGCS_TAXI_ALL" />        
       </Maps>
     </Position>		
   </Group>
