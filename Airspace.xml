@@ -160,7 +160,8 @@
         <STAR Name="TARIK" ApproachName="VOR07R" />
         <STAR Name="HMB" ApproachName="VOR07R" />
       </Runway>
-    </Airport>  
+    </Airport>
+    <Airport> Name="DAOO"  
       <Runway Name="25L" DataRunway="25L">
         <SID Name="SID51" />
         <SID Name="SID52" />
@@ -188,7 +189,8 @@
         <STAR Name="HAMRA" ApproachName="ILS25R" />
         <STAR Name="TARIK" ApproachName="ILS25R" />
         <STAR Name="HMB" ApproachName="ILS25R" />
-      </Runway>            
+      </Runway> 
+    </Airport>            
     <Airport Name="DAOR">
       <Runway Name="26" DataRunway="26" />
       <Runway Name="24" DataRunway="24" />

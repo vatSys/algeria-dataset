@@ -25,7 +25,7 @@
   </Bin>
   <!-- Domestic Flights -->
   <Bin>
-    <Rule Departure="DA\w{2}" Destination="DA\w{2}"/>
+    <Rule Departure="DA\w{w}" Destination="DA\w{w}"/>
     <Codes Start="0001" End="0060"/>
 	<Codes Start="0060" End="0067"/>
   </Bin>
