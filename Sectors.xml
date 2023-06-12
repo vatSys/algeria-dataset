@@ -104,5 +104,11 @@
   </Sector>   
   <Sector FullName="Oran Tower" Frequency="118.100" Callsign="DAOO_TWR" Name="OOT">
     <Volumes>OOT</Volumes>
-  </Sector>  
+  </Sector>
+  <Sector FullName="Alger Ground" Frequency="121.800" Callsign="DAAG_GND" Name="AGG"> 
+    <Volumes>AGG</Volumes>
+  </Sector>
+  <Sector FullName="Constantine Ground" Frequency="121.900" Callsign="DABC_GND" Name="BCG">  
+    <Volumes>BCG</Volumes>
+  </Sector>    
 </Sectors>

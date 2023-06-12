@@ -52,12 +52,12 @@
       <Airport Name="DAAT" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Maghreb Control</Line>
-      <Line>Charts - vats.im/dz/charts</Line>
-      <Line>ATC feedback - dzvacc.org/feedback</Line>
+      <Line>Algiers Control</Line>
+      <Line>Covering the entire Algiers FIR</Line>
+      <Line>Charts, feedback and more -  vatsim.ma</Line>
     </ControllerInfo>
   </Position>
-    <Position Name="Maghreb Control Centre Inférieure" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
+  <Position Name="Maghreb Control Centre Inférieure" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
       <Sectors>
         <Sector Name="DACI" />
       </Sectors>  
@@ -85,12 +85,12 @@
         <Airport Name="DAAG" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controling the Lower Center sector up to FL245</Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Control Centre Supérieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
+  <Position Name="Maghreb Control Centre Supérieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
      <Sectors>
         <Sector Name="DACS" />
       </Sectors>  
@@ -116,12 +116,12 @@
         <Window Type="ADEP" Beacon="DAAG" Visible="true" />
       </Strips>        
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controlling the Upper Center sector </Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Control Nord Est" Type="ASD" DefaultCenter="+365000.000+0062000.000" DefaultRange="700" VisibilityRange="600">
+  <Position Name="Maghreb Control Nord Est" Type="ASD" DefaultCenter="+365000.000+0062000.000" DefaultRange="700" VisibilityRange="600">
       <Sectors>
         <Sector Name="DANE" />
       </Sectors>  
@@ -146,12 +146,12 @@
         <Airport Name="DABC" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controlling the North East sector</Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Maghreb Control Nord Ouest" Type="ASD" DefaultCenter="+342500.000+0001500.000" DefaultRange="1000" VisibilityRange="600">
+  <Position Name="Maghreb Control Nord Ouest" Type="ASD" DefaultCenter="+342500.000+0001500.000" DefaultRange="1000" VisibilityRange="600">
       <Sectors>
         <Sector Name="DANW" />
       </Sectors>  
@@ -175,12 +175,12 @@
         <Airport Name="DAOO" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controlling the North West sector</Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Maghreb Control Sud Est" Type="ASD" DefaultCenter="+302500.000+0068600.000" DefaultRange="1350" VisibilityRange="600">
+  <Position Name="Maghreb Control Sud Est" Type="ASD" DefaultCenter="+302500.000+0068600.000" DefaultRange="1350" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASE" />
       </Sectors>  
@@ -205,12 +205,12 @@
         <Airport Name="DAUO" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controlling the South East sector</Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Maghreb Control Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
+  <Position Name="Maghreb Control Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASS" />
       </Sectors>  
@@ -234,12 +234,12 @@
         <Airport Name="DAAT" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controlling the South Sector</Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Maghreb Control Sud Centre" Type="ASD" DefaultCenter="+320000.000+0030000.000" DefaultRange="1100" VisibilityRange="600">
+  <Position Name="Maghreb Control Sud Centre" Type="ASD" DefaultCenter="+320000.000+0030000.000" DefaultRange="1100" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASC" />
       </Sectors>  
@@ -264,12 +264,12 @@
         <Airport Name="DAUG" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controlling the South Centre sector</Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Maghreb Control Sud Ouest" Type="ASD" DefaultCenter="+252750.000-0025000.000" DefaultRange="1750" VisibilityRange="600">
+  <Position Name="Maghreb Control Sud Ouest" Type="ASD" DefaultCenter="+252750.000-0025000.000" DefaultRange="1750" VisibilityRange="600">
       <Sectors>
         <Sector Name="DASW" />
       </Sectors>  
@@ -294,14 +294,14 @@
         <Airport Name="DAOF" />
       </ArrivalLists>
       <ControllerInfo>
-		<Line>Maghreb Control</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		<Line>Algiers Control</Line>
+		<Line>Controlling the South West sector</Line>
+		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
   </Group>
   <Group Name="TMA">
-    <Position Name="Alger Approche" Type="ASD" DefaultCenter="+364336.000+0031870.000" DefaultRange="250" VisibilityRange="150">
+  <Position Name="Alger Approche" Type="ASD" DefaultCenter="+364336.000+0031870.000" DefaultRange="250" VisibilityRange="150">
       <Sectors>
         <Sector Name="AGA" />
       </Sectors>  
@@ -331,11 +331,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Algiers Approach</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>Monitor Algiers ATIS on 128.525 Mhz</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Annaba Approche" Type="ASD" DefaultCenter="+365649.000+0075516.000" DefaultRange="150" VisibilityRange="100">
+  <Position Name="Annaba Approche" Type="ASD" DefaultCenter="+365649.000+0075516.000" DefaultRange="150" VisibilityRange="100">
       <Sectors>
         <Sector Name="BBA" />
       </Sectors>  
@@ -362,12 +362,12 @@
         <Airport Name="DABB" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Annaba Approache</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+        <Line>Annaba Approach</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Constantine Approche" Type="ASD" DefaultCenter="+360862.000+0063072.000" DefaultRange="200" VisibilityRange="100">
+  <Position Name="Constantine Approche" Type="ASD" DefaultCenter="+360862.000+0063072.000" DefaultRange="200" VisibilityRange="100">
       <Sectors>
         <Sector Name="BCA" />
       </Sectors>  
@@ -396,12 +396,12 @@
         <Airport Name="DABT" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Constantine Approache</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+        <Line>Constantine Approach</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Oran Approche" Type="ASD" DefaultCenter="+354610.000-0001567.000" DefaultRange="250" VisibilityRange="100">
+  <Position Name="Oran Approche" Type="ASD" DefaultCenter="+354610.000-0001567.000" DefaultRange="250" VisibilityRange="100">
       <Sectors>
         <Sector Name="OOA" />
       </Sectors>  
@@ -428,25 +428,25 @@
         <Airport Name="DAOO" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Oran Approache</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+        <Line>Oran Approach</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Hassi Messaoud Approche" Type="ASD" DefaultCenter="+314181.000+0060778.000" DefaultRange="500" VisibilityRange="100">
+  <Position Name="Hassi Messaoud Approche" Type="ASD" DefaultCenter="+314181.000+0060778.000" DefaultRange="500" VisibilityRange="100">
       <Sectors>
         <Sector Name="UHA" />
       </Sectors>  
-      <Maps>
-    <Map Name="AIRPORTS" />  
-    <Map Name="COAST" />  
-	  <Map Name="CTR" />  
-	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="Runways" />  
-	  <Map Name="COAST" />
-	  <Map Name="TMA FIXES" />     
-	  <Map Name="TMA" />  
-      </Maps>
+    <Maps>
+      <Map Name="AIRPORTS" />  
+      <Map Name="COAST" />  
+	    <Map Name="CTR" />  
+	    <Map Name="RADIO AIDS (NAMES)" />
+      <Map Name="Runways" />  
+	    <Map Name="COAST" />
+	    <Map Name="TMA FIXES" />     
+	    <Map Name="TMA" />  
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -459,20 +459,20 @@
         <Airport Name="DAUH" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Hassi-Messaoud Approache</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+        <Line>Hassi-Messaoud Approach</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
   </Group>
   <Group Name="CTR">
-    <Position Name="Bousaada Tower" Type="ASD" DefaultCenter="+352012.000+0041222.000" DefaultRange="200">
+  <Position Name="Bousaada Tower" Type="ASD" DefaultCenter="+352012.000+0041222.000" DefaultRange="80">
       <Sectors>
         <Sector Name="ADT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       </Maps>
@@ -489,17 +489,17 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bousaada Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Bejaia Tower" Type="ASD" DefaultCenter="+364305.000+0050455.000" DefaultRange="200">
+  <Position Name="Bejaia Tower" Type="ASD" DefaultCenter="+364305.000+0050455.000" DefaultRange="80">
       <Sectors>
         <Sector Name="AET" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       </Maps>
@@ -516,19 +516,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bejaia Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Algiers Tower" Type="ASD" DefaultCenter="+364235.000+0031287.000" DefaultRange="200">
+  <Position Name="Algiers Tower" Type="ASD" DefaultCenter="+364235.000+0031287.000" DefaultRange="80">
       <Sectors>
         <Sector Name="AGT" />
+        <Sector Name="AGG" />
       </Sectors>  
       <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
-      <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />
+	      <Map Name="COAST" />
+	      <Map Name="FIR BDRY" />     
+        <Map Name="CTR" /> 
+        <Map Name="AIRPORTS" />
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -541,22 +542,27 @@
       <ArrivalLists>
         <Airport Name="DAAG" />
       </ArrivalLists>
-      <ControllerInfo>
+      <ControllerInfo Callsign="DAAG_TWR">
         <Line>Algiers Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+        <Line>Monitor Algiers ATIS on 128.525 Mhz</Line>
+        <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="DAAG_GND">
+        <Line>Algiers Ground</Line>
+        <Line>Monitor Algiers ATIS on 128.525 Mhz</Line>
+        <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Djanet Tower" Type="ASD" DefaultCenter="+241715.000+0092718.000" DefaultRange="200">
+  <Position Name="Djanet Tower" Type="ASD" DefaultCenter="+241715.000+0092718.000" DefaultRange="80">
       <Sectors>
         <Sector Name="AJT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -570,20 +576,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Djanet Tower</Line>
-        <Line>ATC Service in the DAAJ CTR- dz-vacc.org</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+        <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Illizi Tower" Type="ASD" DefaultCenter="+264350.000+0083786.000" DefaultRange="200">
+  <Position Name="Illizi Tower" Type="ASD" DefaultCenter="+264350.000+0083786.000" DefaultRange="200">
       <Sectors>
         <Sector Name="APT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -597,20 +603,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Illizi Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Oran Tower" Type="ASD" DefaultCenter="+35.627167-000.611333" DefaultRange="200">
+  <Position Name="Oran Tower" Type="ASD" DefaultCenter="+35.627167-000.611333" DefaultRange="200">
       <Sectors>
         <Sector Name="OOT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -624,20 +630,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Illizi Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Tamanrasset Tower" Type="ASD" DefaultCenter="+225035.000+0052764.000" DefaultRange="200">
+  <Position Name="Tamanrasset Tower" Type="ASD" DefaultCenter="+225035.000+0052764.000" DefaultRange="200">
       <Sectors>
         <Sector Name="ATT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -651,20 +657,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tamanrasset Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Jijel Tower" Type="ASD" DefaultCenter="+364786.000+0055256.000" DefaultRange="200">
+  <Position Name="Jijel Tower" Type="ASD" DefaultCenter="+364786.000+0055256.000" DefaultRange="200">
       <Sectors>
         <Sector Name="AVT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -678,20 +684,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Jijel Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Annaba Tower" Type="ASD" DefaultCenter="+365002.000+0074883.000" DefaultRange="200">
+  <Position Name="Annaba Tower" Type="ASD" DefaultCenter="+365002.000+0074883.000" DefaultRange="80">
       <Sectors>
         <Sector Name="BBT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -703,22 +709,23 @@
       <ArrivalLists>
         <Airport Name="DABB" />
       </ArrivalLists>
-      <ControllerInfo>
+      <ControllerInfo Callsign="DABB_TWR">
         <Line>Annaba Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>   
-    <Position Name="Constantine Tower" Type="ASD" DefaultCenter="+361771.000+0063646.000" DefaultRange="200">
+  <Position Name="Constantine Tower" Type="ASD" DefaultCenter="+361771.000+0063646.000" DefaultRange="80">
       <Sectors>
         <Sector Name="BCT" />
+        <Sector Name="BCG" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -732,20 +739,25 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Constantine Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="DABC_GND">
+        <Line>Constantine Ground</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Tebessa Tower" Type="ASD" DefaultCenter="+352757.000+0080407.000" DefaultRange="200">
+  <Position Name="Tebessa Tower" Type="ASD" DefaultCenter="+352757.000+0080407.000" DefaultRange="200">
       <Sectors>
         <Sector Name="BST" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -759,20 +771,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tebessa Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>     
-    <Position Name="Batna Tower" Type="ASD" DefaultCenter="+354647.000+0062050.000" DefaultRange="200">
+  <Position Name="Batna Tower" Type="ASD" DefaultCenter="+354647.000+0062050.000" DefaultRange="200">
       <Sectors>
         <Sector Name="BTT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -786,20 +798,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Batna Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>                 
-    <Position Name="Tiaret Tower" Type="ASD" DefaultCenter="+352065.000+0012738.000" DefaultRange="200">
+  <Position Name="Tiaret Tower" Type="ASD" DefaultCenter="+352065.000+0012738.000" DefaultRange="200">
       <Sectors>
         <Sector Name="OBT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />  
-      </Maps>
+  </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -813,20 +825,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tiaret Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Tindouf Tower" Type="ASD" DefaultCenter="+274259.000-0080810.000" DefaultRange="200">
+  <Position Name="Tindouf Tower" Type="ASD" DefaultCenter="+274259.000-0080810.000" DefaultRange="200">
       <Sectors>
         <Sector Name="OFT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -840,20 +852,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tindouf Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="El Bayadh Tower" Type="ASD" DefaultCenter="+334308.000+0010405.000" DefaultRange="200">
+  <Position Name="El Bayadh Tower" Type="ASD" DefaultCenter="+334308.000+0010405.000" DefaultRange="200">
       <Sectors>
         <Sector Name="OYT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -867,20 +879,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>El Bayadh Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Ghardaia Tower" Type="ASD" DefaultCenter="+322382.000+0034649.000" DefaultRange="200">
+  <Position Name="Ghardaia Tower" Type="ASD" DefaultCenter="+322382.000+0034649.000" DefaultRange="200">
       <Sectors>
         <Sector Name="UGT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />  
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -894,20 +906,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Ghardaia Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>      
-    <Position Name="Hassi Messaoud Tower" Type="ASD" DefaultCenter="+314115.000+0060819.000" DefaultRange="200">
+  <Position Name="Hassi Messaoud Tower" Type="ASD" DefaultCenter="+314115.000+0060819.000" DefaultRange="200">
       <Sectors>
         <Sector Name="UHT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -921,20 +933,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Hassi Messaoud Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Touggourt Tower" Type="ASD" DefaultCenter="+330377.000+0060538.000" DefaultRange="200">
+  <Position Name="Touggourt Tower" Type="ASD" DefaultCenter="+330377.000+0060538.000" DefaultRange="200">
       <Sectors>
         <Sector Name="UKT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -948,20 +960,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Touggourt Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-    <Position Name="Guemar Tower" Type="ASD" DefaultCenter="+333045.000+0064710.000" DefaultRange="200">
+  <Position Name="Guemar Tower" Type="ASD" DefaultCenter="+333045.000+0064710.000" DefaultRange="200">
       <Sectors>
         <Sector Name="UOT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -975,20 +987,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Guemar Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-    <Position Name="Timimoun Tower" Type="ASD" DefaultCenter="+291386.000+0001553.000" DefaultRange="200">
+  <Position Name="Timimoun Tower" Type="ASD" DefaultCenter="+291386.000+0001553.000" DefaultRange="200">
       <Sectors>
         <Sector Name="UTT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -1002,20 +1014,20 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Timimoun Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>           
-    <Position Name="Zarzaitine Tower" Type="ASD" DefaultCenter="+280413.000+0093970.000" DefaultRange="200">
+  <Position Name="Zarzaitine Tower" Type="ASD" DefaultCenter="+280413.000+0093970.000" DefaultRange="200">
       <Sectors>
         <Sector Name="UZT" />
       </Sectors>  
-      <Maps>
-	  <Map Name="COAST" />
-	  <Map Name="FIR BDRY" />     
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
-      </Maps>
+    </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -1029,8 +1041,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Zarzaitine Tower</Line>
-		<Line>Charts - vats.im/dz/charts</Line>
-		<Line>ATC feedback - dzvacc.org/feedback</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
     <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364140.000+0031301.000" DefaultRange="7" MagneticVariation="218.00" Rotation="0">

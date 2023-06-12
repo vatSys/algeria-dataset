@@ -6,7 +6,51 @@
         <Departure Values="DAAG">
           <Rules>
             <Default>
-              <AssignSector Order="ADEP, ATMA, AARR"/>
+              <AssignSector Order="AGT, AGA, DACI"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="DABB_DEPS">
+      <Rules>
+        <Departure Values="DABB">
+          <Rules>
+            <Default>
+              <AssignSector Order="BBT, BBA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="DABC_DEPS">
+      <Rules>
+        <Departure Values="DABC">
+          <Rules>
+            <Default>
+              <AssignSector Order="BCT, BCA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="DAOO_DEPS">
+      <Rules>
+        <Departure Values="DAOO">
+          <Rules>
+            <Default>
+              <AssignSector Order="OOT, OOA, DANW"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="DAUH_DEPS">
+      <Rules>
+        <Departure Values="DAUH">
+          <Rules>
+            <Default>
+              <AssignSector Order="UHT, UHA, DASC"/>
             </Default>
           </Rules>
         </Departure>
