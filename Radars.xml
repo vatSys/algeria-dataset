@@ -51,31 +51,5 @@
    <Radar Name="Djanet" Type="ADSB" Elevation="5261" MaxRange="250">
     <Lat>+24.561045</Lat>
     <Long>+009.610756</Long>
- </Radar>
-
-<!--Ground Radars-->
-  <Radar Name="DAAG_SMR" Type="SMR" Elevation="82" MaxRange="2">
-    <Lat>+36.694500</Lat>
-    <Long>+003.216667</Long>
-  </Radar>
-  <Radar Name="DABB_SMR" Type="SMR" Elevation="16" MaxRange="2">
-    <Lat>+36.822167</Lat>
-    <Long>+007.800000</Long>
-  </Radar>
-  <Radar Name="DABC_SMR" Type="SMR" Elevation="2316" MaxRange="2">
-    <Lat>+36.285333</Lat>
-    <Long>+006.616667</Long>
-  </Radar>
-  <Radar Name="DABT_SMR" Type="SMR" Elevation="2700" MaxRange="2">
-    <Lat>+35.759167</Lat>
-    <Long>+006.316667</Long>
-  </Radar>
-  <Radar Name="DAOO_SMR" Type="SMR" Elevation="299" MaxRange="2">
-    <Lat>+35.627167</Lat>
-    <Long>-000.600000</Long>
-  </Radar>
-  <Radar Name="DAUH_SMR" Type="SMR" Elevation="459" MaxRange="2">
-    <Lat>+31.673833</Lat>
-    <Long>+006.133333</Long>
-  </Radar>   
+ </Radar>            
 </Radars>
