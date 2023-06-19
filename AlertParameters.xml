@@ -5,19 +5,19 @@
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>TMA_ALGER,TMA_ANNABA,TMA_CONSTANTINE,TMA_HASSI-MESSAOUD,TMA_ORAN</Volumes>
+      <Volumes>AGA,ABA,BCA,UHB,OOA</Volumes>
     </STCA>
     <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>SECTEUR_CENTRE_INF,SECTEUR_CENTRE_SUP,SECTEUR_NORD/EST,SECTEUR_NORD/OUEST,SECTEUR_SUD/OUEST,SECTEUR_SUD/CENTRE,SECTEUR_SUD/EST,SECTEUR_SUD/SUD</Volumes>
+      <Volumes>DAAA,DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS</Volumes>
     </STCA>
     <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
       <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>SECTEUR_CENTRE_INF,SECTEUR_CENTRE_SUP,SECTEUR_NORD/EST,SECTEUR_NORD/OUEST,SECTEUR_SUD/OUEST,SECTEUR_SUD/CENTRE,SECTEUR_SUD/EST,SECTEUR_SUD/SUD</Volumes>
+      <Volumes>DAAA,DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS</Volumes>
     </MTCA>   
   </ConflictAlerts>
   <EMG SSRCode="7700" AlertPriority="2"/>

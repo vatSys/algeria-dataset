@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sector FullName="Africa West Control" Frequency="132.225" Callsign="AFRW_FSS" Name="AFRW" DisplayInSectorsWindow="False">
+    <Volumes>AFRW</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Control" Frequency="124.100" Callsign="LECB_CTR" Name="LECB" DisplayInSectorsWindow="False">
+    <Volumes>LECB</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Control" Frequency="133.025" Callsign="LECB_RE_CTR" Name="LECBRE" DisplayInSectorsWindow="False">
+    <Volumes>LECBRE</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Control" Frequency="134.975" Callsign="LECB_MVS_CTR" Name="LECBMVS" DisplayInSectorsWindow="False">
+    <Volumes>LECBMVS</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Control" Frequency="134.450" Callsign="LECB_RW_CTR" Name="LECBRW" DisplayInSectorsWindow="False">
+    <Volumes>LECBRW</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Control" Frequency="129.525" Callsign="LECB_LLI_CTR" Name="LECBLLI" DisplayInSectorsWindow="False">
+    <Volumes>LECBLLI</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Control" Frequency="126.650" Callsign="LECB_RS_CTR" Name="LECBRS" DisplayInSectorsWindow="False">
+    <Volumes>LECBRS</Volumes>
+  </Sector>
+  <Sector FullName="Casablanca Radar" Frequency="126.500" Callsign="GMMM_CTR" Name="GMMM" DisplayInSectorsWindow="False">
+    <Volumes>GMMM</Volumes>
+  </Sector>
+  <Sector FullName="Casablanca Radar" Frequency="126.700" Callsign="GMMM_S_CTR" Name="GMMMS" DisplayInSectorsWindow="False">
+    <Volumes>GMMMS</Volumes>
+  </Sector>
+  <Sector FullName="Casablanca Radar" Frequency="125.100" Callsign="GMMM_E_CTR" Name="GMMME" DisplayInSectorsWindow="False">
+    <Volumes>GMMME</Volumes>
+  </Sector>
+  <Sector FullName="Dakar Control" Frequency="129.500" Callsign="GOOO_CTR" Name="GOOO" DisplayInSectorsWindow="False">
+    <Volumes>GOOO</Volumes>
+  </Sector>
+  <Sector FullName="Madrid Control" Frequency="133.750" Callsign="LECM_ALL_CTR" Name="LECMALL" DisplayInSectorsWindow="False">
+    <Volumes>LECMALL</Volumes>
+  </Sector>
+  <Sector FullName="Marseille Control" Frequency="124.650" Callsign="LFMM_CTR" Name="LFMM" DisplayInSectorsWindow="False">
+    <Volumes>LFMM</Volumes>
+  </Sector>
+  <Sector FullName="Marseille Control" Frequency="128.325" Callsign="LFMM_E_CTR" Name="LFMME" DisplayInSectorsWindow="False">
+    <Volumes>LFMME</Volumes>
+  </Sector>
+  <Sector FullName="Eurocontrol" Frequency="135.125" Callsign="EURW-N_CTR" Name="EURWN" DisplayInSectorsWindow="False">
+    <Volumes>EURWN</Volumes>
+  </Sector>
+  <Sector FullName="Eurocontrol" Frequency="135.075" Callsign="EURW-S_CTR" Name="EURWS" DisplayInSectorsWindow="False">
+    <Volumes>EURWS</Volumes>
+  </Sector>
+  <Sector FullName="Niamey Control" Frequency="126.100" Callsign="DRRR_CTR" Name="DRRR" DisplayInSectorsWindow="False">
+    <Volumes>DRRR</Volumes>
+  </Sector>
+  <Sector FullName="Niamey Control" Frequency="131.100" Callsign="DRRR_W_CTR" Name="DRRRW" DisplayInSectorsWindow="False">
+    <Volumes>DRRRW</Volumes>
+  </Sector>
+  <Sector FullName="North Africa Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFRN" DisplayInSectorsWindow="False">
+    <Volumes>AFRN</Volumes>
+  </Sector>
   <Sector FullName="Secteur Centre" Frequency="127.300" Callsign="DAAA_CTR" Name="DAAA">
     <ResponsibleSectors>DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Secteur Sud-Est" Frequency="124.100" Callsign="DAAA_SE_CTR" Name="DASE">
+    <Volumes>DASE</Volumes>
   </Sector>
   <Sector FullName="Secteur Centre Inférieur" Frequency="127.300" Callsign="DAAA_CI_CTR" Name="DACI">
     <Volumes>DACI</Volumes>
@@ -26,6 +86,21 @@
   </Sector>
   <Sector FullName="Secteur Sud Sud" Frequency="123.800" Callsign="DAAA_SS_CTR" Name="DASS">
     <Volumes>DASS</Volumes>
+  </Sector>
+  <Sector FullName="Sevilla Control" Frequency="133.350" Callsign="LECS_CTR" Name="LECS" DisplayInSectorsWindow="False">
+    <Volumes>LECS</Volumes>
+  </Sector>
+  <Sector FullName="Sevilla Control" Frequency="132.675" Callsign="LECS_NCS_CTR" Name="LECSNCS" DisplayInSectorsWindow="False">
+    <Volumes>LECSNCS</Volumes>
+  </Sector>
+  <Sector FullName="Tripoli Control" Frequency="120.900" Callsign="HLLL_CTR" Name="HLLL" DisplayInSectorsWindow="False">
+    <Volumes>HLLL</Volumes>
+  </Sector>
+  <Sector FullName="Tripoli Control" Frequency="128.400" Callsign="HLLL_S_CTR" Name="HLLLS" DisplayInSectorsWindow="False">
+    <Volumes>HLLLS</Volumes>
+  </Sector>
+  <Sector FullName="Tunis Control" Frequency="132.550" Callsign="DTTC_CTR" Name="DTTC" DisplayInSectorsWindow="False">
+    <Volumes>DTTC</Volumes>
   </Sector>
   <Sector FullName="Alger Approche" Frequency="121.400" Callsign="DAAG_APP" Name="AGA">
     <Volumes>AGA</Volumes>
