@@ -58,14 +58,32 @@
         <Point Name="B">+35.618733-000.618831</Point>
         <Point Name="B">+35.614686-000.630656</Point>
 
-      <!-- DAOO --> 
+      <!-- DABC --> 
         <Point Name="B1">+36.287158+006.613625</Point>
         <Point Name="A1">+36.285081+006.615800</Point>
         <Point Name="A2">+36.280622+006.620942</Point>
         <Point Name="AB1">+36.278670+006.616433</Point>
         <Point Name="AB2">+36.279356+006.618675</Point>
         <Point Name="B2">+36.270933+006.620031</Point>
+      
+      <!-- DABB -->
+        <Point Name="A">+36.820897+007.810122</Point>
+        <Point Name="A1">+36.820667+007.809792</Point>  
+        <Point Name="A2">+36.821597+007.810425</Point>
+        <Point Name="A3">+36.822483+007.810664</Point>
+        <Point Name="B">+36.826603+007.812800</Point>
+        <Point Name="B">+36.827986+007.811439</Point>
+        <Point Name="B1">+36.824650+007.814736</Point>
+        <Point Name="B2">+36.828470+007.812422</Point>
+        <Point Name="C">+36.829233+007.815906</Point>
+        <Point Name="C1">+36.828433+007.820420</Point>
+        <Point Name="D1">+36.829533+007.811631</Point>
+        <Point Name="D2">+36.835045+007.812158</Point>
+        <Point Name="D3">+36.844920+007.813678</Point>
 
+      <!-- DABT -->
+        <Point Name="A">+35.756839+006.314139</Point>
+        <Point Name="B">+35.751456+006.304783</Point>
       
     </Label>
   </Map>

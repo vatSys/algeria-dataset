@@ -128,5 +128,7 @@
 	<Line Width="0.75" Name="UT900">ARIAM.UT900.FES VOR</Line>
 	<Line Width="0.75" Name="UV18">DAFRI.UV18.TON VOR</Line>
 	<Line Width="0.75" Name="UW254">DIMAO.UW254.TUC VOR</Line>
+  <Line Width="0.75" Name="UZ111">TMS VOR.UZ111.ELO VOR</Line>
+  <Line Width="0.75" Name="UZ888">ORSUP.UZ888.DIMAO</Line>
   </Map>
 </Maps>

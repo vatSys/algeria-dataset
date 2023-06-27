@@ -1053,6 +1053,7 @@
         <Map Name="DAAG/ASMGCS_DAAG_Taxiline" />
         <Map Name="DAAG/ASMGCS_DAAG_HoldLines" />
         <Map Name="ASMGCS_TAXI_ALL" />
+        <Map Name="ASMGCS_STANDS_ALL" />
       </Maps>
     </Position>	
     <Position Name="DABC" Type="ASMGCS" ASMGCSAirport="DABC" DefaultCenter="+361707.000+0063709.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1060,7 +1061,8 @@
         <Map Name="DABC/ASMCGS_DABC_TWY" />
         <Map Name="DABC/ASMGCS_DABC_APR" />
         <Map Name="DABC/ASMGCS_DABC_BLD" />
-        <Map Name="ASMGCS_TAXI_ALL" />        
+        <Map Name="ASMGCS_TAXI_ALL" />
+        <Map Name="ASMGCS_STANDS_ALL" />        
       </Maps>
     </Position>	
     <Position Name="DABB" Type="ASMGCS" ASMGCSAirport="DABB" DefaultCenter="+364920.000+0074834.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1068,6 +1070,8 @@
         <Map Name="DABB/ASMCGS_DABB_TWY" />
         <Map Name="DABB/ASMGCS_DABB_APR" />
         <Map Name="DABB/ASMGCS_DABB_BLD" />
+        <Map Name="ASMGCS_TAXI_ALL" />
+        <Map Name="ASMGCS_STANDS_ALL" />
       </Maps>
     </Position>	
     <Position Name="DABT" Type="ASMGCS" ASMGCSAirport="DABT" DefaultCenter="+354533.000+0061921.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1075,6 +1079,8 @@
         <Map Name="DABT/ASMCGS_DABT_TWY" />
         <Map Name="DABT/ASMGCS_DABT_APR" />
         <Map Name="DABT/ASMGCS_DABT_BLD" />
+        <Map Name="ASMGCS_TAXI_ALL" />
+        <Map Name="ASMGCS_STANDS_ALL" />
       </Maps>
     </Position>
     <Position Name="DAUH" Type="ASMGCS" ASMGCSAirport="DAUH" DefaultCenter="+314026.000+0060826.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1089,8 +1095,16 @@
         <Map Name="DAOO/ASMCGS_DAOO_TWY" />
         <Map Name="DAOO/ASMGCS_DAOO_APR" />
         <Map Name="DAOO/ASMGCS_DAOO_BLD" />
-        <Map Name="ASMGCS_TAXI_ALL" />        
+        <Map Name="ASMGCS_TAXI_ALL" />
+        <Map Name="ASMGCS_STANDS_ALL" />        
       </Maps>
-    </Position>		
+    </Position>
+    <Position Name="DAAT" Type="ASMGCS" ASMGCSAirport="DAAT" DefaultCenter="+22.811167+005.450833" DefaultRange="7" MagneticVariation="0" Rotation="0">
+      <Maps>
+        <Map Name="DAAT/ASMCGS_DAAT_TWY" />
+        <Map Name="DAAT/ASMCGS_DAAT_APR" />
+        <Map Name="ASMGCS_STANDS_ALL" />        
+      </Maps>
+    </Position>	    		
   </Group>
 </Positions>

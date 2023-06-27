@@ -160,7 +160,6 @@
         <STAR Name="TARIK" ApproachName="VOR07R" />
         <STAR Name="HMB" ApproachName="VOR07R" />
       </Runway>
-    </Airport>  
       <Runway Name="25L" DataRunway="25L">
         <SID Name="SID51" />
         <SID Name="SID52" />
@@ -188,7 +187,8 @@
         <STAR Name="HAMRA" ApproachName="ILS25R" />
         <STAR Name="TARIK" ApproachName="ILS25R" />
         <STAR Name="HMB" ApproachName="ILS25R" />
-      </Runway>            
+      </Runway>
+    </Airport>                    
     <Airport Name="DAOR">
       <Runway Name="26" DataRunway="26" />
       <Runway Name="24" DataRunway="24" />
@@ -1181,6 +1181,25 @@ TIO VOR/
 CHAMI/
 BRENA
 </Airway>
+    <Airway Name="UZ111">
+TMS VOR/
+YAVOC/
+OPRIC/
+IPDAK/
+ELO VOR
+</Airway>
+    <Airway Name="UZ888">
+ORSUP/
+SACDA/
+YEMZO/
+ESNAM/
+INDIB/
+EVALO/
+ABSAL/
+BABOR/
+FELJA/
+DIMAO
+</Airway>
   </Airways>
   <Intersections>
     <Point Name="01CAG" Type="Fix">+391413.200+0090408.349</Point>
@@ -1778,6 +1797,7 @@ BRENA
     <Point Name="ABSID" Type="Fix">+382519.999+0131028.999</Point>
     <Point Name="ABSMR" Type="Fix">+364139.591+0030524.089</Point>
     <Point Name="ABSOK" Type="Fix">+384838.998-0091600.001</Point>
+    <Point Name="ABSAL" Type="Fix">+36.366111+003.761111</Point>
     <Point Name="ACIMA" Type="Fix">+390815.000-0085400.000</Point>
     <Point Name="ACMIL" Type="Fix">+384332.999-0090821.000</Point>
     <Point Name="ACMOR" Type="Fix">+390048.999-0070412.000</Point>
@@ -3026,6 +3046,7 @@ BRENA
     <Point Name="EV33" Type="Fix">+344218.568+0104152.378</Point>
     <Point Name="EV36" Type="Fix">+315407.639+0052502.909</Point>
     <Point Name="EVASA" Type="Fix">+390100.001-0093307.999</Point>
+    <Point Name="EVALO" Type="Fix">+36.248056+002.642778</Point>
     <Point Name="EVDOL" Type="Fix">+333352.819-0072514.260</Point>
     <Point Name="EVOLI" Type="Fix">+394256.300+0024234.570</Point>
     <Point Name="EVORA" Type="Fix">+383423.000-0075426.999</Point>
@@ -3050,6 +3071,7 @@ BRENA
     <Point Name="FB" Type="Fix">+344632.001+0104950.001</Point>
     <Point Name="FC09" Type="Fix">+335623.060+0075624.518</Point>
     <Point Name="FCRDG" Type="Fix">+405342.000-0065738.000</Point>
+    <Point Name="FELJA" Type="Fix">+36.484445+005.000000</Point>
     <Point Name="FEIRA" Type="Fix">+405532.000-0083233.000</Point>
     <Point Name="FENXE" Type="Fix">+394319.700-0013255.701</Point>
     <Point Name="FERAL" Type="Fix">+380329.999-0080659.000</Point>
@@ -3569,6 +3591,7 @@ BRENA
     <Point Name="INAMA" Type="Fix">+190759.998+0041000.001</Point>
     <Point Name="INBIG" Type="Fix">+400457.000-0085236.001</Point>
     <Point Name="INBOM" Type="Fix">+400006.908-0081807.210</Point>
+    <Point Name="INDIB" Type="Fix">+36.170000+001.956111</Point>
     <Point Name="INDUM" Type="Fix">+405846.999+0085105.000</Point>
     <Point Name="INISA" Type="Fix">+172638.000+0113000.000</Point>
     <Point Name="INKAL" Type="Fix">+363643.498-0035200.001</Point>
@@ -3594,6 +3617,7 @@ BRENA
     <Point Name="IPAL6" Type="Fix">+393628.598+0025223.001</Point>
     <Point Name="IPAL7" Type="Fix">+393713.699+0025358.700</Point>
     <Point Name="IPAL9" Type="Fix">+393800.499+0025538.301</Point>
+    <Point Name="IPDAK" Type="Fix">+30.893611+006.428056</Point>
     <Point Name="IPKOV" Type="Fix">+405903.998+0092446.000</Point>
     <Point Name="IPLOS" Type="Fix">+335853.979-0054417.311</Point>
     <Point Name="IPOBA" Type="Fix">+222836.001-0010253.998</Point>
@@ -4480,6 +4504,7 @@ BRENA
     <Point Name="OMIRA" Type="Fix">+373547.000-0083830.999</Point>
     <Point Name="ONUBA" Type="Fix">+371448.199-0064535.971</Point>
     <Point Name="OPERA" Type="Fix">+393721.900-0004644.101</Point>
+    <Point Name="OPRIC" Type="Fix">+28.573333+006.131389</Point>
     <Point Name="OR13" Type="Fix">+354217.758-0002226.709</Point>
     <Point Name="OR39" Type="Fix">+353854.441-0003225.018</Point>
     <Point Name="OR59" Type="Fix">+353940.730-0003009.111</Point>
@@ -5464,6 +5489,7 @@ BRENA
     <Point Name="SABAS" Type="Fix">+391401.881+0022456.188</Point>
     <Point Name="SABRO" Type="Fix">+260705.998-0034256.998</Point>
     <Point Name="SABUG" Type="Fix">+402102.000-0070526.000</Point>
+    <Point Name="SACDA" Type="Fix">+35.248889-000.822778</Point>
     <Point Name="SADAF" Type="Fix">+374812.999+0021944.000</Point>
     <Point Name="SADIC" Type="Fix">+334402.151-0061959.588</Point>
     <Point Name="SADKA" Type="Fix">+225241.998-0102607.000</Point>
@@ -6272,6 +6298,8 @@ BRENA
     <Point Name="XUMIP" Type="Fix">+393929.998-0090103.000</Point>
     <Point Name="XURAL" Type="Fix">+391713.671+0024316.539</Point>
     <Point Name="YANKE" Type="Fix">+360920.008-0051652.010</Point>
+    <Point Name="YAVOC" Type="Fix">+22.807611+005.446528</Point>
+    <Point Name="YEMZO" Type="Fix">+35.653889+000.240833</Point>
     <Point Name="ZA503" Type="Fix">+170028.709+0080632.500</Point>
     <Point Name="ZAMBJ" Type="Fix">+383057.999-0084201.000</Point>
     <Point Name="ZAMBU" Type="Fix">+373057.999-0084654.999</Point>
@@ -6776,14 +6804,14 @@ BRENA
       <Transition Name="HAMRA">HAMRA</Transition>  
     </SID>    
     <SID Name="SID51" Airport="DAOO" Runways="25R,25L">
-      <Route Runway="25R">ORA VOR/OO NDB/ON NDB/GOMRI/HILIL</Route>
-      <Route Runway="25L">ORA VOR/OO NDB/ON NDB/GOMRI/HILIL</Route> 
+      <Route Runway="25R">ORA VOR/ORA08/ORA VOR/ON NDB/GOMRI/HILIL</Route>
+      <Route Runway="25L">ORA VOR/ORA08/ORA VOR/ON NDB/GOMRI/HILIL</Route> 
       <Transition Name="CHE">CHE NDB</Transition>
       <Transition Name="TRB">TRB VOR</Transition> 
     </SID>
     <SID Name="SID52" Airport="DAOO" Runways="25R,25L">
-      <Route Runway="25R">ORA VOR/OO NDB/ON NDB/GOMRI/FAROS</Route>
-      <Route Runway="25L">ORA VOR/OO NDB/ON NDB/GOMRI/FAROS</Route>
+      <Route Runway="25R">ORA VOR/ORA08/ORA VOR/ON NDB/GOMRI/FAROS</Route>
+      <Route Runway="25L">ORA VOR/ORA08/ORA VOR/ON NDB/GOMRI/FAROS</Route>
       <Transition Name="BAY">BAY VOR</Transition>
       <Transition Name="GRS">GRS NDB</Transition>  
     </SID>  
@@ -6794,8 +6822,8 @@ BRENA
       <Transition Name="OJD">OJD VOR</Transition>  
     </SID>    
     <SID Name="SID54" Airport="DAOO" Runways="25R,25L">
-      <Route Runway="25R">ORA VOR/BAHRI</Route>
-      <Route Runway="25L">ORA VOR/BAHRI</Route>
+      <Route Runway="25R">ORA VOR/ORA08/ORA VOR/BAHRI</Route>
+      <Route Runway="25L">ORA VOR/ORA08/ORA VOR/BAHRI</Route>
       <Transition Name="LABRO">LABRO</Transition>
       <Transition Name="HAMRA">HAMRA</Transition>  
     </SID>   

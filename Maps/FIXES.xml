@@ -2,6 +2,7 @@
 <Maps>
     <Map Type="System" Name="WAYPOINTS" Priority="1">
       <Symbol Type="HollowTriangle">
+		<Point>ABSAL</Point>
 		<Point>ABLOD</Point>
 		<Point>AMIRA</Point>
 		<Point>AMTIK</Point>
@@ -36,6 +37,8 @@
 		<Point>EREBO</Point>
 		<Point>ERKEL</Point>
 		<Point>ESNAM</Point>
+		<Point>EVALO</Point>
+		<Point>FELJA</Point>
 		<Point>GABEL</Point>
 		<Point>GAFLA</Point>
 		<Point>GARBA</Point>
@@ -47,6 +50,8 @@
 		<Point>IBNOD</Point>
 		<Point>IKTAV</Point>
 		<Point>INAMA</Point>
+		<Point>INDIB</Point>
+		<Point>IPDAK</Point>
 		<Point>IPOBA</Point>
 		<Point>KAMER</Point>
 		<Point>KAWKA</Point>
@@ -69,6 +74,7 @@
 		<Point>MOUNA</Point>
 		<Point>NADJI</Point>
 		<Point>NAGAH</Point>
+		<Point>OPRIC</Point>
 		<Point>ORSUP</Point>
 		<Point>OTARO</Point>
 		<Point>OUCIF</Point>
@@ -85,6 +91,7 @@
 		<Point>ROANE</Point>
 		<Point>ROFER</Point>
 		<Point>SABRO</Point>
+		<Point>SACDA</Point>
 		<Point>SADAF</Point>
 		<Point>SAKNA</Point>
 		<Point>SALMA</Point>
@@ -110,6 +117,8 @@
 		<Point>TOLGA</Point>
 		<Point>TWARG</Point>
 		<Point>USRUT</Point>
+		<Point>YAVOC</Point>
+		<Point>YEMZO</Point>
 		<Point>ZAWAT</Point>
 		<Point>ZENAD</Point>
 		<Point>ZIBAN</Point>
@@ -117,6 +126,7 @@
   </Map>
   <Map Type="System" Name="WAYPOINTS (NAMES)" Priority="1">
     <Label HasLeader="false">
+		<Point>ABSAL</Point>
 		<Point>ABLOD</Point>
 		<Point>AMIRA</Point>
 		<Point>AMTIK</Point>
@@ -151,6 +161,8 @@
 		<Point>EREBO</Point>
 		<Point>ERKEL</Point>
 		<Point>ESNAM</Point>
+		<Point>EVALO</Point>
+		<Point>FELJA</Point>
 		<Point>GABEL</Point>
 		<Point>GAFLA</Point>
 		<Point>GARBA</Point>
@@ -162,6 +174,8 @@
 		<Point>IBNOD</Point>
 		<Point>IKTAV</Point>
 		<Point>INAMA</Point>
+		<Point>INDIB</Point>
+		<Point>IPDAK</Point>
 		<Point>IPOBA</Point>
 		<Point>KAMER</Point>
 		<Point>KAWKA</Point>
@@ -184,6 +198,7 @@
 		<Point>MOUNA</Point>
 		<Point>NADJI</Point>
 		<Point>NAGAH</Point>
+		<Point>OPRIC</Point>
 		<Point>ORSUP</Point>
 		<Point>OTARO</Point>
 		<Point>OUCIF</Point>
@@ -200,6 +215,7 @@
 		<Point>ROANE</Point>
 		<Point>ROFER</Point>
 		<Point>SABRO</Point>
+		<Point>SACDA</Point>
 		<Point>SADAF</Point>
 		<Point>SAKNA</Point>
 		<Point>SALMA</Point>
@@ -225,6 +241,8 @@
 		<Point>TOLGA</Point>
 		<Point>TWARG</Point>
 		<Point>USRUT</Point>
+		<Point>YAVOC</Point>
+		<Point>YEMZO</Point>
 		<Point>ZAWAT</Point>
 		<Point>ZENAD</Point>
 		<Point>ZIBAN</Point>
