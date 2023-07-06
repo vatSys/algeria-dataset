@@ -16,6 +16,10 @@
       <Threshold Name="05" Position="+36.693833+003.216667" ExtendedCentrelineTrack="052" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="+36.713000+003.250000" ExtendedCentrelineTrack="232" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="+36.692061+003.170800" ExtendedCentrelineTrack="092" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="27" Position="+36.691139+003.209945" ExtendedCentrelineTrack="272" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
     <!--DAAK-->
     <Runway Name="05/23">
       <Threshold Name="05" Position="+36.533798+002.862560" ExtendedCentrelineTrack="044" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
