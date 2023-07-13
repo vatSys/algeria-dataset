@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Profile Name="Algeria" FullName="Eurocat Algeria (DAAA)">
-	<Version AIRAC="2306" Revision="c" PublishDate="20230627" UpdateURL="https://vatsys.sawbe.com/downloads/data/Algeria" />
+	<Version AIRAC="2307" Revision="a" PublishDate="20230713" UpdateURL="https://vatsys.sawbe.com/downloads/data/Algeria" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="https://sawbe.com/GRIB/" />

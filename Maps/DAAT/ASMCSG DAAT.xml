@@ -120,7 +120,7 @@
         </Point>
     </Infill>    
   </Map>     
-  <Map Type="Ground_APR" Name="ASMCGS_DAAT_APR" Priority="3">
+  <Map Type="Ground_APR" Name="ASMCGS_DAAT_APR" Priority="1">
     <Infill Name="apron_grass">
         <Point>+22.813563+005.451712/
 +22.813763+005.451745/
