@@ -35,7 +35,25 @@
         <Point Name="J12">+36.694381+003.206047</Point>	
         <Point Name="J13">+36.697017+003.210286</Point>	
         <Point Name="J13">+36.696920+003.203675</Point>	
-        <Point Name="J13">+36.695972+003.206678</Point>	
+        <Point Name="J13">+36.695972+003.206678</Point>
+        <Point Name="B2">+36.694725+003.217711</Point>
+        <Point Name="B3">+36.693797+003.219261</Point>
+        <Point Name="B4">+36.693792+003.216386</Point>
+        <Point Name="A4">+36.693175+003.213497</Point>
+        <Point Name="H1">+36.692731+003.212089</Point>
+        <Point Name="A3">+36.692358+003.211525</Point>
+        <Point Name="A2">+36.693350+003.211206</Point>
+        <Point Name="A7">+36.693356+003.208992</Point>
+        <Point Name="A8">+36.692131+003.209497</Point>
+        <Point Name="J3">+36.692236+003.199281</Point>
+        <Point Name="J">+36.693006+003.201033</Point>
+        <Point Name="J5">+36.693767+003.196281</Point>
+        <Point Name="J4">+36.693770+003.193847</Point>
+        <Point Name="J">+36.693253+003.190461</Point>
+        <Point Name="J2">+36.692620+003.184236</Point>
+        <Point Name="J">+36.693575+003.177228</Point>
+        <Point Name="J1">+36.692986+003.170961</Point>
+
 
       <!-- DAOO --> 
         <Point Name="C1">+35.624406-000.602228</Point>
