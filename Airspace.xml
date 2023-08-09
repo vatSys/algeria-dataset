@@ -6628,19 +6628,19 @@ DIMAO
       <Route Runway="05">BOUGA/BOURI</Route>
     </SID>
     <SID Name="BJA1C" Airport="DAAG" Runways="05">
-      <Route Runway="05">SDM NDB/BNA NDB/BJA VOR</Route>
+      <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BABR1C" Airport="DAAG" Runways="05">
-      <Route Runway="05">SDM NDB/BNA NDB/BADOR</Route>
+      <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/BADOR</Route>
     </SID>
     <SID Name="TAGR1C" Airport="DAAG" Runways="05">
-      <Route Runway="05">SDM NDB/BNA NDB/TAGRO</Route>
+      <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/TAGRO</Route>
     </SID>
     <SID Name="BSA1C" Airport="DAAG" Runways="05">
-      <Route Runway="05">SDM NDB/BNA NDB/BSA VOR</Route>
+      <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/BSA VOR</Route>
     </SID>
     <SID Name="BSA1G" Airport="DAAG" Runways="05">
-      <Route Runway="05">ALR VOR/BSA VOR</Route>
+      <Route Runway="05">ALR10/ALR VOR/BSA VOR</Route>
     </SID>
     <SID Name="CHE1C" Airport="DAAG" Runways="05">
       <Route Runway="05">CELBA/CHE NDB</Route>
@@ -6676,7 +6676,7 @@ DIMAO
       <Route Runway="23">BNA NDB/BSA VOR</Route>
     </SID>
      <SID Name="BSA1E" Airport="DAAG" Runways="23">
-      <Route Runway="23">ALR VOR/BSA VOR</Route>
+      <Route Runway="23">ALR10/ALR VOR/BSA VOR</Route>
     </SID>
      <SID Name="CHE1A" Airport="DAAG" Runways="23">
       <Route Runway="23">CELBA/CHE NDB</Route>
@@ -6700,19 +6700,19 @@ DIMAO
       <Route Runway="09">BOUGA/BOURI</Route>
     </SID>
     <SID Name="BJA1D" Airport="DAAG" Runways="09">
-      <Route Runway="09">SDM NDB/BNA NDB/BJA VOR</Route>
+      <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BABR1D" Airport="DAAG" Runways="09">
-      <Route Runway="09">SDM NDB/BNA NDB/BADOR</Route>
+      <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/BADOR</Route>
     </SID>
     <SID Name="TAGR1D" Airport="DAAG" Runways="09">
-      <Route Runway="09">SDM NDB/BNA NDB/TAGRO</Route>
+      <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/TAGRO</Route>
     </SID>
     <SID Name="BSA1D" Airport="DAAG" Runways="09">
-      <Route Runway="09">SDM NDB/BNA NDB/BSA VOR</Route>
+      <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/BSA VOR</Route>
     </SID>
     <SID Name="BSA1H" Airport="DAAG" Runways="09">
-      <Route Runway="09">ALR VOR/BSA VOR</Route>
+      <Route Runway="09">ALR10/ALR VOR/BSA VOR</Route>
     </SID>
     <SID Name="CHE1D" Airport="DAAG" Runways="09">
       <Route Runway="09">CELBA/CHE NDB</Route>
@@ -6736,19 +6736,19 @@ DIMAO
       <Route Runway="27">BOUGA/BOURI</Route>
     </SID>
     <SID Name="BJA1B" Airport="DAAG" Runways="27">
-      <Route Runway="27">SDM NDB/BNA NDB/BJA VOR</Route>
+      <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BABR1B" Airport="DAAG" Runways="27">
-      <Route Runway="27">SDM NDB/BNA NDB/BADOR</Route>
+      <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/BADOR</Route>
     </SID>
     <SID Name="TAGR1B" Airport="DAAG" Runways="27">
-      <Route Runway="27">SDM NDB/BNA NDB/TAGRO</Route>
+      <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/TAGRO</Route>
     </SID>
     <SID Name="BSA1B" Airport="DAAG" Runways="27">
-      <Route Runway="27">SDM NDB/BNA NDB/BSA VOR</Route>
+      <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/BSA VOR</Route>
     </SID>
     <SID Name="BSA1F" Airport="DAAG" Runways="27">
-      <Route Runway="27">ALR VOR/BSA VOR</Route>
+      <Route Runway="27">ALR10/ALR VOR/BSA VOR</Route>
     </SID>
     <SID Name="CHE1B" Airport="DAAG" Runways="27">
       <Route Runway="27">CELBA/CHE NDB</Route>
