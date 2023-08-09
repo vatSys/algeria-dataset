@@ -153,6 +153,11 @@
       <Threshold Name="04" Position="+33.712000+001.081500" ExtendedCentrelineTrack="041" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="22" Position="+33.731833+001.103500" ExtendedCentrelineTrack="221" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway> 
+  <!--DATG-->   
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="+19.559167+005.739333" ExtendedCentrelineTrack="080" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="26" Position="+19.561833+005.760000" ExtendedCentrelineTrack="260" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>   
   <!--DAUU-->   
     <Runway Name="18/36">
       <Threshold Name="18" Position="+31.929167+005.416833" ExtendedCentrelineTrack="177" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

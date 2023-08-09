@@ -54,27 +54,31 @@
  </Radar>
 
 <!--Ground Radars-->
-  <Radar Name="DAAG_SMR" Type="SMR" Elevation="82" MaxRange="2">
+  <Radar Name="DAAG_SMR" Type="SMR" Elevation="82" MaxRange="4">
     <Lat>+36.694500</Lat>
     <Long>+003.216667</Long>
   </Radar>
-  <Radar Name="DABB_SMR" Type="SMR" Elevation="16" MaxRange="2">
+  <Radar Name="DAAT_SMR" Type="SMR" Elevation="4518" MaxRange="4">
+    <Lat>+22.811167</Lat>
+    <Long>+005.450833</Long>
+  </Radar> 
+  <Radar Name="DABB_SMR" Type="SMR" Elevation="16" MaxRange="4">
     <Lat>+36.822167</Lat>
     <Long>+007.800000</Long>
   </Radar>
-  <Radar Name="DABC_SMR" Type="SMR" Elevation="2316" MaxRange="2">
+  <Radar Name="DABC_SMR" Type="SMR" Elevation="2316" MaxRange="4">
     <Lat>+36.285333</Lat>
     <Long>+006.616667</Long>
   </Radar>
-  <Radar Name="DABT_SMR" Type="SMR" Elevation="2700" MaxRange="2">
+  <Radar Name="DABT_SMR" Type="SMR" Elevation="2700" MaxRange="4">
     <Lat>+35.759167</Lat>
     <Long>+006.316667</Long>
   </Radar>
-  <Radar Name="DAOO_SMR" Type="SMR" Elevation="299" MaxRange="2">
+  <Radar Name="DAOO_SMR" Type="SMR" Elevation="299" MaxRange="4">
     <Lat>+35.627167</Lat>
     <Long>-000.600000</Long>
   </Radar>
-  <Radar Name="DAUH_SMR" Type="SMR" Elevation="459" MaxRange="2">
+  <Radar Name="DAUH_SMR" Type="SMR" Elevation="459" MaxRange="4">
     <Lat>+31.673833</Lat>
     <Long>+006.133333</Long>
   </Radar>   

@@ -281,6 +281,16 @@
       <Runway Name="05" DataRunway="05" />
       <Runway Name="23" DataRunway="23" />
     </Airport>
+    <Airport Name="DTTZ">
+      <Runway Name="09" DataRunway="09" />
+      <Runway Name="27" DataRunway="27" />
+    </Airport>
+    <Airport Name="GMFO">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="24" DataRunway="24" />
+      <Runway Name="13" DataRunway="13" />
+      <Runway Name="31" DataRunway="31" />
+    </Airport>   
   </SystemRunways>
   <Airways>
     <Airway Name="A6">

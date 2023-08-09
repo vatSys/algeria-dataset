@@ -17,33 +17,7 @@
 	</TrackSymbol>
 	<TrackSymbol Type="ModeS" SpecialCode="0001">
 		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
-	</TrackSymbol>
-	
-	<!-- Special Code 2 Pentagram -->
-	<TrackSymbol Type="ModeA" SpecialCode="2000">
-		<PathGeometry>
-			<Figure Start="0,-8" FigureBegin="Hollow" FigureEnd="Closed">
-				<Line>-7,4</Line>
-				<Line>7,4</Line>
-			</Figure>
-			<Figure Start="0,8" FigureBegin="Hollow" FigureEnd="Closed">
-				<Line>7,-4</Line>
-				<Line>-7,-4</Line>
-			</Figure>
-		</PathGeometry>
-	</TrackSymbol>
-	<TrackSymbol Type="ModeS" SpecialCode="2000">
-		<PathGeometry>
-			<Figure Start="0,-8" FigureBegin="Hollow" FigureEnd="Closed">
-				<Line>-7,4</Line>
-				<Line>7,4</Line>
-			</Figure>
-			<Figure Start="0,8" FigureBegin="Hollow" FigureEnd="Closed">
-				<Line>7,-4</Line>
-				<Line>-7,-4</Line>
-			</Figure>
-		</PathGeometry>
-	</TrackSymbol>
+	</TrackSymbol>	
 	
 	<!-- Special Code 3 Open Square -->
 	<TrackSymbol Type="ModeA" SpecialCode="0100">

@@ -6,7 +6,7 @@
         <Departure Values="DAAG">
           <Rules>
             <Default>
-              <AssignSector Order="AGT, AGA, DACI"/>
+              <AssignSector Order="AGA, DACI"/>
             </Default>
           </Rules>
         </Departure>

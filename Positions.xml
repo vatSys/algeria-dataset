@@ -36,21 +36,7 @@
       <Window Type="State" State="Jurisdiction" Visible="true" />
       <Window Type="State" State="Announced" Visible="true" />
       <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="DAAG" Visible="true" />
-        <Window Type="ADEP" Beacon="DAOO" Visible="true" />
-        <Window Type="ADEP" Beacon="DAAE" Visible="true" />  
-        <Window Type="ADEP" Beacon="DABC" Visible="true" />
-        <Window Type="ADEP" Beacon="DAAT" Visible="true" />
     </Strips>      
-    <ArrivalLists>
-      <Airport Name="DAAG" />
-      <Airport Name="DAOO" />
-      <Airport Name="DAAE" />
-      <Airport Name="DABC" />
-      <Airport Name="DAAT" />
-    </ArrivalLists>
     <ControllerInfo>
       <Line>Algiers Control</Line>
       <Line>Covering the entire Algiers FIR</Line>
@@ -313,10 +299,14 @@
 	  <Map Name="MVA" />
     <Map Name="MVA ALT" />  
 	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="Runways" />  
+    <Map Name="RUNWAYS" />  
 	  <Map Name="COAST" />
-	  <Map Name="TMA FIXES" />     
+	  <Map Name="TMA FIXES" />    
+    <Map Name="TMA FIXES (NAMES)" />  
 	  <Map Name="TMA" />  
+    <Map Name="AIRWAYS" /> 
+    <Map Name="WAYPOINTS" />  
+    <Map Name="WAYPOINTS (NAMES)" /> 
       </Maps>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -344,7 +334,7 @@
     <Map Name="COAST" />  
 	  <Map Name="CTR" /> 
 	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="Runways" />  
+    <Map Name="RUNWAYS" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />    
 	  <Map Name="TMA" /> 
@@ -376,7 +366,7 @@
     <Map Name="COAST" />  
 	  <Map Name="CTR" /> 
 	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="Runways" />  
+    <Map Name="RUNWAYS" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />    
 	  <Map Name="TMA" />  
@@ -410,7 +400,7 @@
     <Map Name="COAST" />  
 	  <Map Name="CTR" />    
 	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="Runways" />  
+    <Map Name="RUNWAYS" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />
     <Map Name="TMA FIXES (NAMES)" />      
@@ -442,7 +432,7 @@
       <Map Name="COAST" />  
 	    <Map Name="CTR" />  
 	    <Map Name="RADIO AIDS (NAMES)" />
-      <Map Name="Runways" />  
+      <Map Name="RUNWAYS" />  
 	    <Map Name="COAST" />
 	    <Map Name="TMA FIXES" />     
 	    <Map Name="TMA" />  
@@ -475,12 +465,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
       </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAD" Visible="true" />
       </Strips>       
@@ -502,12 +488,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
       </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAE" Visible="true" />
       </Strips>       
@@ -530,12 +512,10 @@
 	      <Map Name="FIR BDRY" />     
         <Map Name="CTR" /> 
         <Map Name="AIRPORTS" />
+        <Map Name="RUNWAYS" />
+        <Map Name="MVA" />
+        <Map Name="MVA ALT" />
       </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAG" Visible="true" />
       </Strips>       
@@ -553,7 +533,36 @@
         <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Djanet Tower" Type="ASD" DefaultCenter="+241715.000+0092718.000" DefaultRange="80">
+    <Position Name="Setif Tower" Type="ASD" DefaultCenter="+36.178667+005.330000" DefaultRange="80">
+      <Sectors>
+        <Sector Name="AST" />
+        <Sector Name="ASG" />
+      </Sectors>  
+      <Maps>
+	      <Map Name="COAST" />
+	      <Map Name="FIR BDRY" />     
+        <Map Name="CTR" /> 
+        <Map Name="AIRPORTS" />
+        <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAAS" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAAS" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="DAAS_TWR">
+        <Line>Setif Tower</Line>
+        <Line>No ATIS available</Line>
+        <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="DAAS_GND">
+        <Line>Setif Ground</Line>
+        <Line>No ATIS available</Line>
+        <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+  <Position Name="Djanet Tower" Type="ASD" DefaultCenter="+24.293000+009.452000" DefaultRange="80">
       <Sectors>
         <Sector Name="AJT" />
       </Sectors>  
@@ -562,12 +571,9 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAJ" Visible="true" />
       </Strips>       
@@ -580,7 +586,168 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Illizi Tower" Type="ASD" DefaultCenter="+264350.000+0083786.000" DefaultRange="200">
+    <Position Name="Chlef Tower" Type="ASD" DefaultCenter="+36.217000+001.340000" DefaultRange="80">
+      <Sectors>
+        <Sector Name="OIT" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAOI" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAOI" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Chlef Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Bechar Tower" Type="ASD" DefaultCenter="+31.650500-002.253167" DefaultRange="80">
+      <Sectors>
+        <Sector Name="ORT" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAOR" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAOR" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Bechar Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Adrar Tower" Type="ASD" DefaultCenter="+27.839167-000.185333" DefaultRange="80">
+      <Sectors>
+        <Sector Name="UAT" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUA" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAUA" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Adrar Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Biskra Tower" Type="ASD" DefaultCenter="+34.801667+005.741667" DefaultRange="80">
+      <Sectors>
+        <Sector Name="UBT" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUB" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAUB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Biskra Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="El Golea Tower" Type="ASD" DefaultCenter="+30.568833+002.864667" DefaultRange="80">
+      <Sectors>
+        <Sector Name="UET" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUE" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAUE" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>El Golea Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="In Salah Tower" Type="ASD" DefaultCenter="+27.253667+002.510833" DefaultRange="80">
+      <Sectors>
+        <Sector Name="UIT" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUI" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAUI" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>In Salah Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Ouargla Tower" Type="ASD" DefaultCenter="+31.931333+005.413500" DefaultRange="80">
+      <Sectors>
+        <Sector Name="UUT" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DAUU" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DAUU" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Ouargla Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position>
+  <Position Name="Illizi Tower" Type="ASD" DefaultCenter="+264350.000+0083786.000" DefaultRange="80">
       <Sectors>
         <Sector Name="APT" />
       </Sectors>  
@@ -589,12 +756,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAP" Visible="true" />
       </Strips>       
@@ -607,7 +770,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Oran Tower" Type="ASD" DefaultCenter="+35.627167-000.611333" DefaultRange="200">
+  <Position Name="Oran Tower" Type="ASD" DefaultCenter="+35.627167-000.611333" DefaultRange="80">
       <Sectors>
         <Sector Name="OOT" />
       </Sectors>  
@@ -615,13 +778,9 @@
 	    <Map Name="COAST" />
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" /> 
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAOO" Visible="true" />
       </Strips>       
@@ -634,7 +793,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Tamanrasset Tower" Type="ASD" DefaultCenter="+225035.000+0052764.000" DefaultRange="200">
+  <Position Name="Tamanrasset Tower" Type="ASD" DefaultCenter="+225035.000+0052764.000" DefaultRange="80">
       <Sectors>
         <Sector Name="ATT" />
       </Sectors>  
@@ -642,13 +801,9 @@
 	    <Map Name="COAST" />
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" /> 
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAT" Visible="true" />
       </Strips>       
@@ -661,7 +816,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Jijel Tower" Type="ASD" DefaultCenter="+364786.000+0055256.000" DefaultRange="200">
+  <Position Name="Jijel Tower" Type="ASD" DefaultCenter="+364786.000+0055256.000" DefaultRange="80">
       <Sectors>
         <Sector Name="AVT" />
       </Sectors>  
@@ -670,12 +825,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAV" Visible="true" />
       </Strips>       
@@ -697,12 +848,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DABB" Visible="true" />
       </Strips>       
@@ -725,12 +872,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DABC" Visible="true" />
       </Strips>       
@@ -748,7 +891,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="Tebessa Tower" Type="ASD" DefaultCenter="+352757.000+0080407.000" DefaultRange="200">
+  <Position Name="Tebessa Tower" Type="ASD" DefaultCenter="+352757.000+0080407.000" DefaultRange="80">
       <Sectors>
         <Sector Name="BST" />
       </Sectors>  
@@ -756,13 +899,9 @@
 	    <Map Name="COAST" />
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" /> 
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DABS" Visible="true" />
       </Strips>       
@@ -775,7 +914,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>     
-  <Position Name="Batna Tower" Type="ASD" DefaultCenter="+354647.000+0062050.000" DefaultRange="200">
+  <Position Name="Batna Tower" Type="ASD" DefaultCenter="+354647.000+0062050.000" DefaultRange="80">
       <Sectors>
         <Sector Name="BTT" />
       </Sectors>  
@@ -784,12 +923,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DABT" Visible="true" />
       </Strips>       
@@ -802,7 +937,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>                 
-  <Position Name="Tiaret Tower" Type="ASD" DefaultCenter="+352065.000+0012738.000" DefaultRange="200">
+  <Position Name="Tiaret Tower" Type="ASD" DefaultCenter="+352065.000+0012738.000" DefaultRange="80">
       <Sectors>
         <Sector Name="OBT" />
       </Sectors>  
@@ -810,13 +945,9 @@
 	    <Map Name="COAST" />
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />  
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />  
   </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAOB" Visible="true" />
       </Strips>       
@@ -829,7 +960,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="Tindouf Tower" Type="ASD" DefaultCenter="+274259.000-0080810.000" DefaultRange="200">
+  <Position Name="Tindouf Tower" Type="ASD" DefaultCenter="+274259.000-0080810.000" DefaultRange="80">
       <Sectors>
         <Sector Name="OFT" />
       </Sectors>  
@@ -838,12 +969,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAOF" Visible="true" />
       </Strips>       
@@ -856,7 +983,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="El Bayadh Tower" Type="ASD" DefaultCenter="+334308.000+0010405.000" DefaultRange="200">
+  <Position Name="El Bayadh Tower" Type="ASD" DefaultCenter="+334308.000+0010405.000" DefaultRange="80">
       <Sectors>
         <Sector Name="OYT" />
       </Sectors>  
@@ -865,12 +992,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAOY" Visible="true" />
       </Strips>       
@@ -883,7 +1006,30 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="Ghardaia Tower" Type="ASD" DefaultCenter="+322382.000+0034649.000" DefaultRange="200">
+    <Position Name="In Guezzam" Type="ASD" DefaultCenter="+19.560667+005.751333" DefaultRange="80">
+      <Sectors>
+        <Sector Name="TGT" />
+      </Sectors>  
+    <Maps>
+	    <Map Name="COAST" />
+	    <Map Name="FIR BDRY" />     
+      <Map Name="CTR" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" /> 
+    </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="DATG" Visible="true" />
+      </Strips>       
+      <ArrivalLists>
+        <Airport Name="DATG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>In Guezzam Tower</Line>
+		    <Line>No ATIS available</Line>
+		    <Line>Charts, feedback and more -  vatsim.ma</Line>
+      </ControllerInfo>
+    </Position> 
+  <Position Name="Ghardaia Tower" Type="ASD" DefaultCenter="+322382.000+0034649.000" DefaultRange="80">
       <Sectors>
         <Sector Name="UGT" />
       </Sectors>  
@@ -891,13 +1037,9 @@
 	    <Map Name="COAST" />
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" />  
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />  
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAUG" Visible="true" />
       </Strips>       
@@ -910,7 +1052,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>      
-  <Position Name="Hassi Messaoud Tower" Type="ASD" DefaultCenter="+314115.000+0060819.000" DefaultRange="200">
+  <Position Name="Hassi Messaoud Tower" Type="ASD" DefaultCenter="+314115.000+0060819.000" DefaultRange="80">
       <Sectors>
         <Sector Name="UHT" />
       </Sectors>  
@@ -918,13 +1060,9 @@
 	    <Map Name="COAST" />
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" /> 
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAUH" Visible="true" />
       </Strips>       
@@ -937,7 +1075,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="Touggourt Tower" Type="ASD" DefaultCenter="+330377.000+0060538.000" DefaultRange="200">
+  <Position Name="Touggourt Tower" Type="ASD" DefaultCenter="+330377.000+0060538.000" DefaultRange="80">
       <Sectors>
         <Sector Name="UKT" />
       </Sectors>  
@@ -946,12 +1084,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAUK" Visible="true" />
       </Strips>       
@@ -964,7 +1098,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="Guemar Tower" Type="ASD" DefaultCenter="+333045.000+0064710.000" DefaultRange="200">
+  <Position Name="Guemar Tower" Type="ASD" DefaultCenter="+333045.000+0064710.000" DefaultRange="80">
       <Sectors>
         <Sector Name="UOT" />
       </Sectors>  
@@ -972,13 +1106,9 @@
 	    <Map Name="COAST" />
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
-      <Map Name="AIRPORTS" /> 
+      <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" /> 
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAUO" Visible="true" />
       </Strips>       
@@ -991,7 +1121,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-  <Position Name="Timimoun Tower" Type="ASD" DefaultCenter="+291386.000+0001553.000" DefaultRange="200">
+  <Position Name="Timimoun Tower" Type="ASD" DefaultCenter="+291386.000+0001553.000" DefaultRange="80">
       <Sectors>
         <Sector Name="UTT" />
       </Sectors>  
@@ -1000,12 +1130,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAUT" Visible="true" />
       </Strips>       
@@ -1018,7 +1144,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>           
-  <Position Name="Zarzaitine Tower" Type="ASD" DefaultCenter="+280413.000+0093970.000" DefaultRange="200">
+  <Position Name="Zarzaitine Tower" Type="ASD" DefaultCenter="+280413.000+0093970.000" DefaultRange="80">
       <Sectors>
         <Sector Name="UZT" />
       </Sectors>  
@@ -1027,12 +1153,8 @@
 	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
+      <Map Name="RUNWAYS" />
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAUZ" Visible="true" />
       </Strips>       
