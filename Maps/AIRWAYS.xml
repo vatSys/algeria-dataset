@@ -7,7 +7,7 @@
     <Line Width="0.75" Name="A/UA31">LABRO.A31.CHE VOR</Line>
     <Line Width="0.75" Name="A/UA31">ALR VOR.UA31.TBS VOR</Line>
     <Line Width="0.75" Name="A/UA34">HAMRA.A34.MOS VOR</Line>
-    <Line Width="0.75" Name="A/UA411">ORSUP.A411.MORJA</Line>
+    <Line Width="0.75" Name="A/UA411">OJD VOR.A411.MORJA</Line>
     <Line Width="0.75" Name="A/UA44">TARIK.A44.MOS VOR</Line>
     <Line Width="0.75" Name="A/UA6">LABRO.A6.MOS VOR</Line>
     <Line Width="0.75" Name="A/UA604">MOS VOR.A604.EREBO</Line>
@@ -17,7 +17,7 @@
     <Line Width="0.75" Name="B/UB16">PECES.B16.ZEM VOR</Line>
     <Line Width="0.75" Name="B/UB31">MOGIL.B31.ZEM VOR</Line>
     <Line Width="0.75" Name="B/UB726">NSL VOR.B726.ZEM VOR</Line>
-    <Line Width="0.75" Name="B/UB727">TERAS.B727.IMN VOR</Line>
+    <Line Width="0.75" Name="B/UB727">TESTI.B727.IMN VOR</Line>
     <Line Width="0.75" Name="B/UB730">MNA VOR.B730.IKTAV</Line>
     <Line Width="0.75" Name="B734/UN736">DOLIS.B734.BSA VOR</Line>
     <Line Width="0.75" Name="B/UB735">USRUT.B735.TIO VOR</Line>
@@ -29,7 +29,7 @@
     <Line Width="0.75" Name="G/UG6">SALMA.G6.DIMAO</Line>
     <Line Width="0.75" Name="G/UG852">RGN NDB.G852.MNA VOR</Line>
     <Line Width="0.75" Name="G/UG855">BOD VOR.G855.INAMA</Line>
-    <Line Width="0.75" Name="G/UG859">MOKAT.G859.ANB VOR</Line>
+    <Line Width="0.75" Name="G/UG859">TESTI.G859.ANB VOR</Line>
     <Line Width="0.75" Name="J/UJ24">BAY VOR.J24.IMN VOR</Line>
     <Line Width="0.75" Name="J/UJ25">IMN VOR.J25.HME VOR</Line>
     <Line Width="0.75" Name="J/UJ26">MNA VOR.J26.HME VOR</Line>
@@ -72,7 +72,10 @@
     <Line Width="0.7" Name="UM608">TAMUZ.UM608.BAY VOR</Line>
     <Line Width="0.7" Name="UM608">TERAS.UM608.TAMUZ</Line>
     <Line Width="0.7" Name="UM614">TIO VOR.UM614.IPOBA</Line>
-    <Line Width="0.7" Name="UM629">USRUT.UM629.BAGBO</Line>
+    <Line Width="0.7" Name="UM629">BAGBO.UM629.MERAT</Line>
+    <Line Width="0.7" Name="UM629">MERAT.UM629.CHAMI</Line>
+    <Line Width="0.7" Name="UM629">CHAMI.UM629.SABRO</Line>
+    <Line Width="0.7" Name="UM629">SABRO.UM629.USRUT</Line>
     <Line Width="0.7" Name="UM725">TIO VOR.UM725.SBITA</Line>
     <Line Width="0.7" Name="UM735">TIO VOR.UM735.USRUT</Line>
     <Line Width="0.7" Name="UM744">CARBO.UM744.MOS VOR</Line>

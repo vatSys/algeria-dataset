@@ -15,6 +15,7 @@
 		<Point>BAGBO</Point>
 		<Point>BARKA</Point>
 		<Point>BASID</Point>
+		<Point>BERIA</Point>
 		<Point>BERTI</Point>
 		<Point>BISSA</Point>
 		<Point>BOKAL</Point>
@@ -67,6 +68,7 @@
 		<Point>MELOG</Point>
 		<Point>MERAT</Point>
 		<Point>MEZAB</Point>
+		<Point>MOGAR</Point>
 		<Point>MOGIL</Point>
 		<Point>MOKAT</Point>
 		<Point>MORJA</Point>
@@ -74,6 +76,7 @@
 		<Point>MOUNA</Point>
 		<Point>NADJI</Point>
 		<Point>NAGAH</Point>
+		<Point>NIFEL</Point>
 		<Point>OPRIC</Point>
 		<Point>ORSUP</Point>
 		<Point>OTARO</Point>
@@ -84,6 +87,7 @@
 		<Point>RADJA</Point>
 		<Point>RAHIL</Point>
 		<Point>REKDA</Point>
+		<Point>RAMAD</Point>
 		<Point>REQIN</Point>
 		<Point>RIAME</Point>
 		<Point>RIKIF</Point>
@@ -143,6 +147,7 @@
 		<Point>BISSA</Point>
 		<Point>BOKAL</Point>
 		<Point>BOURI</Point>
+		<Point>BERIA</Point>
 		<Point>BRENA</Point>
 		<Point>BUYAH</Point>
 		<Point>CARBO</Point>
@@ -191,6 +196,7 @@
 		<Point>MELOG</Point>
 		<Point>MERAT</Point>
 		<Point>MEZAB</Point>
+		<Point>MOGAR</Point>
 		<Point>MOGIL</Point>
 		<Point>MOKAT</Point>
 		<Point>MORJA</Point>
@@ -198,6 +204,7 @@
 		<Point>MOUNA</Point>
 		<Point>NADJI</Point>
 		<Point>NAGAH</Point>
+		<Point>NIFEL</Point>
 		<Point>OPRIC</Point>
 		<Point>ORSUP</Point>
 		<Point>OTARO</Point>
@@ -208,6 +215,7 @@
 		<Point>RADJA</Point>
 		<Point>RAHIL</Point>
 		<Point>REKDA</Point>
+		<Point>RAMAD</Point>
 		<Point>REQIN</Point>
 		<Point>RIAME</Point>
 		<Point>RIKIF</Point>
@@ -252,6 +260,7 @@
     <Symbol Type="DotFillCircle">
 		<Point>BJA NDB</Point>
 		<Point>CHE NDB</Point>
+		<Point>HMB NDB</Point>
 		<Point>RGN NDB</Point>
 		<Point>ZAR NDB</Point>
       </Symbol>
@@ -283,6 +292,7 @@
 		<Point>MOS VOR</Point>
 		<Point>NSL VOR</Point>
 		<Point>OJD VOR</Point>
+		<Point>ORA VOR</Point>
 		<Point>OUR VOR</Point>
 		<Point>STF VOR</Point>
 		<Point>TBS VOR</Point>
@@ -298,6 +308,7 @@
     <Label HasLeader="false">
 		<Point>BJA NDB</Point>
 		<Point>CHE NDB</Point>
+		<Point>HMB NDB</Point>
 		<Point>RGN NDB</Point>
 		<Point>ZAR NDB</Point>
 		<Point>ADR VOR</Point>
@@ -327,6 +338,7 @@
 		<Point>MOS VOR</Point>
 		<Point>NSL VOR</Point>
 		<Point>OJD VOR</Point>
+		<Point>ORA VOR</Point>
 		<Point>OUR VOR</Point>
 		<Point>STF VOR</Point>
 		<Point>TBS VOR</Point>

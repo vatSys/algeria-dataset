@@ -410,7 +410,8 @@ BERTI/
 TMS VOR/
 RAMAD/
 TINVI/
-TERAS
+TERAS/
+TESTI
 </Airway>
     <Airway Name="B730">
 MNA VOR/
@@ -479,7 +480,8 @@ MNA VOR/
 KSOUR/
 NSL VOR/
 ROFER/
-MOKAT
+MOKAT/
+TESTI
 </Airway>
     <Airway Name="R34">
 MOUET/
@@ -697,6 +699,7 @@ JBA VOR/
 TANLI
 </Airway>
     <Airway Name="UA411">
+OJD VOR/
 ORSUP/
 ORA VOR/
 MOS VOR/
@@ -777,7 +780,8 @@ BERTI/
 TMS VOR/
 RAMAD/
 TINVI/
-TERAS
+TERAS/
+TESTI
 </Airway>
     <Airway Name="UB730">
 MNA VOR/
@@ -852,7 +856,8 @@ MNA VOR/
 KSOUR/
 NSL VOR/
 ROFER/
-MOKAT
+MOKAT/
+TESTI
 </Airway>
     <Airway Name="UG864">
 TBS VOR/
@@ -1129,7 +1134,7 @@ BOD VOR/
 TIDOU/
 TOBUK
 </Airway>
-     <Airway Name="UM628">
+     <Airway Name="UM629">
 BAGBO/
 MERAT/
 CHAMI/
