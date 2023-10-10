@@ -611,7 +611,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R88 BISKRA" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="R88 BISKRA" AltitudeFloor="0" AltitudeCeiling="10000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+350632.611+0054549.020/
 +350617.788+0054937.412/
 +350533.686+0055320.179/
@@ -657,7 +657,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D32 ARZEW" AltitudeFloor="0" AltitudeCeiling="36000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D32 ARZEW" AltitudeFloor="0" AltitudeCeiling="3940" DAIWEnabled="true" LinePattern="Solid">
       <Area>+360429.153-0002038.413/
 +360429.555-0002010.000/
 +360421.416-0001802.640/
@@ -673,7 +673,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D50A BOUSFER" AltitudeFloor="0" AltitudeCeiling="300000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D50A BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+354151.000-0004514.000/
 +353954.369-0004748.237/
 +354002.789-0004833.949/
@@ -709,7 +709,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="B50B BOUSFER" AltitudeFloor="0" AltitudeCeiling="24000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D50B BOUSFER" AltitudeFloor="0" AltitudeCeiling="24500" DAIWEnabled="true" LinePattern="Solid">
       <Area>+360221.000-0011250.000/
 +354151.000-0004514.000/
 +355803.000-0002343.000/
@@ -732,7 +732,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="B50C BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D50C BOUSFER" AltitudeFloor="5500" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+353412.787-0005520.076/
 +353414.278-0005520.471/
 +353429.274-0005523.890/
@@ -754,7 +754,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="B50D BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D50D BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+363616.000-0003058.000/
 +363523.663-0002743.645/
 +363207.194-0001805.367/
@@ -770,7 +770,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="B50E BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D50E BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+341334.000+0000315.000/
 +340904.219-0001015.130/
 +340529.118-0002901.472/
@@ -784,7 +784,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="B50F BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D50F BOUSFER" AltitudeFloor="0" AltitudeCeiling="30000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+341751.000-0012636.000/
 +341646.972-0012312.399/
 +341329.000-0010557.450/
@@ -940,7 +940,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D74B TAFARAOUI" AltitudeFloor="2900" AltitudeCeiling="29500" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D74B TAFARAOUI" AltitudeFloor="9000" AltitudeCeiling="29500" DAIWEnabled="true" LinePattern="Solid">
       <Area>+350141.000+0000407.000/
 +351408.000-0001434.000/
 +352158.000+0000407.000/
@@ -949,7 +949,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-     <RestrictedArea Type="Danger" Name="D74C TAFARAOUI" AltitudeFloor="2600" AltitudeCeiling="29500" DAIWEnabled="true" LinePattern="Solid">
+     <RestrictedArea Type="Danger" Name="D74C TAFARAOUI" AltitudeFloor="8000" AltitudeCeiling="29500" DAIWEnabled="true" LinePattern="Solid">
       <Area>+351319.000-0005853.000/
 +350236.000-0011124.000/
 +345418.000-0010207.000/
@@ -968,7 +968,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D82 HASSI BAHBAH" AltitudeFloor="0" AltitudeCeiling="980" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D82 HASSI BAHBAH" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Solid">
      <Area>+350400.000+0022200.000/
 +350400.000+0030200.000/
 +344000.000+0030200.000/
@@ -1006,7 +1006,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D87 ANNABA" AltitudeFloor="0" AltitudeCeiling="980" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D87 ANNABA" AltitudeFloor="0" AltitudeCeiling="29000" DAIWEnabled="true" LinePattern="Solid">
      <Area>+372147.000+0075159.000/
 +374750.280+0082153.780/
 +365750.750+0083746.260/
@@ -1500,7 +1500,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
       </RestrictedArea>
-      <RestrictedArea Type="Restricted" Name="D103 IN AMENAS" AltitudeFloor="0" AltitudeCeiling="24500" DAIWEnabled="true" LinePattern="Solid">
+      <RestrictedArea Type="Restricted" Name="D103 IN AMENAS" AltitudeFloor="2000" AltitudeCeiling="24500" DAIWEnabled="true" LinePattern="Solid">
       <Area>+27.919445+009.053889/
 +27.876945+009.068611/
 +27.824722+009.093333/
