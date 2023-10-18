@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sector FullName="Barcelona Radar" Frequency="132.350" Callsign="LECB_CTR" Name="CB">
+    <Volumes>CBR</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Radar" Frequency="129.525" Callsign="LECB_LLI_CTR" Name="LLI">
+    <Volumes>LLI</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Radar" Frequency="134.975" Callsign="LECB_MVS_CTR" Name="MVS">
+    <Volumes>MVS</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Radar" Frequency="133.025" Callsign="LECB_RE_CTR" Name="RE">
+    <Volumes>RE</Volumes>
+  </Sector>
+  <Sector FullName="Barcelona Radar" Frequency="126.650" Callsign="LECB_RS_CTR" Name="RS">
+    <Volumes>RS</Volumes>
+  </Sector> 
+  <Sector FullName="Casablanca Radar" Frequency="131.925" Callsign="GMMM_ALL_CTR" Name="CRA">
+    <Volumes>CRA</Volumes>
+  </Sector>
+  <Sector FullName="Casablanca Radar" Frequency="126.500" Callsign="GMMM_CTR" Name="CR">
+    <Volumes>CR</Volumes>
+  </Sector>
+  <Sector FullName="Casablanca Radar" Frequency="125.100" Callsign="GMMM_E_CTR" Name="CE">
+    <Volumes>CE</Volumes>
+  </Sector>
+  <Sector FullName="Casablanca Radar" Frequency="126.700" Callsign="GMMM_S_CTR" Name="CS">
+    <Volumes>CS</Volumes>
+  </Sector>
+  <Sector FullName="Casablanca Radar" Frequency="122.525" Callsign="GMMM_MIL_CTR" Name="RMI">
+    <Volumes>RMI</Volumes>
+  </Sector>
+  <Sector FullName="Marseille Control" Frequency="124.650" Callsign="LFMM_CTR" Name="MM">
+    <Volumes>MM</Volumes>
+  </Sector>
+  <Sector FullName="Marseille Control" Frequency="128.325" Callsign="LFMM_E_CTR" Name="MME">
+    <Volumes>MME</Volumes>
+  </Sector>
   <Sector FullName="Secteur Centre" Frequency="127.300" Callsign="DAAA_CTR" Name="DAAA">
     <ResponsibleSectors>DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS</ResponsibleSectors>
   </Sector>
@@ -27,14 +63,38 @@
   <Sector FullName="Secteur Sud Sud" Frequency="123.800" Callsign="DAAA_SS_CTR" Name="DASS">
     <Volumes>DASS</Volumes>
   </Sector>
+  <Sector FullName="Tunis Control" Frequency="132.550" Callsign="DTTC_CTR" Name="TC">
+    <Volumes>TC</Volumes>
+  </Sector>
+  <Sector FullName="Tunis Information" Frequency="128.900" Callsign="DTTC_I_CTR" Name="TI">
+    <Volumes>TI</Volumes>
+  </Sector>
+  <Sector FullName="Tunis Control" Frequency="132.550" Callsign="DTTC_N_CTR" Name="TCNI">
+    <Volumes>TCNI</Volumes>
+  </Sector>
+  <Sector FullName="Tunis Control" Frequency="129.300" Callsign="DTTC_S_CTR" Name="TCS">
+    <Volumes>TCS</Volumes>
+  </Sector>
+  <Sector FullName="Tunis Control" Frequency="129.500" Callsign="DTTC_U_CTR" Name="TCNS">
+    <Volumes>TCNS</Volumes>
+  </Sector>
   <Sector FullName="Alger Approche" Frequency="121.400" Callsign="DAAG_APP" Name="AGA">
     <Volumes>AGA</Volumes>
   </Sector>
   <Sector FullName="Annaba Approche" Frequency="119.000" Callsign="DABB_APP" Name="BBA">
     <Volumes>BBA</Volumes>
   </Sector>
+  <Sector FullName="Tabarka Approach" Frequency="125.150" Callsign="DTKA_APP" Name="KAA">
+    <Volumes>KAA</Volumes>
+  </Sector>  
+  <Sector FullName="Tozeur Approach" Frequency="120.700" Callsign="DTTZ_APP" Name="TZA">
+    <Volumes>TZA</Volumes>
+  </Sector>
   <Sector FullName="Oran Approche" Frequency="128.200" Callsign="DAOO_APP" Name="OOA">
     <Volumes>OOA</Volumes>
+  </Sector>
+  <Sector FullName="Oujda Approach" Frequency="136.600" Callsign="GMFO_APP" Name="FOA">
+    <Volumes>FOA</Volumes>
   </Sector>
   <Sector FullName="Hassi-Messaoud Approche" Frequency="120.000" Callsign="DAUH_APP" Name="UHA">
     <Volumes>UHA</Volumes>
