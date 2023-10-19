@@ -15,6 +15,9 @@
   <Sector FullName="Barcelona Radar" Frequency="126.650" Callsign="LECB_RS_CTR" Name="RS">
     <Volumes>RS</Volumes>
   </Sector> 
+  <Sector FullName="Barcelona Radar" Frequency="134.450" Callsign="LECB_RW_CTR" Name="RW">
+    <Volumes>RW</Volumes>
+  </Sector> 
   <Sector FullName="Casablanca Radar" Frequency="131.925" Callsign="GMMM_ALL_CTR" Name="CRA">
     <Volumes>CRA</Volumes>
   </Sector>
