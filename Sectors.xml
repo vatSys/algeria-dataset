@@ -39,32 +39,32 @@
   <Sector FullName="Marseille Control" Frequency="128.325" Callsign="LFMM_E_CTR" Name="MME">
     <Volumes>MME</Volumes>
   </Sector>
-  <Sector FullName="Secteur Centre" Frequency="127.300" Callsign="DAAA_CTR" Name="DAAA">
-    <ResponsibleSectors>DACI,DACS,DANE,DANW,DASE,DASC,DASW,DASS</ResponsibleSectors>
+  <Sector FullName="Bandbox" Frequency="124.900" Callsign="DAAA_CTR" Name="DAAA">
+    <ResponsibleSectors>AI,AS,NE,NO,SE,SC,SO,SS</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Secteur Centre Inférieur" Frequency="127.300" Callsign="DAAA_CI_CTR" Name="DACI">
-    <Volumes>DACI</Volumes>
+  <Sector FullName="TMA Centre Inférieur" Frequency="127.300" Callsign="DAAA_AI_CTR" Name="AI">
+    <Volumes>AI</Volumes>
   </Sector>
-  <Sector FullName="Secteur Centre Supérieur" Frequency="132.450" Callsign="DAAA_CS_CTR" Name="DACS">
-    <Volumes>DACS</Volumes>
+  <Sector FullName="TMA Centre Supérieur" Frequency="132.450" Callsign="DAAA_AS_CTR" Name="AS">
+    <Volumes>AS</Volumes>
   </Sector>
-  <Sector FullName="Secteur Nord Est" Frequency="125.400" Callsign="DAAA_NE_CTR" Name="DANE">
-    <Volumes>DANE</Volumes>
+  <Sector FullName="TMA Est" Frequency="125.400" Callsign="DAAA_NE_CTR" Name="NE">
+    <Volumes>NE</Volumes>
   </Sector>  
-  <Sector FullName="Secteur Nord-Ouest" Frequency="125.700" Callsign="DAAA_NW_CTR" Name="DANW">
-    <Volumes>DANW</Volumes>
+  <Sector FullName="TMA Ouest" Frequency="125.700" Callsign="DAAA_NO_CTR" Name="NO">
+    <Volumes>NO</Volumes>
   </Sector>
-  <Sector FullName="Secteur Sud-Est" Frequency="124.100" Callsign="DAAA_SE_CTR" Name="DASE">
-    <Volumes>DASE</Volumes>
+  <Sector FullName="Secteur Sud-Est" Frequency="124.100" Callsign="DAAA_SE_CTR" Name="SE">
+    <Volumes>SE</Volumes>
   </Sector>
-  <Sector FullName="Secteur Sud Centre" Frequency="131.300" Callsign="DAAA_SC_CTR" Name="DASC">
-    <Volumes>DASC</Volumes>
+  <Sector FullName="Secteur Sud Centre" Frequency="131.300" Callsign="DAAA_SC_CTR" Name="SC">
+    <Volumes>SC</Volumes>
   </Sector>
-  <Sector FullName="Secteur Sud-Ouest" Frequency="128.100" Callsign="DAAA_SW_CTR" Name="DASW">
-    <Volumes>DASW</Volumes>
+  <Sector FullName="Secteur Sud-Ouest" Frequency="128.100" Callsign="DAAA_SO_CTR" Name="SO">
+    <Volumes>SO</Volumes>
   </Sector>
-  <Sector FullName="Secteur Sud Sud" Frequency="123.800" Callsign="DAAA_SS_CTR" Name="DASS">
-    <Volumes>DASS</Volumes>
+  <Sector FullName="Secteur Sud Sud" Frequency="123.800" Callsign="DAAA_SS_CTR" Name="SS">
+    <Volumes>SS</Volumes>
   </Sector>
   <Sector FullName="Tunis Control" Frequency="132.550" Callsign="DTTC_CTR" Name="TC">
     <Volumes>TC</Volumes>
@@ -81,10 +81,10 @@
   <Sector FullName="Tunis Control" Frequency="129.500" Callsign="DTTC_U_CTR" Name="TCNS">
     <Volumes>TCNS</Volumes>
   </Sector>
-  <Sector FullName="Alger Approche" Frequency="121.400" Callsign="DAAG_APP" Name="AGA">
+  <Sector FullName="Algiers Approach" Frequency="121.400" Callsign="DAAG_APP" Name="AGA">
     <Volumes>AGA</Volumes>
   </Sector>
-  <Sector FullName="Annaba Approche" Frequency="119.000" Callsign="DABB_APP" Name="BBA">
+  <Sector FullName="Annaba Approach" Frequency="119.000" Callsign="DABB_APP" Name="BBA">
     <Volumes>BBA</Volumes>
   </Sector>
   <Sector FullName="Tabarka Approach" Frequency="125.150" Callsign="DTKA_APP" Name="KAA">
@@ -93,16 +93,16 @@
   <Sector FullName="Tozeur Approach" Frequency="120.700" Callsign="DTTZ_APP" Name="TZA">
     <Volumes>TZA</Volumes>
   </Sector>
-  <Sector FullName="Oran Approche" Frequency="128.200" Callsign="DAOO_APP" Name="OOA">
+  <Sector FullName="Oran Approach" Frequency="128.200" Callsign="DAOO_APP" Name="OOA">
     <Volumes>OOA</Volumes>
   </Sector>
   <Sector FullName="Oujda Approach" Frequency="136.600" Callsign="GMFO_APP" Name="FOA">
     <Volumes>FOA</Volumes>
   </Sector>
-  <Sector FullName="Hassi-Messaoud Approche" Frequency="120.000" Callsign="DAUH_APP" Name="UHA">
+  <Sector FullName="Hassi-Messaoud Approach" Frequency="120.000" Callsign="DAUH_APP" Name="UHA">
     <Volumes>UHA</Volumes>
   </Sector>
-  <Sector FullName="Constantine Approche" Frequency="120.100" Callsign="DABC_APP" Name="BCA">
+  <Sector FullName="Constantine Approach" Frequency="120.100" Callsign="DABC_APP" Name="BCA">
     <Volumes>BCA</Volumes>
   </Sector>
   <Sector FullName="Bousaada Tower" Frequency="118.100" Callsign="DAAD_TWR" Name="ADT">

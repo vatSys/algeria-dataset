@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="SECTEUR">
-  <Position Name="Maghreb Control" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
+  <Position Name="Bandbox" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
     <Sectors>
       <Sector Name="DAAA" />
-      <Sector Name="DACI" />
-      <Sector Name="DACS" />
-      <Sector Name="DANE" />
-	    <Sector Name="DANW" />
-	    <Sector Name="DASE" />
-	    <Sector Name="DASC" />
-	    <Sector Name="DASW" />
-	    <Sector Name="DASS" />
+      <Sector Name="AI" />
+      <Sector Name="AS" />
+      <Sector Name="NE" />
+	    <Sector Name="NO" />
+	    <Sector Name="SE" />
+	    <Sector Name="SC" />
+	    <Sector Name="SO" />
+	    <Sector Name="SS" />
     </Sectors>
     <ManualVisibility>
       <Point>+36.5000+003.350</Point>
@@ -43,9 +43,9 @@
       <Line>Charts, feedback and more -  vatsim.ma</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Maghreb Control Centre Inférieure" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
+  <Position Name="TMA Centre Inférieure" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DACI" />
+        <Sector Name="AI" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
@@ -76,9 +76,9 @@
 		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-  <Position Name="Maghreb Control Centre Supérieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
+  <Position Name="TMA Centre Supérieur" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
      <Sectors>
-        <Sector Name="DACS" />
+        <Sector Name="AS" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
@@ -107,9 +107,9 @@
 		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-  <Position Name="Maghreb Control Nord Est" Type="ASD" DefaultCenter="+365000.000+0062000.000" DefaultRange="700" VisibilityRange="600">
+  <Position Name="TMA Est" Type="ASD" DefaultCenter="+365000.000+0062000.000" DefaultRange="700" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DANE" />
+        <Sector Name="NE" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
@@ -137,9 +137,9 @@
 		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Maghreb Control Nord Ouest" Type="ASD" DefaultCenter="+342500.000+0001500.000" DefaultRange="1000" VisibilityRange="600">
+  <Position Name="TMA Ouest" Type="ASD" DefaultCenter="+342500.000+0001500.000" DefaultRange="1000" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DANW" />
+        <Sector Name="NO" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
@@ -166,9 +166,9 @@
 		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Maghreb Control Sud Est" Type="ASD" DefaultCenter="+302500.000+0068600.000" DefaultRange="1350" VisibilityRange="600">
+  <Position Name="Secteur Sud Est" Type="ASD" DefaultCenter="+302500.000+0068600.000" DefaultRange="1350" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DASE" />
+        <Sector Name="SE" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
@@ -196,9 +196,9 @@
 		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position> 
-  <Position Name="Maghreb Control Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
+  <Position Name="Secteur Sud" Type="ASD" DefaultCenter="+240000.000+0070000.000" DefaultRange="1500" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DASS" />
+        <Sector Name="SS" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
@@ -225,9 +225,9 @@
 		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="Maghreb Control Sud Centre" Type="ASD" DefaultCenter="+320000.000+0030000.000" DefaultRange="1100" VisibilityRange="600">
+  <Position Name="Secteur Sud Centre" Type="ASD" DefaultCenter="+320000.000+0030000.000" DefaultRange="1100" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DASC" />
+        <Sector Name="SC" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />
@@ -255,9 +255,9 @@
 		<Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>  
-  <Position Name="Maghreb Control Sud Ouest" Type="ASD" DefaultCenter="+252750.000-0025000.000" DefaultRange="1750" VisibilityRange="600">
+  <Position Name="Secteur Sud Ouest" Type="ASD" DefaultCenter="+252750.000-0025000.000" DefaultRange="1750" VisibilityRange="600">
       <Sectors>
-        <Sector Name="DASW" />
+        <Sector Name="SO" />
       </Sectors>  
       <Maps>
 	  <Map Name="COAST" />

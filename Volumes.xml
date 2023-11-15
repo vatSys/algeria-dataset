@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Volumes>
-  <Boundary Name="SECTEUR CENTRE INF">
+  <Boundary Name="TMA CENTRE INF">
 +372600.000+0013000.000/
 +382000.000+0034500.000/
 +390000.000+0044000.000/
@@ -8,7 +8,7 @@
 +354000.000+0050000.000/
 +354000.000+0013000.000/
 +372600.000+0013000.000</Boundary>
-  <Boundary Name="SECTEUR CENTRE SUP">
+  <Boundary Name="TMA CENTRE SUP">
 +372600.000+0013000.000/
 +382000.000+0034500.000/
 +390000.000+0044000.000/
@@ -16,7 +16,7 @@
 +354000.000+0050000.000/
 +354000.000+0013000.000/
 +372600.000+0013000.000</Boundary>
-  <Boundary Name="SECTEUR NORD/EST">
+  <Boundary Name="TMA EST">
 +344800.01+0081651.74/
 +345500.55+0081539.83/
 +345602.6+0081651.59/
@@ -92,7 +92,7 @@
 +390000.000+0050000.000/
 +344800.000+0050000.000/
 +344800.01+0081651.74</Boundary>
-  <Boundary Name="SECTEUR NORD/OUEST">
+  <Boundary Name="TMA OUEST">
 +372601.000+0013000.000/
 +362403.000-0010803.000/
 +361514.000-0012948.000/
@@ -3644,28 +3644,28 @@
   <Volume Name="RMI" LowerLimit="0" UpperLimit="46000">
     <Boundaries>CASABLANCA ALL</Boundaries>
   </Volume>
-  <Volume Name="DACI" LowerLimit="2953" UpperLimit="24500">
-    <Boundaries>SECTEUR CENTRE INF</Boundaries>
+  <Volume Name="AS" LowerLimit="2953" UpperLimit="45000">
+    <Boundaries>TMA CENTRE SUP</Boundaries>
   </Volume>
-  <Volume Name="DACS" LowerLimit="2953" UpperLimit="45000">
-    <Boundaries>SECTEUR CENTRE SUP</Boundaries>
+  <Volume Name="AI" LowerLimit="2953" UpperLimit="24500">
+    <Boundaries>TMA CENTRE INF</Boundaries>
   </Volume>
-  <Volume Name="DANE" LowerLimit="2953" UpperLimit="45000">
-    <Boundaries>SECTEUR NORD/EST</Boundaries>
+  <Volume Name="NE" LowerLimit="2953" UpperLimit="45000">
+    <Boundaries>TMA EST</Boundaries>
   </Volume>
-  <Volume Name="DANW" LowerLimit="2953" UpperLimit="45000">
-    <Boundaries>SECTEUR NORD/OUEST</Boundaries>
+  <Volume Name="NO" LowerLimit="2953" UpperLimit="45000">
+    <Boundaries>TMA OUEST</Boundaries>
   </Volume>
-  <Volume Name="DASW" LowerLimit="2953" UpperLimit="45000">
+  <Volume Name="SO" LowerLimit="2953" UpperLimit="45000">
     <Boundaries>SECTEUR SUD/OUEST</Boundaries>
   </Volume>
-  <Volume Name="DASC" LowerLimit="2953" UpperLimit="45000">
+  <Volume Name="SC" LowerLimit="2953" UpperLimit="45000">
     <Boundaries>SECTEUR SUD/CENTRE</Boundaries>
   </Volume>
-  <Volume Name="DASE" LowerLimit="2953" UpperLimit="45000">
+  <Volume Name="SE" LowerLimit="2953" UpperLimit="45000">
     <Boundaries>SECTEUR SUD/EST</Boundaries>
   </Volume>
-  <Volume Name="DASS" LowerLimit="02953" UpperLimit="45000">
+  <Volume Name="SS" LowerLimit="2953" UpperLimit="45000">
     <Boundaries>SECTEUR SUD/SUD</Boundaries>
   </Volume>
   <Volume Name="TC" LowerLimit="0" UpperLimit="66000">
