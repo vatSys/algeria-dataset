@@ -632,7 +632,46 @@
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
-    </RestrictedArea>    
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="P90A Algiers" AltitudeFloor="0" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Solid">
+      <Area>+36.767460+003.033681/
+            +36.767235+003.037258/
+            +36.766563+003.040746/
+            +36.765463+003.044061/
+            +36.763960+003.047121/
+            +36.762093+003.049849/
+            +36.759906+003.052179/
+            +36.757455+003.054054/
+            +36.754799+003.055427/
+            +36.752003+003.056264/
+            +36.749137+003.056546/
+            +36.746271+003.056264/
+            +36.743476+003.055427/
+            +36.740820+003.054054/
+            +36.739750+003.053222/
+            +36.758528+003.014139/
+            +36.759906+003.015183/
+            +36.762093+003.017513/
+            +36.763960+003.020241/
+            +36.765463+003.023300/
+            +36.766563+003.026615/
+            +36.767235+003.030104/
+            +36.767460+003.033681</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea> 
+    <RestrictedArea Type="Restricted" Name="P91A Zeralda" AltitudeFloor="0" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Solid">
+      <Area>+36.720278+002.883889/
+            +36.697222+002.911945/
+            +36.682222+002.897222/
+            +36.712222+002.824722/
+            +36.735833+002.844167/
+            +36.720278+002.883889</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>     
     <RestrictedArea Type="Restricted" Name="R68 AIN ARNAT" AltitudeFloor="0" AltitudeCeiling="10500" DAIWEnabled="true" LinePattern="Solid">
       <Area>+362800.000+0054300.000/
             +360400.000+0054400.000/
