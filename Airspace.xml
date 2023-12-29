@@ -6646,7 +6646,7 @@ DIMAO
       <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BABR1C" Airport="DAAG" Runways="05">
-      <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/BADOR</Route>
+      <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/BABOR</Route>
     </SID>
     <SID Name="TAGR1C" Airport="DAAG" Runways="05">
       <Route Runway="05">SMR NDB/SDM VOR/BNA NDB/TAGRO</Route>
@@ -6682,7 +6682,7 @@ DIMAO
       <Route Runway="23">BNA NDB/BJA VOR</Route>
     </SID>
      <SID Name="BABR1A" Airport="DAAG" Runways="23">
-      <Route Runway="23">BNA NDB/BADOR</Route>
+      <Route Runway="23">BNA NDB/BABOR</Route>
     </SID>
      <SID Name="TAGR1A" Airport="DAAG" Runways="23">
       <Route Runway="23">BNA NDB/TAGRO</Route>
@@ -6718,7 +6718,7 @@ DIMAO
       <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BABR1D" Airport="DAAG" Runways="09">
-      <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/BADOR</Route>
+      <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/BABOR</Route>
     </SID>
     <SID Name="TAGR1D" Airport="DAAG" Runways="09">
       <Route Runway="09">SMR NDB/SDM VOR/BNA NDB/TAGRO</Route>
@@ -6754,7 +6754,7 @@ DIMAO
       <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/BJA VOR</Route>
     </SID>
     <SID Name="BABR1B" Airport="DAAG" Runways="27">
-      <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/BADOR</Route>
+      <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/BABOR</Route>
     </SID>
     <SID Name="TAGR1B" Airport="DAAG" Runways="27">
       <Route Runway="27">SMR NDB/SDM VOR/BNA NDB/TAGRO</Route>
