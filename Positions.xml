@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Group Name="SECTEUR">
+<Group Name="SECTEUR">
   <Position Name="Bandbox" Type="ASD" DefaultCenter="+3720.000+00295.000" DefaultRange="550" VisibilityRange="600">
     <Sectors>
       <Sector Name="DAAA" />
@@ -15,9 +15,9 @@
     </Sectors>
     <ManualVisibility>
       <Point>+36.5000+003.350</Point>
-      <Point>+27.4000-008.100</Point>
-      <Point>+19.5500+002.600</Point>
-      <Point>+31.4200+009.200</Point>
+      <Point>+291500.0-0030659.0</Point>
+      <Point>+280538.0+0083527.0</Point>
+      <Point>+214352.0+0033410.0</Point>
     </ManualVisibility>
     <Maps>
 	  <Map Name="COAST" />
@@ -32,11 +32,21 @@
     <Map Name="MVA" />
     <Map Name="MVA ALT" />
     </Maps>
+    <ATIS>
+      <Editor Airport="DAAG" Frequency="128.525" />
+      <Window Airport="DAAG" />
+    </ATIS>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
       <Window Type="State" State="Announced" Visible="true" />
       <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>      
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="DAAG" />
+    </ArrivalLists>
+    <CFL>
+    <AdditionalLevels>2200,2300,2500,3300</AdditionalLevels>
+    </CFL>
     <ControllerInfo>
       <Line>Algiers Control</Line>
       <Line>Covering the entire Algiers FIR</Line>
@@ -59,6 +69,10 @@
     <Map Name="MVA" />
     <Map Name="MVA ALT" />
       </Maps>
+      <ATIS>
+        <Editor Airport="DAAG" Frequency="128.525" />
+        <Window Airport="DAAG" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -112,6 +126,10 @@
         <Sector Name="NE" />
       </Sectors>  
       <Maps>
+      <ATIS>
+        <Editor Airport="DAAG" Frequency="128.525" />
+        <Window Airport="DAAG" />
+      </ATIS>
 	  <Map Name="COAST" />
 	  <Map Name="FIR BDRY" />
 	  <Map Name="TMA" />
@@ -152,6 +170,10 @@
 	  <Map Name="RADIO AIDS (NAMES)" />
 	  <Map Name="RUNWAYS" />   
       </Maps>
+      <ATIS>
+        <Editor Airport="DAAG" Frequency="128.525" />
+        <Window Airport="DAAG" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -240,6 +262,10 @@
 	  <Map Name="RADIO AIDS (NAMES)" />
 	  <Map Name="RUNWAYS" />
       </Maps>
+      <ATIS>
+        <Editor Airport="DAAG" Frequency="128.525" />
+        <Window Airport="DAAG" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">        
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -291,6 +317,9 @@
       <Sectors>
         <Sector Name="AGA" />
       </Sectors>  
+      <ManualVisibility>
+        <Point>+364336.0+0031870.0</Point>
+      </ManualVisibility>
       <Maps>
     <Map Name="AIRPORTS" />  
     <Map Name="COAST" />  
@@ -300,19 +329,18 @@
     <Map Name="MVA ALT" />  
 	  <Map Name="RADIO AIDS (NAMES)" />
     <Map Name="RUNWAYS" />  
+    <Map Name="AIRWAYS" /> 
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />    
     <Map Name="TMA FIXES (NAMES)" />  
 	  <Map Name="TMA" />  
-    <Map Name="AIRWAYS" /> 
     <Map Name="WAYPOINTS" />  
     <Map Name="WAYPOINTS (NAMES)" /> 
       </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
+      <ATIS>
+        <Editor Airport="DAAG" Frequency="128.525" />
+        <Window Airport="DAAG" />
+      </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAG" Visible="true" />
       </Strips>
@@ -324,27 +352,26 @@
 		    <Line>Monitor Algiers ATIS on 128.525 Mhz</Line>
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
-    </Position>
+  </Position>
   <Position Name="Annaba Approche" Type="ASD" DefaultCenter="+365649.000+0075516.000" DefaultRange="150" VisibilityRange="100">
       <Sectors>
         <Sector Name="BBA" />
-      </Sectors>  
+      </Sectors>
+      <ManualVisibility>
+        <Point>+365649.0+0075516.0</Point>
+      </ManualVisibility>
       <Maps>
     <Map Name="AIRPORTS" />  
     <Map Name="COAST" />  
 	  <Map Name="CTR" /> 
 	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="RUNWAYS" />  
+    <Map Name="RUNWAYS" />
+    <Map Name="AIRWAYS" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />    
 	  <Map Name="TMA" /> 
     <Map Name="TMA FIXES (NAMES)" /> 
       </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
         <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DABB" Visible="true" />
       </Strips>
@@ -360,23 +387,22 @@
   <Position Name="Constantine Approche" Type="ASD" DefaultCenter="+360862.000+0063072.000" DefaultRange="200" VisibilityRange="100">
       <Sectors>
         <Sector Name="BCA" />
-      </Sectors>  
+      </Sectors>
+      <ManualVisibility>
+        <Point>+360862.0+0063072.0</Point>
+      </ManualVisibility>
       <Maps>
     <Map Name="AIRPORTS" />  
     <Map Name="COAST" />  
 	  <Map Name="CTR" /> 
 	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="RUNWAYS" />  
+    <Map Name="RUNWAYS" />
+    <Map Name="AIRWAYS" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />    
 	  <Map Name="TMA" />  
     <Map Name="TMA FIXES (NAMES)" /> 
       </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
         <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DABC" Visible="true" />
         <Window Type="ADEP" Beacon="DABT" Visible="false" />
@@ -400,18 +426,14 @@
     <Map Name="COAST" />  
 	  <Map Name="CTR" />    
 	  <Map Name="RADIO AIDS (NAMES)" />
-    <Map Name="RUNWAYS" />  
+    <Map Name="RUNWAYS" />
+    <Map Name="AIRWAYS" />  
 	  <Map Name="COAST" />
 	  <Map Name="TMA FIXES" />
     <Map Name="TMA FIXES (NAMES)" />      
 	  <Map Name="TMA" />   
       </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
-      <Strips Mode="Beacon" Sort="Alpha">
+        <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAOO" Visible="true" />
       </Strips>    
       <ArrivalLists>
@@ -426,23 +448,22 @@
   <Position Name="Hassi Messaoud Approche" Type="ASD" DefaultCenter="+314181.000+0060778.000" DefaultRange="500" VisibilityRange="100">
       <Sectors>
         <Sector Name="UHA" />
-      </Sectors>  
+      </Sectors>
+      <ManualVisibility>
+        <Point>+314181.0+0060778.0</Point>
+      </ManualVisibility>
     <Maps>
       <Map Name="AIRPORTS" />  
       <Map Name="COAST" />  
 	    <Map Name="CTR" />  
 	    <Map Name="RADIO AIDS (NAMES)" />
-      <Map Name="RUNWAYS" />  
+      <Map Name="RUNWAYS" />
+      <Map Name="AIRWAYS" />  
 	    <Map Name="COAST" />
 	    <Map Name="TMA FIXES" />     
 	    <Map Name="TMA" />  
     </Maps>
-      <Strips Mode="State" Sort="Time">        
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
-      <Strips Mode="Beacon" Sort="Alpha">
+        <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAUH" Visible="true" />
       </Strips>        
       <ArrivalLists>
@@ -459,10 +480,12 @@
   <Position Name="Bousaada Tower" Type="ASD" DefaultCenter="+352012.000+0041222.000" DefaultRange="80">
       <Sectors>
         <Sector Name="ADT" />
-      </Sectors>  
+      </Sectors>
+      <ManualVisibility>
+        <Point>+352012.0+0041222.0</Point>
+      </ManualVisibility>
     <Maps>
-	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
+	    <Map Name="COAST" />   
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -478,14 +501,13 @@
 		    <Line>No ATIS available</Line>
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
-    </Position>
+   </Position>
   <Position Name="Bejaia Tower" Type="ASD" DefaultCenter="+364305.000+0050455.000" DefaultRange="80">
       <Sectors>
         <Sector Name="AET" />
       </Sectors>  
     <Maps>
-	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
+	    <Map Name="COAST" /> 
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -502,20 +524,21 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-  <Position Name="Algiers Tower" Type="ASD" DefaultCenter="+364235.000+0031287.000" DefaultRange="80">
+  <Position Name="Algiers Tower" Type="ASD" DefaultCenter="+364235.000+0031287.000" DefaultRange="60">
       <Sectors>
         <Sector Name="AGT" />
         <Sector Name="AGG" />
       </Sectors>  
       <Maps>
 	      <Map Name="COAST" />
-	      <Map Name="FIR BDRY" />     
         <Map Name="CTR" /> 
         <Map Name="AIRPORTS" />
         <Map Name="RUNWAYS" />
-        <Map Name="MVA" />
-        <Map Name="MVA ALT" />
       </Maps>
+      <ATIS>
+        <Editor Airport="DAAG" Frequency="128.525" />
+        <Window Airport="DAAG" />
+      </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="DAAG" Visible="true" />
       </Strips>       
@@ -539,8 +562,7 @@
         <Sector Name="ASG" />
       </Sectors>  
       <Maps>
-	      <Map Name="COAST" />
-	      <Map Name="FIR BDRY" />     
+	      <Map Name="COAST" />   
         <Map Name="CTR" /> 
         <Map Name="AIRPORTS" />
         <Map Name="RUNWAYS" />
@@ -567,11 +589,9 @@
         <Sector Name="AJT" />
       </Sectors>  
     <Maps>
-	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
+	    <Map Name="COAST" /> 
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" /> 
-      <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
     </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -591,8 +611,7 @@
         <Sector Name="OIT" />
       </Sectors>  
     <Maps>
-	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
+	    <Map Name="COAST" />  
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -615,7 +634,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -638,7 +656,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -661,7 +678,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -683,8 +699,7 @@
         <Sector Name="UET" />
       </Sectors>  
     <Maps>
-	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
+	    <Map Name="COAST" /> 
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -707,7 +722,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -729,8 +743,7 @@
         <Sector Name="UUT" />
       </Sectors>  
     <Maps>
-	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
+	    <Map Name="COAST" /> 
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -753,7 +766,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -776,7 +788,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" /> 
@@ -799,7 +810,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" /> 
@@ -822,7 +832,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -845,7 +854,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -869,7 +877,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -897,7 +904,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" /> 
@@ -920,7 +926,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -943,7 +948,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />  
@@ -966,7 +970,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -989,7 +992,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -1012,7 +1014,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" /> 
@@ -1035,7 +1036,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />  
@@ -1058,7 +1058,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" /> 
@@ -1081,7 +1080,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -1104,7 +1102,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" /> 
@@ -1127,7 +1124,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -1150,7 +1146,6 @@
       </Sectors>  
     <Maps>
 	    <Map Name="COAST" />
-	    <Map Name="FIR BDRY" />     
       <Map Name="CTR" /> 
       <Map Name="AIRPORTS" />
       <Map Name="RUNWAYS" />
@@ -1167,7 +1162,7 @@
 		    <Line>Charts, feedback and more -  vatsim.ma</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364140.000+0031301.000" DefaultRange="7" MagneticVariation="218.00" Rotation="0">
+    <Position Name="DAAG" Type="ASMGCS" ASMGCSAirport="DAAG" DefaultCenter="+364140.000+0031301.000" DefaultRange="6" MagneticVariation="218.00" Rotation="0">
       <Maps>
         <Map Name="DAAG/ASMCGS_DAAG_TWY" />
         <Map Name="DAAG/ASMGCS_DAAG_APR" />
@@ -1175,7 +1170,6 @@
         <Map Name="DAAG/ASMGCS_DAAG_Taxiline" />
         <Map Name="DAAG/ASMGCS_DAAG_HoldLines" />
         <Map Name="ASMGCS_TAXI_ALL" />
-        <Map Name="ASMGCS_STANDS_ALL" />
       </Maps>
     </Position>	
     <Position Name="DABC" Type="ASMGCS" ASMGCSAirport="DABC" DefaultCenter="+361707.000+0063709.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1183,8 +1177,7 @@
         <Map Name="DABC/ASMCGS_DABC_TWY" />
         <Map Name="DABC/ASMGCS_DABC_APR" />
         <Map Name="DABC/ASMGCS_DABC_BLD" />
-        <Map Name="ASMGCS_TAXI_ALL" />
-        <Map Name="ASMGCS_STANDS_ALL" />        
+        <Map Name="ASMGCS_TAXI_ALL" />   
       </Maps>
     </Position>	
     <Position Name="DABB" Type="ASMGCS" ASMGCSAirport="DABB" DefaultCenter="+364920.000+0074834.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1193,7 +1186,6 @@
         <Map Name="DABB/ASMGCS_DABB_APR" />
         <Map Name="DABB/ASMGCS_DABB_BLD" />
         <Map Name="ASMGCS_TAXI_ALL" />
-        <Map Name="ASMGCS_STANDS_ALL" />
       </Maps>
     </Position>	
     <Position Name="DABT" Type="ASMGCS" ASMGCSAirport="DABT" DefaultCenter="+354533.000+0061921.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1202,7 +1194,6 @@
         <Map Name="DABT/ASMGCS_DABT_APR" />
         <Map Name="DABT/ASMGCS_DABT_BLD" />
         <Map Name="ASMGCS_TAXI_ALL" />
-        <Map Name="ASMGCS_STANDS_ALL" />
       </Maps>
     </Position>
     <Position Name="DAUH" Type="ASMGCS" ASMGCSAirport="DAUH" DefaultCenter="+314026.000+0060826.000" DefaultRange="7" MagneticVariation="0" Rotation="0">
@@ -1217,15 +1208,13 @@
         <Map Name="DAOO/ASMCGS_DAOO_TWY" />
         <Map Name="DAOO/ASMGCS_DAOO_APR" />
         <Map Name="DAOO/ASMGCS_DAOO_BLD" />
-        <Map Name="ASMGCS_TAXI_ALL" />
-        <Map Name="ASMGCS_STANDS_ALL" />        
+        <Map Name="ASMGCS_TAXI_ALL" />    
       </Maps>
     </Position>
     <Position Name="DAAT" Type="ASMGCS" ASMGCSAirport="DAAT" DefaultCenter="+22.811167+005.450833" DefaultRange="7" MagneticVariation="0" Rotation="0">
       <Maps>
         <Map Name="DAAT/ASMCGS_DAAT_TWY" />
-        <Map Name="DAAT/ASMCGS_DAAT_APR" />
-        <Map Name="ASMGCS_STANDS_ALL" />        
+        <Map Name="DAAT/ASMCGS_DAAT_APR" />   
       </Maps>
     </Position>	    		
   </Group>

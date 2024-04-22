@@ -367,7 +367,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="P70 MECHERIA" AltitudeFloor="0" AltitudeCeiling="99999" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="P70A MECHERIA" AltitudeFloor="0" AltitudeCeiling="99999" DAIWEnabled="true" LinePattern="Solid">
       <Area>+34.074845-000.242120/
             +34.068161-000.140870/
             +34.048279-000.042115/
@@ -399,6 +399,26 @@
             +34.048279-000.442124/
             +34.068161-000.343369/
             +34.074845-000.242120</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="P70B MECHERIA" AltitudeFloor="0" AltitudeCeiling="29000" DAIWEnabled="true" LinePattern="Solid">
+      <Area>+33.004056-000.121075/
+            +33.002385-000.140847/
+            +32.995782-000.242120/
+            +33.002385-000.343392/
+            +33.022033-000.442170/
+            +33.054251-000.536021/
+            +33.098259-000.622634/
+            +33.152990-000.699876/
+            +33.217115-000.765846/
+            +33.289075-000.818919/
+            +33.367114-000.857790/
+            +33.449324-000.881502/
+            +33.533691-000.889471/
+            +33.566775-000.887097/
+            +33.004056-000.121075</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
@@ -701,7 +721,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R84 CHERAGA" AltitudeFloor="0" AltitudeCeiling="4000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="R84B CHERAGA" AltitudeFloor="0" AltitudeCeiling="4000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+364930.000+0025040.000/
             +364925.000+0025710.000/
             +364510.000+0025920.000/
@@ -711,22 +731,34 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R84A BOUFARIK" AltitudeFloor="0" AltitudeCeiling="2500" DAIWEnabled="true" LinePattern="Solid">
-      <Area>+364005.000+0024935.000/
-            +363950.000+0025740.000/
-            +363745.000+0030020.000/
-            +363400.000+0025648.000/
-            +363145.000+0024035.000/
-            +364005.000+0024935.000</Area>
+    <RestrictedArea Type="Restricted" Name="R84 BOUFARIK" AltitudeFloor="0" AltitudeCeiling="4000" DAIWEnabled="true" LinePattern="Solid">
+      <Area>+36.825000+002.844445/
+            +36.823611+002.952778/
+            +36.752778+002.988889/
+            +36.740278+002.844445/
+            +36.825000+002.844445</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R84A BOUFARIK" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true" LinePattern="Solid">
+      <Area>+36.668056+002.826389/
+            +36.663889+002.961111/
+            +36.629167+003.005556/
+            +36.566667+002.946667/
+            +36.579167+002.676389/
+            +36.668056+002.826389
+      </Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R84B BOUFARIK" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true" LinePattern="Solid">
-      <Area>+363400.000+0025648.000/
-            +363145.000+0024035.000/
-            +362550.000+0024745.000/
-            +363400.000+0025648.000</Area>
+      <Area>+36.529167+002.676389/
+            +36.579167+002.676389/
+            +36.566667+002.946667/
+            +36.430556+002.795833/
+            +36.529167+002.676389</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
@@ -1056,7 +1088,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D52 SOUK EL ARBA" AltitudeFloor="0" AltitudeCeiling="25000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D52 MEDEA" AltitudeFloor="0" AltitudeCeiling="25000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+363413.000+0022345.000/
             +363323.000+0024531.000/
             +355300.000+0024504.000/
@@ -1066,7 +1098,16 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-
+    <RestrictedArea Type="Danger" Name="D52B MEDEA" AltitudeFloor="5000" AltitudeCeiling="25000" DAIWEnabled="true" LinePattern="Solid">
+      <Area>+36.462500+002.757778/
+            +36.529167+002.676389/
+            +36.559722+002.676389/
+            +36.556389+002.758611/
+            +36.462500+002.757778</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
     <RestrictedArea Type="Danger" Name="D53A OUM EL BOUAGHI" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Solid">
       <Area>+360317.000+0071306.000/
             +360318.522+0071319.988/

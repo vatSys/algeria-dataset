@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
   <RuleSets>
     <RuleSet Name="DAAG_DEPS">
@@ -6,7 +6,7 @@
         <Departure Values="DAAG">
           <Rules>
             <Default>
-              <AssignSector Order="AGA, DACI"/>
+              <AssignSector Order="AGA"/>
             </Default>
           </Rules>
         </Departure>
@@ -17,7 +17,7 @@
         <Departure Values="DABB">
           <Rules>
             <Default>
-              <AssignSector Order="BBT, BBA"/>
+              <AssignSector Order="BBA"/>
             </Default>
           </Rules>
         </Departure>
@@ -28,7 +28,7 @@
         <Departure Values="DABC">
           <Rules>
             <Default>
-              <AssignSector Order="BCT, BCA"/>
+              <AssignSector Order="BCA"/>
             </Default>
           </Rules>
         </Departure>
@@ -39,7 +39,7 @@
         <Departure Values="DAOO">
           <Rules>
             <Default>
-              <AssignSector Order="OOT, OOA, DANW"/>
+              <AssignSector Order="OOA"/>
             </Default>
           </Rules>
         </Departure>
@@ -50,7 +50,7 @@
         <Departure Values="DAUH">
           <Rules>
             <Default>
-              <AssignSector Order="UHT, UHA, DASC"/>
+              <AssignSector Order="UHA"/>
             </Default>
           </Rules>
         </Departure>

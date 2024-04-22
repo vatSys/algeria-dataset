@@ -7216,7 +7216,7 @@ DIMAO
     </Approach>
   </SIDSTARs>
   <Airports>
-    <Airport ICAO="DAAD" FullName="Bousaada" Position="+351953.000+0041215.998">
+    <Airport ICAO="DAAD" FullName="Bousaada" Position="+24.292944+009.452056">
       <Runway Name="04"  Position="+351931.380+0041152.340" />
       <Runway Name="22"  Position="+352024.620+0041250.520" />
     </Airport>
@@ -7230,22 +7230,22 @@ DIMAO
       <Runway Name="09"  Position="+364131.000+0031014.880" />
       <Runway Name="27"  Position="+364128.000+0031235.800" />            
     </Airport>
-    <Airport ICAO="DAAJ" FullName="Djanet Tiska" Position="+241735.001+0092706.998">
+    <Airport ICAO="DAAJ" FullName="Djanet Tiska" Position="+28.051458+009.649472">
       <Runway Name="12"  Position="+241755.000+0092718.000" />
       <Runway Name="30"  Position="+241661.000+0092862.000" />
       <Runway Name="02"  Position="+241644.000+0092664.000" />
       <Runway Name="20"  Position="+241644.000+0092664.000" />            
     </Airport>
     <Airport ICAO="DAAK" FullName="Boufarik Military Airfield" Position="+363252.000+0025235.000" />
-    <Airport ICAO="DAAP" FullName="Illizi Takhamalt" Position="+264324.999+0083704.000">
+    <Airport ICAO="DAAP" FullName="Illizi Takhamalt" Position="+19.560486+005.749597">
       <Runway Name="09"  Position="+264343.000+0083643.000" />
       <Runway Name="27"  Position="+264342.000+0083827.000" />
     </Airport>
-    <Airport ICAO="DAAS" FullName="Setif 8 Mai 1945" Position="+361042.999+0051948.000">
+    <Airport ICAO="DAAS" FullName="Setif 8 Mai 1945" Position="+36.178486+005.329875">
       <Runway Name="09"  Position="+361067.000+0051883.000" />
       <Runway Name="27"  Position="+361075.000+0052076.000" />
     </Airport>
-    <Airport ICAO="DAAT" FullName="Tamanrasset Akhamok" Position="+224839.999+0052702.998">
+    <Airport ICAO="DAAT" FullName="Tamanrasset Akhamok" Position="+22.810972+005.450861">
       <Runway Name="02"  Position="+224778.000+0052667.000" />
       <Runway Name="08"  Position="+224843.000+0052537.000" />
       <Runway Name="20"  Position="+224959.000+0052745.000" />
@@ -7255,7 +7255,7 @@ DIMAO
       <Runway Name="17"  Position="+364835.000+0055228.000" />
       <Runway Name="35"  Position="+364707.000+0055254.000" />
     </Airport>
-    <Airport ICAO="DABB" FullName="Annaba Rabeh Bitat" Position="+364919.999+0074833.998">
+    <Airport ICAO="DABB" FullName="Annaba Rabeh Bitat" Position="+36.822292+007.809375">
       <Runway Name="18"  Position="+365042.410+0074846.070" />
       <Runway Name="36"  Position="+364909.020+0074832.010" />
       <Runway Name="05"  Position="+364914.200+0074824.040" />
@@ -7281,13 +7281,13 @@ DIMAO
       <Runway Name="08"  Position="+352033.000+0012680.000" />
       <Runway Name="26"  Position="+352059.000+0012876.000" />
     </Airport>
-    <Airport ICAO="DAOF" FullName="Tindouf" Position="+274158.610-0080949.849">
+    <Airport ICAO="DAOF" FullName="Tindouf" Position="+27.701681-008.167597">
       <Runway Name="08R" Position="+274173.000-0081089.000" />
       <Runway Name="26L" Position="+274214.000-0080912.000" />
       <Runway Name="08L" Position="+274190.000-0081094.000" />
       <Runway Name="26R" Position="+274230.000-0080917.000" />
     </Airport>
-    <Airport ICAO="DAOI" FullName="Chlef" Position="+361300.998+0012024.000">
+    <Airport ICAO="DAOI" FullName="Chlef" Position="+26.723583+008.622583">
       <Runway Name="08"  Position="+361284.000+0011950.000" />
       <Runway Name="26"  Position="+361318.000+0012131.000" />
     </Airport>
@@ -7320,7 +7320,7 @@ DIMAO
       <Runway Name="08"  Position="+193355.000+0054436.000" />
       <Runway Name="26"  Position="+193371.000+0054560.000" />
     </Airport>
-    <Airport ICAO="DATM" FullName="Bordj Badji Mokhtar" Position="+212230.000+0005526.000">
+    <Airport ICAO="DATM" FullName="Bordj Badji Mokhtar" Position="+36.216750+001.340889">
       <Runway Name="08"  Position="+212249.000+0005471.000" />
       <Runway Name="26"  Position="+212280.000+0005638.000" />
     </Airport>
@@ -7328,7 +7328,7 @@ DIMAO
       <Runway Name="04"  Position="+274963.000-0001177.000" />
       <Runway Name="22"  Position="+275088.000-0001060.000" />
     </Airport>
-    <Airport ICAO="DAUB" FullName="Biskra Mohamed Khider" Position="+344806.001+0054430.001">
+    <Airport ICAO="DAUB" FullName="Biskra Mohamed Khider" Position="+35.332736+004.205875">
       <Runway Name="13"  Position="+344817.000+0054346.000" />
       <Runway Name="31"  Position="+344717.000+0054493.000" />
     </Airport>
@@ -7370,7 +7370,7 @@ DIMAO
       <Runway Name="01"  Position="+315434.000+0052428.000" />
       <Runway Name="19"  Position="+315588.000+0052480.000" />
     </Airport>
-    <Airport ICAO="DAUZ" FullName="Zarzaitine In Amenas" Position="+280305.000+0093834.000">
+    <Airport ICAO="DAUZ" FullName="Zarzaitine In Amenas" Position="+31.918556+005.408958">
       <Runway Name="05"  Position="+280270.000+0093810.000" />
       <Runway Name="23"  Position="+280381.000+0093944.000" />
     </Airport>
