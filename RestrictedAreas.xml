@@ -721,7 +721,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R84B CHERAGA" AltitudeFloor="0" AltitudeCeiling="4000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="R84 CHERAGA" AltitudeFloor="0" AltitudeCeiling="4000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+364930.000+0025040.000/
             +364925.000+0025710.000/
             +364510.000+0025920.000/
@@ -1088,7 +1088,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D52 MEDEA" AltitudeFloor="0" AltitudeCeiling="25000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Danger" Name="D52A MEDEA" AltitudeFloor="0" AltitudeCeiling="25000" DAIWEnabled="true" LinePattern="Solid">
       <Area>+363413.000+0022345.000/
             +363323.000+0024531.000/
             +355300.000+0024504.000/

@@ -4,6 +4,7 @@
       <Symbol Type="HollowTriangle">
 		<Point>ABSAL</Point>
 		<Point>ABLOD</Point>
+		<Point>ABSET</Point>
 		<Point>AMIRA</Point>
 		<Point>AMTIK</Point>
 		<Point>ANIEB</Point>
@@ -40,6 +41,7 @@
 		<Point>ESNAM</Point>
 		<Point>EVALO</Point>
 		<Point>FELJA</Point>
+		<Point>FOZAR</Point>
 		<Point>GABEL</Point>
 		<Point>GAFLA</Point>
 		<Point>GARBA</Point>
@@ -54,6 +56,8 @@
 		<Point>INDIB</Point>
 		<Point>IPDAK</Point>
 		<Point>IPOBA</Point>
+		<Point>JALFA</Point>
+		<Point>KAHIL</Point>
 		<Point>KAMER</Point>
 		<Point>KAWKA</Point>
 		<Point>KEBRI</Point>
@@ -112,6 +116,7 @@
 		<Point>TARIK</Point>
 		<Point>TERAS</Point>
 		<Point>TIDOU</Point>
+		<Point>TIFAT</Point>
 		<Point>TIFOU</Point>
 		<Point>TIHET</Point>
 		<Point>TILMA</Point>
@@ -132,6 +137,7 @@
     <Label HasLeader="false">
 		<Point>ABSAL</Point>
 		<Point>ABLOD</Point>
+		<Point>ABSET</Point>
 		<Point>AMIRA</Point>
 		<Point>AMTIK</Point>
 		<Point>ANIEB</Point>
@@ -168,6 +174,7 @@
 		<Point>ESNAM</Point>
 		<Point>EVALO</Point>
 		<Point>FELJA</Point>
+		<Point>FOZNA</Point>
 		<Point>GABEL</Point>
 		<Point>GAFLA</Point>
 		<Point>GARBA</Point>
@@ -182,6 +189,8 @@
 		<Point>INDIB</Point>
 		<Point>IPDAK</Point>
 		<Point>IPOBA</Point>
+		<Point>JALFA</Point>
+		<Point>KAHIL</Point>
 		<Point>KAMER</Point>
 		<Point>KAWKA</Point>
 		<Point>KEBRI</Point>
@@ -240,6 +249,7 @@
 		<Point>TARIK</Point>
 		<Point>TERAS</Point>
 		<Point>TIDOU</Point>
+		<Point>TIFAT</Point>
 		<Point>TIFOU</Point>
 		<Point>TIHET</Point>
 		<Point>TILMA</Point>

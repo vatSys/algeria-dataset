@@ -1203,6 +1203,19 @@ OPRIC/
 IPDAK/
 ELO VOR
 </Airway>
+    <Airway Name="UZ333">
+DAHRA/
+FOZNA/
+TIFAT/
+ABSET
+BNA 
+</Airway>   
+    <Airway Name="UZ444">
+MOGIL/
+ZEM/
+JALFA/
+KAHIL
+</Airway>    
     <Airway Name="UZ888">
 ORSUP/
 SACDA/
@@ -1809,6 +1822,7 @@ DIMAO
     <Point Name="ABRAT" Type="Fix">+394918.029-0073915.289</Point>
     <Point Name="ABRIL" Type="Fix">+402345.999-0083448.658</Point>
     <Point Name="ABRUS" Type="Fix">+365139.999+0120953.999</Point>
+    <Point Name="ABSET" Type="Fix">+36.610556+003.275278</Point>
     <Point Name="ABSID" Type="Fix">+382519.999+0131028.999</Point>
     <Point Name="ABSMR" Type="Fix">+364139.591+0030524.089</Point>
     <Point Name="ABSOK" Type="Fix">+384838.998-0091600.001</Point>
@@ -3166,6 +3180,7 @@ DIMAO
     <Point Name="FORIO" Type="Fix">+404409.999+0135138.000</Point>
     <Point Name="FOROS" Type="Fix">+391039.000-0081426.999</Point>
     <Point Name="FOZAR" Type="Fix">+392551.999-0091359.999</Point>
+    <Point Name="FOZNA" Type="Fix">+36.453333+002.114722</Point>
     <Point Name="FR450" Type="Fix">+370023.518-0081442.190</Point>
     <Point Name="FR451" Type="Fix">+370322.820-0081548.171</Point>
     <Point Name="FR455" Type="Fix">+370246.669-0081129.738</Point>
@@ -3689,6 +3704,7 @@ DIMAO
     <Point Name="IXOLI" Type="Fix">+365835.360-0084206.130</Point>
     <Point Name="IXOSI" Type="Fix">+381449.999+0124908.000</Point>
     <Point Name="IXUPA" Type="Fix">+393332.101+0003715.099</Point>
+    <Point Name="JALFA" Type="Fix">+35.665833+003.765000</Point>
     <Point Name="JAMOR" Type="Fix">+365447.001+0104013.000</Point>
     <Point Name="JBA4" Type="Fix">+335246.351+0105105.889</Point>
     <Point Name="JBA41" Type="Fix">+341713.279+0100645.421</Point>
@@ -5824,6 +5840,7 @@ DIMAO
     <Point Name="TIDLO" Type="Fix">+315941.038-0061347.920</Point>
     <Point Name="TIDMO" Type="Fix">+305431.359-0063227.049</Point>
     <Point Name="TIDOU" Type="Fix">+260000.000+0074228.000</Point>
+    <Point Name="TIFAT" Type="Fix">+36.581945+003.058333</Point>
     <Point Name="TIFOU" Type="Fix">+283000.000+0042827.001</Point>
     <Point Name="TIGGI" Type="Fix">+355800.001-0105608.001</Point>
     <Point Name="TIHET" Type="Fix">+260000.000+0085246.999</Point>
